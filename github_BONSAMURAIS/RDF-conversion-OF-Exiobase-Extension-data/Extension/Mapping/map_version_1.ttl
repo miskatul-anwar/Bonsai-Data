@@ -1,0 +1,193 @@
+@prefix cc:    <http://creativecommons.org/ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns0:   <http://purl.org/vocab/vann/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix onto:  <http://www.onto.org/schema#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix om2:   <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix exio:  <http://exiobase/source/> .
+@prefix qb4o:  <http://purl.org/qb4olap/cubes#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix bont:  <http://ontology.bonsai.uno/core#> .
+@prefix map:   <http://www.map.org/example#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+map:extension  a    map:Dataset ;
+        map:source  onto:SourceOntology ;
+        map:target  onto:Target .
+
+map:PropertyMapper_01_Name_label
+        a                       map:PropertyMapper ;
+        map:ConceptMapper       map:Flowobject_FlowObject ;
+        map:namespaceType       "default" ;
+        map:sourceProperty      exio:Name ;
+        map:sourcePropertyType  map:SourceProperty ;
+        map:targetProperty      rdfs:label .
+
+map:PropertyMapper_05_isInputOf_isInputOf
+        a                       map:PropertyMapper ;
+        map:ConceptMapper       map:Inputflow_Flow ;
+        map:namespaceType       "custom" ;
+        map:namespaceValue      "http://rdf.bonsai.uno/data/exiobase3_3_17/hsup#" ;
+        map:sourceProperty      exio:isInputOf ;
+        map:sourcePropertyType  map:SourceProperty ;
+        map:targetProperty      bont:isInputOf .
+		
+map:PropertyMapper_05_isOutputOf_isOutputOf
+        a                       map:PropertyMapper ;
+        map:ConceptMapper       map:Outputflow_Flow ;
+        map:namespaceType       "custom" ;
+        map:namespaceValue      "http://rdf.bonsai.uno/data/exiobase3_3_17/hsup#" ;
+        map:sourceProperty      exio:isOutputOf ;
+        map:sourcePropertyType  map:SourceProperty ;
+        map:targetProperty      bont:isOutputOf .
+
+map:Inputflow_Flow  a             map:ConceptMapper ;
+        map:dataset               map:extension ;
+        map:iriValue              "CONCAT(F_, CONCAT(exio:hasObjectType, CONCAT(_,exio:isInputOf)))" ;
+        map:iriValueType          map:Expression ;
+        map:matchedInstances      "All" ;
+        map:namespaceType         "custom" ;
+        map:namespaceValue        "http://rdf.bonsai.uno/data/exiobase3_3_17/hsup#" ;
+        map:operation             "InstanceGenerator" ;
+        map:relation              skos:exact ;
+        map:sourceABoxLocation    "C:\\Extension\\Inputflow.csv" ;
+        map:sourceCommonProperty  bont:hasActivityType ;
+        map:sourceConcept         exio:Inputflow ;
+        map:targetABoxLocation    "" ;
+        map:targetCommonProperty  bont:hasActivityType ;
+        map:targetConcept         bont:Flow .
+		
+		
+map:Outputflow_Flow  a            map:ConceptMapper ;
+        map:dataset               map:extension ;
+        map:iriValue              "CONCAT(F_, CONCAT(exio:hasObjectType, CONCAT(_,exio:isOutputOf)))" ;
+        map:iriValueType          map:Expression ;
+        map:matchedInstances      "All" ;
+        map:namespaceType         "custom" ;
+        map:namespaceValue        "http://rdf.bonsai.uno/data/exiobase3_3_17/hsup#" ;
+        map:operation             "InstanceGenerator" ;
+        map:relation              skos:exact ;
+        map:sourceABoxLocation    "C:\\Extension\\Outputflow.csv" ;
+        map:sourceCommonProperty  bont:hasActivityType ;
+        map:sourceConcept         exio:Outputflow ;
+        map:targetABoxLocation    "" ;
+        map:targetCommonProperty  bont:hasActivityType ;
+        map:targetConcept         bont:Flow .		
+
+map:PropertyMapper_06_hasObjectType_hasObjectType
+        a                       map:PropertyMapper ;
+        map:ConceptMapper       map:Inputflow_Flow, map:Outputflow_Flow ;
+        map:namespaceType       "custom" ;
+        map:namespaceValue      "http://rdf.bonsai.uno/flowobject/exiobase3_3_17#" ;
+        map:sourceProperty      exio:hasObjectType ;
+        map:sourcePropertyType  map:SourceProperty ;
+        map:targetProperty      bont:hasObjectType .
+
+map:PropertyMapper_16_hasObjectType_hasObjectType
+        a                       map:PropertyMapper ;
+        map:ConceptMapper       map:Outputflow_Flow ;
+        map:namespaceType       "custom" ;
+        map:namespaceValue      "http://rdf.bonsai.uno/flowobject/exiobase3_3_17#" ;
+        map:sourceProperty      exio:hasObjectType ;
+        map:sourcePropertyType  map:SourceProperty ;
+        map:targetProperty      bont:hasObjectType .
+
+map:Activity_Activity
+        a                         map:ConceptMapper ;
+        map:dataset               map:extension ;
+        map:iriValue              exio:activityId ;
+        map:iriValueType          map:SourceAttribute ;
+        map:matchedInstances      "All" ;
+        map:namespaceType         "custom" ;
+        map:namespaceValue        "http://rdf.bonsai.uno/data/exiobase3_3_17/hsup#" ;
+        map:operation             "InstanceGenerator" ;
+        map:relation              skos:exact ;
+        map:sourceABoxLocation    "C:\\Extension\\Activity.csv" ;
+        map:sourceCommonProperty  bont:hasActivityType ;
+        map:sourceConcept         exio:Activity ;
+        map:targetABoxLocation    "" ;
+        map:targetCommonProperty  bont:hasActivityType ;
+        map:targetConcept         bont:Activity .
+
+map:Flowobject_FlowObject
+        a                         map:ConceptMapper ;
+        map:dataset               map:extension ;
+        map:iriValue              exio:Code ;
+        map:iriValueType          map:SourceAttribute ;
+        map:matchedInstances      "All" ;
+        map:namespaceType         "custom" ;
+        map:namespaceValue        "http://rdf.bonsai.uno/flowobject/exiobase3_3_17#" ;
+        map:operation             "InstanceGenerator" ;
+        map:relation              skos:exact ;
+        map:sourceABoxLocation    "C:\\Extension\\Flowobject.csv" ;
+        map:sourceCommonProperty  bont:hasActivityType ;
+        map:sourceConcept         exio:Flowobject ;
+        map:targetABoxLocation    "" ;
+        map:targetCommonProperty  bont:hasActivityType ;
+        map:targetConcept         bont:FlowObject .
+
+map:PropertyMapper_02_hasTemporalExtent_hasTemporalExtent
+        a                       map:PropertyMapper ;
+        map:ConceptMapper       map:Activity_Activity ;
+        map:namespaceType       "custom" ;
+        map:namespaceValue      "http://rdf.bonsai.uno/time#" ;
+        map:sourceProperty      exio:hasTemporalExtent ;
+        map:sourcePropertyType  map:SourceProperty ;
+        map:targetProperty      bont:hasTemporalExtent .
+
+map:PropertyMapper_03_hasLocation_hasLocation
+        a                       map:PropertyMapper ;
+        map:ConceptMapper       map:Activity_Activity ;
+        map:namespaceType       "custom" ;
+        map:namespaceValue      "http://rdf.bonsai.uno/location/exiobase3_3_17#" ;
+        map:sourceProperty      exio:hasLocation ;
+        map:sourcePropertyType  map:SourceProperty ;
+        map:targetProperty      bont:hasLocation .
+
+map:PropertyMapper_08_hasUnit_hasUnit
+        a                       map:PropertyMapper ;
+        map:ConceptMapper       map:Inputflow_Flow;
+        map:namespaceType       "default" ;
+        map:sourceProperty      exio:hasUnit ;
+        map:sourcePropertyType  map:SourceProperty ;
+        map:targetProperty      om2:hasUnit .
+
+map:PropertyMapper_18_hasUnit_hasUnit
+        a                       map:PropertyMapper ;
+        map:ConceptMapper       map:Outputflow_Flow ;
+        map:namespaceType       "default" ;
+        map:sourceProperty      exio:hasUnit ;
+        map:sourcePropertyType  map:SourceProperty ;
+        map:targetProperty      om2:hasUnit .
+
+map:PropertyMapper_04_hasActivityType_hasActivityType
+        a                       map:PropertyMapper ;
+        map:ConceptMapper       map:Activity_Activity ;
+        map:namespaceType       "custom" ;
+        map:namespaceValue      "http://rdf.bonsai.uno/activitytype/exiobase3_3_17#" ;
+        map:sourceProperty      exio:hasActivityType ;
+        map:sourcePropertyType  map:SourceProperty ;
+        map:targetProperty      bont:hasActivityType .
+
+map:PropertyMapper_07_hasNumericalValue_hasNumericalValue
+        a                       map:PropertyMapper ;
+        map:ConceptMapper       map:Inputflow_Flow;
+        map:namespaceType       "default" ;
+        map:sourceProperty      exio:hasNumericalValue ;
+        map:sourcePropertyType  map:SourceProperty ;
+        map:targetProperty      om2:hasNumericalValue .
+
+map:PropertyMapper_17_hasNumericalValue_hasNumericalValue
+        a                       map:PropertyMapper ;
+        map:ConceptMapper       map:Outputflow_Flow ;
+        map:namespaceType       "default" ;
+        map:sourceProperty      exio:hasNumericalValue ;
+        map:sourcePropertyType  map:SourceProperty ;
+        map:targetProperty      om2:hasNumericalValue .
+

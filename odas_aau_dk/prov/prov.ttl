@@ -1,0 +1,45 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://rdf.bonsai.uno/> .
+@prefix ns2:	<http://purl.org/dc/dcmitype/> .
+ns1:prov	rdf:type	ns2:Dataset .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+ns1:prov	owl:versionInfo	"0.5" .
+@prefix dc:	<http://purl.org/dc/elements/1.1/> .
+@prefix ns5:	<http://rdf.bonsai.uno/foaf#> .
+ns1:prov	dc:creator	ns5:bonsai ;
+	dc:description	"Provenance information about datasets and data extraction activities" .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ns1:prov	dc:modified	"2020-06-17"^^xsd:date ;
+	dc:title	"Provenance information" .
+@prefix ns7:	<http://purl.org/vocab/vann/> .
+ns1:prov	ns7:preferredNamespaceUri	<http://rdf.bonsai.uno/prov#> ;
+	dc:publisher	"bonsai.uno" ;
+	dc:contributor	"BONSAI team" ;
+	dc:license	<https://creativecommons.org/licenses/by/3.0/> .
+@prefix ns8:	<http://rdf.bonsai.uno/prov#> .
+@prefix ns9:	<http://www.w3.org/ns/prov#> .
+ns8:dataExtractionActivity_0_5	rdf:type	ns9:Activity .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+ns8:dataExtractionActivity_0_5	rdfs:label	"Activity to create instances of flowObjects, activityTypes and Locations" ;
+	owl:versionInfo	"0.5" ;
+	ns9:hadPlan	ns8:extractionScript .
+@prefix ns11:	<http://ontology.bonsai.uno/> .
+ns8:dataExtractionActivity_0_5	ns9:used	ns11:core ,
+		<http://rdf.bonsai.uno/prov#exiobaseDataset_3.3.17> ;
+	ns9:wasAssociatedWith	ns5:bonsai .
+<http://rdf.bonsai.uno/prov#exiobaseDataset_3.3.17>	rdf:type	ns9:Entity ,
+		ns2:Dataset ;
+	rdfs:label	"A LCSA dataset created by the EXIOBASE-Consortium, version 3.3.17" ;
+	owl:versionInfo	"3.3.17" ;
+	ns9:wasAttributedTo	ns5:exiobase_consortium .
+@prefix ns12:	<https://www.exiobase.eu/index.php/> .
+<http://rdf.bonsai.uno/prov#exiobaseDataset_3.3.17>	dc:license	ns12:terms-of-use ;
+	dc:date	"2019-03-12"^^xsd:date ;
+	dc:rights	"Copyright \u00A9 2015 - EXIOBASE Consortium" .
+@prefix ns13:	<https://www.exiobase.eu/index.php/data-download/> .
+<http://rdf.bonsai.uno/prov#exiobaseDataset_3.3.17>	ns9:hadPrimarySource	ns13:exiobase3hyb .
+ns8:extractionScript	rdf:type	ns9:Plan ,
+		ns9:Entity ;
+	rdfs:label	"Entity representing the latest version of the Arborist Script" .
+@prefix ns14:	<https://github.com/BONSAMURAIS/arborist/tree/> .
+ns8:extractionScript	ns9:hadPrimarySource	ns14:v0_5 .

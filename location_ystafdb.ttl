@@ -1,0 +1,5088 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://rdf.bonsai.uno/location/> .
+@prefix ns2:	<http://purl.org/dc/dcmitype/> .
+ns1:ystafdb	rdf:type	ns2:Dataset .
+@prefix ns3:	<http://www.w3.org/ns/prov#> .
+ns1:ystafdb	rdf:type	ns3:Collection .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix ns5:	<http://purl.org/dc/terms/> .
+ns1:ystafdb	ns5:modified	"2022-07-26"^^xsd:date .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+ns1:ystafdb	owl:versionInfo	"0.6.1" .
+@prefix ns7:	<http://creativecommons.org/ns#> .
+ns1:ystafdb	ns7:license	<http://creativecommons.org/licenses/by/3.0/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+ns1:ystafdb	foaf:homepage	<http://rdf.bonsai.uno/location/ystafdbdocumentation.html> .
+@prefix dc:	<http://purl.org/dc/elements/1.1/> .
+@prefix ns10:	<http://rdf.bonsai.uno/foaf/ystafdb#> .
+ns1:ystafdb	dc:creator	ns10:bonsai ;
+	dc:description	"Country groupings used for YSTAFDB" ;
+	dc:title	"Custom locations for YSTAFDB" .
+@prefix ns11:	<http://purl.org/vocab/vann/> .
+ns1:ystafdb	ns11:preferredNamespaceUri	<http://rdf.bonsai.uno/location/ystafdb#> ;
+	ns3:wasAttributedTo	ns10:bonsai .
+@prefix ns12:	<http://rdf.bonsai.uno/prov/ystafdb#> .
+ns1:ystafdb	ns3:wasGeneratedBy	ns12:dataExtractionActivity_0 .
+@prefix ns13:	<http://rdf.bonsai.uno/location/ystafdb#> .
+ns1:ystafdb	ns3:hadMember	ns13:L_150 ,
+		ns13:L_1500 ,
+		ns13:L_1499 ,
+		ns13:L_15 ,
+		ns13:L_1497 ,
+		ns13:L_1498 ,
+		ns13:L_1495 ,
+		ns13:L_1496 ,
+		ns13:L_1493 ,
+		ns13:L_1494 ,
+		ns13:L_1491 ,
+		ns13:L_1492 ,
+		ns13:L_149 ,
+		ns13:L_1490 ,
+		ns13:L_1488 ,
+		ns13:L_1489 ,
+		ns13:L_1486 ,
+		ns13:L_1487 ,
+		ns13:L_1484 ,
+		ns13:L_1485 ,
+		ns13:L_1482 ,
+		ns13:L_1483 ,
+		ns13:L_1480 ,
+		ns13:L_1481 ,
+		ns13:L_1479 ,
+		ns13:L_148 ,
+		ns13:L_1477 ,
+		ns13:L_1478 ,
+		ns13:L_1475 ,
+		ns13:L_1476 ,
+		ns13:L_1473 ,
+		ns13:L_1474 ,
+		ns13:L_1471 ,
+		ns13:L_1472 ,
+		ns13:L_147 ,
+		ns13:L_1470 ,
+		ns13:L_1468 ,
+		ns13:L_1469 ,
+		ns13:L_1466 ,
+		ns13:L_1467 ,
+		ns13:L_1464 ,
+		ns13:L_1465 ,
+		ns13:L_1462 ,
+		ns13:L_1463 ,
+		ns13:L_1460 ,
+		ns13:L_1461 ,
+		ns13:L_1459 ,
+		ns13:L_146 ,
+		ns13:L_1457 ,
+		ns13:L_1458 ,
+		ns13:L_1455 ,
+		ns13:L_1456 ,
+		ns13:L_1453 ,
+		ns13:L_1454 ,
+		ns13:L_1451 ,
+		ns13:L_1452 ,
+		ns13:L_145 ,
+		ns13:L_1450 ,
+		ns13:L_1448 ,
+		ns13:L_1449 ,
+		ns13:L_1446 ,
+		ns13:L_1447 ,
+		ns13:L_1444 ,
+		ns13:L_1445 ,
+		ns13:L_1558 ,
+		ns13:L_1559 ,
+		ns13:L_1556 ,
+		ns13:L_1557 ,
+		ns13:L_1554 ,
+		ns13:L_1555 ,
+		ns13:L_1552 ,
+		ns13:L_1553 ,
+		ns13:L_1550 ,
+		ns13:L_1551 ,
+		ns13:L_1549 ,
+		ns13:L_155 ,
+		ns13:L_1547 ,
+		ns13:L_1548 ,
+		ns13:L_1545 ,
+		ns13:L_1546 ,
+		ns13:L_1543 ,
+		ns13:L_1544 ,
+		ns13:L_1541 ,
+		ns13:L_1542 ,
+		ns13:L_154 ,
+		ns13:L_1540 ,
+		ns13:L_1538 ,
+		ns13:L_1539 ,
+		ns13:L_1536 ,
+		ns13:L_1537 ,
+		ns13:L_1534 ,
+		ns13:L_1535 ,
+		ns13:L_1532 ,
+		ns13:L_1533 ,
+		ns13:L_1530 ,
+		ns13:L_1531 ,
+		ns13:L_1529 ,
+		ns13:L_153 ,
+		ns13:L_1527 ,
+		ns13:L_1528 ,
+		ns13:L_1525 ,
+		ns13:L_1526 ,
+		ns13:L_1523 ,
+		ns13:L_1524 ,
+		ns13:L_1521 ,
+		ns13:L_1522 ,
+		ns13:L_152 ,
+		ns13:L_1520 ,
+		ns13:L_1518 ,
+		ns13:L_1519 ,
+		ns13:L_1516 ,
+		ns13:L_1517 ,
+		ns13:L_1514 ,
+		ns13:L_1515 ,
+		ns13:L_1512 ,
+		ns13:L_1513 ,
+		ns13:L_1510 ,
+		ns13:L_1511 ,
+		ns13:L_1509 ,
+		ns13:L_151 ,
+		ns13:L_1507 ,
+		ns13:L_1508 ,
+		ns13:L_1505 ,
+		ns13:L_1506 ,
+		ns13:L_1503 ,
+		ns13:L_1504 ,
+		ns13:L_1501 ,
+		ns13:L_1502 ,
+		ns13:L_1615 ,
+		ns13:L_1616 ,
+		ns13:L_1613 ,
+		ns13:L_1614 ,
+		ns13:L_1611 ,
+		ns13:L_1612 ,
+		ns13:L_161 ,
+		ns13:L_1610 ,
+		ns13:L_1608 ,
+		ns13:L_1609 ,
+		ns13:L_1606 ,
+		ns13:L_1607 ,
+		ns13:L_1604 ,
+		ns13:L_1605 ,
+		ns13:L_1602 ,
+		ns13:L_1603 ,
+		ns13:L_1600 ,
+		ns13:L_1601 ,
+		ns13:L_16 ,
+		ns13:L_160 ,
+		ns13:L_1598 ,
+		ns13:L_1599 ,
+		ns13:L_1596 ,
+		ns13:L_1597 ,
+		ns13:L_1594 ,
+		ns13:L_1595 ,
+		ns13:L_1592 ,
+		ns13:L_1593 ,
+		ns13:L_1590 ,
+		ns13:L_1591 ,
+		ns13:L_1589 ,
+		ns13:L_159 ,
+		ns13:L_1587 ,
+		ns13:L_1588 ,
+		ns13:L_1585 ,
+		ns13:L_1586 ,
+		ns13:L_1583 ,
+		ns13:L_1584 ,
+		ns13:L_1581 ,
+		ns13:L_1582 ,
+		ns13:L_158 ,
+		ns13:L_1580 ,
+		ns13:L_1578 ,
+		ns13:L_1579 ,
+		ns13:L_1576 ,
+		ns13:L_1577 ,
+		ns13:L_1574 ,
+		ns13:L_1575 ,
+		ns13:L_1572 ,
+		ns13:L_1573 ,
+		ns13:L_1570 ,
+		ns13:L_1571 ,
+		ns13:L_1569 ,
+		ns13:L_157 ,
+		ns13:L_1567 ,
+		ns13:L_1568 ,
+		ns13:L_1565 ,
+		ns13:L_1566 ,
+		ns13:L_1563 ,
+		ns13:L_1564 ,
+		ns13:L_1561 ,
+		ns13:L_1562 ,
+		ns13:L_156 ,
+		ns13:L_1560 ,
+		ns13:L_1673 ,
+		ns13:L_1674 ,
+		ns13:L_1671 ,
+		ns13:L_1672 ,
+		ns13:L_167 ,
+		ns13:L_1670 ,
+		ns13:L_1668 ,
+		ns13:L_1669 ,
+		ns13:L_1666 ,
+		ns13:L_1667 ,
+		ns13:L_1664 ,
+		ns13:L_1665 ,
+		ns13:L_1662 ,
+		ns13:L_1663 ,
+		ns13:L_1660 ,
+		ns13:L_1661 ,
+		ns13:L_1659 ,
+		ns13:L_166 ,
+		ns13:L_1657 ,
+		ns13:L_1658 ,
+		ns13:L_1655 ,
+		ns13:L_1656 ,
+		ns13:L_1653 ,
+		ns13:L_1654 ,
+		ns13:L_1651 ,
+		ns13:L_1652 ,
+		ns13:L_165 ,
+		ns13:L_1650 ,
+		ns13:L_1648 ,
+		ns13:L_1649 ,
+		ns13:L_1646 ,
+		ns13:L_1647 ,
+		ns13:L_1644 ,
+		ns13:L_1645 ,
+		ns13:L_1642 ,
+		ns13:L_1643 ,
+		ns13:L_1640 ,
+		ns13:L_1641 ,
+		ns13:L_1639 ,
+		ns13:L_164 ,
+		ns13:L_1637 ,
+		ns13:L_1638 ,
+		ns13:L_1635 ,
+		ns13:L_1636 ,
+		ns13:L_1633 ,
+		ns13:L_1634 ,
+		ns13:L_1631 ,
+		ns13:L_1632 ,
+		ns13:L_163 ,
+		ns13:L_1630 ,
+		ns13:L_1628 ,
+		ns13:L_1629 ,
+		ns13:L_1626 ,
+		ns13:L_1627 ,
+		ns13:L_1624 ,
+		ns13:L_1625 ,
+		ns13:L_1622 ,
+		ns13:L_1623 ,
+		ns13:L_1620 ,
+		ns13:L_1621 ,
+		ns13:L_1619 ,
+		ns13:L_162 ,
+		ns13:L_1617 ,
+		ns13:L_1618 ,
+		ns13:L_212 ,
+		ns13:L_213 ,
+		ns13:L_210 ,
+		ns13:L_211 ,
+		ns13:L_209 ,
+		ns13:L_21 ,
+		ns13:L_207 ,
+		ns13:L_208 ,
+		ns13:L_205 ,
+		ns13:L_206 ,
+		ns13:L_203 ,
+		ns13:L_204 ,
+		ns13:L_201 ,
+		ns13:L_202 ,
+		ns13:L_20 ,
+		ns13:L_200 ,
+		ns13:L_199 ,
+		ns13:L_2 ,
+		ns13:L_197 ,
+		ns13:L_198 ,
+		ns13:L_195 ,
+		ns13:L_196 ,
+		ns13:L_193 ,
+		ns13:L_194 ,
+		ns13:L_191 ,
+		ns13:L_192 ,
+		ns13:L_19 ,
+		ns13:L_190 ,
+		ns13:L_188 ,
+		ns13:L_189 ,
+		ns13:L_186 ,
+		ns13:L_187 ,
+		ns13:L_184 ,
+		ns13:L_185 ,
+		ns13:L_182 ,
+		ns13:L_183 ,
+		ns13:L_180 ,
+		ns13:L_181 ,
+		ns13:L_179 ,
+		ns13:L_18 ,
+		ns13:L_177 ,
+		ns13:L_178 ,
+		ns13:L_175 ,
+		ns13:L_176 ,
+		ns13:L_173 ,
+		ns13:L_174 ,
+		ns13:L_171 ,
+		ns13:L_172 ,
+		ns13:L_17 ,
+		ns13:L_170 ,
+		ns13:L_1686 ,
+		ns13:L_169 ,
+		ns13:L_1684 ,
+		ns13:L_1685 ,
+		ns13:L_1682 ,
+		ns13:L_1683 ,
+		ns13:L_1680 ,
+		ns13:L_1681 ,
+		ns13:L_1679 ,
+		ns13:L_168 ,
+		ns13:L_1677 ,
+		ns13:L_1678 ,
+		ns13:L_1675 ,
+		ns13:L_1676 ,
+		ns13:L_270 ,
+		ns13:L_271 ,
+		ns13:L_269 ,
+		ns13:L_27 ,
+		ns13:L_267 ,
+		ns13:L_268 ,
+		ns13:L_265 ,
+		ns13:L_266 ,
+		ns13:L_263 ,
+		ns13:L_264 ,
+		ns13:L_261 ,
+		ns13:L_262 ,
+		ns13:L_26 ,
+		ns13:L_260 ,
+		ns13:L_258 ,
+		ns13:L_259 ,
+		ns13:L_256 ,
+		ns13:L_257 ,
+		ns13:L_254 ,
+		ns13:L_255 ,
+		ns13:L_252 ,
+		ns13:L_253 ,
+		ns13:L_250 ,
+		ns13:L_251 ,
+		ns13:L_249 ,
+		ns13:L_25 ,
+		ns13:L_247 ,
+		ns13:L_248 ,
+		ns13:L_245 ,
+		ns13:L_246 ,
+		ns13:L_243 ,
+		ns13:L_244 ,
+		ns13:L_241 ,
+		ns13:L_242 ,
+		ns13:L_24 ,
+		ns13:L_240 ,
+		ns13:L_238 ,
+		ns13:L_239 ,
+		ns13:L_236 ,
+		ns13:L_237 ,
+		ns13:L_234 ,
+		ns13:L_235 ,
+		ns13:L_232 ,
+		ns13:L_233 ,
+		ns13:L_230 ,
+		ns13:L_231 ,
+		ns13:L_229 ,
+		ns13:L_23 ,
+		ns13:L_227 ,
+		ns13:L_228 ,
+		ns13:L_225 ,
+		ns13:L_226 ,
+		ns13:L_223 ,
+		ns13:L_224 ,
+		ns13:L_221 ,
+		ns13:L_222 ,
+		ns13:L_22 ,
+		ns13:L_220 ,
+		ns13:L_218 ,
+		ns13:L_219 ,
+		ns13:L_216 ,
+		ns13:L_217 ,
+		ns13:L_214 ,
+		ns13:L_215 ,
+		ns13:L_328 ,
+		ns13:L_329 ,
+		ns13:L_326 ,
+		ns13:L_327 ,
+		ns13:L_324 ,
+		ns13:L_325 ,
+		ns13:L_322 ,
+		ns13:L_323 ,
+		ns13:L_320 ,
+		ns13:L_321 ,
+		ns13:L_319 ,
+		ns13:L_32 ,
+		ns13:L_317 ,
+		ns13:L_318 ,
+		ns13:L_315 ,
+		ns13:L_316 ,
+		ns13:L_313 ,
+		ns13:L_314 ,
+		ns13:L_311 ,
+		ns13:L_312 ,
+		ns13:L_31 ,
+		ns13:L_310 ,
+		ns13:L_308 ,
+		ns13:L_309 ,
+		ns13:L_306 ,
+		ns13:L_307 ,
+		ns13:L_304 ,
+		ns13:L_305 ,
+		ns13:L_302 ,
+		ns13:L_303 ,
+		ns13:L_300 ,
+		ns13:L_301 ,
+		ns13:L_3 ,
+		ns13:L_30 ,
+		ns13:L_298 ,
+		ns13:L_299 ,
+		ns13:L_296 ,
+		ns13:L_297 ,
+		ns13:L_294 ,
+		ns13:L_295 ,
+		ns13:L_292 ,
+		ns13:L_293 ,
+		ns13:L_290 ,
+		ns13:L_291 ,
+		ns13:L_289 ,
+		ns13:L_29 ,
+		ns13:L_287 ,
+		ns13:L_288 ,
+		ns13:L_285 ,
+		ns13:L_286 ,
+		ns13:L_283 ,
+		ns13:L_284 ,
+		ns13:L_281 ,
+		ns13:L_282 ,
+		ns13:L_28 ,
+		ns13:L_280 ,
+		ns13:L_278 ,
+		ns13:L_279 ,
+		ns13:L_276 ,
+		ns13:L_277 ,
+		ns13:L_274 ,
+		ns13:L_275 ,
+		ns13:L_272 ,
+		ns13:L_273 ,
+		ns13:L_386 ,
+		ns13:L_387 ,
+		ns13:L_384 ,
+		ns13:L_385 ,
+		ns13:L_382 ,
+		ns13:L_383 ,
+		ns13:L_380 ,
+		ns13:L_381 ,
+		ns13:L_379 ,
+		ns13:L_38 ,
+		ns13:L_377 ,
+		ns13:L_378 ,
+		ns13:L_375 ,
+		ns13:L_376 ,
+		ns13:L_373 ,
+		ns13:L_374 ,
+		ns13:L_371 ,
+		ns13:L_372 ,
+		ns13:L_37 ,
+		ns13:L_370 ,
+		ns13:L_368 ,
+		ns13:L_369 ,
+		ns13:L_366 ,
+		ns13:L_367 ,
+		ns13:L_364 ,
+		ns13:L_365 ,
+		ns13:L_362 ,
+		ns13:L_363 ,
+		ns13:L_360 ,
+		ns13:L_361 ,
+		ns13:L_359 ,
+		ns13:L_36 ,
+		ns13:L_357 ,
+		ns13:L_358 ,
+		ns13:L_355 ,
+		ns13:L_356 ,
+		ns13:L_353 ,
+		ns13:L_354 ,
+		ns13:L_351 ,
+		ns13:L_352 ,
+		ns13:L_35 ,
+		ns13:L_350 ,
+		ns13:L_348 ,
+		ns13:L_349 ,
+		ns13:L_346 ,
+		ns13:L_347 ,
+		ns13:L_344 ,
+		ns13:L_345 ,
+		ns13:L_342 ,
+		ns13:L_343 ,
+		ns13:L_340 ,
+		ns13:L_341 ,
+		ns13:L_339 ,
+		ns13:L_34 ,
+		ns13:L_337 ,
+		ns13:L_338 ,
+		ns13:L_335 ,
+		ns13:L_336 ,
+		ns13:L_333 ,
+		ns13:L_334 ,
+		ns13:L_331 ,
+		ns13:L_332 ,
+		ns13:L_33 ,
+		ns13:L_330 ,
+		ns13:L_444 ,
+		ns13:L_445 ,
+		ns13:L_442 ,
+		ns13:L_443 ,
+		ns13:L_440 ,
+		ns13:L_441 ,
+		ns13:L_439 ,
+		ns13:L_44 ,
+		ns13:L_437 ,
+		ns13:L_438 ,
+		ns13:L_435 ,
+		ns13:L_436 ,
+		ns13:L_433 ,
+		ns13:L_434 ,
+		ns13:L_431 ,
+		ns13:L_432 ,
+		ns13:L_43 ,
+		ns13:L_430 ,
+		ns13:L_428 ,
+		ns13:L_429 ,
+		ns13:L_426 ,
+		ns13:L_427 ,
+		ns13:L_424 ,
+		ns13:L_425 ,
+		ns13:L_422 ,
+		ns13:L_423 ,
+		ns13:L_420 ,
+		ns13:L_421 ,
+		ns13:L_419 ,
+		ns13:L_42 ,
+		ns13:L_417 ,
+		ns13:L_418 ,
+		ns13:L_415 ,
+		ns13:L_416 ,
+		ns13:L_413 ,
+		ns13:L_414 ,
+		ns13:L_411 ,
+		ns13:L_412 ,
+		ns13:L_41 ,
+		ns13:L_410 ,
+		ns13:L_408 ,
+		ns13:L_409 ,
+		ns13:L_406 ,
+		ns13:L_407 ,
+		ns13:L_404 ,
+		ns13:L_405 ,
+		ns13:L_402 ,
+		ns13:L_403 ,
+		ns13:L_40 ,
+		ns13:L_401 ,
+		ns13:L_399 ,
+		ns13:L_4 ,
+		ns13:L_397 ,
+		ns13:L_398 ,
+		ns13:L_395 ,
+		ns13:L_396 ,
+		ns13:L_393 ,
+		ns13:L_394 ,
+		ns13:L_391 ,
+		ns13:L_392 ,
+		ns13:L_39 ,
+		ns13:L_390 ,
+		ns13:L_388 ,
+		ns13:L_389 ,
+		ns13:L_501 ,
+		ns13:L_502 ,
+		ns13:L_50 ,
+		ns13:L_500 ,
+		ns13:L_499 ,
+		ns13:L_5 ,
+		ns13:L_497 ,
+		ns13:L_498 ,
+		ns13:L_495 ,
+		ns13:L_496 ,
+		ns13:L_493 ,
+		ns13:L_494 ,
+		ns13:L_491 ,
+		ns13:L_492 ,
+		ns13:L_49 ,
+		ns13:L_490 ,
+		ns13:L_488 ,
+		ns13:L_489 ,
+		ns13:L_486 ,
+		ns13:L_487 ,
+		ns13:L_484 ,
+		ns13:L_485 ,
+		ns13:L_482 ,
+		ns13:L_483 ,
+		ns13:L_480 ,
+		ns13:L_481 ,
+		ns13:L_479 ,
+		ns13:L_48 ,
+		ns13:L_477 ,
+		ns13:L_478 ,
+		ns13:L_475 ,
+		ns13:L_476 ,
+		ns13:L_473 ,
+		ns13:L_474 ,
+		ns13:L_471 ,
+		ns13:L_472 ,
+		ns13:L_47 ,
+		ns13:L_470 ,
+		ns13:L_468 ,
+		ns13:L_469 ,
+		ns13:L_466 ,
+		ns13:L_467 ,
+		ns13:L_464 ,
+		ns13:L_465 ,
+		ns13:L_462 ,
+		ns13:L_463 ,
+		ns13:L_460 ,
+		ns13:L_461 ,
+		ns13:L_459 ,
+		ns13:L_46 ,
+		ns13:L_457 ,
+		ns13:L_458 ,
+		ns13:L_455 ,
+		ns13:L_456 ,
+		ns13:L_453 ,
+		ns13:L_454 ,
+		ns13:L_451 ,
+		ns13:L_452 ,
+		ns13:L_45 ,
+		ns13:L_450 ,
+		ns13:L_448 ,
+		ns13:L_449 ,
+		ns13:L_446 ,
+		ns13:L_447 ,
+		ns13:L_56 ,
+		ns13:L_560 ,
+		ns13:L_558 ,
+		ns13:L_559 ,
+		ns13:L_556 ,
+		ns13:L_557 ,
+		ns13:L_554 ,
+		ns13:L_555 ,
+		ns13:L_552 ,
+		ns13:L_553 ,
+		ns13:L_550 ,
+		ns13:L_551 ,
+		ns13:L_549 ,
+		ns13:L_55 ,
+		ns13:L_547 ,
+		ns13:L_548 ,
+		ns13:L_545 ,
+		ns13:L_546 ,
+		ns13:L_543 ,
+		ns13:L_544 ,
+		ns13:L_541 ,
+		ns13:L_542 ,
+		ns13:L_54 ,
+		ns13:L_540 ,
+		ns13:L_538 ,
+		ns13:L_539 ,
+		ns13:L_536 ,
+		ns13:L_537 ,
+		ns13:L_534 ,
+		ns13:L_535 ,
+		ns13:L_532 ,
+		ns13:L_533 ,
+		ns13:L_530 ,
+		ns13:L_531 ,
+		ns13:L_529 ,
+		ns13:L_53 ,
+		ns13:L_527 ,
+		ns13:L_528 ,
+		ns13:L_525 ,
+		ns13:L_526 ,
+		ns13:L_523 ,
+		ns13:L_524 ,
+		ns13:L_521 ,
+		ns13:L_522 ,
+		ns13:L_52 ,
+		ns13:L_520 ,
+		ns13:L_518 ,
+		ns13:L_519 ,
+		ns13:L_516 ,
+		ns13:L_517 ,
+		ns13:L_514 ,
+		ns13:L_515 ,
+		ns13:L_512 ,
+		ns13:L_513 ,
+		ns13:L_510 ,
+		ns13:L_511 ,
+		ns13:L_509 ,
+		ns13:L_51 ,
+		ns13:L_507 ,
+		ns13:L_508 ,
+		ns13:L_505 ,
+		ns13:L_506 ,
+		ns13:L_503 ,
+		ns13:L_504 ,
+		ns13:L_617 ,
+		ns13:L_618 ,
+		ns13:L_615 ,
+		ns13:L_616 ,
+		ns13:L_613 ,
+		ns13:L_614 ,
+		ns13:L_611 ,
+		ns13:L_612 ,
+		ns13:L_61 ,
+		ns13:L_610 ,
+		ns13:L_608 ,
+		ns13:L_609 ,
+		ns13:L_606 ,
+		ns13:L_607 ,
+		ns13:L_604 ,
+		ns13:L_605 ,
+		ns13:L_602 ,
+		ns13:L_603 ,
+		ns13:L_600 ,
+		ns13:L_601 ,
+		ns13:L_6 ,
+		ns13:L_60 ,
+		ns13:L_598 ,
+		ns13:L_599 ,
+		ns13:L_596 ,
+		ns13:L_597 ,
+		ns13:L_594 ,
+		ns13:L_595 ,
+		ns13:L_592 ,
+		ns13:L_593 ,
+		ns13:L_590 ,
+		ns13:L_591 ,
+		ns13:L_589 ,
+		ns13:L_59 ,
+		ns13:L_587 ,
+		ns13:L_588 ,
+		ns13:L_585 ,
+		ns13:L_586 ,
+		ns13:L_583 ,
+		ns13:L_584 ,
+		ns13:L_581 ,
+		ns13:L_582 ,
+		ns13:L_58 ,
+		ns13:L_580 ,
+		ns13:L_578 ,
+		ns13:L_579 ,
+		ns13:L_576 ,
+		ns13:L_577 ,
+		ns13:L_574 ,
+		ns13:L_575 ,
+		ns13:L_572 ,
+		ns13:L_573 ,
+		ns13:L_570 ,
+		ns13:L_571 ,
+		ns13:L_569 ,
+		ns13:L_57 ,
+		ns13:L_567 ,
+		ns13:L_568 ,
+		ns13:L_565 ,
+		ns13:L_566 ,
+		ns13:L_563 ,
+		ns13:L_564 ,
+		ns13:L_561 ,
+		ns13:L_562 ,
+		ns13:L_675 ,
+		ns13:L_676 ,
+		ns13:L_673 ,
+		ns13:L_674 ,
+		ns13:L_671 ,
+		ns13:L_672 ,
+		ns13:L_67 ,
+		ns13:L_670 ,
+		ns13:L_668 ,
+		ns13:L_669 ,
+		ns13:L_666 ,
+		ns13:L_667 ,
+		ns13:L_664 ,
+		ns13:L_665 ,
+		ns13:L_662 ,
+		ns13:L_663 ,
+		ns13:L_660 ,
+		ns13:L_661 ,
+		ns13:L_659 ,
+		ns13:L_66 ,
+		ns13:L_657 ,
+		ns13:L_658 ,
+		ns13:L_655 ,
+		ns13:L_656 ,
+		ns13:L_653 ,
+		ns13:L_654 ,
+		ns13:L_651 ,
+		ns13:L_652 ,
+		ns13:L_65 ,
+		ns13:L_650 ,
+		ns13:L_648 ,
+		ns13:L_649 ,
+		ns13:L_646 ,
+		ns13:L_647 ,
+		ns13:L_644 ,
+		ns13:L_645 ,
+		ns13:L_642 ,
+		ns13:L_643 ,
+		ns13:L_640 ,
+		ns13:L_641 ,
+		ns13:L_639 ,
+		ns13:L_64 ,
+		ns13:L_637 ,
+		ns13:L_638 ,
+		ns13:L_635 ,
+		ns13:L_636 ,
+		ns13:L_633 ,
+		ns13:L_634 ,
+		ns13:L_631 ,
+		ns13:L_632 ,
+		ns13:L_63 ,
+		ns13:L_630 ,
+		ns13:L_628 ,
+		ns13:L_629 ,
+		ns13:L_626 ,
+		ns13:L_627 ,
+		ns13:L_624 ,
+		ns13:L_625 ,
+		ns13:L_622 ,
+		ns13:L_623 ,
+		ns13:L_620 ,
+		ns13:L_621 ,
+		ns13:L_619 ,
+		ns13:L_62 ,
+		ns13:L_732 ,
+		ns13:L_733 ,
+		ns13:L_730 ,
+		ns13:L_731 ,
+		ns13:L_729 ,
+		ns13:L_73 ,
+		ns13:L_727 ,
+		ns13:L_728 ,
+		ns13:L_725 ,
+		ns13:L_726 ,
+		ns13:L_723 ,
+		ns13:L_724 ,
+		ns13:L_721 ,
+		ns13:L_722 ,
+		ns13:L_72 ,
+		ns13:L_720 ,
+		ns13:L_718 ,
+		ns13:L_719 ,
+		ns13:L_716 ,
+		ns13:L_717 ,
+		ns13:L_714 ,
+		ns13:L_715 ,
+		ns13:L_712 ,
+		ns13:L_713 ,
+		ns13:L_710 ,
+		ns13:L_711 ,
+		ns13:L_709 ,
+		ns13:L_71 ,
+		ns13:L_707 ,
+		ns13:L_708 ,
+		ns13:L_705 ,
+		ns13:L_706 ,
+		ns13:L_703 ,
+		ns13:L_704 ,
+		ns13:L_701 ,
+		ns13:L_702 ,
+		ns13:L_70 ,
+		ns13:L_700 ,
+		ns13:L_699 ,
+		ns13:L_7 ,
+		ns13:L_697 ,
+		ns13:L_698 ,
+		ns13:L_695 ,
+		ns13:L_696 ,
+		ns13:L_693 ,
+		ns13:L_694 ,
+		ns13:L_691 ,
+		ns13:L_692 ,
+		ns13:L_69 ,
+		ns13:L_690 ,
+		ns13:L_688 ,
+		ns13:L_689 ,
+		ns13:L_686 ,
+		ns13:L_687 ,
+		ns13:L_684 ,
+		ns13:L_685 ,
+		ns13:L_682 ,
+		ns13:L_683 ,
+		ns13:L_680 ,
+		ns13:L_681 ,
+		ns13:L_679 ,
+		ns13:L_68 ,
+		ns13:L_677 ,
+		ns13:L_678 ,
+		ns13:L_790 ,
+		ns13:L_791 ,
+		ns13:L_789 ,
+		ns13:L_79 ,
+		ns13:L_787 ,
+		ns13:L_788 ,
+		ns13:L_785 ,
+		ns13:L_786 ,
+		ns13:L_783 ,
+		ns13:L_784 ,
+		ns13:L_781 ,
+		ns13:L_782 ,
+		ns13:L_78 ,
+		ns13:L_780 ,
+		ns13:L_778 ,
+		ns13:L_779 ,
+		ns13:L_776 ,
+		ns13:L_777 ,
+		ns13:L_774 ,
+		ns13:L_775 ,
+		ns13:L_772 ,
+		ns13:L_773 ,
+		ns13:L_770 ,
+		ns13:L_771 ,
+		ns13:L_769 ,
+		ns13:L_77 ,
+		ns13:L_767 ,
+		ns13:L_768 ,
+		ns13:L_765 ,
+		ns13:L_766 ,
+		ns13:L_763 ,
+		ns13:L_764 ,
+		ns13:L_761 ,
+		ns13:L_762 ,
+		ns13:L_76 ,
+		ns13:L_760 ,
+		ns13:L_758 ,
+		ns13:L_759 ,
+		ns13:L_756 ,
+		ns13:L_757 ,
+		ns13:L_754 ,
+		ns13:L_755 ,
+		ns13:L_752 ,
+		ns13:L_753 ,
+		ns13:L_750 ,
+		ns13:L_751 ,
+		ns13:L_749 ,
+		ns13:L_75 ,
+		ns13:L_747 ,
+		ns13:L_748 ,
+		ns13:L_745 ,
+		ns13:L_746 ,
+		ns13:L_743 ,
+		ns13:L_744 ,
+		ns13:L_741 ,
+		ns13:L_742 ,
+		ns13:L_74 ,
+		ns13:L_740 ,
+		ns13:L_738 ,
+		ns13:L_739 ,
+		ns13:L_736 ,
+		ns13:L_737 ,
+		ns13:L_734 ,
+		ns13:L_735 ,
+		ns13:L_848 ,
+		ns13:L_849 ,
+		ns13:L_846 ,
+		ns13:L_847 ,
+		ns13:L_844 ,
+		ns13:L_845 ,
+		ns13:L_842 ,
+		ns13:L_843 ,
+		ns13:L_840 ,
+		ns13:L_841 ,
+		ns13:L_839 ,
+		ns13:L_84 ,
+		ns13:L_837 ,
+		ns13:L_838 ,
+		ns13:L_835 ,
+		ns13:L_836 ,
+		ns13:L_833 ,
+		ns13:L_834 ,
+		ns13:L_831 ,
+		ns13:L_832 ,
+		ns13:L_83 ,
+		ns13:L_830 ,
+		ns13:L_828 ,
+		ns13:L_829 ,
+		ns13:L_826 ,
+		ns13:L_827 ,
+		ns13:L_824 ,
+		ns13:L_825 ,
+		ns13:L_822 ,
+		ns13:L_823 ,
+		ns13:L_820 ,
+		ns13:L_821 ,
+		ns13:L_819 ,
+		ns13:L_82 ,
+		ns13:L_817 ,
+		ns13:L_818 ,
+		ns13:L_815 ,
+		ns13:L_816 ,
+		ns13:L_813 ,
+		ns13:L_814 ,
+		ns13:L_811 ,
+		ns13:L_812 ,
+		ns13:L_81 ,
+		ns13:L_810 ,
+		ns13:L_808 ,
+		ns13:L_809 ,
+		ns13:L_806 ,
+		ns13:L_807 ,
+		ns13:L_804 ,
+		ns13:L_805 ,
+		ns13:L_802 ,
+		ns13:L_803 ,
+		ns13:L_800 ,
+		ns13:L_801 ,
+		ns13:L_8 ,
+		ns13:L_80 ,
+		ns13:L_798 ,
+		ns13:L_799 ,
+		ns13:L_796 ,
+		ns13:L_797 ,
+		ns13:L_794 ,
+		ns13:L_795 ,
+		ns13:L_792 ,
+		ns13:L_793 ,
+		ns13:L_1039 ,
+		ns13:L_104 ,
+		ns13:L_1037 ,
+		ns13:L_1038 ,
+		ns13:L_1035 ,
+		ns13:L_1036 ,
+		ns13:L_1033 ,
+		ns13:L_1034 ,
+		ns13:L_1031 ,
+		ns13:L_1032 ,
+		ns13:L_103 ,
+		ns13:L_1030 ,
+		ns13:L_1028 ,
+		ns13:L_1029 ,
+		ns13:L_1026 ,
+		ns13:L_1027 ,
+		ns13:L_1024 ,
+		ns13:L_1025 ,
+		ns13:L_1022 ,
+		ns13:L_1023 ,
+		ns13:L_1020 ,
+		ns13:L_1021 ,
+		ns13:L_1019 ,
+		ns13:L_102 ,
+		ns13:L_1017 ,
+		ns13:L_1018 ,
+		ns13:L_1015 ,
+		ns13:L_1016 ,
+		ns13:L_1013 ,
+		ns13:L_1014 ,
+		ns13:L_1011 ,
+		ns13:L_1012 ,
+		ns13:L_101 ,
+		ns13:L_1010 ,
+		ns13:L_1008 ,
+		ns13:L_1009 ,
+		ns13:L_1006 ,
+		ns13:L_1007 ,
+		ns13:L_1004 ,
+		ns13:L_1005 ,
+		ns13:L_1002 ,
+		ns13:L_1003 ,
+		ns13:L_1000 ,
+		ns13:L_1001 ,
+		ns13:L_10 ,
+		ns13:L_100 ,
+		ns13:L_1 ,
+		ns13:L_400 ,
+		ns13:L_1097 ,
+		ns13:L_1098 ,
+		ns13:L_1095 ,
+		ns13:L_1096 ,
+		ns13:L_1093 ,
+		ns13:L_1094 ,
+		ns13:L_1091 ,
+		ns13:L_1092 ,
+		ns13:L_109 ,
+		ns13:L_1090 ,
+		ns13:L_1088 ,
+		ns13:L_1089 ,
+		ns13:L_1086 ,
+		ns13:L_1087 ,
+		ns13:L_1084 ,
+		ns13:L_1085 ,
+		ns13:L_1082 ,
+		ns13:L_1083 ,
+		ns13:L_1080 ,
+		ns13:L_1081 ,
+		ns13:L_1079 ,
+		ns13:L_108 ,
+		ns13:L_1077 ,
+		ns13:L_1078 ,
+		ns13:L_1075 ,
+		ns13:L_1076 ,
+		ns13:L_1073 ,
+		ns13:L_1074 ,
+		ns13:L_1071 ,
+		ns13:L_1072 ,
+		ns13:L_107 ,
+		ns13:L_1070 ,
+		ns13:L_1068 ,
+		ns13:L_1069 ,
+		ns13:L_1066 ,
+		ns13:L_1067 ,
+		ns13:L_1064 ,
+		ns13:L_1065 ,
+		ns13:L_1062 ,
+		ns13:L_1063 ,
+		ns13:L_1060 ,
+		ns13:L_1061 ,
+		ns13:L_1059 ,
+		ns13:L_106 ,
+		ns13:L_1057 ,
+		ns13:L_1058 ,
+		ns13:L_1055 ,
+		ns13:L_1056 ,
+		ns13:L_1053 ,
+		ns13:L_1054 ,
+		ns13:L_1051 ,
+		ns13:L_1052 ,
+		ns13:L_105 ,
+		ns13:L_1050 ,
+		ns13:L_1048 ,
+		ns13:L_1049 ,
+		ns13:L_1046 ,
+		ns13:L_1047 ,
+		ns13:L_1044 ,
+		ns13:L_1045 ,
+		ns13:L_1042 ,
+		ns13:L_1043 ,
+		ns13:L_1040 ,
+		ns13:L_1041 ,
+		ns13:L_1154 ,
+		ns13:L_1155 ,
+		ns13:L_1152 ,
+		ns13:L_1153 ,
+		ns13:L_1150 ,
+		ns13:L_1151 ,
+		ns13:L_1149 ,
+		ns13:L_115 ,
+		ns13:L_1147 ,
+		ns13:L_1148 ,
+		ns13:L_1145 ,
+		ns13:L_1146 ,
+		ns13:L_1143 ,
+		ns13:L_1144 ,
+		ns13:L_1141 ,
+		ns13:L_1142 ,
+		ns13:L_114 ,
+		ns13:L_1140 ,
+		ns13:L_1138 ,
+		ns13:L_1139 ,
+		ns13:L_1136 ,
+		ns13:L_1137 ,
+		ns13:L_1134 ,
+		ns13:L_1135 ,
+		ns13:L_1132 ,
+		ns13:L_1133 ,
+		ns13:L_1130 ,
+		ns13:L_1131 ,
+		ns13:L_1129 ,
+		ns13:L_113 ,
+		ns13:L_1127 ,
+		ns13:L_1128 ,
+		ns13:L_1125 ,
+		ns13:L_1126 ,
+		ns13:L_1123 ,
+		ns13:L_1124 ,
+		ns13:L_1121 ,
+		ns13:L_1122 ,
+		ns13:L_112 ,
+		ns13:L_1120 ,
+		ns13:L_1118 ,
+		ns13:L_1119 ,
+		ns13:L_1116 ,
+		ns13:L_1117 ,
+		ns13:L_1114 ,
+		ns13:L_1115 ,
+		ns13:L_1112 ,
+		ns13:L_1113 ,
+		ns13:L_1110 ,
+		ns13:L_1111 ,
+		ns13:L_1109 ,
+		ns13:L_111 ,
+		ns13:L_1107 ,
+		ns13:L_1108 ,
+		ns13:L_1105 ,
+		ns13:L_1106 ,
+		ns13:L_1103 ,
+		ns13:L_1104 ,
+		ns13:L_1101 ,
+		ns13:L_1102 ,
+		ns13:L_110 ,
+		ns13:L_1100 ,
+		ns13:L_1099 ,
+		ns13:L_11 ,
+		ns13:L_1211 ,
+		ns13:L_1212 ,
+		ns13:L_121 ,
+		ns13:L_1210 ,
+		ns13:L_1208 ,
+		ns13:L_1209 ,
+		ns13:L_1206 ,
+		ns13:L_1207 ,
+		ns13:L_1204 ,
+		ns13:L_1205 ,
+		ns13:L_1202 ,
+		ns13:L_1203 ,
+		ns13:L_1200 ,
+		ns13:L_1201 ,
+		ns13:L_12 ,
+		ns13:L_120 ,
+		ns13:L_1198 ,
+		ns13:L_1199 ,
+		ns13:L_1196 ,
+		ns13:L_1197 ,
+		ns13:L_1194 ,
+		ns13:L_1195 ,
+		ns13:L_1192 ,
+		ns13:L_1193 ,
+		ns13:L_1190 ,
+		ns13:L_1191 ,
+		ns13:L_1189 ,
+		ns13:L_119 ,
+		ns13:L_1187 ,
+		ns13:L_1188 ,
+		ns13:L_1185 ,
+		ns13:L_1186 ,
+		ns13:L_1183 ,
+		ns13:L_1184 ,
+		ns13:L_1181 ,
+		ns13:L_1182 ,
+		ns13:L_118 ,
+		ns13:L_1180 ,
+		ns13:L_1178 ,
+		ns13:L_1179 ,
+		ns13:L_1176 ,
+		ns13:L_1177 ,
+		ns13:L_1174 ,
+		ns13:L_1175 ,
+		ns13:L_1172 ,
+		ns13:L_1173 ,
+		ns13:L_1170 ,
+		ns13:L_1171 ,
+		ns13:L_1169 ,
+		ns13:L_117 ,
+		ns13:L_1167 ,
+		ns13:L_1168 ,
+		ns13:L_1165 ,
+		ns13:L_1166 ,
+		ns13:L_1163 ,
+		ns13:L_1164 ,
+		ns13:L_1161 ,
+		ns13:L_1162 ,
+		ns13:L_116 ,
+		ns13:L_1160 ,
+		ns13:L_1158 ,
+		ns13:L_1159 ,
+		ns13:L_1156 ,
+		ns13:L_1157 ,
+		ns13:L_127 ,
+		ns13:L_1270 ,
+		ns13:L_1268 ,
+		ns13:L_1269 ,
+		ns13:L_1266 ,
+		ns13:L_1267 ,
+		ns13:L_1264 ,
+		ns13:L_1265 ,
+		ns13:L_1262 ,
+		ns13:L_1263 ,
+		ns13:L_1260 ,
+		ns13:L_1261 ,
+		ns13:L_1259 ,
+		ns13:L_126 ,
+		ns13:L_1257 ,
+		ns13:L_1258 ,
+		ns13:L_1255 ,
+		ns13:L_1256 ,
+		ns13:L_1253 ,
+		ns13:L_1254 ,
+		ns13:L_1251 ,
+		ns13:L_1252 ,
+		ns13:L_125 ,
+		ns13:L_1250 ,
+		ns13:L_1248 ,
+		ns13:L_1249 ,
+		ns13:L_1246 ,
+		ns13:L_1247 ,
+		ns13:L_1244 ,
+		ns13:L_1245 ,
+		ns13:L_1242 ,
+		ns13:L_1243 ,
+		ns13:L_1240 ,
+		ns13:L_1241 ,
+		ns13:L_1239 ,
+		ns13:L_124 ,
+		ns13:L_1237 ,
+		ns13:L_1238 ,
+		ns13:L_1235 ,
+		ns13:L_1236 ,
+		ns13:L_1233 ,
+		ns13:L_1234 ,
+		ns13:L_1231 ,
+		ns13:L_1232 ,
+		ns13:L_123 ,
+		ns13:L_1230 ,
+		ns13:L_1228 ,
+		ns13:L_1229 ,
+		ns13:L_1226 ,
+		ns13:L_1227 ,
+		ns13:L_1224 ,
+		ns13:L_1225 ,
+		ns13:L_1222 ,
+		ns13:L_1223 ,
+		ns13:L_1220 ,
+		ns13:L_1221 ,
+		ns13:L_1219 ,
+		ns13:L_122 ,
+		ns13:L_1217 ,
+		ns13:L_1218 ,
+		ns13:L_1215 ,
+		ns13:L_1216 ,
+		ns13:L_1213 ,
+		ns13:L_1214 ,
+		ns13:L_1327 ,
+		ns13:L_1328 ,
+		ns13:L_1325 ,
+		ns13:L_1326 ,
+		ns13:L_1323 ,
+		ns13:L_1324 ,
+		ns13:L_1321 ,
+		ns13:L_1322 ,
+		ns13:L_132 ,
+		ns13:L_1320 ,
+		ns13:L_1318 ,
+		ns13:L_1319 ,
+		ns13:L_1316 ,
+		ns13:L_1317 ,
+		ns13:L_1314 ,
+		ns13:L_1315 ,
+		ns13:L_1312 ,
+		ns13:L_1313 ,
+		ns13:L_1310 ,
+		ns13:L_1311 ,
+		ns13:L_1309 ,
+		ns13:L_131 ,
+		ns13:L_1307 ,
+		ns13:L_1308 ,
+		ns13:L_1305 ,
+		ns13:L_1306 ,
+		ns13:L_1303 ,
+		ns13:L_1304 ,
+		ns13:L_1301 ,
+		ns13:L_1302 ,
+		ns13:L_130 ,
+		ns13:L_1300 ,
+		ns13:L_1299 ,
+		ns13:L_13 ,
+		ns13:L_1297 ,
+		ns13:L_1298 ,
+		ns13:L_1295 ,
+		ns13:L_1296 ,
+		ns13:L_1293 ,
+		ns13:L_1294 ,
+		ns13:L_1291 ,
+		ns13:L_1292 ,
+		ns13:L_129 ,
+		ns13:L_1290 ,
+		ns13:L_1288 ,
+		ns13:L_1289 ,
+		ns13:L_1286 ,
+		ns13:L_1287 ,
+		ns13:L_1284 ,
+		ns13:L_1285 ,
+		ns13:L_1282 ,
+		ns13:L_1283 ,
+		ns13:L_1280 ,
+		ns13:L_1281 ,
+		ns13:L_1279 ,
+		ns13:L_128 ,
+		ns13:L_1277 ,
+		ns13:L_1278 ,
+		ns13:L_1275 ,
+		ns13:L_1276 ,
+		ns13:L_1273 ,
+		ns13:L_1274 ,
+		ns13:L_1271 ,
+		ns13:L_1272 ,
+		ns13:L_1385 ,
+		ns13:L_1386 ,
+		ns13:L_1383 ,
+		ns13:L_1384 ,
+		ns13:L_1381 ,
+		ns13:L_1382 ,
+		ns13:L_138 ,
+		ns13:L_1380 ,
+		ns13:L_1378 ,
+		ns13:L_1379 ,
+		ns13:L_1376 ,
+		ns13:L_1377 ,
+		ns13:L_1374 ,
+		ns13:L_1375 ,
+		ns13:L_1372 ,
+		ns13:L_1373 ,
+		ns13:L_1370 ,
+		ns13:L_1371 ,
+		ns13:L_1369 ,
+		ns13:L_137 ,
+		ns13:L_1367 ,
+		ns13:L_1368 ,
+		ns13:L_1365 ,
+		ns13:L_1366 ,
+		ns13:L_1363 ,
+		ns13:L_1364 ,
+		ns13:L_1361 ,
+		ns13:L_1362 ,
+		ns13:L_136 ,
+		ns13:L_1360 ,
+		ns13:L_1358 ,
+		ns13:L_1359 ,
+		ns13:L_1356 ,
+		ns13:L_1357 ,
+		ns13:L_1354 ,
+		ns13:L_1355 ,
+		ns13:L_1352 ,
+		ns13:L_1353 ,
+		ns13:L_1350 ,
+		ns13:L_1351 ,
+		ns13:L_1349 ,
+		ns13:L_135 ,
+		ns13:L_1347 ,
+		ns13:L_1348 ,
+		ns13:L_1345 ,
+		ns13:L_1346 ,
+		ns13:L_1343 ,
+		ns13:L_1344 ,
+		ns13:L_1341 ,
+		ns13:L_1342 ,
+		ns13:L_134 ,
+		ns13:L_1340 ,
+		ns13:L_1338 ,
+		ns13:L_1339 ,
+		ns13:L_1336 ,
+		ns13:L_1337 ,
+		ns13:L_1334 ,
+		ns13:L_1335 ,
+		ns13:L_1332 ,
+		ns13:L_1333 ,
+		ns13:L_1330 ,
+		ns13:L_1331 ,
+		ns13:L_1329 ,
+		ns13:L_133 ,
+		ns13:L_1442 ,
+		ns13:L_1443 ,
+		ns13:L_1440 ,
+		ns13:L_1441 ,
+		ns13:L_1439 ,
+		ns13:L_144 ,
+		ns13:L_1437 ,
+		ns13:L_1438 ,
+		ns13:L_1435 ,
+		ns13:L_1436 ,
+		ns13:L_1433 ,
+		ns13:L_1434 ,
+		ns13:L_1431 ,
+		ns13:L_1432 ,
+		ns13:L_143 ,
+		ns13:L_1430 ,
+		ns13:L_1428 ,
+		ns13:L_1429 ,
+		ns13:L_1426 ,
+		ns13:L_1427 ,
+		ns13:L_1424 ,
+		ns13:L_1425 ,
+		ns13:L_1422 ,
+		ns13:L_1423 ,
+		ns13:L_1420 ,
+		ns13:L_1421 ,
+		ns13:L_1419 ,
+		ns13:L_142 ,
+		ns13:L_1417 ,
+		ns13:L_1418 ,
+		ns13:L_1415 ,
+		ns13:L_1416 ,
+		ns13:L_1413 ,
+		ns13:L_1414 ,
+		ns13:L_1411 ,
+		ns13:L_1412 ,
+		ns13:L_141 ,
+		ns13:L_1410 ,
+		ns13:L_1408 ,
+		ns13:L_1409 ,
+		ns13:L_1406 ,
+		ns13:L_1407 ,
+		ns13:L_1404 ,
+		ns13:L_1405 ,
+		ns13:L_1402 ,
+		ns13:L_1403 ,
+		ns13:L_1400 ,
+		ns13:L_1401 ,
+		ns13:L_14 ,
+		ns13:L_140 ,
+		ns13:L_1398 ,
+		ns13:L_1399 ,
+		ns13:L_1396 ,
+		ns13:L_1397 ,
+		ns13:L_1394 ,
+		ns13:L_1395 ,
+		ns13:L_1392 ,
+		ns13:L_1393 ,
+		ns13:L_1390 ,
+		ns13:L_1391 ,
+		ns13:L_1389 ,
+		ns13:L_139 ,
+		ns13:L_1387 ,
+		ns13:L_1388 ,
+		ns13:L_905 ,
+		ns13:L_906 ,
+		ns13:L_903 ,
+		ns13:L_904 ,
+		ns13:L_901 ,
+		ns13:L_902 ,
+		ns13:L_90 ,
+		ns13:L_900 ,
+		ns13:L_899 ,
+		ns13:L_9 ,
+		ns13:L_897 ,
+		ns13:L_898 ,
+		ns13:L_895 ,
+		ns13:L_896 ,
+		ns13:L_893 ,
+		ns13:L_894 ,
+		ns13:L_891 ,
+		ns13:L_892 ,
+		ns13:L_89 ,
+		ns13:L_890 ,
+		ns13:L_888 ,
+		ns13:L_889 ,
+		ns13:L_886 ,
+		ns13:L_887 ,
+		ns13:L_884 ,
+		ns13:L_885 ,
+		ns13:L_882 ,
+		ns13:L_883 ,
+		ns13:L_880 ,
+		ns13:L_881 ,
+		ns13:L_879 ,
+		ns13:L_88 ,
+		ns13:L_877 ,
+		ns13:L_878 ,
+		ns13:L_875 ,
+		ns13:L_876 ,
+		ns13:L_873 ,
+		ns13:L_874 ,
+		ns13:L_871 ,
+		ns13:L_872 ,
+		ns13:L_87 ,
+		ns13:L_870 ,
+		ns13:L_868 ,
+		ns13:L_869 ,
+		ns13:L_866 ,
+		ns13:L_867 ,
+		ns13:L_864 ,
+		ns13:L_865 ,
+		ns13:L_862 ,
+		ns13:L_863 ,
+		ns13:L_860 ,
+		ns13:L_861 ,
+		ns13:L_859 ,
+		ns13:L_86 ,
+		ns13:L_857 ,
+		ns13:L_858 ,
+		ns13:L_855 ,
+		ns13:L_856 ,
+		ns13:L_853 ,
+		ns13:L_854 ,
+		ns13:L_851 ,
+		ns13:L_852 ,
+		ns13:L_85 ,
+		ns13:L_850 ,
+		ns13:L_963 ,
+		ns13:L_964 ,
+		ns13:L_961 ,
+		ns13:L_962 ,
+		ns13:L_96 ,
+		ns13:L_960 ,
+		ns13:L_958 ,
+		ns13:L_959 ,
+		ns13:L_956 ,
+		ns13:L_957 ,
+		ns13:L_954 ,
+		ns13:L_955 ,
+		ns13:L_952 ,
+		ns13:L_953 ,
+		ns13:L_950 ,
+		ns13:L_951 ,
+		ns13:L_949 ,
+		ns13:L_95 ,
+		ns13:L_947 ,
+		ns13:L_948 ,
+		ns13:L_945 ,
+		ns13:L_946 ,
+		ns13:L_943 ,
+		ns13:L_944 ,
+		ns13:L_941 ,
+		ns13:L_942 ,
+		ns13:L_94 ,
+		ns13:L_940 ,
+		ns13:L_938 ,
+		ns13:L_939 ,
+		ns13:L_936 ,
+		ns13:L_937 ,
+		ns13:L_934 ,
+		ns13:L_935 ,
+		ns13:L_932 ,
+		ns13:L_933 ,
+		ns13:L_930 ,
+		ns13:L_931 ,
+		ns13:L_929 ,
+		ns13:L_93 ,
+		ns13:L_927 ,
+		ns13:L_928 ,
+		ns13:L_925 ,
+		ns13:L_926 ,
+		ns13:L_923 ,
+		ns13:L_924 ,
+		ns13:L_921 ,
+		ns13:L_922 ,
+		ns13:L_92 ,
+		ns13:L_920 ,
+		ns13:L_918 ,
+		ns13:L_919 ,
+		ns13:L_916 ,
+		ns13:L_917 ,
+		ns13:L_914 ,
+		ns13:L_915 ,
+		ns13:L_912 ,
+		ns13:L_913 ,
+		ns13:L_910 ,
+		ns13:L_911 ,
+		ns13:L_909 ,
+		ns13:L_91 ,
+		ns13:L_907 ,
+		ns13:L_908 ,
+		ns13:L_998 ,
+		ns13:L_999 ,
+		ns13:L_996 ,
+		ns13:L_997 ,
+		ns13:L_994 ,
+		ns13:L_995 ,
+		ns13:L_992 ,
+		ns13:L_993 ,
+		ns13:L_990 ,
+		ns13:L_991 ,
+		ns13:L_989 ,
+		ns13:L_99 ,
+		ns13:L_987 ,
+		ns13:L_988 ,
+		ns13:L_985 ,
+		ns13:L_986 ,
+		ns13:L_983 ,
+		ns13:L_984 ,
+		ns13:L_981 ,
+		ns13:L_982 ,
+		ns13:L_98 ,
+		ns13:L_980 ,
+		ns13:L_978 ,
+		ns13:L_979 ,
+		ns13:L_976 ,
+		ns13:L_977 ,
+		ns13:L_974 ,
+		ns13:L_975 ,
+		ns13:L_972 ,
+		ns13:L_973 ,
+		ns13:L_970 ,
+		ns13:L_971 ,
+		ns13:L_969 ,
+		ns13:L_97 ,
+		ns13:L_967 ,
+		ns13:L_968 ,
+		ns13:L_965 ,
+		ns13:L_966 ;
+	dc:publisher	ns10:bonsai ;
+	ns3:generatedAtTime	"2022-07-26"^^xsd:date .
+@prefix ns14:	<http://schema.org/> .
+ns13:L_400	rdf:type	ns14:Place .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+ns13:L_400	rdfs:label	"Cape Town; Vredehoek" .
+ns13:L_1	rdf:type	ns14:Place ;
+	rdfs:label	"Afghanistan" .
+ns13:L_10	rdf:type	ns14:Place ;
+	rdfs:label	"Argentina" .
+ns13:L_100	rdf:type	ns14:Place ;
+	rdfs:label	"Iceland" .
+ns13:L_1000	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Gundagai (A)" .
+ns13:L_1001	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Gunnedah (A)" .
+ns13:L_1002	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Gunning (A)" .
+ns13:L_1003	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Guyra (A)" .
+ns13:L_1004	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Harden (A)" .
+ns13:L_1005	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Hastings (A)" .
+ns13:L_1006	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Hawkesbury (C)" .
+ns13:L_1007	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Hay (A)" .
+ns13:L_1008	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Holbrook (A)" .
+ns13:L_1009	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Holroyd (C)" .
+ns13:L_101	rdf:type	ns14:Place ;
+	rdfs:label	"India" .
+ns13:L_1010	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Hornsby (A)" .
+ns13:L_1011	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Hume (A)" .
+ns13:L_1012	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Hunter's Hill (A)" .
+ns13:L_1013	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Hurstville (C)" .
+ns13:L_1014	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Inverell (A)" .
+ns13:L_1015	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Jerilderie (A)" .
+ns13:L_1016	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Junee (A)" .
+ns13:L_1017	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Kempsey (A)" .
+ns13:L_1018	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Kiama (A)" .
+ns13:L_1019	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Kogarah (A)" .
+ns13:L_102	rdf:type	ns14:Place ;
+	rdfs:label	"Indonesia" .
+ns13:L_1020	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Ku-ring-gai (A)" .
+ns13:L_1021	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Kyogle (A)" .
+ns13:L_1022	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Lachlan (A)" .
+ns13:L_1023	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Lake Macquarie (C)" .
+ns13:L_1024	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Lane Cove (A)" .
+ns13:L_1025	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Leeton (A)" .
+ns13:L_1026	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Leichhardt (A)" .
+ns13:L_1027	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Lismore (C)" .
+ns13:L_1028	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Liverpool (C)" .
+ns13:L_1029	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Lockhart (A)" .
+ns13:L_103	rdf:type	ns14:Place ;
+	rdfs:label	"Iran (Islamic Republic of)" .
+ns13:L_1030	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Maclean (A)" .
+ns13:L_1031	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Maitland (C)" .
+ns13:L_1032	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Manilla (A)" .
+ns13:L_1033	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Manly (A)" .
+ns13:L_1034	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Marrickville (A)" .
+ns13:L_1035	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Merriwa (A)" .
+ns13:L_1036	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Moree Plains (A)" .
+ns13:L_1037	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mosman (A)" .
+ns13:L_1038	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mudgee (A)" .
+ns13:L_1039	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mulwaree (A)" .
+ns13:L_104	rdf:type	ns14:Place ;
+	rdfs:label	"Iraq" .
+ns13:L_1040	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Murray (A)" .
+ns13:L_1041	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Murrumbidgee (A)" .
+ns13:L_1042	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Murrurundi (A)" .
+ns13:L_1043	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Muswellbrook (A)" .
+ns13:L_1044	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Nambucca (A)" .
+ns13:L_1045	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Narrabri (A)" .
+ns13:L_1046	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Narrandera (A)" .
+ns13:L_1047	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Narromine (A)" .
+ns13:L_1048	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Newcastle (C)" .
+ns13:L_1049	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; North Sydney (A)" .
+ns13:L_105	rdf:type	ns14:Place ;
+	rdfs:label	"Ireland" .
+ns13:L_1050	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Nundle (A)" .
+ns13:L_1051	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Nymboida (A)" .
+ns13:L_1052	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Oberon (A)" .
+ns13:L_1053	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Orange (C)" .
+ns13:L_1054	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Parkes (A)" .
+ns13:L_1055	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Parramatta (C)" .
+ns13:L_1056	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Parry (A)" .
+ns13:L_1057	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Penrith (C)" .
+ns13:L_1058	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Pittwater (A)" .
+ns13:L_1059	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Port Stephens (A)" .
+ns13:L_106	rdf:type	ns14:Place ;
+	rdfs:label	"Isle of Man" .
+ns13:L_1060	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Queanbeyan (C)" .
+ns13:L_1061	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Quirindi (A)" .
+ns13:L_1062	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Randwick (C)" .
+ns13:L_1063	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Richmond River (A)" .
+ns13:L_1064	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Rockdale (C)" .
+ns13:L_1065	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Ryde (C)" .
+ns13:L_1066	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Rylstone (A)" .
+ns13:L_1067	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Scone (A)" .
+ns13:L_1068	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Severn (A)" .
+ns13:L_1069	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Shellharbour (A)" .
+ns13:L_107	rdf:type	ns14:Place ;
+	rdfs:label	"Israel" .
+ns13:L_1070	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Shoalhaven (C)" .
+ns13:L_1071	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Singleton (A)" .
+ns13:L_1072	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Snowy River (A)" .
+ns13:L_1073	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; South Sydney (C)" .
+ns13:L_1074	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Strathfield (A)" .
+ns13:L_1075	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Sutherland Shire (A)" .
+ns13:L_1076	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Sydney (C)" .
+ns13:L_1077	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Tallaganda (A)" .
+ns13:L_1078	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Tamworth (C)" .
+ns13:L_1079	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Temora (A)" .
+ns13:L_108	rdf:type	ns14:Place ;
+	rdfs:label	"Italy" .
+ns13:L_1080	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Tenterfield (A)" .
+ns13:L_1081	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Tumbarumba (A)" .
+ns13:L_1082	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Tumut (A)" .
+ns13:L_1083	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Tweed (A)" .
+ns13:L_1084	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Ulmarra (A)" .
+ns13:L_1085	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Uralla (A)" .
+ns13:L_1086	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Urana (A)" .
+ns13:L_1087	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Wagga Wagga (C)" .
+ns13:L_1088	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Wakool (A)" .
+ns13:L_1089	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Walcha (A)" .
+ns13:L_109	rdf:type	ns14:Place ;
+	rdfs:label	"Jamaica" .
+ns13:L_1090	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Walgett (A)" .
+ns13:L_1091	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Warren (A)" .
+ns13:L_1092	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Warringah (A)" .
+ns13:L_1093	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Waverley (A)" .
+ns13:L_1094	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Weddin (A)" .
+ns13:L_1095	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Wellington (A)" .
+ns13:L_1096	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Wentworth (A)" .
+ns13:L_1097	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Willoughby (C)" .
+ns13:L_1098	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Windouran (A)" .
+ns13:L_1099	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Wingecarribee (A)" .
+ns13:L_11	rdf:type	ns14:Place ;
+	rdfs:label	"Armenia" .
+ns13:L_110	rdf:type	ns14:Place ;
+	rdfs:label	"Japan" .
+ns13:L_1100	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Wollondilly (A)" .
+ns13:L_1101	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Wollongong (C)" .
+ns13:L_1102	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Woollahra (A)" .
+ns13:L_1103	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Wyong (A)" .
+ns13:L_1104	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Yallaroi (A)" .
+ns13:L_1105	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Yarrowlumla (A)" .
+ns13:L_1106	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Yass (A)" .
+ns13:L_1107	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Young (A)" .
+ns13:L_1108	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Unincorporated NSW" .
+ns13:L_1109	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Alpine (S)" .
+ns13:L_111	rdf:type	ns14:Place ;
+	rdfs:label	"Jersey" .
+ns13:L_1110	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Ararat (RC)" .
+ns13:L_1111	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Ballarat (C)" .
+ns13:L_1112	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Banyule (C)" .
+ns13:L_1113	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Bass Coast (S)" .
+ns13:L_1114	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Baw Baw (S)" .
+ns13:L_1115	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Bayside (C)" .
+ns13:L_1116	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Boroondara (C)" .
+ns13:L_1117	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Brimbank (C)" .
+ns13:L_1118	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Buloke (S)" .
+ns13:L_1119	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Campaspe (S)" .
+ns13:L_112	rdf:type	ns14:Place ;
+	rdfs:label	"Jordan" .
+ns13:L_1120	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Cardinia (S)" .
+ns13:L_1121	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Casey (C)" .
+ns13:L_1122	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Central Goldfields (S)" .
+ns13:L_1123	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Colac-Otway (S)" .
+ns13:L_1124	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Corangamite (S)" .
+ns13:L_1125	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Darebin (C)" .
+ns13:L_1126	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Delatite (S)" .
+ns13:L_1127	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; East Gippsland (S)" .
+ns13:L_1128	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Frankston (C)" .
+ns13:L_1129	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Gannawarra (S)" .
+ns13:L_113	rdf:type	ns14:Place ;
+	rdfs:label	"Kazakhstan" .
+ns13:L_1130	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Glen Eira (C)" .
+ns13:L_1131	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Glenelg (S)" .
+ns13:L_1132	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Golden Plains (S)" .
+ns13:L_1133	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Greater Bendigo (C)" .
+ns13:L_1134	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Greater Dandenong (C)" .
+ns13:L_1135	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Greater Geelong (C)" .
+ns13:L_1136	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Greater Shepparton (C)" .
+ns13:L_1137	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Hepburn (S)" .
+ns13:L_1138	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Hindmarsh (S)" .
+ns13:L_1139	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Hobsons Bay (C)" .
+ns13:L_114	rdf:type	ns14:Place ;
+	rdfs:label	"Kenya" .
+ns13:L_1140	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Horsham (RC)" .
+ns13:L_1141	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Hume (C)" .
+ns13:L_1142	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Indigo (S)" .
+ns13:L_1143	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Kingston (C)" .
+ns13:L_1144	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Knox (C)" .
+ns13:L_1145	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; La Trobe (S)" .
+ns13:L_1146	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Loddon (S)" .
+ns13:L_1147	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Macedon Ranges (S)" .
+ns13:L_1148	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Manningham (C)" .
+ns13:L_1149	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Maribyrnong (C)" .
+ns13:L_115	rdf:type	ns14:Place ;
+	rdfs:label	"Kiribati" .
+ns13:L_1150	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Maroondah (C)" .
+ns13:L_1151	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Melbourne (C)" .
+ns13:L_1152	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Melton (S)" .
+ns13:L_1153	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mildura (RC)" .
+ns13:L_1154	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mitchell (S)" .
+ns13:L_1155	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Moira (S)" .
+ns13:L_1156	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Monash (C)" .
+ns13:L_1157	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Moonee Valley (C)" .
+ns13:L_1158	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Moorabool (S)" .
+ns13:L_1159	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Moreland (C)" .
+ns13:L_116	rdf:type	ns14:Place ;
+	rdfs:label	"Kuwait" .
+ns13:L_1160	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mornington Peninsula (S)" .
+ns13:L_1161	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mount Alexander (S)" .
+ns13:L_1162	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Moyne (S)" .
+ns13:L_1163	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Murrindindi (S)" .
+ns13:L_1164	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Nillumbik (S)" .
+ns13:L_1165	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Northern Grampians (S)" .
+ns13:L_1166	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Port Phillip (C)" .
+ns13:L_1167	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Pyrenees (S)" .
+ns13:L_1168	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Queenscliffe (B)" .
+ns13:L_1169	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; South Gippsland (S)" .
+ns13:L_117	rdf:type	ns14:Place ;
+	rdfs:label	"Kyrgyzstan" .
+ns13:L_1170	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Southern Grampians (S)" .
+ns13:L_1171	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Stonnington (C)" .
+ns13:L_1172	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Strathbogie (S)" .
+ns13:L_1173	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Surf Coast (S)" .
+ns13:L_1174	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Swan Hill (RC)" .
+ns13:L_1175	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Towong (S)" .
+ns13:L_1176	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Wangaratta (RC)" .
+ns13:L_1177	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Warrnambool (C)" .
+ns13:L_1178	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Wellington (S)" .
+ns13:L_1179	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; West Wimmera (S)" .
+ns13:L_118	rdf:type	ns14:Place ;
+	rdfs:label	"Laos (People's Democratic Republic)" .
+ns13:L_1180	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Whitehorse (C)" .
+ns13:L_1181	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Whittlesea (C)" .
+ns13:L_1182	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Wodonga (RC)" .
+ns13:L_1183	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Wyndham (C)" .
+ns13:L_1184	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Yarra (C)" .
+ns13:L_1185	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Yarra Ranges (S)" .
+ns13:L_1186	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Yarriambiack (S)" .
+ns13:L_1187	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Unincorporated Vic" .
+ns13:L_1188	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Aramac (S)" .
+ns13:L_1189	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Atherton (S)" .
+ns13:L_119	rdf:type	ns14:Place ;
+	rdfs:label	"Latvia" .
+ns13:L_1190	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Aurukun (S)" .
+ns13:L_1191	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Balonne (S)" .
+ns13:L_1192	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Banana (S)" .
+ns13:L_1193	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Barcaldine (S)" .
+ns13:L_1194	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Barcoo (S)" .
+ns13:L_1195	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Bauhinia (S)" .
+ns13:L_1196	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Beaudesert (S)" .
+ns13:L_1197	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Belyando (S)" .
+ns13:L_1198	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Bendemere (S)" .
+ns13:L_1199	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Biggenden (S)" .
+ns13:L_12	rdf:type	ns14:Place ;
+	rdfs:label	"Aruba" .
+ns13:L_120	rdf:type	ns14:Place ;
+	rdfs:label	"Lebanon" .
+ns13:L_1200	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Blackall (S)" .
+ns13:L_1201	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Boonah (S)" .
+ns13:L_1202	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Booringa (S)" .
+ns13:L_1203	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Boulia (S)" .
+ns13:L_1204	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Bowen (S)" .
+ns13:L_1205	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Brisbane (C)" .
+ns13:L_1206	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Broadsound (S)" .
+ns13:L_1207	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Bulloo (S)" .
+ns13:L_1208	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Bundaberg (C)" .
+ns13:L_1209	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Bungil (S)" .
+ns13:L_121	rdf:type	ns14:Place ;
+	rdfs:label	"Lesotho" .
+ns13:L_1210	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Burdekin (S)" .
+ns13:L_1211	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Burke (S)" .
+ns13:L_1212	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Burnett (S)" .
+ns13:L_1213	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Caboolture (S)" .
+ns13:L_1214	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Cairns (C)" .
+ns13:L_1215	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Calliope (S)" .
+ns13:L_1216	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Caloundra (C)" .
+ns13:L_1217	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Cambooya (S)" .
+ns13:L_1218	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Cardwell (S)" .
+ns13:L_1219	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Carpentaria (S)" .
+ns13:L_122	rdf:type	ns14:Place ;
+	rdfs:label	"Liberia" .
+ns13:L_1220	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Charters Towers (C)" .
+ns13:L_1221	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Chinchilla (S)" .
+ns13:L_1222	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Clifton (S)" .
+ns13:L_1223	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Cloncurry (S)" .
+ns13:L_1224	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Cook (S)" .
+ns13:L_1225	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Cooloola (S)" .
+ns13:L_1226	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Crow's Nest (S)" .
+ns13:L_1227	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Croydon (S)" .
+ns13:L_1228	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Dalby (T)" .
+ns13:L_1229	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Dalrymple (S)" .
+ns13:L_123	rdf:type	ns14:Place ;
+	rdfs:label	"Libya" .
+ns13:L_1230	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Diamantina (S)" .
+ns13:L_1231	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Douglas (S)" .
+ns13:L_1232	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Duaringa (S)" .
+ns13:L_1233	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Eacham (S)" .
+ns13:L_1234	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Eidsvold (S)" .
+ns13:L_1235	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Emerald (S)" .
+ns13:L_1236	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Esk (S)" .
+ns13:L_1237	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Etheridge (S)" .
+ns13:L_1238	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Fitzroy (S)" .
+ns13:L_1239	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Flinders (S)" .
+ns13:L_124	rdf:type	ns14:Place ;
+	rdfs:label	"Liechtenstein" .
+ns13:L_1240	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Gatton (S)" .
+ns13:L_1241	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Gayndah (S)" .
+ns13:L_1242	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Gladstone (C)" .
+ns13:L_1243	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Gold Coast (C)" .
+ns13:L_1244	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Goondiwindi (T)" .
+ns13:L_1245	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Herberton (S)" .
+ns13:L_1246	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Hervey Bay (C)" .
+ns13:L_1247	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Hinchinbrook (S)" .
+ns13:L_1248	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Ilfracombe (S)" .
+ns13:L_1249	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Inglewood (S)" .
+ns13:L_125	rdf:type	ns14:Place ;
+	rdfs:label	"Lithuania" .
+ns13:L_1250	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Ipswich (C)" .
+ns13:L_1251	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Isis (S)" .
+ns13:L_1252	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Isisford (S)" .
+ns13:L_1253	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Jericho (S)" .
+ns13:L_1254	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Johnstone (S)" .
+ns13:L_1255	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Jondaryan (S)" .
+ns13:L_1256	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Kilcoy (S)" .
+ns13:L_1257	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Kilkivan (S)" .
+ns13:L_1258	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Kingaroy (S)" .
+ns13:L_1259	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Kolan (S)" .
+ns13:L_126	rdf:type	ns14:Place ;
+	rdfs:label	"Luxembourg" .
+ns13:L_1260	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Laidley (S)" .
+ns13:L_1261	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Livingstone (S)" .
+ns13:L_1262	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Logan (C)" .
+ns13:L_1263	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Longreach (S)" .
+ns13:L_1264	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mackay (C)" .
+ns13:L_1265	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; McKinlay (S)" .
+ns13:L_1266	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mareeba (S)" .
+ns13:L_1267	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Maroochy (S)" .
+ns13:L_1268	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Maryborough (C)" .
+ns13:L_1269	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Millmerran (S)" .
+ns13:L_127	rdf:type	ns14:Place ;
+	rdfs:label	"Madagascar" .
+ns13:L_1270	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mirani (S)" .
+ns13:L_1271	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Miriam Vale (S)" .
+ns13:L_1272	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Monto (S)" .
+ns13:L_1273	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mornington (S)" .
+ns13:L_1274	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mount Isa (C)" .
+ns13:L_1275	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mount Morgan (S)" .
+ns13:L_1276	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mundubbera (S)" .
+ns13:L_1277	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Murgon (S)" .
+ns13:L_1278	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Murilla (S)" .
+ns13:L_1279	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Murweh (S)" .
+ns13:L_128	rdf:type	ns14:Place ;
+	rdfs:label	"Malawi" .
+ns13:L_1280	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Nanango (S)" .
+ns13:L_1281	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Nebo (S)" .
+ns13:L_1282	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Noosa (S)" .
+ns13:L_1283	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Paroo (S)" .
+ns13:L_1284	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Peak Downs (S)" .
+ns13:L_1285	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Perry (S)" .
+ns13:L_1286	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Pine Rivers (S)" .
+ns13:L_1287	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Pittsworth (S)" .
+ns13:L_1288	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Quilpie (S)" .
+ns13:L_1289	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Redcliffe (C)" .
+ns13:L_129	rdf:type	ns14:Place ;
+	rdfs:label	"Malaysia" .
+ns13:L_1290	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Redland (S)" .
+ns13:L_1291	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Richmond (S)" .
+ns13:L_1292	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Rockhampton (C)" .
+ns13:L_1293	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Roma (T)" .
+ns13:L_1294	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Rosalie (S)" .
+ns13:L_1295	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Sarina (S)" .
+ns13:L_1296	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Stanthorpe (S)" .
+ns13:L_1297	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Tambo (S)" .
+ns13:L_1298	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Tara (S)" .
+ns13:L_1299	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Taroom (S)" .
+ns13:L_13	rdf:type	ns14:Place ;
+	rdfs:label	"Australia" .
+ns13:L_130	rdf:type	ns14:Place ;
+	rdfs:label	"Maldives" .
+ns13:L_1300	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Thuringowa (C)" .
+ns13:L_1301	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Tiaro (S)" .
+ns13:L_1302	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Toowoomba (C)" .
+ns13:L_1303	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Torres (S)" .
+ns13:L_1304	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Townsville (C)" .
+ns13:L_1305	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Waggamba (S)" .
+ns13:L_1306	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Wambo (S)" .
+ns13:L_1307	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Warroo (S)" .
+ns13:L_1308	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Warwick (S)" .
+ns13:L_1309	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Whitsunday (S)" .
+ns13:L_131	rdf:type	ns14:Place ;
+	rdfs:label	"Mali" .
+ns13:L_1310	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Winton (S)" .
+ns13:L_1311	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Wondai (S)" .
+ns13:L_1312	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Woocoo (S)" .
+ns13:L_1313	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Unincorporated Qld" .
+ns13:L_1314	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Adelaide (C)" .
+ns13:L_1315	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Angaston (DC)" .
+ns13:L_1316	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Barmera (DC)" .
+ns13:L_1317	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Barossa (DC)" .
+ns13:L_1318	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Beachport (DC)" .
+ns13:L_1319	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Berri (DC)" .
+ns13:L_132	rdf:type	ns14:Place ;
+	rdfs:label	"Malta" .
+ns13:L_1320	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Blyth-Snowtown (DC)" .
+ns13:L_1321	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Brighton (C)" .
+ns13:L_1322	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Browns Well (DC)" .
+ns13:L_1323	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Burnside (C)" .
+ns13:L_1324	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Burra Burra (DC)" .
+ns13:L_1325	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Bute (DC)" .
+ns13:L_1326	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Campbelltown (C)" .
+ns13:L_1327	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Carrieton (DC)" .
+ns13:L_1328	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Ceduna (DC)" .
+ns13:L_1329	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Central Yorke Peninsula (DC)" .
+ns13:L_133	rdf:type	ns14:Place ;
+	rdfs:label	"Marshall Islands" .
+ns13:L_1330	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Clare (DC)" .
+ns13:L_1331	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Cleve (DC)" .
+ns13:L_1332	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Coober Pedy (DC)" .
+ns13:L_1333	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Coonalpyn Downs (DC)" .
+ns13:L_1334	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Crystal Brook-Redhill (DC)" .
+ns13:L_1335	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Dudley (DC)" .
+ns13:L_1336	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; East Torrens (DC)" .
+ns13:L_1337	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Elizabeth (C)" .
+ns13:L_1338	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Elliston (DC)" .
+ns13:L_1339	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Enfield (C)" .
+ns13:L_134	rdf:type	ns14:Place ;
+	rdfs:label	"Martinique" .
+ns13:L_1340	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Eudunda (DC)" .
+ns13:L_1341	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Franklin Harbor (DC)" .
+ns13:L_1342	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Gawler (M)" .
+ns13:L_1343	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Glenelg (C)" .
+ns13:L_1344	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Gumeracha (DC)" .
+ns13:L_1345	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Hallett (DC)" .
+ns13:L_1346	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Happy Valley (C)" .
+ns13:L_1347	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Hawker (DC)" .
+ns13:L_1348	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Henley & Grange (C)" .
+ns13:L_1349	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Hindmarsh and Woodville (C)" .
+ns13:L_135	rdf:type	ns14:Place ;
+	rdfs:label	"Mauritania" .
+ns13:L_1350	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Jamestown (DC)" .
+ns13:L_1351	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Kanyaka-Quorn (DC)" .
+ns13:L_1352	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Kapunda (DC)" .
+ns13:L_1353	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Karoonda East Murray (DC)" .
+ns13:L_1354	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Kensington & Norwood (C)" .
+ns13:L_1355	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Kimba (DC)" .
+ns13:L_1356	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Kingscote (DC)" .
+ns13:L_1357	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Lacepede (DC)" .
+ns13:L_1358	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Lameroo (DC)" .
+ns13:L_1359	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Le Hunte (DC)" .
+ns13:L_136	rdf:type	ns14:Place ;
+	rdfs:label	"Mauritius" .
+ns13:L_1360	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Light (DC)" .
+ns13:L_1361	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Lower Eyre Peninsula (DC)" .
+ns13:L_1362	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Loxton (DC)" .
+ns13:L_1363	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Lucindale (DC)" .
+ns13:L_1364	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mallala (DC)" .
+ns13:L_1365	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mannum (DC)" .
+ns13:L_1366	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Marion (C)" .
+ns13:L_1367	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Meningie (DC)" .
+ns13:L_1368	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Millicent (DC)" .
+ns13:L_1369	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Minlaton (DC)" .
+ns13:L_137	rdf:type	ns14:Place ;
+	rdfs:label	"Mayotte" .
+ns13:L_1370	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mitcham (C)" .
+ns13:L_1371	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Morgan (DC)" .
+ns13:L_1372	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mount Barker (DC)" .
+ns13:L_1373	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mount Gambier (C)" .
+ns13:L_1374	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mount Gambier (DC)" .
+ns13:L_1375	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mount Pleasant (DC)" .
+ns13:L_1376	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mount Remarkable (DC)" .
+ns13:L_1377	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Munno Para (C)" .
+ns13:L_1378	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Murray Bridge (RC)" .
+ns13:L_1379	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Naracoorte (M)" .
+ns13:L_138	rdf:type	ns14:Place ;
+	rdfs:label	"Mexico" .
+ns13:L_1380	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Naracoorte (DC)" .
+ns13:L_1381	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Noarlunga (C)" .
+ns13:L_1382	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Northern Yorke Peninsula (DC)" .
+ns13:L_1383	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Onkaparinga (DC)" .
+ns13:L_1384	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Orroroo (DC)" .
+ns13:L_1385	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Paringa (DC)" .
+ns13:L_1386	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Payneham (C)" .
+ns13:L_1387	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Peake (DC)" .
+ns13:L_1388	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Penola (DC)" .
+ns13:L_1389	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Peterborough (M)" .
+ns13:L_139	rdf:type	ns14:Place ;
+	rdfs:label	"Micronesia, Federated States of" .
+ns13:L_1390	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Peterborough (DC)" .
+ns13:L_1391	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Pinnaroo (DC)" .
+ns13:L_1392	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Pirie (DC)" .
+ns13:L_1393	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Port Adelaide (C)" .
+ns13:L_1394	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Port Augusta (C)" .
+ns13:L_1395	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Port Broughton (DC)" .
+ns13:L_1396	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Port Elliot & Goolwa (DC)" .
+ns13:L_1397	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Port Lincoln (C)" .
+ns13:L_1398	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Port MacDonnell (DC)" .
+ns13:L_1399	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Port Pirie (C)" .
+ns13:L_14	rdf:type	ns14:Place ;
+	rdfs:label	"Austria" .
+ns13:L_140	rdf:type	ns14:Place ;
+	rdfs:label	"Monaco" .
+ns13:L_1400	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Prospect (C)" .
+ns13:L_1401	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Renmark (M)" .
+ns13:L_1402	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Ridley-Truro (DC)" .
+ns13:L_1403	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Riverton (DC)" .
+ns13:L_1404	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Robe (DC)" .
+ns13:L_1405	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Robertstown (DC)" .
+ns13:L_1406	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Rocky River (DC)" .
+ns13:L_1407	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Roxby Downs (M)" .
+ns13:L_1408	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Saddleworth & Auburn (DC)" .
+ns13:L_1409	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; St Peters (M)" .
+ns13:L_141	rdf:type	ns14:Place ;
+	rdfs:label	"Mongolia" .
+ns13:L_1410	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Salisbury (C)" .
+ns13:L_1411	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Spalding (DC)" .
+ns13:L_1412	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Stirling (DC)" .
+ns13:L_1413	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Strathalbyn (DC)" .
+ns13:L_1414	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Streaky Bay (DC)" .
+ns13:L_1415	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Tanunda (DC)" .
+ns13:L_1416	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Tatiara (DC)" .
+ns13:L_1417	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Tea Tree Gully (C)" .
+ns13:L_1418	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Thebarton (M)" .
+ns13:L_1419	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Tumby Bay (DC)" .
+ns13:L_142	rdf:type	ns14:Place ;
+	rdfs:label	"Montenegro" .
+ns13:L_1420	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Unley (C)" .
+ns13:L_1421	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Victor Harbor (DC)" .
+ns13:L_1422	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Waikerie (DC)" .
+ns13:L_1423	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Wakefield Plains (DC)" .
+ns13:L_1424	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Walkerville (M)" .
+ns13:L_1425	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Wallaroo (M)" .
+ns13:L_1426	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Warooka (DC)" .
+ns13:L_1427	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; West Torrens (C)" .
+ns13:L_1428	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Whyalla (C)" .
+ns13:L_1429	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Willunga (DC)" .
+ns13:L_143	rdf:type	ns14:Place ;
+	rdfs:label	"Montserrat" .
+ns13:L_1430	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Yankalilla (DC)" .
+ns13:L_1431	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Yorketown (DC)" .
+ns13:L_1432	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Unincorporated SA" .
+ns13:L_1433	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Albany (T)" .
+ns13:L_1434	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Albany (S)" .
+ns13:L_1435	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Armadale (C)" .
+ns13:L_1436	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Ashburton (S)" .
+ns13:L_1437	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Augusta-Margaret River (S)" .
+ns13:L_1438	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Bassendean (T)" .
+ns13:L_1439	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Bayswater (C)" .
+ns13:L_144	rdf:type	ns14:Place ;
+	rdfs:label	"Morocco" .
+ns13:L_1440	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Belmont (C)" .
+ns13:L_1441	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Beverley (S)" .
+ns13:L_1442	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Boddington (S)" .
+ns13:L_1443	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Boyup Brook (S)" .
+ns13:L_1444	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Bridgetown-Greenbushes (S)" .
+ns13:L_1445	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Brookton (S)" .
+ns13:L_1446	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Broome (S)" .
+ns13:L_1447	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Broomehill (S)" .
+ns13:L_1448	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Bruce Rock (S)" .
+ns13:L_1449	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Bunbury (C)" .
+ns13:L_145	rdf:type	ns14:Place ;
+	rdfs:label	"Mozambique" .
+ns13:L_1450	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Busselton (S)" .
+ns13:L_1451	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Cambridge (T)" .
+ns13:L_1452	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Canning (C)" .
+ns13:L_1453	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Capel (S)" .
+ns13:L_1454	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Carnamah (S)" .
+ns13:L_1455	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Carnarvon (S)" .
+ns13:L_1456	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Chapman Valley (S)" .
+ns13:L_1457	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Chittering (S)" .
+ns13:L_1458	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Claremont (T)" .
+ns13:L_1459	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Cockburn (C)" .
+ns13:L_146	rdf:type	ns14:Place ;
+	rdfs:label	"Myanmar (Burma)" .
+ns13:L_1460	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Collie (S)" .
+ns13:L_1461	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Coolgardie (S)" .
+ns13:L_1462	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Coorow (S)" .
+ns13:L_1463	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Corrigin (S)" .
+ns13:L_1464	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Cottesloe (T)" .
+ns13:L_1465	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Cranbrook (S)" .
+ns13:L_1466	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Cuballing (S)" .
+ns13:L_1467	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Cue (S)" .
+ns13:L_1468	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Cunderdin (S)" .
+ns13:L_1469	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Dalwallinu (S)" .
+ns13:L_147	rdf:type	ns14:Place ;
+	rdfs:label	"Namibia" .
+ns13:L_1470	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Dandaragan (S)" .
+ns13:L_1471	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Dardanup (S)" .
+ns13:L_1472	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Denmark (S)" .
+ns13:L_1473	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Derby-West Kimberley (S)" .
+ns13:L_1474	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Donnybrook-Balingup (S)" .
+ns13:L_1475	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Dowerin (S)" .
+ns13:L_1476	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Dumbleyung (S)" .
+ns13:L_1477	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Dundas (S)" .
+ns13:L_1478	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; East Fremantle (T)" .
+ns13:L_1479	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; East Pilbara (S)" .
+ns13:L_148	rdf:type	ns14:Place ;
+	rdfs:label	"Nauru" .
+ns13:L_1480	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Esperance (S)" .
+ns13:L_1481	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Exmouth (S)" .
+ns13:L_1482	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Fremantle (C)" .
+ns13:L_1483	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Geraldton (C)" .
+ns13:L_1484	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Gingin (S)" .
+ns13:L_1485	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Gnowangerup (S)" .
+ns13:L_1486	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Goomalling (S)" .
+ns13:L_1487	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Gosnells (C)" .
+ns13:L_1488	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Greenough (S)" .
+ns13:L_1489	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Halls Creek (S)" .
+ns13:L_149	rdf:type	ns14:Place ;
+	rdfs:label	"Nepal" .
+ns13:L_1490	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Harvey (S)" .
+ns13:L_1491	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Irwin (S)" .
+ns13:L_1492	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Jerramungup (S)" .
+ns13:L_1493	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Kalamunda (S)" .
+ns13:L_1494	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Kalgoorlie/Boulder (C)" .
+ns13:L_1495	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Katanning (S)" .
+ns13:L_1496	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Kellerberrin (S)" .
+ns13:L_1497	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Kent (S)" .
+ns13:L_1498	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Kojonup (S)" .
+ns13:L_1499	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Kondinin (S)" .
+ns13:L_15	rdf:type	ns14:Place ;
+	rdfs:label	"Azerbaijan" .
+ns13:L_150	rdf:type	ns14:Place ;
+	rdfs:label	"Netherlands" .
+ns13:L_1500	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Koorda (S)" .
+ns13:L_1501	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Kulin (S)" .
+ns13:L_1502	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Kwinana (T)" .
+ns13:L_1503	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Lake Grace (S)" .
+ns13:L_1504	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Laverton (S)" .
+ns13:L_1505	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Leonora (S)" .
+ns13:L_1506	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mandurah (C)" .
+ns13:L_1507	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Manjimup (S)" .
+ns13:L_1508	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Meekatharra (S)" .
+ns13:L_1509	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Melville (C)" .
+ns13:L_151	rdf:type	ns14:Place ;
+	rdfs:label	"New Caledonia" .
+ns13:L_1510	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Menzies (S)" .
+ns13:L_1511	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Merredin (S)" .
+ns13:L_1512	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mingenew (S)" .
+ns13:L_1513	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Moora (S)" .
+ns13:L_1514	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Morawa (S)" .
+ns13:L_1515	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mosman Park (T)" .
+ns13:L_1516	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mount Magnet (S)" .
+ns13:L_1517	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mount Marshall (S)" .
+ns13:L_1518	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mukinbudin (S)" .
+ns13:L_1519	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mullewa (S)" .
+ns13:L_152	rdf:type	ns14:Place ;
+	rdfs:label	"New Zealand" .
+ns13:L_1520	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Mundaring (S)" .
+ns13:L_1521	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Murchison (S)" .
+ns13:L_1522	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Murray (S)" .
+ns13:L_1523	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Nannup (S)" .
+ns13:L_1524	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Narembeen (S)" .
+ns13:L_1525	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Narrogin (T)" .
+ns13:L_1526	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Narrogin (S)" .
+ns13:L_1527	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Nedlands (C)" .
+ns13:L_1528	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Ngaanyatjarraku (S)" .
+ns13:L_1529	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Northam (T)" .
+ns13:L_153	rdf:type	ns14:Place ;
+	rdfs:label	"Nicaragua" .
+ns13:L_1530	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Northam (S)" .
+ns13:L_1531	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Northampton (S)" .
+ns13:L_1532	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Nungarin (S)" .
+ns13:L_1533	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Peppermint Grove (S)" .
+ns13:L_1534	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Perenjori (S)" .
+ns13:L_1535	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Perth (C)" .
+ns13:L_1536	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Pingelly (S)" .
+ns13:L_1537	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Plantagenet (S)" .
+ns13:L_1538	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Port Hedland (T)" .
+ns13:L_1539	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Quairading (S)" .
+ns13:L_154	rdf:type	ns14:Place ;
+	rdfs:label	"Niger (the)" .
+ns13:L_1540	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Ravensthorpe (S)" .
+ns13:L_1541	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Rockingham (C)" .
+ns13:L_1542	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Roebourne (S)" .
+ns13:L_1543	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Sandstone (S)" .
+ns13:L_1544	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Serpentine-Jarrahdale (S)" .
+ns13:L_1545	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Shark Bay (S)" .
+ns13:L_1546	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; South Perth (C)" .
+ns13:L_1547	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Stirling (C)" .
+ns13:L_1548	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Subiaco (C)" .
+ns13:L_1549	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Swan (S)" .
+ns13:L_155	rdf:type	ns14:Place ;
+	rdfs:label	"Nigeria" .
+ns13:L_1550	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Tambellup (S)" .
+ns13:L_1551	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Tammin (S)" .
+ns13:L_1552	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Three Springs (S)" .
+ns13:L_1553	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Toodyay (S)" .
+ns13:L_1554	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Trayning (S)" .
+ns13:L_1555	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Upper Gascoyne (S)" .
+ns13:L_1556	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Victoria Park (T)" .
+ns13:L_1557	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Victoria Plains (S)" .
+ns13:L_1558	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Vincent (T)" .
+ns13:L_1559	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Wagin (S)" .
+ns13:L_156	rdf:type	ns14:Place ;
+	rdfs:label	"Niue" .
+ns13:L_1560	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Wandering (S)" .
+ns13:L_1561	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Wanneroo (C)" .
+ns13:L_1562	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Waroona (S)" .
+ns13:L_1563	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; West Arthur (S)" .
+ns13:L_1564	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Westonia (S)" .
+ns13:L_1565	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Wickepin (S)" .
+ns13:L_1566	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Williams (S)" .
+ns13:L_1567	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Wiluna (S)" .
+ns13:L_1568	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Wongan-Ballidu (S)" .
+ns13:L_1569	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Woodanilling (S)" .
+ns13:L_157	rdf:type	ns14:Place ;
+	rdfs:label	"Norfolk Island" .
+ns13:L_1570	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Wyalkatchem (S)" .
+ns13:L_1571	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Wyndham-East Kimberley (S)" .
+ns13:L_1572	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Yalgoo (S)" .
+ns13:L_1573	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Yilgarn (S)" .
+ns13:L_1574	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; York (S)" .
+ns13:L_1575	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Break O'Day (M)" .
+ns13:L_1576	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Brighton (M)" .
+ns13:L_1577	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Burnie (C)" .
+ns13:L_1578	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Central Coast (M)" .
+ns13:L_1579	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Central Highlands (M)" .
+ns13:L_158	rdf:type	ns14:Place ;
+	rdfs:label	"Northern Mariana Islands" .
+ns13:L_1580	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Circular Head (M)" .
+ns13:L_1581	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Clarence (C)" .
+ns13:L_1582	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Derwent Valley (M)" .
+ns13:L_1583	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Devonport (C)" .
+ns13:L_1584	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Dorset (M)" .
+ns13:L_1585	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Flinders (M)" .
+ns13:L_1586	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; George Town (M)" .
+ns13:L_1587	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Glamorgan/Spring Bay (M)" .
+ns13:L_1588	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Glenorchy (C)" .
+ns13:L_1589	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Hobart (C)" .
+ns13:L_159	rdf:type	ns14:Place ;
+	rdfs:label	"Norway" .
+ns13:L_1590	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Huon Valley (M)" .
+ns13:L_1591	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Kentish (M)" .
+ns13:L_1592	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; King Island (M)" .
+ns13:L_1593	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Kingborough (M)" .
+ns13:L_1594	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Latrobe (M)" .
+ns13:L_1595	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Launceston (C)" .
+ns13:L_1596	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Meander Valley (M)" .
+ns13:L_1597	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; North Midlands (M)" .
+ns13:L_1598	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Sorell (M)" .
+ns13:L_1599	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Southern Midlands (M)" .
+ns13:L_16	rdf:type	ns14:Place ;
+	rdfs:label	"Bahamas, The" .
+ns13:L_160	rdf:type	ns14:Place ;
+	rdfs:label	"Oman" .
+ns13:L_1600	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Tasman (M)" .
+ns13:L_1601	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Waratah/Wynyard (M)" .
+ns13:L_1602	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; West Coast (M)" .
+ns13:L_1603	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; West Tamar (M)" .
+ns13:L_1604	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Alice Springs (T)" .
+ns13:L_1605	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Coomalie (CGC)" .
+ns13:L_1606	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Darwin (C)" .
+ns13:L_1607	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Jabiru (T)" .
+ns13:L_1608	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Katherine (T)" .
+ns13:L_1609	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Litchfield (S)" .
+ns13:L_161	rdf:type	ns14:Place ;
+	rdfs:label	"Pakistan" .
+ns13:L_1610	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Palmerston (T)" .
+ns13:L_1611	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Tennant Creek (T)" .
+ns13:L_1612	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Unincorporated NT" .
+ns13:L_1613	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Unincorporated ACT" .
+ns13:L_1614	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Unincorp. Other Territories" .
+ns13:L_1615	rdf:type	ns14:Place ;
+	rdfs:label	"Gaza Strip" .
+ns13:L_1616	rdf:type	ns14:Place ;
+	rdfs:label	"Netherlands Antilles" .
+ns13:L_1617	rdf:type	ns14:Place ;
+	rdfs:label	"West Bank" .
+ns13:L_1618	rdf:type	ns14:Place ;
+	rdfs:label	"Western Samoa" .
+ns13:L_1619	rdf:type	ns14:Place ;
+	rdfs:label	"Zaire" .
+ns13:L_162	rdf:type	ns14:Place ;
+	rdfs:label	"Palau" .
+ns13:L_1620	rdf:type	ns14:Place ;
+	rdfs:label	"United States of America; New Haven" .
+ns13:L_1621	rdf:type	ns14:Place ;
+	rdfs:label	"North America" .
+ns13:L_1622	rdf:type	ns14:Place ;
+	rdfs:label	"Western Europe" .
+ns13:L_1623	rdf:type	ns14:Place ;
+	rdfs:label	"Austria; Steiemark" .
+ns13:L_1624	rdf:type	ns14:Place ;
+	rdfs:label	"United States of America; Connecticut" .
+ns13:L_1625	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Sydney city center" .
+ns13:L_1626	rdf:type	ns14:Place ;
+	rdfs:label	"China; Beijing city center" .
+ns13:L_1627	rdf:type	ns14:Place ;
+	rdfs:label	"Benelux (Netherlands and Belgium and Luxembourg)" .
+ns13:L_1628	rdf:type	ns14:Place ;
+	rdfs:label	"Scandinavia (Finland and Sweden and Denmark and Norway)" .
+ns13:L_1629	rdf:type	ns14:Place ;
+	rdfs:label	"Universe" .
+ns13:L_163	rdf:type	ns14:Place ;
+	rdfs:label	"Panama" .
+ns13:L_1630	rdf:type	ns14:Place ;
+	rdfs:label	"Europe" .
+ns13:L_1631	rdf:type	ns14:Place ;
+	rdfs:label	"North America" .
+ns13:L_1632	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Melbourne" .
+ns13:L_1633	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Perth" .
+ns13:L_1634	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Brisbane" .
+ns13:L_1635	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Adelaide" .
+ns13:L_1636	rdf:type	ns14:Place ;
+	rdfs:label	"Latin America and Caribbean" .
+ns13:L_1637	rdf:type	ns14:Place ;
+	rdfs:label	"Akrotiri" .
+ns13:L_1638	rdf:type	ns14:Place ;
+	rdfs:label	"Antarctica" .
+ns13:L_1639	rdf:type	ns14:Place ;
+	rdfs:label	"Ashmore and Cartier Islands" .
+ns13:L_164	rdf:type	ns14:Place ;
+	rdfs:label	"Papua New Guinea" .
+ns13:L_1640	rdf:type	ns14:Place ;
+	rdfs:label	"Baker Island" .
+ns13:L_1641	rdf:type	ns14:Place ;
+	rdfs:label	"Bassas da India" .
+ns13:L_1642	rdf:type	ns14:Place ;
+	rdfs:label	"Bouvet Island" .
+ns13:L_1643	rdf:type	ns14:Place ;
+	rdfs:label	"British Indian Ocean Territory" .
+ns13:L_1644	rdf:type	ns14:Place ;
+	rdfs:label	"Christmas Island" .
+ns13:L_1645	rdf:type	ns14:Place ;
+	rdfs:label	"Clipperton Island" .
+ns13:L_1646	rdf:type	ns14:Place ;
+	rdfs:label	"Cocos (Keeling) Islands" .
+ns13:L_1647	rdf:type	ns14:Place ;
+	rdfs:label	"Coral Sea Islands" .
+ns13:L_1648	rdf:type	ns14:Place ;
+	rdfs:label	"Dhekelia" .
+ns13:L_1649	rdf:type	ns14:Place ;
+	rdfs:label	"Diego Garcia" .
+ns13:L_165	rdf:type	ns14:Place ;
+	rdfs:label	"Paraguay" .
+ns13:L_1650	rdf:type	ns14:Place ;
+	rdfs:label	"Etorofu, Habomai, Kunashiri, and Shikotan Islands" .
+ns13:L_1651	rdf:type	ns14:Place ;
+	rdfs:label	"Europa Island" .
+ns13:L_1652	rdf:type	ns14:Place ;
+	rdfs:label	"French Southern and Antarctic Lands" .
+ns13:L_1653	rdf:type	ns14:Place ;
+	rdfs:label	"Glorioso Islands" .
+ns13:L_1654	rdf:type	ns14:Place ;
+	rdfs:label	"Guantanamo Bay Naval Base" .
+ns13:L_1655	rdf:type	ns14:Place ;
+	rdfs:label	"Heard Island and McDonald Islands" .
+ns13:L_1656	rdf:type	ns14:Place ;
+	rdfs:label	"Howland Island" .
+ns13:L_1657	rdf:type	ns14:Place ;
+	rdfs:label	"Jan Mayen" .
+ns13:L_1658	rdf:type	ns14:Place ;
+	rdfs:label	"Jarvis Island" .
+ns13:L_1659	rdf:type	ns14:Place ;
+	rdfs:label	"Johnston Atoll" .
+ns13:L_166	rdf:type	ns14:Place ;
+	rdfs:label	"Peru" .
+ns13:L_1660	rdf:type	ns14:Place ;
+	rdfs:label	"Juan de Nova Island" .
+ns13:L_1661	rdf:type	ns14:Place ;
+	rdfs:label	"Kingman Reef" .
+ns13:L_1662	rdf:type	ns14:Place ;
+	rdfs:label	"Kosovo" .
+ns13:L_1663	rdf:type	ns14:Place ;
+	rdfs:label	"Midway Islands" .
+ns13:L_1664	rdf:type	ns14:Place ;
+	rdfs:label	"Navassa Island" .
+ns13:L_1665	rdf:type	ns14:Place ;
+	rdfs:label	"Palmyra Atoll" .
+ns13:L_1666	rdf:type	ns14:Place ;
+	rdfs:label	"Paracel Islands" .
+ns13:L_1667	rdf:type	ns14:Place ;
+	rdfs:label	"South Georgia and South Sandwich Islands" .
+ns13:L_1668	rdf:type	ns14:Place ;
+	rdfs:label	"Spratly Islands" .
+ns13:L_1669	rdf:type	ns14:Place ;
+	rdfs:label	"Tromelin Island" .
+ns13:L_167	rdf:type	ns14:Place ;
+	rdfs:label	"Philippines" .
+ns13:L_1670	rdf:type	ns14:Place ;
+	rdfs:label	"Wake Island" .
+ns13:L_1671	rdf:type	ns14:Place ;
+	rdfs:label	"National" .
+ns13:L_1672	rdf:type	ns14:Place ;
+	rdfs:label	"Corporation" .
+ns13:L_1673	rdf:type	ns14:Place ;
+	rdfs:label	"National or corporation" .
+ns13:L_1674	rdf:type	ns14:Place ;
+	rdfs:label	"All spatial boundaries" .
+ns13:L_1675	rdf:type	ns14:Place ;
+	rdfs:label	"Africa" .
+ns13:L_1676	rdf:type	ns14:Place ;
+	rdfs:label	"Asia" .
+ns13:L_1677	rdf:type	ns14:Place ;
+	rdfs:label	"European Union" .
+ns13:L_1678	rdf:type	ns14:Place ;
+	rdfs:label	"Austria; Vienna" .
+ns13:L_1679	rdf:type	ns14:Place ;
+	rdfs:label	"Middle East" .
+ns13:L_168	rdf:type	ns14:Place ;
+	rdfs:label	"Pitcairn Islands" .
+ns13:L_1680	rdf:type	ns14:Place ;
+	rdfs:label	"Oceania" .
+ns13:L_1681	rdf:type	ns14:Place ;
+	rdfs:label	"Steiermark; Austria" .
+ns13:L_1682	rdf:type	ns14:Place ;
+	rdfs:label	"China; urban" .
+ns13:L_1683	rdf:type	ns14:Place ;
+	rdfs:label	"China; rural" .
+ns13:L_1684	rdf:type	ns14:Place ;
+	rdfs:label	"Japan; Kitikyushu" .
+ns13:L_1685	rdf:type	ns14:Place ;
+	rdfs:label	"China; Beijing" .
+ns13:L_1686	rdf:type	ns14:Place ;
+	rdfs:label	"China and Hong Kong" .
+ns13:L_169	rdf:type	ns14:Place ;
+	rdfs:label	"Poland" .
+ns13:L_17	rdf:type	ns14:Place ;
+	rdfs:label	"Bahrain" .
+ns13:L_170	rdf:type	ns14:Place ;
+	rdfs:label	"Portugal" .
+ns13:L_171	rdf:type	ns14:Place ;
+	rdfs:label	"Puerto Rico" .
+ns13:L_172	rdf:type	ns14:Place ;
+	rdfs:label	"Qatar" .
+ns13:L_173	rdf:type	ns14:Place ;
+	rdfs:label	"South Korea (Republic of Korea)" .
+ns13:L_174	rdf:type	ns14:Place ;
+	rdfs:label	"Moldova (Republic of)" .
+ns13:L_175	rdf:type	ns14:Place ;
+	rdfs:label	"Reunion" .
+ns13:L_176	rdf:type	ns14:Place ;
+	rdfs:label	"Romania" .
+ns13:L_177	rdf:type	ns14:Place ;
+	rdfs:label	"Russian Federation" .
+ns13:L_178	rdf:type	ns14:Place ;
+	rdfs:label	"Rwanda" .
+ns13:L_179	rdf:type	ns14:Place ;
+	rdfs:label	"Saint Helena, Ascension, and Tristan da Cunha" .
+ns13:L_18	rdf:type	ns14:Place ;
+	rdfs:label	"Bangladesh" .
+ns13:L_180	rdf:type	ns14:Place ;
+	rdfs:label	"Saint Kitts and Nevis" .
+ns13:L_181	rdf:type	ns14:Place ;
+	rdfs:label	"Saint Lucia" .
+ns13:L_182	rdf:type	ns14:Place ;
+	rdfs:label	"Saint Martin" .
+ns13:L_183	rdf:type	ns14:Place ;
+	rdfs:label	"Saint Pierre and Miquelon" .
+ns13:L_184	rdf:type	ns14:Place ;
+	rdfs:label	"Saint Vincent and the Grenadines" .
+ns13:L_185	rdf:type	ns14:Place ;
+	rdfs:label	"Saint Barthelemy" .
+ns13:L_186	rdf:type	ns14:Place ;
+	rdfs:label	"Samoa" .
+ns13:L_187	rdf:type	ns14:Place ;
+	rdfs:label	"San Marino" .
+ns13:L_188	rdf:type	ns14:Place ;
+	rdfs:label	"Sao Tome and Principe" .
+ns13:L_189	rdf:type	ns14:Place ;
+	rdfs:label	"Sark" .
+ns13:L_19	rdf:type	ns14:Place ;
+	rdfs:label	"Barbados" .
+ns13:L_190	rdf:type	ns14:Place ;
+	rdfs:label	"Saudi Arabia" .
+ns13:L_191	rdf:type	ns14:Place ;
+	rdfs:label	"Senegal" .
+ns13:L_192	rdf:type	ns14:Place ;
+	rdfs:label	"Serbia" .
+ns13:L_193	rdf:type	ns14:Place ;
+	rdfs:label	"Seychelles" .
+ns13:L_194	rdf:type	ns14:Place ;
+	rdfs:label	"Sierra Leone" .
+ns13:L_195	rdf:type	ns14:Place ;
+	rdfs:label	"Singapore" .
+ns13:L_196	rdf:type	ns14:Place ;
+	rdfs:label	"Sint Maarten" .
+ns13:L_197	rdf:type	ns14:Place ;
+	rdfs:label	"Slovakia" .
+ns13:L_198	rdf:type	ns14:Place ;
+	rdfs:label	"Slovenia" .
+ns13:L_199	rdf:type	ns14:Place ;
+	rdfs:label	"Solomon Islands (the)" .
+ns13:L_2	rdf:type	ns14:Place ;
+	rdfs:label	"Aland Islands" .
+ns13:L_20	rdf:type	ns14:Place ;
+	rdfs:label	"Belarus" .
+ns13:L_200	rdf:type	ns14:Place ;
+	rdfs:label	"Somalia" .
+ns13:L_201	rdf:type	ns14:Place ;
+	rdfs:label	"South Africa" .
+ns13:L_202	rdf:type	ns14:Place ;
+	rdfs:label	"South Sudan" .
+ns13:L_203	rdf:type	ns14:Place ;
+	rdfs:label	"Spain" .
+ns13:L_204	rdf:type	ns14:Place ;
+	rdfs:label	"Sri Lanka" .
+ns13:L_205	rdf:type	ns14:Place ;
+	rdfs:label	"Palestinian Territory (State of Palestine)" .
+ns13:L_206	rdf:type	ns14:Place ;
+	rdfs:label	"Sudan (the)" .
+ns13:L_207	rdf:type	ns14:Place ;
+	rdfs:label	"Suriname" .
+ns13:L_208	rdf:type	ns14:Place ;
+	rdfs:label	"Svalbard (and Jan Mayen Islands)" .
+ns13:L_209	rdf:type	ns14:Place ;
+	rdfs:label	"Swaziland" .
+ns13:L_21	rdf:type	ns14:Place ;
+	rdfs:label	"Belgium" .
+ns13:L_210	rdf:type	ns14:Place ;
+	rdfs:label	"Sweden" .
+ns13:L_211	rdf:type	ns14:Place ;
+	rdfs:label	"Switzerland" .
+ns13:L_212	rdf:type	ns14:Place ;
+	rdfs:label	"Syria (Arab Republic)" .
+ns13:L_213	rdf:type	ns14:Place ;
+	rdfs:label	"Tajikistan" .
+ns13:L_214	rdf:type	ns14:Place ;
+	rdfs:label	"Thailand" .
+ns13:L_215	rdf:type	ns14:Place ;
+	rdfs:label	"Macedonia (the former Yugoslav Republic of)" .
+ns13:L_216	rdf:type	ns14:Place ;
+	rdfs:label	"Timor-Leste" .
+ns13:L_217	rdf:type	ns14:Place ;
+	rdfs:label	"Togo" .
+ns13:L_218	rdf:type	ns14:Place ;
+	rdfs:label	"Tokelau" .
+ns13:L_219	rdf:type	ns14:Place ;
+	rdfs:label	"Tonga" .
+ns13:L_22	rdf:type	ns14:Place ;
+	rdfs:label	"Belize" .
+ns13:L_220	rdf:type	ns14:Place ;
+	rdfs:label	"Trinidad and Tobago" .
+ns13:L_221	rdf:type	ns14:Place ;
+	rdfs:label	"Tunisia" .
+ns13:L_222	rdf:type	ns14:Place ;
+	rdfs:label	"Turkey" .
+ns13:L_223	rdf:type	ns14:Place ;
+	rdfs:label	"Turkmenistan" .
+ns13:L_224	rdf:type	ns14:Place ;
+	rdfs:label	"Turks and Caicos Islands (the)" .
+ns13:L_225	rdf:type	ns14:Place ;
+	rdfs:label	"Tuvalu" .
+ns13:L_226	rdf:type	ns14:Place ;
+	rdfs:label	"Uganda" .
+ns13:L_227	rdf:type	ns14:Place ;
+	rdfs:label	"Ukraine" .
+ns13:L_228	rdf:type	ns14:Place ;
+	rdfs:label	"United Arab Emirates" .
+ns13:L_229	rdf:type	ns14:Place ;
+	rdfs:label	"United Kingdom of Great Britain and Northern Ireland" .
+ns13:L_23	rdf:type	ns14:Place ;
+	rdfs:label	"Benin" .
+ns13:L_230	rdf:type	ns14:Place ;
+	rdfs:label	"Tanzania (United Republic of)" .
+ns13:L_231	rdf:type	ns14:Place ;
+	rdfs:label	"United States of America" .
+ns13:L_232	rdf:type	ns14:Place ;
+	rdfs:label	"United States Virgin Islands" .
+ns13:L_233	rdf:type	ns14:Place ;
+	rdfs:label	"Uruguay" .
+ns13:L_234	rdf:type	ns14:Place ;
+	rdfs:label	"Uzbekistan" .
+ns13:L_235	rdf:type	ns14:Place ;
+	rdfs:label	"Vanuatu" .
+ns13:L_236	rdf:type	ns14:Place ;
+	rdfs:label	"Venezuela (Bolivarian Republic of)" .
+ns13:L_237	rdf:type	ns14:Place ;
+	rdfs:label	"Vietnam" .
+ns13:L_238	rdf:type	ns14:Place ;
+	rdfs:label	"Wallis and Futuna" .
+ns13:L_239	rdf:type	ns14:Place ;
+	rdfs:label	"Western Sahara" .
+ns13:L_24	rdf:type	ns14:Place ;
+	rdfs:label	"Bermuda" .
+ns13:L_240	rdf:type	ns14:Place ;
+	rdfs:label	"Yemen" .
+ns13:L_241	rdf:type	ns14:Place ;
+	rdfs:label	"Zambia" .
+ns13:L_242	rdf:type	ns14:Place ;
+	rdfs:label	"Zimbabwe" .
+ns13:L_243	rdf:type	ns14:Place ;
+	rdfs:label	"Global" .
+ns13:L_244	rdf:type	ns14:Place ;
+	rdfs:label	"South Africa; Cape Town" .
+ns13:L_245	rdf:type	ns14:Place ;
+	rdfs:label	"Sweden; Stockholm" .
+ns13:L_246	rdf:type	ns14:Place ;
+	rdfs:label	"Belgium and Luxembourg" .
+ns13:L_247	rdf:type	ns14:Place ;
+	rdfs:label	"Commonwealth of Independent States (CIS)" .
+ns13:L_248	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; NSW" .
+ns13:L_249	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; VIC" .
+ns13:L_25	rdf:type	ns14:Place ;
+	rdfs:label	"Bhutan" .
+ns13:L_250	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; QLD" .
+ns13:L_251	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; SA" .
+ns13:L_252	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; WA" .
+ns13:L_253	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; TA" .
+ns13:L_254	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; NT" .
+ns13:L_255	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; ACT" .
+ns13:L_256	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Sydney" .
+ns13:L_257	rdf:type	ns14:Place ;
+	rdfs:label	"South Africa and Namibia" .
+ns13:L_258	rdf:type	ns14:Place ;
+	rdfs:label	"United Kingdom and Ireland" .
+ns13:L_259	rdf:type	ns14:Place ;
+	rdfs:label	"Earth and orbital bodies" .
+ns13:L_26	rdf:type	ns14:Place ;
+	rdfs:label	"Bolivia" .
+ns13:L_260	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Avondal" .
+ns13:L_261	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Belhar" .
+ns13:L_262	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bellair" .
+ns13:L_263	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bellville Central" .
+ns13:L_264	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bellville Industria" .
+ns13:L_265	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bellville South" .
+ns13:L_266	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bellville West" .
+ns13:L_267	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Blomtuin" .
+ns13:L_268	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bosbell" .
+ns13:L_269	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Boston" .
+ns13:L_27	rdf:type	ns14:Place ;
+	rdfs:label	"Bonaire, Sint Eustatius, and Saba" .
+ns13:L_270	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Chrismar" .
+ns13:L_271	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Churchill Estate" .
+ns13:L_272	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Clamhall" .
+ns13:L_273	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; De Tijger" .
+ns13:L_274	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Delft" .
+ns13:L_275	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Door de Kraal" .
+ns13:L_276	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Durbanville" .
+ns13:L_277	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Durbanville Hills" .
+ns13:L_278	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Eversdal" .
+ns13:L_279	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Fairfield" .
+ns13:L_28	rdf:type	ns14:Place ;
+	rdfs:label	"Bosnia and Herzegovina" .
+ns13:L_280	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Glen Haven" .
+ns13:L_281	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Glen Lily" .
+ns13:L_282	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Groen Vallei" .
+ns13:L_283	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Hoheiza" .
+ns13:L_284	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Kenridge" .
+ns13:L_285	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Kuilsrivier" .
+ns13:L_286	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; La Rochelle" .
+ns13:L_287	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Labiance" .
+ns13:L_288	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Loevenstein" .
+ns13:L_289	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Maastrecht" .
+ns13:L_29	rdf:type	ns14:Place ;
+	rdfs:label	"Botswana" .
+ns13:L_290	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Morning Star" .
+ns13:L_291	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Oak Glen" .
+ns13:L_292	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Oakdale" .
+ns13:L_293	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Oosterzee" .
+ns13:L_294	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Panorama" .
+ns13:L_295	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Parow Central" .
+ns13:L_296	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Parow Industria" .
+ns13:L_297	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Parow North" .
+ns13:L_298	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Parow Valley" .
+ns13:L_299	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Plattekloof" .
+ns13:L_3	rdf:type	ns14:Place ;
+	rdfs:label	"Albania" .
+ns13:L_30	rdf:type	ns14:Place ;
+	rdfs:label	"Brazil" .
+ns13:L_300	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Protea Valley" .
+ns13:L_301	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Ravensmead" .
+ns13:L_302	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Ridgeworth" .
+ns13:L_303	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Sanlam Hof" .
+ns13:L_304	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Springfield" .
+ns13:L_305	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Stellenberg" .
+ns13:L_306	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Stikland" .
+ns13:L_307	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Thalman/De La Haye" .
+ns13:L_308	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Triangle Farm" .
+ns13:L_309	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Vredenberg" .
+ns13:L_31	rdf:type	ns14:Place ;
+	rdfs:label	"British Virgin Islands" .
+ns13:L_310	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Welgedacht Estates" .
+ns13:L_311	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Welgelegen" .
+ns13:L_312	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Welgemoed" .
+ns13:L_313	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bellville NU" .
+ns13:L_314	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Cape Town Airport" .
+ns13:L_315	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Adriaanse" .
+ns13:L_316	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Akasia Park" .
+ns13:L_317	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Avon" .
+ns13:L_318	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Avonwood" .
+ns13:L_319	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Balvenie" .
+ns13:L_32	rdf:type	ns14:Place ;
+	rdfs:label	"Brunei" .
+ns13:L_320	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bishop Lavis" .
+ns13:L_321	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bonteheuwel" .
+ns13:L_322	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Boquinar Industria" .
+ns13:L_323	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bothasig" .
+ns13:L_324	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Charlesville" .
+ns13:L_325	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Clarkes Estate" .
+ns13:L_326	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Connaught" .
+ns13:L_327	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Cravenby" .
+ns13:L_328	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Edgemead" .
+ns13:L_329	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Elnor" .
+ns13:L_33	rdf:type	ns14:Place ;
+	rdfs:label	"Bulgaria" .
+ns13:L_330	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Elsies River" .
+ns13:L_331	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Epping Forest" .
+ns13:L_332	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Epping Industria" .
+ns13:L_333	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Eureka" .
+ns13:L_334	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Goodwood Estate" .
+ns13:L_335	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Kalksteenfontein" .
+ns13:L_336	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Langa" .
+ns13:L_337	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Leonsdale" .
+ns13:L_338	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Matroosfontein" .
+ns13:L_339	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Modderdam" .
+ns13:L_34	rdf:type	ns14:Place ;
+	rdfs:label	"Burkina Faso" .
+ns13:L_340	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Montana" .
+ns13:L_341	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Monte Vista" .
+ns13:L_342	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Mowbray" .
+ns13:L_343	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Ndabeni" .
+ns13:L_344	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Nooitgedacht" .
+ns13:L_345	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; North Camp-Wingfield" .
+ns13:L_346	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Norwood" .
+ns13:L_347	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Pinelands" .
+ns13:L_348	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Richmond Estate" .
+ns13:L_349	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Richwood" .
+ns13:L_35	rdf:type	ns14:Place ;
+	rdfs:label	"Burundi" .
+ns13:L_350	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Riverton" .
+ns13:L_351	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Ruyterwacht" .
+ns13:L_352	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Salberau" .
+ns13:L_353	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; The Range" .
+ns13:L_354	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Thornton" .
+ns13:L_355	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Townsend Estate" .
+ns13:L_356	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Tygerdal" .
+ns13:L_357	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Uitsig" .
+ns13:L_358	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Valhalla" .
+ns13:L_359	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Valhalla Park" .
+ns13:L_36	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Verde" .
+ns13:L_360	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Vasco Estate" .
+ns13:L_361	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Wingfield" .
+ns13:L_362	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bantry Bay" .
+ns13:L_363	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Blouberg Rise" .
+ns13:L_364	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Blouberg Sands" .
+ns13:L_365	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Blouberg Strand" .
+ns13:L_366	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bloubergrant" .
+ns13:L_367	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Brooklyn" .
+ns13:L_368	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Camps Bay" .
+ns13:L_369	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Cape Central" .
+ns13:L_37	rdf:type	ns14:Place ;
+	rdfs:label	"Cambodia" .
+ns13:L_370	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Clifton" .
+ns13:L_371	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Factreton" .
+ns13:L_372	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Fresnay" .
+ns13:L_373	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Gardens" .
+ns13:L_374	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Green Point" .
+ns13:L_375	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Joe Slovo Informal" .
+ns13:L_376	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Kensington" .
+ns13:L_377	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Maitland" .
+ns13:L_378	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Maitland Garden Village" .
+ns13:L_379	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Marcomi Beam Informal" .
+ns13:L_38	rdf:type	ns14:Place ;
+	rdfs:label	"Cameroon" .
+ns13:L_380	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Milnerton" .
+ns13:L_381	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Milnerton Ridge" .
+ns13:L_382	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Mouille point" .
+ns13:L_383	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Ndabeni" .
+ns13:L_384	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Observatory" .
+ns13:L_385	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Oranjezicht" .
+ns13:L_386	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Oudekraal" .
+ns13:L_387	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Paarden Eiland" .
+ns13:L_388	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Phoenix" .
+ns13:L_389	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Robben Island" .
+ns13:L_39	rdf:type	ns14:Place ;
+	rdfs:label	"Canada" .
+ns13:L_390	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Rugby" .
+ns13:L_391	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Salt River" .
+ns13:L_392	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Schotschekloof" .
+ns13:L_393	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Sea Point" .
+ns13:L_394	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Summer Greens" .
+ns13:L_395	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Sunset Beach" .
+ns13:L_396	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Table View" .
+ns13:L_397	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Tamboerskloof" .
+ns13:L_398	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Three Anchor Bay" .
+ns13:L_399	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Tijgerhof/Sandrift" .
+ns13:L_4	rdf:type	ns14:Place ;
+	rdfs:label	"Algeria" .
+ns13:L_40	rdf:type	ns14:Place ;
+	rdfs:label	"Cayman Islands (the)" .
+ns13:L_401	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; West coast Island" .
+ns13:L_402	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Woodbridge Island" .
+ns13:L_403	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Woodstock" .
+ns13:L_404	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Ysterplaat" .
+ns13:L_405	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Zonnebloem" .
+ns13:L_406	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Clovelly" .
+ns13:L_407	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Coniston" .
+ns13:L_408	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Da Gama Park" .
+ns13:L_409	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Fish Hoek" .
+ns13:L_41	rdf:type	ns14:Place ;
+	rdfs:label	"Central African Republic" .
+ns13:L_410	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Kalk Bay" .
+ns13:L_411	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Kommetjie" .
+ns13:L_412	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Lakeside" .
+ns13:L_413	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Marina Da Gama" .
+ns13:L_414	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Masiphumelele" .
+ns13:L_415	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Muizenberg" .
+ns13:L_416	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Noordhoek" .
+ns13:L_417	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Ocean View" .
+ns13:L_418	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Pelican Park-Coast" .
+ns13:L_419	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Red Hill Informal" .
+ns13:L_42	rdf:type	ns14:Place ;
+	rdfs:label	"Chad" .
+ns13:L_420	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Retreat" .
+ns13:L_421	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Scarborough" .
+ns13:L_422	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Simons Town" .
+ns13:L_423	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; St James" .
+ns13:L_424	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Sun Valley" .
+ns13:L_425	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Sunnydale" .
+ns13:L_426	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Vrygrond" .
+ns13:L_427	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Westlake" .
+ns13:L_428	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Zerilda Park" .
+ns13:L_429	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Silvermine" .
+ns13:L_43	rdf:type	ns14:Place ;
+	rdfs:label	"Channel Islands" .
+ns13:L_430	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Simons Town NU" .
+ns13:L_431	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Tokai Forest Reserve" .
+ns13:L_432	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Zeekoevlei Marsh" .
+ns13:L_433	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Athlone" .
+ns13:L_434	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Belgravia" .
+ns13:L_435	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Belthorn Estate" .
+ns13:L_436	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bergvliet" .
+ns13:L_437	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bishops Court" .
+ns13:L_438	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bridgetown" .
+ns13:L_439	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Claremont" .
+ns13:L_44	rdf:type	ns14:Place ;
+	rdfs:label	"Chile" .
+ns13:L_440	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Constantia" .
+ns13:L_441	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Crawford" .
+ns13:L_442	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Diep River" .
+ns13:L_443	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Elfindale" .
+ns13:L_444	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Fairways Estate" .
+ns13:L_445	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Ferness" .
+ns13:L_446	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Gatesville" .
+ns13:L_447	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Grassy Park" .
+ns13:L_448	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Hanover Park" .
+ns13:L_449	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Hazendal" .
+ns13:L_45	rdf:type	ns14:Place ;
+	rdfs:label	"China" .
+ns13:L_450	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Heathfield" .
+ns13:L_451	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Heideveld" .
+ns13:L_452	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Hout Bay" .
+ns13:L_453	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Hout Bay Harbour" .
+ns13:L_454	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Kenilworth" .
+ns13:L_455	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Kew Town" .
+ns13:L_456	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Kirstenhof" .
+ns13:L_457	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Lansdowne" .
+ns13:L_458	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Lavender Hill" .
+ns13:L_459	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Llandudno" .
+ns13:L_46	rdf:type	ns14:Place ;
+	rdfs:label	"China; Hong Kong Special Administrative Region" .
+ns13:L_460	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Lotus River" .
+ns13:L_461	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Manenberg" .
+ns13:L_462	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Meadowridge" .
+ns13:L_463	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Montagu's Gift" .
+ns13:L_464	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Mowbray" .
+ns13:L_465	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Newfields" .
+ns13:L_466	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Newlands" .
+ns13:L_467	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Ottery" .
+ns13:L_468	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Parkwood" .
+ns13:L_469	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Pelican Park" .
+ns13:L_47	rdf:type	ns14:Place ;
+	rdfs:label	"China; Macao Special Administrative Region" .
+ns13:L_470	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Penlyn Estate" .
+ns13:L_471	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Pinati" .
+ns13:L_472	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Plumstead" .
+ns13:L_473	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Pollsmoor" .
+ns13:L_474	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Primrose Park" .
+ns13:L_475	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Retreat" .
+ns13:L_476	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Rondebosch" .
+ns13:L_477	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Rondebosch East" .
+ns13:L_478	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Rosebank" .
+ns13:L_479	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Royal Cape" .
+ns13:L_48	rdf:type	ns14:Place ;
+	rdfs:label	"China; Taiwan" .
+ns13:L_480	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Rylands" .
+ns13:L_481	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Sand Industria" .
+ns13:L_482	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Silvertown" .
+ns13:L_483	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Southfield" .
+ns13:L_484	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Steenberg" .
+ns13:L_485	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Surrey" .
+ns13:L_486	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Sybrandt Park" .
+ns13:L_487	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Tokai" .
+ns13:L_488	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Vanguard Estate" .
+ns13:L_489	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Welcome Estate" .
+ns13:L_49	rdf:type	ns14:Place ;
+	rdfs:label	"Colombia" .
+ns13:L_490	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Westlake" .
+ns13:L_491	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Wetton" .
+ns13:L_492	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Wynberg" .
+ns13:L_493	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Youngsfield" .
+ns13:L_494	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Zeekoevlei" .
+ns13:L_495	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Cecilia Forest" .
+ns13:L_496	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Philippi NU" .
+ns13:L_497	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Tokai Forest Reserve" .
+ns13:L_498	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Zeekoevlei Marsh" .
+ns13:L_499	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Beacon Valley" .
+ns13:L_5	rdf:type	ns14:Place ;
+	rdfs:label	"American Samoa" .
+ns13:L_50	rdf:type	ns14:Place ;
+	rdfs:label	"Comoros" .
+ns13:L_500	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bongweni" .
+ns13:L_501	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Browns Farm" .
+ns13:L_502	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Browns Farm-S Machel" .
+ns13:L_503	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Colorado" .
+ns13:L_504	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Eastridge" .
+ns13:L_505	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Gugulethu" .
+ns13:L_506	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Gugulethu-Barcelona" .
+ns13:L_507	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Gugulethu-Europe" .
+ns13:L_508	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Gugulethu-Kanana" .
+ns13:L_509	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Gugulethu-Kick Hostels" .
+ns13:L_51	rdf:type	ns14:Place ;
+	rdfs:label	"Congo (Republic of the)" .
+ns13:L_510	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Gugulethu-New Rest" .
+ns13:L_511	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Gugulethu-Phola Park" .
+ns13:L_512	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Gugulethu-Tambo Sq" .
+ns13:L_513	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Gugulethu-Waterfront" .
+ns13:L_514	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Ikwezi Park" .
+ns13:L_515	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha" .
+ns13:L_516	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-C Hani" .
+ns13:L_517	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-DM" .
+ns13:L_518	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-Ekuphumleni" .
+ns13:L_519	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-G Mxenge" .
+ns13:L_52	rdf:type	ns14:Place ;
+	rdfs:label	"Cook Islands (the)" .
+ns13:L_520	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-Graceland" .
+ns13:L_521	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-Green Point" .
+ns13:L_522	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-H Gwala" .
+ns13:L_523	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-Harari" .
+ns13:L_524	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-Ilitha Park" .
+ns13:L_525	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-Ireland" .
+ns13:L_526	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-Macassar" .
+ns13:L_527	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-Makhaya" .
+ns13:L_528	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-Phakamisa" .
+ns13:L_529	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-SectA" .
+ns13:L_53	rdf:type	ns14:Place ;
+	rdfs:label	"Costa Rica" .
+ns13:L_530	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-SectB" .
+ns13:L_531	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-SectC" .
+ns13:L_532	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-SectD" .
+ns13:L_533	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-SectE" .
+ns13:L_534	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-SectF" .
+ns13:L_535	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-SectG" .
+ns13:L_536	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-SectH" .
+ns13:L_537	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-SectI" .
+ns13:L_538	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-SectJ" .
+ns13:L_539	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-SiteB" .
+ns13:L_54	rdf:type	ns14:Place ;
+	rdfs:label	"Ivory Coast (Cote d'Ivoire)" .
+ns13:L_540	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-SiteC" .
+ns13:L_541	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-T Vilakazi" .
+ns13:L_542	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-Taiwan" .
+ns13:L_543	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayelitsha-Town2" .
+ns13:L_544	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Lentegeur" .
+ns13:L_545	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Lower Crossroads" .
+ns13:L_546	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Mandalay" .
+ns13:L_547	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Mitchells Plain" .
+ns13:L_548	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; New Crossroads" .
+ns13:L_549	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Nyanga" .
+ns13:L_55	rdf:type	ns14:Place ;
+	rdfs:label	"Croatia" .
+ns13:L_550	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Nyanga-Black City" .
+ns13:L_551	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Nyanga-KTC" .
+ns13:L_552	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Nyanga-Lusaka" .
+ns13:L_553	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Nyanga-Mbinga Sq" .
+ns13:L_554	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Nyanga-Mkhonto Sq" .
+ns13:L_555	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Nyanga-Mpeta Sq" .
+ns13:L_556	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Old Crossroads" .
+ns13:L_557	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Old Crossroads-Boys Town" .
+ns13:L_558	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Old Crossroads-Gqobhasi" .
+ns13:L_559	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Phillipi" .
+ns13:L_56	rdf:type	ns14:Place ;
+	rdfs:label	"Cuba" .
+ns13:L_560	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Portlands" .
+ns13:L_561	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Rocklands" .
+ns13:L_562	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Strandfontein" .
+ns13:L_563	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Tafelsig" .
+ns13:L_564	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Tembani" .
+ns13:L_565	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Weltevreden Valley" .
+ns13:L_566	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Weltevreden Valley-Heinzpark" .
+ns13:L_567	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Westridge" .
+ns13:L_568	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Woodlands" .
+ns13:L_569	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Belmont Park" .
+ns13:L_57	rdf:type	ns14:Place ;
+	rdfs:label	"Curacao" .
+ns13:L_570	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Blackheath Industrial" .
+ns13:L_571	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bloekombos" .
+ns13:L_572	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bonnie Brook" .
+ns13:L_573	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bracken Heights" .
+ns13:L_574	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Brackenfell" .
+ns13:L_575	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Brackenfell Central" .
+ns13:L_576	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Brackenfell Industrial" .
+ns13:L_577	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Brentwood Park" .
+ns13:L_578	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Dennemere" .
+ns13:L_579	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Diepwater" .
+ns13:L_58	rdf:type	ns14:Place ;
+	rdfs:label	"Cyprus" .
+ns13:L_580	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Driftsands" .
+ns13:L_581	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Eden Park" .
+ns13:L_582	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Eersterivier" .
+ns13:L_583	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Eersterivier South" .
+ns13:L_584	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Eikendal" .
+ns13:L_585	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Electric City" .
+ns13:L_586	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Ferndale" .
+ns13:L_587	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Forest Village" .
+ns13:L_588	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Fountain Village" .
+ns13:L_589	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Gaylee" .
+ns13:L_59	rdf:type	ns14:Place ;
+	rdfs:label	"Czech Republic" .
+ns13:L_590	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Hagley" .
+ns13:L_591	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Happy Valley" .
+ns13:L_592	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Hillcrest Heights" .
+ns13:L_593	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Holland View" .
+ns13:L_594	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Kleinvlei" .
+ns13:L_595	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Kraaifontein Industrial" .
+ns13:L_596	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Kuilsrivier" .
+ns13:L_597	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Langeberg Ridge" .
+ns13:L_598	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Malibu Village" .
+ns13:L_599	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Mfuleni" .
+ns13:L_6	rdf:type	ns14:Place ;
+	rdfs:label	"Andorra" .
+ns13:L_60	rdf:type	ns14:Place ;
+	rdfs:label	"Korea, North (Democratic People's Republic of)" .
+ns13:L_600	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; North Pine" .
+ns13:L_601	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Peerless Park" .
+ns13:L_602	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Penhill" .
+ns13:L_603	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Protea Hoogte" .
+ns13:L_604	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Rotterdam" .
+ns13:L_605	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Rusdal" .
+ns13:L_606	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Rustdal" .
+ns13:L_607	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Sarepta" .
+ns13:L_608	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Scottsdene" .
+ns13:L_609	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Scottsdene Ext" .
+ns13:L_61	rdf:type	ns14:Place ;
+	rdfs:label	"Democratic Republic of the Congo" .
+ns13:L_610	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Scottsville" .
+ns13:L_611	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Silversands" .
+ns13:L_612	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; The Conifers" .
+ns13:L_613	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Tuscany Glen" .
+ns13:L_614	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Vredekloof" .
+ns13:L_615	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Vredenburg" .
+ns13:L_616	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Wallacedene" .
+ns13:L_617	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Wembly Park" .
+ns13:L_618	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Windsor Estate" .
+ns13:L_619	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Windsor Park Estate" .
+ns13:L_62	rdf:type	ns14:Place ;
+	rdfs:label	"Denmark" .
+ns13:L_620	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Zoo Park" .
+ns13:L_621	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Kuilsrivier NU" .
+ns13:L_622	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Fairy Land" .
+ns13:L_623	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Mbekweni" .
+ns13:L_624	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Paarl" .
+ns13:L_625	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Park Land" .
+ns13:L_626	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Franschoek" .
+ns13:L_627	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Groendal" .
+ns13:L_628	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Pniel" .
+ns13:L_629	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Paarl NU" .
+ns13:L_63	rdf:type	ns14:Place ;
+	rdfs:label	"Djibouti" .
+ns13:L_630	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Kylemore" .
+ns13:L_631	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Cloetesville" .
+ns13:L_632	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Eureka" .
+ns13:L_633	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Idasvalley" .
+ns13:L_634	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Jamestown" .
+ns13:L_635	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Kaya Mandi" .
+ns13:L_636	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Onder Papegaaiberg" .
+ns13:L_637	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Stellenbosch" .
+ns13:L_638	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Stellenbosch NU" .
+ns13:L_639	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Macassar" .
+ns13:L_64	rdf:type	ns14:Place ;
+	rdfs:label	"Dominica" .
+ns13:L_640	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Rathby" .
+ns13:L_641	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Sir Lowry's Pass" .
+ns13:L_642	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bridge Water" .
+ns13:L_643	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Briza" .
+ns13:L_644	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Dennegeur" .
+ns13:L_645	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Die Wingerd" .
+ns13:L_646	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Faure" .
+ns13:L_647	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Garden Village" .
+ns13:L_648	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Haumannshof" .
+ns13:L_649	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Helderberg Estates" .
+ns13:L_65	rdf:type	ns14:Place ;
+	rdfs:label	"Dominican Republic (the)" .
+ns13:L_650	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Helderberg Village" .
+ns13:L_651	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Heldervue" .
+ns13:L_652	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Helderzicht & Paardevlei" .
+ns13:L_653	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Helena Heights" .
+ns13:L_654	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Morningside" .
+ns13:L_655	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Rome Glen & Kalamunda" .
+ns13:L_656	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Somerset West" .
+ns13:L_657	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Somerset West Central" .
+ns13:L_658	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Steynsrust" .
+ns13:L_659	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; The Links" .
+ns13:L_66	rdf:type	ns14:Place ;
+	rdfs:label	"Ecuador" .
+ns13:L_660	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Somerset West NU" .
+ns13:L_661	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Gordons Bay" .
+ns13:L_662	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Lwandle" .
+ns13:L_663	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Nomzamo" .
+ns13:L_664	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Strand" .
+ns13:L_665	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Strand NU" .
+ns13:L_666	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Newton" .
+ns13:L_667	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Wellington" .
+ns13:L_668	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Wellington NU" .
+ns13:L_669	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Waenhuiskrans & Arniston" .
+ns13:L_67	rdf:type	ns14:Place ;
+	rdfs:label	"Egypt" .
+ns13:L_670	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bredasdorp" .
+ns13:L_671	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Zwelitsha Informal" .
+ns13:L_672	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Elim" .
+ns13:L_673	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; L'Agulhas" .
+ns13:L_674	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Napier" .
+ns13:L_675	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Pearly Beach" .
+ns13:L_676	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Molshoop" .
+ns13:L_677	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Struisbaai" .
+ns13:L_678	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bredasdorp NU" .
+ns13:L_679	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Betty's Bay" .
+ns13:L_68	rdf:type	ns14:Place ;
+	rdfs:label	"El Salvador" .
+ns13:L_680	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Botrivier" .
+ns13:L_681	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bergsig" .
+ns13:L_682	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Caledon" .
+ns13:L_683	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Middleton" .
+ns13:L_684	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Grabouw" .
+ns13:L_685	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Waterwerke Informal" .
+ns13:L_686	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Greyton" .
+ns13:L_687	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Kleinmond" .
+ns13:L_688	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Pringle Bay" .
+ns13:L_689	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Riviersonderend" .
+ns13:L_69	rdf:type	ns14:Place ;
+	rdfs:label	"Equatorial Guinea" .
+ns13:L_690	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Rooi-Els" .
+ns13:L_691	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Goniwe Park" .
+ns13:L_692	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Villiersdorp" .
+ns13:L_693	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bereaville" .
+ns13:L_694	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bosmanskloof" .
+ns13:L_695	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Caledon NU" .
+ns13:L_696	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Genadendal" .
+ns13:L_697	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Danger Point" .
+ns13:L_698	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Die Kelders" .
+ns13:L_699	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Fisherhaven" .
+ns13:L_7	rdf:type	ns14:Place ;
+	rdfs:label	"Angola" .
+ns13:L_70	rdf:type	ns14:Place ;
+	rdfs:label	"Eritrea" .
+ns13:L_700	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Franskraalstrand" .
+ns13:L_701	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Gansbaai" .
+ns13:L_702	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Masakhane" .
+ns13:L_703	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Hawston" .
+ns13:L_704	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Hermanus" .
+ns13:L_705	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Mount Pleasant" .
+ns13:L_706	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Sandbaai" .
+ns13:L_707	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Voelklip" .
+ns13:L_708	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Zwelihle" .
+ns13:L_709	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Kleinbaai" .
+ns13:L_71	rdf:type	ns14:Place ;
+	rdfs:label	"Estonia" .
+ns13:L_710	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Onrus" .
+ns13:L_711	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Stanford" .
+ns13:L_712	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Vermont" .
+ns13:L_713	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Hermanus NU" .
+ns13:L_714	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Heidelberg" .
+ns13:L_715	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Witsand & Port Beaufort" .
+ns13:L_716	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Slangrivier" .
+ns13:L_717	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Heidelberg NU" .
+ns13:L_718	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Barrydale" .
+ns13:L_719	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bonnievale" .
+ns13:L_72	rdf:type	ns14:Place ;
+	rdfs:label	"Ethiopia" .
+ns13:L_720	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Infanta" .
+ns13:L_721	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Railton" .
+ns13:L_722	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Swellendam" .
+ns13:L_723	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Suurbraak" .
+ns13:L_724	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Swellendam NU" .
+ns13:L_725	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Ballotsview" .
+ns13:L_726	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Blanco" .
+ns13:L_727	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Conville" .
+ns13:L_728	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; George" .
+ns13:L_729	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Heather Park" .
+ns13:L_73	rdf:type	ns14:Place ;
+	rdfs:label	"Faroe Islands (the)" .
+ns13:L_730	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Lawaaikamp" .
+ns13:L_731	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Pacaltsdorp" .
+ns13:L_732	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Parkdene" .
+ns13:L_733	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Rosemoor" .
+ns13:L_734	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Thembalethu" .
+ns13:L_735	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Groot Brakrivier" .
+ns13:L_736	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Heroldsbaai" .
+ns13:L_737	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Hoekwil" .
+ns13:L_738	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Wilderness" .
+ns13:L_739	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; George NU" .
+ns13:L_74	rdf:type	ns14:Place ;
+	rdfs:label	"Falkland Islands (Islas Malvinas)" .
+ns13:L_740	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Buffelsbaai" .
+ns13:L_741	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Covie" .
+ns13:L_742	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Keurboomstrand" .
+ns13:L_743	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Belvidere" .
+ns13:L_744	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bongani" .
+ns13:L_745	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Brenton-on-lake" .
+ns13:L_746	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Brenton-on-sea" .
+ns13:L_747	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Concordia" .
+ns13:L_748	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Dam se Bos" .
+ns13:L_749	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Flenters" .
+ns13:L_75	rdf:type	ns14:Place ;
+	rdfs:label	"Fiji" .
+ns13:L_750	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Hornlee" .
+ns13:L_751	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Joodse Kamp" .
+ns13:L_752	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Khayalethu South" .
+ns13:L_753	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Knysna" .
+ns13:L_754	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Leisure Island" .
+ns13:L_755	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Nekkies" .
+ns13:L_756	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Rhobololo" .
+ns13:L_757	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; The Heads" .
+ns13:L_758	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Thesen's Island" .
+ns13:L_759	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Witlokasie" .
+ns13:L_76	rdf:type	ns14:Place ;
+	rdfs:label	"Finland" .
+ns13:L_760	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Xolweni" .
+ns13:L_761	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Krantshoek" .
+ns13:L_762	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Kurland" .
+ns13:L_763	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Nature's Valley" .
+ns13:L_764	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Kwanokuthula" .
+ns13:L_765	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Plettenberg Bay" .
+ns13:L_766	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Rheenendal" .
+ns13:L_767	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Sedgefield" .
+ns13:L_768	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Wittedrift" .
+ns13:L_769	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Knysna NU" .
+ns13:L_77	rdf:type	ns14:Place ;
+	rdfs:label	"France" .
+ns13:L_770	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Noetzie" .
+ns13:L_771	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Boggomsbaai" .
+ns13:L_772	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Fraaiuitsig" .
+ns13:L_773	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Groot Brakrivier" .
+ns13:L_774	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Klein Brakrivier" .
+ns13:L_775	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Rheebok" .
+ns13:L_776	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Tergniet" .
+ns13:L_777	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Hartenbos" .
+ns13:L_778	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bay View" .
+ns13:L_779	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Danabaai" .
+ns13:L_78	rdf:type	ns14:Place ;
+	rdfs:label	"French Guiana" .
+ns13:L_780	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; JCC Camp" .
+ns13:L_781	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Kwanonqaba" .
+ns13:L_782	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Mossel Bay" .
+ns13:L_783	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Herbertsdale" .
+ns13:L_784	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Mossel Bay NU" .
+ns13:L_785	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Albertinia" .
+ns13:L_786	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Gouritzmond" .
+ns13:L_787	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Jongensfontein" .
+ns13:L_788	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Riversdale" .
+ns13:L_789	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Melkhoutfontein" .
+ns13:L_79	rdf:type	ns14:Place ;
+	rdfs:label	"French Polynesia" .
+ns13:L_790	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Stilbaai" .
+ns13:L_791	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Riversdale NU" .
+ns13:L_792	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Calitzdorp" .
+ns13:L_793	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Calitzdorp NU" .
+ns13:L_794	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Ladismith" .
+ns13:L_795	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Ladismith NU" .
+ns13:L_796	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Vanwyksdorp" .
+ns13:L_797	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Zoar" .
+ns13:L_798	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; De Rust" .
+ns13:L_799	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Dysselsdorp" .
+ns13:L_8	rdf:type	ns14:Place ;
+	rdfs:label	"Anguilla" .
+ns13:L_80	rdf:type	ns14:Place ;
+	rdfs:label	"Gabon" .
+ns13:L_800	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bongolethu" .
+ns13:L_801	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bridgton" .
+ns13:L_802	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Oudtshoorn" .
+ns13:L_803	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Oudtshoorn NU" .
+ns13:L_804	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Haarlem" .
+ns13:L_805	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Uniondale" .
+ns13:L_806	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Uniondale NU" .
+ns13:L_807	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bella Vista" .
+ns13:L_808	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Ceres" .
+ns13:L_809	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Nduli" .
+ns13:L_81	rdf:type	ns14:Place ;
+	rdfs:label	"Gambia, The" .
+ns13:L_810	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Op-die-berg" .
+ns13:L_811	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Prince Alfred Hamlet" .
+ns13:L_812	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Ceres NU" .
+ns13:L_813	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Ashton" .
+ns13:L_814	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Zolani" .
+ns13:L_815	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Montagu" .
+ns13:L_816	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Montagu NU" .
+ns13:L_817	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; McGregor" .
+ns13:L_818	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Nkqubela" .
+ns13:L_819	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Robertson" .
+ns13:L_82	rdf:type	ns14:Place ;
+	rdfs:label	"Georgia" .
+ns13:L_820	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Robertson NU" .
+ns13:L_821	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Gouda" .
+ns13:L_822	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Saron" .
+ns13:L_823	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Chris Hani Informal" .
+ns13:L_824	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Tulbagh" .
+ns13:L_825	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Wolseley" .
+ns13:L_826	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Tulbagh NU" .
+ns13:L_827	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; De Doorns" .
+ns13:L_828	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Rawsonville" .
+ns13:L_829	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Touwsrivier" .
+ns13:L_83	rdf:type	ns14:Place ;
+	rdfs:label	"Germany" .
+ns13:L_830	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Avian Park" .
+ns13:L_831	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Brandwacht" .
+ns13:L_832	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Meirings Park" .
+ns13:L_833	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Van Riebeeck Park" .
+ns13:L_834	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Worcester" .
+ns13:L_835	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Zweletemba" .
+ns13:L_836	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Worcester NU" .
+ns13:L_837	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Hopefield" .
+ns13:L_838	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Oudekraalfontein" .
+ns13:L_839	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Langebaan" .
+ns13:L_84	rdf:type	ns14:Place ;
+	rdfs:label	"Ghana" .
+ns13:L_840	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Hopefield NU" .
+ns13:L_841	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Abbotsdale" .
+ns13:L_842	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Atlantis" .
+ns13:L_843	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Atlantis Central" .
+ns13:L_844	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Atlantis Industrial" .
+ns13:L_845	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Avondale" .
+ns13:L_846	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Beacon Hill" .
+ns13:L_847	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Protea Park" .
+ns13:L_848	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Robinvale" .
+ns13:L_849	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Saxon-sea" .
+ns13:L_85	rdf:type	ns14:Place ;
+	rdfs:label	"Gibraltar" .
+ns13:L_850	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Sherwood" .
+ns13:L_851	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Darling" .
+ns13:L_852	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Ilinge Lethu" .
+ns13:L_853	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Malmesbury" .
+ns13:L_854	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Wesbank" .
+ns13:L_855	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Mamre" .
+ns13:L_856	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Melkbosstrand" .
+ns13:L_857	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Philadelphia" .
+ns13:L_858	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Riebeek-Kasteel" .
+ns13:L_859	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Riebeek-West" .
+ns13:L_86	rdf:type	ns14:Place ;
+	rdfs:label	"Greece" .
+ns13:L_860	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Yzerfontein" .
+ns13:L_861	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Camphill Village" .
+ns13:L_862	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Chatsworth" .
+ns13:L_863	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Kalbaskraal" .
+ns13:L_864	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Malmesbury NU" .
+ns13:L_865	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Pella Mission Station" .
+ns13:L_866	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Witsand" .
+ns13:L_867	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Aurora" .
+ns13:L_868	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Dwarskersbos" .
+ns13:L_869	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Eendekuil" .
+ns13:L_87	rdf:type	ns14:Place ;
+	rdfs:label	"Greenland" .
+ns13:L_870	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Elandsbaai" .
+ns13:L_871	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Laaiplek" .
+ns13:L_872	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Piketberg" .
+ns13:L_873	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Port Owen" .
+ns13:L_874	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Porterville" .
+ns13:L_875	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Redelinghuys" .
+ns13:L_876	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Velddrif" .
+ns13:L_877	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Goedverwacht" .
+ns13:L_878	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Piketberg NU" .
+ns13:L_879	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Wittewater" .
+ns13:L_88	rdf:type	ns14:Place ;
+	rdfs:label	"Grenada" .
+ns13:L_880	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Paternoster" .
+ns13:L_881	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Diazville" .
+ns13:L_882	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Jacobsbaai" .
+ns13:L_883	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Jakkalskloof" .
+ns13:L_884	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Saldanha" .
+ns13:L_885	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; White City" .
+ns13:L_886	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Laingville" .
+ns13:L_887	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Sandy Point" .
+ns13:L_888	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; St Helenabaai" .
+ns13:L_889	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Stompneusbaai" .
+ns13:L_89	rdf:type	ns14:Place ;
+	rdfs:label	"Guadeloupe" .
+ns13:L_890	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Chris Hani Park" .
+ns13:L_891	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Louwville" .
+ns13:L_892	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Vredenburg" .
+ns13:L_893	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Vredenburg NU" .
+ns13:L_894	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Koringberg" .
+ns13:L_895	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Moorreesburg" .
+ns13:L_896	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Moorreesburg NU" .
+ns13:L_897	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Citrusdal" .
+ns13:L_898	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Clanwilliam" .
+ns13:L_899	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Graafwater" .
+ns13:L_9	rdf:type	ns14:Place ;
+	rdfs:label	"Antigua and Barbuda" .
+ns13:L_90	rdf:type	ns14:Place ;
+	rdfs:label	"Guam" .
+ns13:L_900	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Lambert's Bay" .
+ns13:L_901	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Clanwilliam NU" .
+ns13:L_902	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Wupperthal" .
+ns13:L_903	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bitterfontein" .
+ns13:L_904	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Klawer" .
+ns13:L_905	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Nuwerus" .
+ns13:L_906	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Van Rhynsdorp" .
+ns13:L_907	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Rietpoort" .
+ns13:L_908	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Van Rhynsdorp NU" .
+ns13:L_909	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Doringbaai" .
+ns13:L_91	rdf:type	ns14:Place ;
+	rdfs:label	"Guatemala" .
+ns13:L_910	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Lutzville" .
+ns13:L_911	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Strandfontein" .
+ns13:L_912	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Vredendal" .
+ns13:L_913	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Koekenaap" .
+ns13:L_914	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Vredendal NU" .
+ns13:L_915	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Beaufort West" .
+ns13:L_916	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Kwa-Mandlenkosi" .
+ns13:L_917	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Rustdene" .
+ns13:L_918	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Merweville" .
+ns13:L_919	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Beaufort West NU" .
+ns13:L_92	rdf:type	ns14:Place ;
+	rdfs:label	"Guernsey" .
+ns13:L_920	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Goldnerville" .
+ns13:L_921	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Laingsburg" .
+ns13:L_922	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Laingsburg NU" .
+ns13:L_923	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Matjiesfontein" .
+ns13:L_924	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Murraysburg" .
+ns13:L_925	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Murraysburg NU" .
+ns13:L_926	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Bitterwater" .
+ns13:L_927	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Leeu Gamka" .
+ns13:L_928	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Noord-End" .
+ns13:L_929	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Prince Albert" .
+ns13:L_93	rdf:type	ns14:Place ;
+	rdfs:label	"Guinea" .
+ns13:L_930	rdf:type	ns14:Place ;
+	rdfs:label	"Cape Town; Prince Albert NU" .
+ns13:L_931	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Albury (C)" .
+ns13:L_932	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Armidale (C)" .
+ns13:L_933	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Ashfield (A)" .
+ns13:L_934	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Auburn (A)" .
+ns13:L_935	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Ballina (A)" .
+ns13:L_936	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Balranald (A)" .
+ns13:L_937	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Bankstown (C)" .
+ns13:L_938	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Barraba (A)" .
+ns13:L_939	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Bathurst (C)" .
+ns13:L_94	rdf:type	ns14:Place ;
+	rdfs:label	"Guinea-Bissau" .
+ns13:L_940	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Baulkham Hills (A)" .
+ns13:L_941	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Bega Valley (A)" .
+ns13:L_942	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Bellingen (A)" .
+ns13:L_943	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Berrigan (A)" .
+ns13:L_944	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Bingara (A)" .
+ns13:L_945	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Blacktown (C)" .
+ns13:L_946	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Bland (A)" .
+ns13:L_947	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Blayney (A)" .
+ns13:L_948	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Blue Mountains (C)" .
+ns13:L_949	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Bogan (A)" .
+ns13:L_95	rdf:type	ns14:Place ;
+	rdfs:label	"Guyana" .
+ns13:L_950	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Bombala (A)" .
+ns13:L_951	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Boorowa (A)" .
+ns13:L_952	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Botany (A)" .
+ns13:L_953	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Bourke (A)" .
+ns13:L_954	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Brewarrina (A)" .
+ns13:L_955	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Broken Hill (C)" .
+ns13:L_956	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Burwood (A)" .
+ns13:L_957	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Byron (A)" .
+ns13:L_958	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Cabonne (A)" .
+ns13:L_959	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Camden (A)" .
+ns13:L_96	rdf:type	ns14:Place ;
+	rdfs:label	"Haiti" .
+ns13:L_960	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Campbelltown (C)" .
+ns13:L_961	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Canterbury (C)" .
+ns13:L_962	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Carrathool (A)" .
+ns13:L_963	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Casino (A)" .
+ns13:L_964	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Central Darling (A)" .
+ns13:L_965	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Cessnock (C)" .
+ns13:L_966	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Cobar (A)" .
+ns13:L_967	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Coffs Harbour (C)" .
+ns13:L_968	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Conargo (A)" .
+ns13:L_969	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Concord (A)" .
+ns13:L_97	rdf:type	ns14:Place ;
+	rdfs:label	"Holy See (Vatican City)" .
+ns13:L_970	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Coolah (A)" .
+ns13:L_971	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Coolamon (A)" .
+ns13:L_972	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Cooma-Monaro (A)" .
+ns13:L_973	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Coonabarabran (A)" .
+ns13:L_974	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Coonamble (A)" .
+ns13:L_975	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Cootamundra (A)" .
+ns13:L_976	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Copmanhurst (A)" .
+ns13:L_977	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Corowa (A)" .
+ns13:L_978	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Cowra (A)" .
+ns13:L_979	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Crookwell (A)" .
+ns13:L_98	rdf:type	ns14:Place ;
+	rdfs:label	"Honduras" .
+ns13:L_980	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Culcairn (A)" .
+ns13:L_981	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Deniliquin (A)" .
+ns13:L_982	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Drummoyne (A)" .
+ns13:L_983	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Dubbo (C)" .
+ns13:L_984	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Dumaresq (A)" .
+ns13:L_985	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Dungog (A)" .
+ns13:L_986	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Eurobodalla (A)" .
+ns13:L_987	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Evans (A)" .
+ns13:L_988	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Fairfield (C)" .
+ns13:L_989	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Forbes (A)" .
+ns13:L_99	rdf:type	ns14:Place ;
+	rdfs:label	"Hungary" .
+ns13:L_990	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Gilgandra (A)" .
+ns13:L_991	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Glen Innes (A)" .
+ns13:L_992	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Gloucester (A)" .
+ns13:L_993	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Gosford (C)" .
+ns13:L_994	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Goulburn (C)" .
+ns13:L_995	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Grafton (C)" .
+ns13:L_996	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Greater Lithgow (C)" .
+ns13:L_997	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Greater Taree (C)" .
+ns13:L_998	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Great Lakes (A)" .
+ns13:L_999	rdf:type	ns14:Place ;
+	rdfs:label	"Australia; Griffith (C)" .

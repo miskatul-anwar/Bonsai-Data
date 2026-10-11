@@ -1,0 +1,521 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://rdf.bonsai.uno/activitytype/exiobase3_3_17#> .
+@prefix ns2:	<http://ontology.bonsai.uno/core#> .
+ns1:A_ALUO	rdf:type	ns2:ActivityType .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+ns1:A_ALUO	rdfs:label	"Mining of aluminium ores and concentrates" .
+ns1:A_BOTW	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Recycling of bottles by direct reuse" .
+ns1:A_COPW	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Re-processing of secondary copper into new copper" .
+ns1:A_IRON	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Mining of iron ores" .
+ns1:A_LETH	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Tanning and dressing of leather; manufacture of luggage, handbags, saddlery, harness and footwear (19)" .
+ns1:A_MGWG	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Manufacture of gas;" .
+ns1:A_OGPL	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Extraction, liquefaction, and regasification of other petroleum and gaseous materials" .
+ns1:A_ONFM	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Other non-ferrous metal production" .
+ns1:A_POWE	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Production of electricity by solar thermal" .
+ns1:A_POWO	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Production of electricity by tide, wave, ocean" .
+ns1:A_POWZ	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Production of electricity nec" .
+ns1:A_PREW	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Re-processing of secondary preciuos metals into new preciuos metals" .
+ns1:A_VOIL	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Processing vegetable oils and fats" .
+ns1:A_WASO	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Waste water treatment, other" .
+ns1:A_WOOL	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Wool, silk-worm cocoons" .
+ns1:A_DAIR	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Processing of dairy products" .
+ns1:A_ALUM	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Aluminium production" .
+ns1:A_ALUW	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Re-processing of secondary aluminium into new aluminium" .
+ns1:A_ASHW	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Re-processing of ash into clinker" .
+ns1:A_BEVR	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Manufacture of beverages" .
+ns1:A_BIOF	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Biogasification of food waste, incl. land application" .
+ns1:A_BIOP	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Biogasification of paper, incl. land application" .
+ns1:A_BIOS	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Biogasification of sewage slugde, incl. land application" .
+ns1:A_BRIK	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Manufacture of bricks, tiles and construction products, in baked clay" .
+ns1:A_CATL	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Cattle farming" .
+ns1:A_CHEM	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Chemicals nec" .
+ns1:A_CHMF	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Mining of chemical and fertilizer minerals, production of salt, other mining and quarrying n.e.c." .
+ns1:A_CMNT	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Manufacture of cement, lime and plaster" .
+ns1:A_COAL	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Mining of coal and lignite; extraction of peat (10)" .
+ns1:A_COIL	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Extraction of crude petroleum and services related to crude oil extraction, excluding surveying" .
+ns1:A_COKE	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Manufacture of coke oven products" .
+ns1:A_COMF	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Composting of food waste, incl. land application" .
+ns1:A_COMP	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Computer and related activities (72)" .
+ns1:A_COMW	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Composting of paper and wood, incl. land application" .
+ns1:A_CONS	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Construction (45)" .
+ns1:A_CONW	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Re-processing of secondary construction material into aggregates" .
+ns1:A_COPO	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Mining of copper ores and concentrates" .
+ns1:A_COPP	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Copper production" .
+ns1:A_CRMC	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Manufacture of ceramic goods" .
+ns1:A_EDUC	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Education (80)" .
+ns1:A_ELMA	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Manufacture of electrical machinery and apparatus n.e.c. (31)" .
+ns1:A_FABM	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Manufacture of fabricated metal products, except machinery and equipment (28)" .
+ns1:A_FAUX	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Activities auxiliary to financial intermediation (67)" .
+ns1:A_FIBR	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Cultivation of plant-based fibers" .
+ns1:A_FINS	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Insurance and pension funding, except compulsory social security (66)" .
+ns1:A_FINT	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Financial intermediation, except insurance and pension funding (65)" .
+ns1:A_FISH	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Fishing, operating of fish hatcheries and fish farms; service activities incidental to fishing (05)" .
+ns1:A_FORE	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Forestry, logging and related service activities (02)" .
+ns1:A_FSHP	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Manufacture of fish products" .
+ns1:A_FURN	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Manufacture of furniture; manufacturing n.e.c. (36)" .
+ns1:A_FVEG	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Cultivation of vegetables, fruit, nuts" .
+ns1:A_GARM	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Manufacture of wearing apparel; dressing and dyeing of fur (18)" .
+ns1:A_GASD	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Distribution of gaseous fuels through mains" .
+ns1:A_GASE	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Extraction of natural gas and services related to natural gas extraction, excluding surveying" .
+ns1:A_GLAS	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Manufacture of glass and glass products" .
+ns1:A_GLAW	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Re-processing of secondary glass into new glass" .
+ns1:A_HEAL	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Health and social work (85)" .
+ns1:A_HORE	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Hotels and restaurants (55)" .
+ns1:A_HWAT	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Steam and hot water supply" .
+ns1:A_INCF	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Incineration of waste: Food" .
+ns1:A_INCL	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Incineration of waste: Plastic" .
+ns1:A_INCM	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Incineration of waste: Metals and Inert materials" .
+ns1:A_INCO	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Incineration of waste: Oil/Hazardous waste" .
+ns1:A_INCP	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Incineration of waste: Paper" .
+ns1:A_INCT	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Incineration of waste: Textiles" .
+ns1:A_INCW	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Incineration of waste: Wood" .
+ns1:A_LANF	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Landfill of waste: Food" .
+ns1:A_LANI	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Landfill of waste: Inert/metal/hazardous" .
+ns1:A_LANL	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Landfill of waste: Plastic" .
+ns1:A_LANP	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Landfill of waste: Paper" .
+ns1:A_LANT	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Landfill of waste: Textiles" .
+ns1:A_LANW	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Landfill of waste: Wood" .
+ns1:A_LZTO	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Mining of lead, zinc and tin ores and concentrates" .
+ns1:A_LZTP	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Lead, zinc and tin production" .
+ns1:A_LZTW	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Re-processing of secondary lead into new lead" .
+ns1:A_MACH	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Manufacture of machinery and equipment n.e.c. (29)" .
+ns1:A_MANC	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Manure treatment (conventional), storage and land application" .
+ns1:A_MARE	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Renting of machinery and equipment without operator and of personal and household goods (71)" .
+ns1:A_MDIA	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Publishing, printing and reproduction of recorded media (22)" .
+ns1:A_MEIN	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Manufacture of medical, precision and optical instruments, watches and clocks (33)" .
+ns1:A_METC	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Casting of metals" .
+ns1:A_MILK	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Raw milk" .
+ns1:A_MOTO	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Manufacture of motor vehicles, trailers and semi-trailers (34)" .
+ns1:A_NFER	rdf:type	ns2:ActivityType ;
+	rdfs:label	"N-fertiliser" .
+ns1:A_NIKO	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Mining of nickel ores and concentrates" .
+ns1:A_NUCF	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Processing of nuclear fuel" .
+ns1:A_OANP	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Animal products nec" .
+ns1:A_OBUS	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Other business activities (74)" .
+ns1:A_OCER	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Cultivation of cereal grains nec" .
+ns1:A_OFMA	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Manufacture of office machinery and computers (30)" .
+ns1:A_OFOD	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Processing of Food products nec" .
+ns1:A_OILS	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Cultivation of oil seeds" .
+ns1:A_OMEA	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Meat animals nec" .
+ns1:A_ONFO	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Mining of other non-ferrous metal ores and concentrates" .
+ns1:A_ONFW	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Re-processing of secondary other non-ferrous metals into new other non-ferrous metals" .
+ns1:A_ONMM	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Manufacture of other non-metallic mineral products n.e.c." .
+ns1:A_ORAN	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Mining of uranium and thorium ores (12)" .
+ns1:A_ORGA	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Activities of membership organisation n.e.c. (91)" .
+ns1:A_OSER	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Other service activities (93)" .
+ns1:A_OTCR	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Cultivation of crops nec" .
+ns1:A_OTRE	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Manufacture of other transport equipment (35)" .
+ns1:A_PADF	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Public administration and defence; compulsory social security (75)" .
+ns1:A_PAPE	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Paper" .
+ns1:A_PAPR	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Re-processing of secondary paper into new pulp" .
+ns1:A_PARI	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Cultivation of paddy rice" .
+ns1:A_PCAT	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Processing of meat cattle" .
+ns1:A_PFER	rdf:type	ns2:ActivityType ;
+	rdfs:label	"P- and other fertiliser" .
+ns1:A_PIGS	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Pigs farming" .
+ns1:A_PLAS	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Plastics, basic" .
+ns1:A_PLAW	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Re-processing of secondary plastic into new plastic" .
+ns1:A_PLTR	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Poultry farming" .
+ns1:A_POME	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Production of meat products nec" .
+ns1:A_POWB	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Production of electricity by biomass and waste" .
+ns1:A_POWC	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Production of electricity by coal" .
+ns1:A_POWD	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Distribution and trade of electricity" .
+ns1:A_POWG	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Production of electricity by gas" .
+ns1:A_POWH	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Production of electricity by hydro" .
+ns1:A_POWM	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Production of electricity by Geothermal" .
+ns1:A_POWN	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Production of electricity by nuclear" .
+ns1:A_POWP	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Production of electricity by petroleum and other oil derivatives" .
+ns1:A_POWS	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Production of electricity by solar photovoltaic" .
+ns1:A_POWT	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Transmission of electricity" .
+ns1:A_POWW	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Production of electricity by wind" .
+ns1:A_PPIG	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Processing of meat pigs" .
+ns1:A_PPLT	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Processing of meat poultry" .
+ns1:A_PREM	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Precious metals production" .
+ns1:A_PREO	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Mining of precious metal ores and concentrates" .
+ns1:A_PRHH	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Private households with employed persons (95)" .
+ns1:A_PTEL	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Post and telecommunications (64)" .
+ns1:A_PULP	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Pulp" .
+ns1:A_RATV	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Manufacture of radio, television and communication equipment and apparatus (32)" .
+ns1:A_REAL	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Real estate activities (70)" .
+ns1:A_RECR	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Recreational, cultural and sporting activities (92)" .
+ns1:A_REFN	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Petroleum Refinery" .
+ns1:A_RESD	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Research and development (73)" .
+ns1:A_RICE	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Processed rice" .
+ns1:A_RUBP	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Manufacture of rubber and plastic products (25)" .
+ns1:A_RYMS	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Recycling of waste and scrap" .
+ns1:A_SDCL	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Quarrying of sand and clay" .
+ns1:A_STEL	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Manufacture of basic iron and steel and of ferro-alloys and first products thereof" .
+ns1:A_STEW	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Re-processing of secondary steel into new steel" .
+ns1:A_STON	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Quarrying of stone" .
+ns1:A_SUGB	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Cultivation of sugar cane, sugar beet" .
+ns1:A_SUGR	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Sugar refining" .
+ns1:A_TAIR	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Air transport (62)" .
+ns1:A_TAUX	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Supporting and auxiliary transport activities; activities of travel agencies (63)" .
+ns1:A_TDFU	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Retail sale of automotive fuel" .
+ns1:A_TDMO	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Sale, maintenance, repair of motor vehicles, motor vehicles parts, motorcycles, motor cycles parts and accessoiries" .
+ns1:A_TDRT	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Retail trade, except of motor vehicles and motorcycles; repair of personal and household goods (52)" .
+ns1:A_TDWH	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Wholesale trade and commission trade, except of motor vehicles and motorcycles (51)" .
+ns1:A_TEXT	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Manufacture of textiles (17)" .
+ns1:A_TLND	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Other land transport" .
+ns1:A_TOBC	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Manufacture of tobacco products (16)" .
+ns1:A_TPIP	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Transport via pipelines" .
+ns1:A_TRAI	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Transport via railways" .
+ns1:A_TWAI	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Inland water transport" .
+ns1:A_TWAS	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Sea and coastal water transport" .
+ns1:A_WASF	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Waste water treatment, food" .
+ns1:A_WATR	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Collection, purification and distribution of water (41)" .
+ns1:A_WHEA	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Cultivation of wheat" .
+ns1:A_WOOD	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials (20)" .
+ns1:A_WOOW	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Re-processing of secondary wood material into new wood material" .
+ns1:A_EXTO	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Extra-territorial organizations and bodies" .
+ns1:A_MANB	rdf:type	ns2:ActivityType ;
+	rdfs:label	"Manure treatment (biogas), storage and land application" .
+@prefix ns4:	<http://rdf.bonsai.uno/activitytype/> .
+@prefix ns5:	<http://purl.org/dc/dcmitype/> .
+ns4:exiobase3_3_17	rdf:type	ns5:Dataset .
+@prefix ns6:	<http://www.w3.org/ns/prov#> .
+ns4:exiobase3_3_17	rdf:type	ns6:Collection .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+ns4:exiobase3_3_17	owl:versionInfo	"0.5" .
+@prefix ns8:	<http://creativecommons.org/ns#> .
+ns4:exiobase3_3_17	ns8:license	<http://creativecommons.org/licenses/by/3.0/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+ns4:exiobase3_3_17	foaf:homepage	<http://rdf.bonsai.uno/activitytype/exiobase3_3_17documentation.html> .
+@prefix dc:	<http://purl.org/dc/elements/1.1/> .
+@prefix ns11:	<http://rdf.bonsai.uno/foaf#> .
+ns4:exiobase3_3_17	dc:creator	ns11:bonsai ;
+	dc:description	"ActivityType instances needed for BONSAI modelling of EXIOBASE version 3.3.17" .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ns4:exiobase3_3_17	dc:modified	"2020-06-17"^^xsd:date ;
+	dc:title	"EXIOBASE 3.3.17 activity types" .
+@prefix ns13:	<http://purl.org/vocab/vann/> .
+ns4:exiobase3_3_17	ns13:preferredNamespaceUri	ns1: ;
+	ns6:wasAttributedTo	ns11:bonsai .
+@prefix ns14:	<http://rdf.bonsai.uno/prov#> .
+ns4:exiobase3_3_17	ns6:wasGeneratedBy	ns14:dataExtractionActivity_0_5 ;
+	ns6:hadMember	ns1:A_OGPL ,
+		ns1:A_ONFM ,
+		ns1:A_LETH ,
+		ns1:A_MGWG ,
+		ns1:A_POWZ ,
+		ns1:A_PREW ,
+		ns1:A_POWE ,
+		ns1:A_POWO ,
+		ns1:A_COPW ,
+		ns1:A_IRON ,
+		ns1:A_ALUO ,
+		ns1:A_BOTW ,
+		ns1:A_WOOL ,
+		ns1:A_VOIL ,
+		ns1:A_WASO ,
+		ns1:A_DAIR ,
+		ns1:A_BRIK ,
+		ns1:A_CATL ,
+		ns1:A_BIOP ,
+		ns1:A_BIOS ,
+		ns1:A_CMNT ,
+		ns1:A_COAL ,
+		ns1:A_CHEM ,
+		ns1:A_CHMF ,
+		ns1:A_ALUM ,
+		ns1:A_BEVR ,
+		ns1:A_BIOF ,
+		ns1:A_ALUW ,
+		ns1:A_ASHW ,
+		ns1:A_EDUC ,
+		ns1:A_ELMA ,
+		ns1:A_COPP ,
+		ns1:A_CRMC ,
+		ns1:A_FIBR ,
+		ns1:A_FINS ,
+		ns1:A_FABM ,
+		ns1:A_FAUX ,
+		ns1:A_COMF ,
+		ns1:A_COMP ,
+		ns1:A_COIL ,
+		ns1:A_COKE ,
+		ns1:A_CONW ,
+		ns1:A_COPO ,
+		ns1:A_COMW ,
+		ns1:A_CONS ,
+		ns1:A_GLAW ,
+		ns1:A_HEAL ,
+		ns1:A_GASE ,
+		ns1:A_GLAS ,
+		ns1:A_INCF ,
+		ns1:A_INCL ,
+		ns1:A_HORE ,
+		ns1:A_HWAT ,
+		ns1:A_FORE ,
+		ns1:A_FSHP ,
+		ns1:A_FINT ,
+		ns1:A_FISH ,
+		ns1:A_GARM ,
+		ns1:A_GASD ,
+		ns1:A_FURN ,
+		ns1:A_FVEG ,
+		ns1:A_LANW ,
+		ns1:A_LZTO ,
+		ns1:A_LANP ,
+		ns1:A_LANT ,
+		ns1:A_MACH ,
+		ns1:A_MANC ,
+		ns1:A_LZTP ,
+		ns1:A_LZTW ,
+		ns1:A_INCP ,
+		ns1:A_INCT ,
+		ns1:A_INCM ,
+		ns1:A_INCO ,
+		ns1:A_LANI ,
+		ns1:A_LANL ,
+		ns1:A_INCW ,
+		ns1:A_LANF ,
+		ns1:A_OBUS ,
+		ns1:A_OCER ,
+		ns1:A_NUCF ,
+		ns1:A_OANP ,
+		ns1:A_OILS ,
+		ns1:A_OMEA ,
+		ns1:A_OFMA ,
+		ns1:A_OFOD ,
+		ns1:A_MEIN ,
+		ns1:A_METC ,
+		ns1:A_MARE ,
+		ns1:A_MDIA ,
+		ns1:A_NFER ,
+		ns1:A_NIKO ,
+		ns1:A_MILK ,
+		ns1:A_MOTO ,
+		ns1:A_PAPR ,
+		ns1:A_PARI ,
+		ns1:A_PADF ,
+		ns1:A_PAPE ,
+		ns1:A_PIGS ,
+		ns1:A_PLAS ,
+		ns1:A_PCAT ,
+		ns1:A_PFER ,
+		ns1:A_ONMM ,
+		ns1:A_ORAN ,
+		ns1:A_ONFO ,
+		ns1:A_ONFW ,
+		ns1:A_OTCR ,
+		ns1:A_OTRE ,
+		ns1:A_ORGA ,
+		ns1:A_OSER ,
+		ns1:A_POWP ,
+		ns1:A_POWS ,
+		ns1:A_POWM ,
+		ns1:A_POWN ,
+		ns1:A_PPIG ,
+		ns1:A_PPLT ,
+		ns1:A_POWT ,
+		ns1:A_POWW ,
+		ns1:A_POME ,
+		ns1:A_POWB ,
+		ns1:A_PLAW ,
+		ns1:A_PLTR ,
+		ns1:A_POWG ,
+		ns1:A_POWH ,
+		ns1:A_POWC ,
+		ns1:A_POWD ,
+		ns1:A_RICE ,
+		ns1:A_RUBP ,
+		ns1:A_REFN ,
+		ns1:A_RESD ,
+		ns1:A_STEL ,
+		ns1:A_STEW ,
+		ns1:A_RYMS ,
+		ns1:A_SDCL ,
+		ns1:A_PRHH ,
+		ns1:A_PTEL ,
+		ns1:A_PREM ,
+		ns1:A_PREO ,
+		ns1:A_REAL ,
+		ns1:A_RECR ,
+		ns1:A_PULP ,
+		ns1:A_RATV ,
+		ns1:A_TLND ,
+		ns1:A_TOBC ,
+		ns1:A_TDWH ,
+		ns1:A_TEXT ,
+		ns1:A_TWAI ,
+		ns1:A_TWAS ,
+		ns1:A_MANB ,
+		ns1:A_TPIP ,
+		ns1:A_TRAI ,
+		ns1:A_SUGR ,
+		ns1:A_TAIR ,
+		ns1:A_STON ,
+		ns1:A_SUGB ,
+		ns1:A_TDMO ,
+		ns1:A_TDRT ,
+		ns1:A_TAUX ,
+		ns1:A_TDFU ,
+		ns1:A_EXTO ,
+		ns1:A_WHEA ,
+		ns1:A_WOOD ,
+		ns1:A_WASF ,
+		ns1:A_WATR ,
+		ns1:A_WOOW ;
+	dc:publisher	ns11:bonsai ;
+	ns6:generatedAtTime	"2020-06-17"^^xsd:date .

@@ -1,0 +1,276 @@
+@prefix bfoaf: <http://rdf.bonsai.uno/foaf#> .
+@prefix bprov: <http://rdf.bonsai.uno/prov#> .
+@prefix brdflo: <http://rdf.bonsai.uno/location/exiobase3_3_17#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dtype: <http://purl.org/dc/dcmitype/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gn: <http://sws.geonames.org/> .
+@prefix ns1: <http://purl.org/vocab/vann/> .
+@prefix ns2: <http://creativecommons.org/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://rdf.bonsai.uno/location/exiobase3_3_17> a dtype:Dataset,
+        prov:Collection ;
+    ns2:license <http://creativecommons.org/licenses/by/3.0/> ;
+    dc:creator bfoaf:bonsai ;
+    dc:description "Country groupings used EXIOBASE 3.3.17" ;
+    dc:modified "2020-06-17"^^xsd:date ;
+    dc:publisher bfoaf:bonsai ;
+    dc:title "Custom locations for EXIOBASE 3.3" ;
+    ns1:preferredNamespaceUri brdflo: ;
+    owl:versionInfo "0.5" ;
+    prov:generatedAtTime "2020-06-17"^^xsd:date ;
+    prov:wasAttributedTo bfoaf:bonsai ;
+    prov:wasGeneratedBy bprov:dataExtractionActivity_0_5 ;
+    foaf:homepage <http://rdf.bonsai.uno/location/exiobase3_3_17documentation.html> .
+
+brdflo: prov:hadMember brdflo:AT,
+        brdflo:AU,
+        brdflo:BE,
+        brdflo:BG,
+        brdflo:BR,
+        brdflo:CA,
+        brdflo:CH,
+        brdflo:CN,
+        brdflo:CY,
+        brdflo:CZ,
+        brdflo:DE,
+        brdflo:DK,
+        brdflo:EE,
+        brdflo:ES,
+        brdflo:FI,
+        brdflo:FR,
+        brdflo:GB,
+        brdflo:GR,
+        brdflo:HR,
+        brdflo:HU,
+        brdflo:ID,
+        brdflo:IE,
+        brdflo:IN,
+        brdflo:IT,
+        brdflo:JP,
+        brdflo:KR,
+        brdflo:LT,
+        brdflo:LU,
+        brdflo:LV,
+        brdflo:MT,
+        brdflo:MX,
+        brdflo:NL,
+        brdflo:NO,
+        brdflo:PL,
+        brdflo:PT,
+        brdflo:RO,
+        brdflo:RU,
+        brdflo:SE,
+        brdflo:SI,
+        brdflo:SK,
+        brdflo:TR,
+        brdflo:TW,
+        brdflo:US,
+        brdflo:WA,
+        brdflo:WE,
+        brdflo:WF,
+        brdflo:WL,
+        brdflo:WM,
+        brdflo:ZA .
+
+brdflo:AT a schema:Place ;
+    rdfs:label "AT" ;
+    owl:sameAs gn:2782113 .
+
+brdflo:AU a schema:Place ;
+    rdfs:label "AU" ;
+    owl:sameAs gn:2077456 .
+
+brdflo:BE a schema:Place ;
+    rdfs:label "BE" ;
+    owl:sameAs gn:2802361 .
+
+brdflo:BG a schema:Place ;
+    rdfs:label "BG" ;
+    owl:sameAs gn:732800 .
+
+brdflo:BR a schema:Place ;
+    rdfs:label "BR" ;
+    owl:sameAs gn:3469034 .
+
+brdflo:CA a schema:Place ;
+    rdfs:label "CA" ;
+    owl:sameAs gn:6251999 .
+
+brdflo:CH a schema:Place ;
+    rdfs:label "CH" ;
+    owl:sameAs gn:2658434 .
+
+brdflo:CN a schema:Place ;
+    rdfs:label "CN" ;
+    owl:sameAs gn:1814991 .
+
+brdflo:CY a schema:Place ;
+    rdfs:label "CY" ;
+    owl:sameAs gn:146669 .
+
+brdflo:CZ a schema:Place ;
+    rdfs:label "CZ" ;
+    owl:sameAs gn:3077311 .
+
+brdflo:DE a schema:Place ;
+    rdfs:label "DE" ;
+    owl:sameAs gn:2921044 .
+
+brdflo:DK a schema:Place ;
+    rdfs:label "DK" ;
+    owl:sameAs gn:2623032 .
+
+brdflo:EE a schema:Place ;
+    rdfs:label "EE" ;
+    owl:sameAs gn:453733 .
+
+brdflo:ES a schema:Place ;
+    rdfs:label "ES" ;
+    owl:sameAs gn:2510769 .
+
+brdflo:FI a schema:Place ;
+    rdfs:label "FI" ;
+    owl:sameAs gn:660013 .
+
+brdflo:FR a schema:Place ;
+    rdfs:label "FR" ;
+    owl:sameAs gn:3017382 .
+
+brdflo:GB a schema:Place ;
+    rdfs:label "GB" ;
+    owl:sameAs gn:2635167 .
+
+brdflo:GR a schema:Place ;
+    rdfs:label "GR" ;
+    owl:sameAs gn:390903 .
+
+brdflo:HR a schema:Place ;
+    rdfs:label "HR" ;
+    owl:sameAs gn:3202326 .
+
+brdflo:HU a schema:Place ;
+    rdfs:label "HU" ;
+    owl:sameAs gn:719819 .
+
+brdflo:ID a schema:Place ;
+    rdfs:label "ID" ;
+    owl:sameAs gn:1643084 .
+
+brdflo:IE a schema:Place ;
+    rdfs:label "IE" ;
+    owl:sameAs gn:2963597 .
+
+brdflo:IN a schema:Place ;
+    rdfs:label "IN" ;
+    owl:sameAs gn:1269750 .
+
+brdflo:IT a schema:Place ;
+    rdfs:label "IT" ;
+    owl:sameAs gn:3175395 .
+
+brdflo:JP a schema:Place ;
+    rdfs:label "JP" ;
+    owl:sameAs gn:1861060 .
+
+brdflo:KR a schema:Place ;
+    rdfs:label "KR" ;
+    owl:sameAs gn:1835841 .
+
+brdflo:LT a schema:Place ;
+    rdfs:label "LT" ;
+    owl:sameAs gn:597427 .
+
+brdflo:LU a schema:Place ;
+    rdfs:label "LU" ;
+    owl:sameAs gn:2960313 .
+
+brdflo:LV a schema:Place ;
+    rdfs:label "LV" ;
+    owl:sameAs gn:458258 .
+
+brdflo:MT a schema:Place ;
+    rdfs:label "MT" ;
+    owl:sameAs gn:2562770 .
+
+brdflo:MX a schema:Place ;
+    rdfs:label "MX" ;
+    owl:sameAs gn:3996063 .
+
+brdflo:NL a schema:Place ;
+    rdfs:label "NL" ;
+    owl:sameAs gn:2750405 .
+
+brdflo:NO a schema:Place ;
+    rdfs:label "NO" ;
+    owl:sameAs gn:3144096 .
+
+brdflo:PL a schema:Place ;
+    rdfs:label "PL" ;
+    owl:sameAs gn:798544 .
+
+brdflo:PT a schema:Place ;
+    rdfs:label "PT" ;
+    owl:sameAs gn:2264397 .
+
+brdflo:RO a schema:Place ;
+    rdfs:label "RO" ;
+    owl:sameAs gn:798549 .
+
+brdflo:RU a schema:Place ;
+    rdfs:label "RU" ;
+    owl:sameAs gn:2017370 .
+
+brdflo:SE a schema:Place ;
+    rdfs:label "SE" ;
+    owl:sameAs gn:2661886 .
+
+brdflo:SI a schema:Place ;
+    rdfs:label "SI" ;
+    owl:sameAs gn:3190538 .
+
+brdflo:SK a schema:Place ;
+    rdfs:label "SK" ;
+    owl:sameAs gn:3057568 .
+
+brdflo:TR a schema:Place ;
+    rdfs:label "TR" ;
+    owl:sameAs gn:298795 .
+
+brdflo:TW a schema:Place ;
+    rdfs:label "TW" ;
+    owl:sameAs gn:1668284 .
+
+brdflo:US a schema:Place ;
+    rdfs:label "US" ;
+    owl:sameAs gn:6252001 .
+
+brdflo:WA a schema:Place ;
+    rdfs:label "EXIOBASE region RoW Asia and Pacific" ;
+    owl:sameAs <http://rdf.bonsai.uno/location/exiobase3_3_17/WA> .
+
+brdflo:WE a schema:Place ;
+    rdfs:label "EXIOBASE region RoW Europe" ;
+    owl:sameAs <http://rdf.bonsai.uno/location/exiobase3_3_17/WE> .
+
+brdflo:WF a schema:Place ;
+    rdfs:label "EXIOBASE region RoW Africa" ;
+    owl:sameAs <http://rdf.bonsai.uno/location/exiobase3_3_17/WF> .
+
+brdflo:WL a schema:Place ;
+    rdfs:label "EXIOBASE region RoW America" ;
+    owl:sameAs <http://rdf.bonsai.uno/location/exiobase3_3_17/WL> .
+
+brdflo:WM a schema:Place ;
+    rdfs:label "EXIOBASE region RoW Middle East" ;
+    owl:sameAs <http://rdf.bonsai.uno/location/exiobase3_3_17/WM> .
+
+brdflo:ZA a schema:Place ;
+    rdfs:label "ZA" ;
+    owl:sameAs gn:953987 .
+

@@ -1,0 +1,89 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://rdf.bonsai.uno/activitytype/> .
+@prefix ns2:	<http://purl.org/dc/dcmitype/> .
+ns1:entsoe	rdf:type	ns2:Dataset .
+@prefix ns3:	<http://www.w3.org/ns/prov#> .
+ns1:entsoe	rdf:type	ns3:Collection .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+ns1:entsoe	owl:versionInfo	"0.4" .
+@prefix ns5:	<http://creativecommons.org/ns#> .
+ns1:entsoe	ns5:license	<http://creativecommons.org/licenses/by/3.0/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+ns1:entsoe	foaf:homepage	<http://rdf.bonsai.uno/activitytype/entsoedocumentation.html> .
+@prefix dc:	<http://purl.org/dc/elements/1.1/> .
+@prefix ns8:	<http://rdf.bonsai.uno/foaf#> .
+ns1:entsoe	dc:creator	ns8:bonsai ;
+	dc:description	"ENTSO-E activity types used in BONSAI modelling" .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ns1:entsoe	dc:modified	"2019-12-20"^^xsd:date ;
+	dc:title	"ENTSO-E activity types" .
+@prefix ns10:	<http://purl.org/vocab/vann/> .
+ns1:entsoe	ns10:preferredNamespaceUri	<http://rdf.bonsai.uno/activitytype/entsoe#> ;
+	ns3:wasAttributedTo	ns8:bonsai .
+@prefix ns11:	<http://rdf.bonsai.uno/prov#> .
+ns1:entsoe	ns3:wasGeneratedBy	ns11:dataExtractionActivity_0_4 .
+@prefix ns12:	<http://rdf.bonsai.uno/activitytype/entsoe#> .
+ns1:entsoe	ns3:hadMember	ns12:nuke ,
+		ns12:geo ,
+		ns12:h2o ,
+		ns12:won ,
+		ns12:was ,
+		ns12:woff ,
+		ns12:res ,
+		ns12:sun ,
+		ns12:fhc ,
+		ns12:fo ,
+		ns12:fcg ,
+		ns12:fg ,
+		ns12:bio ,
+		ns12:fbcl ,
+		ns12:fos ,
+		ns12:peat ,
+		ns12:ps ,
+		ns12:oth ,
+		ns12:othr ,
+		ns12:mar ;
+	dc:publisher	ns8:bonsai ;
+	ns3:generatedAtTime	"2019-12-20"^^xsd:date .
+@prefix ns13:	<http://ontology.bonsai.uno/core#> .
+ns12:fos	rdf:type	ns13:ActivityType .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+ns12:fos	rdfs:label	"Fossil Oil shale" .
+ns12:bio	rdf:type	ns13:ActivityType ;
+	rdfs:label	"Biomass" .
+ns12:fbcl	rdf:type	ns13:ActivityType ;
+	rdfs:label	"Fossil Brown coal/Lignite" .
+ns12:fcg	rdf:type	ns13:ActivityType ;
+	rdfs:label	"Fossil Coal-derived gas" .
+ns12:fg	rdf:type	ns13:ActivityType ;
+	rdfs:label	"Fossil Gas" .
+ns12:fhc	rdf:type	ns13:ActivityType ;
+	rdfs:label	"Fossil Hard coal" .
+ns12:fo	rdf:type	ns13:ActivityType ;
+	rdfs:label	"Fossil Oil" .
+ns12:geo	rdf:type	ns13:ActivityType ;
+	rdfs:label	"Geothermal" .
+ns12:h2o	rdf:type	ns13:ActivityType ;
+	rdfs:label	"Hydro Run-of-river and poundage" .
+ns12:mar	rdf:type	ns13:ActivityType ;
+	rdfs:label	"Marine" .
+ns12:nuke	rdf:type	ns13:ActivityType ;
+	rdfs:label	"Nuclear" .
+ns12:oth	rdf:type	ns13:ActivityType ;
+	rdfs:label	"Other" .
+ns12:othr	rdf:type	ns13:ActivityType ;
+	rdfs:label	"Other renewable" .
+ns12:peat	rdf:type	ns13:ActivityType ;
+	rdfs:label	"Fossil Peat" .
+ns12:ps	rdf:type	ns13:ActivityType ;
+	rdfs:label	"Hydro Pumped Storage" .
+ns12:res	rdf:type	ns13:ActivityType ;
+	rdfs:label	"Hydro Water Reservoir" .
+ns12:sun	rdf:type	ns13:ActivityType ;
+	rdfs:label	"Solar" .
+ns12:was	rdf:type	ns13:ActivityType ;
+	rdfs:label	"Waste" .
+ns12:woff	rdf:type	ns13:ActivityType ;
+	rdfs:label	"Wind Offshore" .
+ns12:won	rdf:type	ns13:ActivityType ;
+	rdfs:label	"Wind Onshore" .

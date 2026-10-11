@@ -1,0 +1,35 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://rdf.bonsai.uno/foaf/> .
+@prefix ns2:	<http://purl.org/dc/dcmitype/> .
+ns1:ystafdb	rdf:type	ns2:Dataset .
+@prefix ns3:	<http://www.w3.org/ns/prov#> .
+ns1:ystafdb	rdf:type	ns3:Collection .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix ns5:	<http://purl.org/dc/terms/> .
+ns1:ystafdb	ns5:modified	"2022-07-26"^^xsd:date .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+ns1:ystafdb	owl:versionInfo	"0.6.1" .
+@prefix ns7:	<http://creativecommons.org/ns#> .
+ns1:ystafdb	ns7:license	<http://creativecommons.org/licenses/by/3.0/> .
+@prefix dc:	<http://purl.org/dc/elements/1.1/> .
+@prefix ns9:	<http://rdf.bonsai.uno/foaf/bonsai#> .
+ns1:ystafdb	dc:creator	ns9:bonsai ;
+	dc:description	"Instances of Organizations" ;
+	dc:title	"Organizations" .
+@prefix ns10:	<http://purl.org/vocab/vann/> .
+ns1:ystafdb	ns10:preferredNamespaceUri	<http://rdf.bonsai.uno/foaf/ystafdb#> ;
+	ns3:wasAttributedTo	ns9:bonsai .
+@prefix ns11:	<http://rdf.bonsai.uno/prov/ystafdb#> .
+ns1:ystafdb	ns3:wasGeneratedBy	ns11:dataExtractionActivity_0_6_1 .
+@prefix ns12:	<http://rdf.bonsai.uno/foaf/ystafdb#> .
+ns1:ystafdb	ns3:hadMember	ns12:provider_0 ;
+	dc:publisher	ns9:bonsai ;
+	ns3:generatedAtTime	"2022-07-26"^^xsd:date ;
+	ns5:license	<https://creativecommons.org/licenses/by/3.0/> .
+@prefix ns13:	<https://www.w3.org/TR/vocab-org/> .
+ns12:provider_0	rdf:type	ns13:Organization ,
+		ns3:Agent .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+ns12:provider_0	foaf:homepage	<https://cie.research.yale.edu/> ;
+	dc:description	"Center for Industrial Ecology at Yale University" ;
+	dc:title	"Yale University" .

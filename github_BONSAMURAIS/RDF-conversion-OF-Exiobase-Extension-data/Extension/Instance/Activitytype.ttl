@@ -1,0 +1,29 @@
+<http://rdf.bonsai.uno/activitytype/exiobase3_3_17#F_HOUS>
+        a       <http://ontology.bonsai.uno/core#ActivityType> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Final consumption expenditure by households" .
+				
+<http://rdf.bonsai.uno/activitytype/exiobase3_3_17#F_NPSH>
+        a       <http://ontology.bonsai.uno/core#ActivityType> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Final consumption expenditure by non-profit organisations serving households (NPISH)" .
+				
+<http://rdf.bonsai.uno/activitytype/exiobase3_3_17#F_GOVE>
+        a       <http://ontology.bonsai.uno/core#ActivityType> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Final consumption expenditure by government" .
+				
+<http://rdf.bonsai.uno/activitytype/exiobase3_3_17#I_GFCF>
+        a       <http://ontology.bonsai.uno/core#ActivityType> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Gross fixed capital formation" .
+				
+<http://rdf.bonsai.uno/activitytype/exiobase3_3_17#I_CHIN>
+        a       <http://ontology.bonsai.uno/core#ActivityType> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Changes in inventories" .
+				
+<http://rdf.bonsai.uno/activitytype/exiobase3_3_17#I_CHVA>
+        a       <http://ontology.bonsai.uno/core#ActivityType> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Changes in valuables" .

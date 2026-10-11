@@ -1,0 +1,4001 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<https://www.w3.org/TR/owl-time/> .
+<http://rdf.bonsai.uno/time#2011>	rdf:type	ns1:ProperInterval .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+<http://rdf.bonsai.uno/time#2011>	rdfs:label	2011 .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix ns4:	<http://www.wikidata.org/entity/> .
+<http://rdf.bonsai.uno/time#2011>	owl:sameAs	ns4:Q1994 ,
+		<http://reference.data.gov.uk/doc/year/2011> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2011start> .
+@prefix ns5:	<http://rdf.bonsai.uno/time#> .
+<http://rdf.bonsai.uno/time#2011>	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2011end> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+<http://rdf.bonsai.uno/time#2011>	ns1:inXSDDate	"2011-01-01"^^xsd:date .
+@prefix ns7:	<http://rdf.bonsai.uno/> .
+@prefix ns8:	<http://purl.org/dc/dcmitype/> .
+ns7:time	rdf:type	ns8:Dataset .
+@prefix ns9:	<http://www.w3.org/ns/prov#> .
+ns7:time	rdf:type	ns9:Collection ;
+	owl:versionInfo	"0.5" .
+@prefix ns10:	<http://creativecommons.org/ns#> .
+ns7:time	ns10:license	<http://creativecommons.org/licenses/by/3.0/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+ns7:time	foaf:homepage	<http://rdf.bonsai.uno/timedocumentation.html> .
+@prefix dc:	<http://purl.org/dc/elements/1.1/> .
+@prefix ns13:	<http://rdf.bonsai.uno/foaf#> .
+ns7:time	dc:creator	ns13:bonsai ;
+	dc:description	"Complete years 2010 - 2020 for use in BONSAI" ;
+	dc:modified	"2020-06-17"^^xsd:date ;
+	dc:title	"Years 2010 - 2020" .
+@prefix ns14:	<http://purl.org/vocab/vann/> .
+ns7:time	ns14:preferredNamespaceUri	ns5: ;
+	ns9:wasAttributedTo	ns13:bonsai .
+@prefix ns15:	<http://rdf.bonsai.uno/prov#> .
+ns7:time	ns9:wasGeneratedBy	ns15:dataExtractionActivity_0_5 ;
+	ns9:hadMember	<http://rdf.bonsai.uno/time#2077> ,
+		<http://rdf.bonsai.uno/time#2076> ,
+		<http://rdf.bonsai.uno/time#2078> ,
+		<http://rdf.bonsai.uno/time#2079> ,
+		<http://rdf.bonsai.uno/time#2081> ,
+		<http://rdf.bonsai.uno/time#2080> ,
+		<http://rdf.bonsai.uno/time#2071> ,
+		<http://rdf.bonsai.uno/time#2073> ,
+		<http://rdf.bonsai.uno/time#2072> ,
+		<http://rdf.bonsai.uno/time#2074> ,
+		<http://rdf.bonsai.uno/time#2075> ,
+		<http://rdf.bonsai.uno/time#2066> ,
+		<http://rdf.bonsai.uno/time#2067> ,
+		<http://rdf.bonsai.uno/time#2069> ,
+		<http://rdf.bonsai.uno/time#2068> ,
+		<http://rdf.bonsai.uno/time#2070> ,
+		<http://rdf.bonsai.uno/time#2061> ,
+		<http://rdf.bonsai.uno/time#2060> ,
+		<http://rdf.bonsai.uno/time#2062> ,
+		<http://rdf.bonsai.uno/time#2063> ,
+		<http://rdf.bonsai.uno/time#2065> ,
+		<http://rdf.bonsai.uno/time#2064> ,
+		<http://rdf.bonsai.uno/time#2098> ,
+		<http://rdf.bonsai.uno/time#2099> ,
+		<http://rdf.bonsai.uno/time#2100> ,
+		<http://rdf.bonsai.uno/time#2093> ,
+		<http://rdf.bonsai.uno/time#2092> ,
+		<http://rdf.bonsai.uno/time#2094> ,
+		<http://rdf.bonsai.uno/time#2095> ,
+		<http://rdf.bonsai.uno/time#2097> ,
+		<http://rdf.bonsai.uno/time#2096> ,
+		<http://rdf.bonsai.uno/time#2087> ,
+		<http://rdf.bonsai.uno/time#2089> ,
+		<http://rdf.bonsai.uno/time#2088> ,
+		<http://rdf.bonsai.uno/time#2090> ,
+		<http://rdf.bonsai.uno/time#2091> ,
+		<http://rdf.bonsai.uno/time#2082> ,
+		<http://rdf.bonsai.uno/time#2083> ,
+		<http://rdf.bonsai.uno/time#2085> ,
+		<http://rdf.bonsai.uno/time#2084> ,
+		<http://rdf.bonsai.uno/time#2086> ,
+		<http://rdf.bonsai.uno/time#1804> ,
+		<http://rdf.bonsai.uno/time#1803> ,
+		<http://rdf.bonsai.uno/time#1805> ,
+		<http://rdf.bonsai.uno/time#1806> ,
+		<http://rdf.bonsai.uno/time#1808> ,
+		<http://rdf.bonsai.uno/time#1807> ,
+		<http://rdf.bonsai.uno/time#1800> ,
+		<http://rdf.bonsai.uno/time#1801> ,
+		<http://rdf.bonsai.uno/time#1802> ,
+		<http://rdf.bonsai.uno/time#1825> ,
+		<http://rdf.bonsai.uno/time#1826> ,
+		<http://rdf.bonsai.uno/time#1828> ,
+		<http://rdf.bonsai.uno/time#1827> ,
+		<http://rdf.bonsai.uno/time#1829> ,
+		<http://rdf.bonsai.uno/time#1820> ,
+		<http://rdf.bonsai.uno/time#1819> ,
+		<http://rdf.bonsai.uno/time#1821> ,
+		<http://rdf.bonsai.uno/time#1822> ,
+		<http://rdf.bonsai.uno/time#1824> ,
+		<http://rdf.bonsai.uno/time#1823> ,
+		<http://rdf.bonsai.uno/time#1814> ,
+		<http://rdf.bonsai.uno/time#1816> ,
+		<http://rdf.bonsai.uno/time#1815> ,
+		<http://rdf.bonsai.uno/time#1817> ,
+		<http://rdf.bonsai.uno/time#1818> ,
+		<http://rdf.bonsai.uno/time#1809> ,
+		<http://rdf.bonsai.uno/time#2011> ,
+		<http://rdf.bonsai.uno/time#1810> ,
+		<http://rdf.bonsai.uno/time#1812> ,
+		<http://rdf.bonsai.uno/time#1811> ,
+		<http://rdf.bonsai.uno/time#1813> ,
+		<http://rdf.bonsai.uno/time#1846> ,
+		<http://rdf.bonsai.uno/time#1847> ,
+		<http://rdf.bonsai.uno/time#1849> ,
+		<http://rdf.bonsai.uno/time#1848> ,
+		<http://rdf.bonsai.uno/time#1850> ,
+		<http://rdf.bonsai.uno/time#1841> ,
+		<http://rdf.bonsai.uno/time#1842> ,
+		<http://rdf.bonsai.uno/time#1844> ,
+		<http://rdf.bonsai.uno/time#1843> ,
+		<http://rdf.bonsai.uno/time#1845> ,
+		<http://rdf.bonsai.uno/time#1836> ,
+		<http://rdf.bonsai.uno/time#1835> ,
+		<http://rdf.bonsai.uno/time#1837> ,
+		<http://rdf.bonsai.uno/time#1838> ,
+		<http://rdf.bonsai.uno/time#1840> ,
+		<http://rdf.bonsai.uno/time#1839> ,
+		<http://rdf.bonsai.uno/time#1830> ,
+		<http://rdf.bonsai.uno/time#1832> ,
+		<http://rdf.bonsai.uno/time#1831> ,
+		<http://rdf.bonsai.uno/time#1833> ,
+		<http://rdf.bonsai.uno/time#1834> ,
+		<http://rdf.bonsai.uno/time#1867> ,
+		<http://rdf.bonsai.uno/time#1869> ,
+		<http://rdf.bonsai.uno/time#1868> ,
+		<http://rdf.bonsai.uno/time#1870> ,
+		<http://rdf.bonsai.uno/time#1871> ,
+		<http://rdf.bonsai.uno/time#1862> ,
+		<http://rdf.bonsai.uno/time#1863> ,
+		<http://rdf.bonsai.uno/time#1865> ,
+		<http://rdf.bonsai.uno/time#1864> ,
+		<http://rdf.bonsai.uno/time#1866> ,
+		<http://rdf.bonsai.uno/time#1857> ,
+		<http://rdf.bonsai.uno/time#1856> ,
+		<http://rdf.bonsai.uno/time#1858> ,
+		<http://rdf.bonsai.uno/time#1859> ,
+		<http://rdf.bonsai.uno/time#1861> ,
+		<http://rdf.bonsai.uno/time#1860> ,
+		<http://rdf.bonsai.uno/time#1851> ,
+		<http://rdf.bonsai.uno/time#1853> ,
+		<http://rdf.bonsai.uno/time#1852> ,
+		<http://rdf.bonsai.uno/time#1854> ,
+		<http://rdf.bonsai.uno/time#1855> ,
+		<http://rdf.bonsai.uno/time#1889> ,
+		<http://rdf.bonsai.uno/time#1888> ,
+		<http://rdf.bonsai.uno/time#1890> ,
+		<http://rdf.bonsai.uno/time#1891> ,
+		<http://rdf.bonsai.uno/time#1893> ,
+		<http://rdf.bonsai.uno/time#1892> ,
+		<http://rdf.bonsai.uno/time#1883> ,
+		<http://rdf.bonsai.uno/time#1885> ,
+		<http://rdf.bonsai.uno/time#1884> ,
+		<http://rdf.bonsai.uno/time#1886> ,
+		<http://rdf.bonsai.uno/time#1887> ,
+		<http://rdf.bonsai.uno/time#1878> ,
+		<http://rdf.bonsai.uno/time#1879> ,
+		<http://rdf.bonsai.uno/time#1881> ,
+		<http://rdf.bonsai.uno/time#1880> ,
+		<http://rdf.bonsai.uno/time#1882> ,
+		<http://rdf.bonsai.uno/time#1873> ,
+		<http://rdf.bonsai.uno/time#1872> ,
+		<http://rdf.bonsai.uno/time#1874> ,
+		<http://rdf.bonsai.uno/time#1875> ,
+		<http://rdf.bonsai.uno/time#1877> ,
+		<http://rdf.bonsai.uno/time#1876> ,
+		<http://rdf.bonsai.uno/time#1910> ,
+		<http://rdf.bonsai.uno/time#1909> ,
+		<http://rdf.bonsai.uno/time#1911> ,
+		<http://rdf.bonsai.uno/time#1912> ,
+		<http://rdf.bonsai.uno/time#1913> ,
+		<http://rdf.bonsai.uno/time#1904> ,
+		<http://rdf.bonsai.uno/time#1906> ,
+		<http://rdf.bonsai.uno/time#1905> ,
+		<http://rdf.bonsai.uno/time#1907> ,
+		<http://rdf.bonsai.uno/time#1908> ,
+		<http://rdf.bonsai.uno/time#1899> ,
+		<http://rdf.bonsai.uno/time#1900> ,
+		<http://rdf.bonsai.uno/time#1902> ,
+		<http://rdf.bonsai.uno/time#1901> ,
+		<http://rdf.bonsai.uno/time#1903> ,
+		<http://rdf.bonsai.uno/time#1894> ,
+		<http://rdf.bonsai.uno/time#1895> ,
+		<http://rdf.bonsai.uno/time#1897> ,
+		<http://rdf.bonsai.uno/time#1896> ,
+		<http://rdf.bonsai.uno/time#1898> ,
+		<http://rdf.bonsai.uno/time#1930> ,
+		<http://rdf.bonsai.uno/time#1931> ,
+		<http://rdf.bonsai.uno/time#1933> ,
+		<http://rdf.bonsai.uno/time#1932> ,
+		<http://rdf.bonsai.uno/time#1934> ,
+		<http://rdf.bonsai.uno/time#1925> ,
+		<http://rdf.bonsai.uno/time#1926> ,
+		<http://rdf.bonsai.uno/time#1928> ,
+		<http://rdf.bonsai.uno/time#1927> ,
+		<http://rdf.bonsai.uno/time#1929> ,
+		<http://rdf.bonsai.uno/time#1920> ,
+		<http://rdf.bonsai.uno/time#1921> ,
+		<http://rdf.bonsai.uno/time#1922> ,
+		<http://rdf.bonsai.uno/time#1924> ,
+		<http://rdf.bonsai.uno/time#1923> ,
+		<http://rdf.bonsai.uno/time#1915> ,
+		<http://rdf.bonsai.uno/time#1914> ,
+		<http://rdf.bonsai.uno/time#1916> ,
+		<http://rdf.bonsai.uno/time#1917> ,
+		<http://rdf.bonsai.uno/time#1919> ,
+		<http://rdf.bonsai.uno/time#1918> ,
+		<http://rdf.bonsai.uno/time#1951> ,
+		<http://rdf.bonsai.uno/time#1952> ,
+		<http://rdf.bonsai.uno/time#1953> ,
+		<http://rdf.bonsai.uno/time#1955> ,
+		<http://rdf.bonsai.uno/time#1954> ,
+		<http://rdf.bonsai.uno/time#1946> ,
+		<http://rdf.bonsai.uno/time#1945> ,
+		<http://rdf.bonsai.uno/time#1947> ,
+		<http://rdf.bonsai.uno/time#1948> ,
+		<http://rdf.bonsai.uno/time#1950> ,
+		<http://rdf.bonsai.uno/time#1949> ,
+		<http://rdf.bonsai.uno/time#1940> ,
+		<http://rdf.bonsai.uno/time#1942> ,
+		<http://rdf.bonsai.uno/time#1941> ,
+		<http://rdf.bonsai.uno/time#1943> ,
+		<http://rdf.bonsai.uno/time#1944> ,
+		<http://rdf.bonsai.uno/time#1935> ,
+		<http://rdf.bonsai.uno/time#1937> ,
+		<http://rdf.bonsai.uno/time#1936> ,
+		<http://rdf.bonsai.uno/time#1938> ,
+		<http://rdf.bonsai.uno/time#1939> ,
+		<http://rdf.bonsai.uno/time#1971> ,
+		<http://rdf.bonsai.uno/time#1973> ,
+		<http://rdf.bonsai.uno/time#1972> ,
+		<http://rdf.bonsai.uno/time#1974> ,
+		<http://rdf.bonsai.uno/time#1975> ,
+		<http://rdf.bonsai.uno/time#1966> ,
+		<http://rdf.bonsai.uno/time#1968> ,
+		<http://rdf.bonsai.uno/time#1967> ,
+		<http://rdf.bonsai.uno/time#1969> ,
+		<http://rdf.bonsai.uno/time#1970> ,
+		<http://rdf.bonsai.uno/time#1961> ,
+		<http://rdf.bonsai.uno/time#1962> ,
+		<http://rdf.bonsai.uno/time#1964> ,
+		<http://rdf.bonsai.uno/time#1963> ,
+		<http://rdf.bonsai.uno/time#1965> ,
+		<http://rdf.bonsai.uno/time#1956> ,
+		<http://rdf.bonsai.uno/time#1957> ,
+		<http://rdf.bonsai.uno/time#1959> ,
+		<http://rdf.bonsai.uno/time#1958> ,
+		<http://rdf.bonsai.uno/time#1960> ,
+		<http://rdf.bonsai.uno/time#1992> ,
+		<http://rdf.bonsai.uno/time#1993> ,
+		<http://rdf.bonsai.uno/time#1995> ,
+		<http://rdf.bonsai.uno/time#1994> ,
+		<http://rdf.bonsai.uno/time#1996> ,
+		<http://rdf.bonsai.uno/time#1987> ,
+		<http://rdf.bonsai.uno/time#1988> ,
+		<http://rdf.bonsai.uno/time#1990> ,
+		<http://rdf.bonsai.uno/time#1989> ,
+		<http://rdf.bonsai.uno/time#1991> ,
+		<http://rdf.bonsai.uno/time#1982> ,
+		<http://rdf.bonsai.uno/time#1981> ,
+		<http://rdf.bonsai.uno/time#1983> ,
+		<http://rdf.bonsai.uno/time#1984> ,
+		<http://rdf.bonsai.uno/time#1986> ,
+		<http://rdf.bonsai.uno/time#1985> ,
+		<http://rdf.bonsai.uno/time#1977> ,
+		<http://rdf.bonsai.uno/time#1976> ,
+		<http://rdf.bonsai.uno/time#1978> ,
+		<http://rdf.bonsai.uno/time#1979> ,
+		<http://rdf.bonsai.uno/time#1980> ,
+		<http://rdf.bonsai.uno/time#2013> ,
+		<http://rdf.bonsai.uno/time#2012> ,
+		<http://rdf.bonsai.uno/time#2014> ,
+		<http://rdf.bonsai.uno/time#2015> ,
+		<http://rdf.bonsai.uno/time#2017> ,
+		<http://rdf.bonsai.uno/time#2016> ,
+		<http://rdf.bonsai.uno/time#2007> ,
+		<http://rdf.bonsai.uno/time#2008> ,
+		<http://rdf.bonsai.uno/time#2010> ,
+		<http://rdf.bonsai.uno/time#2009> ,
+		<http://rdf.bonsai.uno/time#2002> ,
+		<http://rdf.bonsai.uno/time#2001> ,
+		<http://rdf.bonsai.uno/time#2003> ,
+		<http://rdf.bonsai.uno/time#2004> ,
+		<http://rdf.bonsai.uno/time#2006> ,
+		<http://rdf.bonsai.uno/time#2005> ,
+		<http://rdf.bonsai.uno/time#1997> ,
+		<http://rdf.bonsai.uno/time#1998> ,
+		<http://rdf.bonsai.uno/time#2000> ,
+		<http://rdf.bonsai.uno/time#1999> ,
+		<http://rdf.bonsai.uno/time#2034> ,
+		<http://rdf.bonsai.uno/time#2035> ,
+		<http://rdf.bonsai.uno/time#2037> ,
+		<http://rdf.bonsai.uno/time#2036> ,
+		<http://rdf.bonsai.uno/time#2038> ,
+		<http://rdf.bonsai.uno/time#2029> ,
+		<http://rdf.bonsai.uno/time#2028> ,
+		<http://rdf.bonsai.uno/time#2030> ,
+		<http://rdf.bonsai.uno/time#2031> ,
+		<http://rdf.bonsai.uno/time#2033> ,
+		<http://rdf.bonsai.uno/time#2032> ,
+		<http://rdf.bonsai.uno/time#2023> ,
+		<http://rdf.bonsai.uno/time#2025> ,
+		<http://rdf.bonsai.uno/time#2024> ,
+		<http://rdf.bonsai.uno/time#2026> ,
+		<http://rdf.bonsai.uno/time#2027> ,
+		<http://rdf.bonsai.uno/time#2018> ,
+		<http://rdf.bonsai.uno/time#2019> ,
+		<http://rdf.bonsai.uno/time#2021> ,
+		<http://rdf.bonsai.uno/time#2020> ,
+		<http://rdf.bonsai.uno/time#2022> ,
+		<http://rdf.bonsai.uno/time#2055> ,
+		<http://rdf.bonsai.uno/time#2057> ,
+		<http://rdf.bonsai.uno/time#2056> ,
+		<http://rdf.bonsai.uno/time#2058> ,
+		<http://rdf.bonsai.uno/time#2059> ,
+		<http://rdf.bonsai.uno/time#2050> ,
+		<http://rdf.bonsai.uno/time#2051> ,
+		<http://rdf.bonsai.uno/time#2053> ,
+		<http://rdf.bonsai.uno/time#2052> ,
+		<http://rdf.bonsai.uno/time#2054> ,
+		<http://rdf.bonsai.uno/time#2045> ,
+		<http://rdf.bonsai.uno/time#2044> ,
+		<http://rdf.bonsai.uno/time#2046> ,
+		<http://rdf.bonsai.uno/time#2047> ,
+		<http://rdf.bonsai.uno/time#2049> ,
+		<http://rdf.bonsai.uno/time#2048> ,
+		<http://rdf.bonsai.uno/time#2039> ,
+		<http://rdf.bonsai.uno/time#2041> ,
+		<http://rdf.bonsai.uno/time#2040> ,
+		<http://rdf.bonsai.uno/time#2042> ,
+		<http://rdf.bonsai.uno/time#2043> ;
+	dc:publisher	ns13:bonsai ;
+	ns9:generatedAtTime	"2020-06-17"^^xsd:date .
+<http://rdf.bonsai.uno/time#1800>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1800 ;
+	owl:sameAs	ns4:Q6875 ,
+		<http://reference.data.gov.uk/doc/year/1800> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1800start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1800end> ;
+	ns1:inXSDDate	"1800-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1800end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1800-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1800start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1800-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1801>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1801 ;
+	owl:sameAs	ns4:Q6877 ,
+		<http://reference.data.gov.uk/doc/year/1801> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1801start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1801end> ;
+	ns1:inXSDDate	"1801-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1801end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1801-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1801start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1801-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1802>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1802 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1802> ,
+		ns4:Q6883 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1802start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1802end> ;
+	ns1:inXSDDate	"1802-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1802end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1802-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1802start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1802-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1803>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1803 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1803> ,
+		ns4:Q6887 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1803start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1803end> ;
+	ns1:inXSDDate	"1803-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1803end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1803-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1803start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1803-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1804>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1804 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1804> ,
+		ns4:Q6894 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1804start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1804end> ;
+	ns1:inXSDDate	"1804-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1804end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1804-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1804start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1804-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1805>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1805 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1805> ,
+		ns4:Q6898 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1805start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1805end> ;
+	ns1:inXSDDate	"1805-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1805end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1805-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1805start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1805-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1806>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1806 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1806> ,
+		ns4:Q6903 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1806start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1806end> ;
+	ns1:inXSDDate	"1806-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1806end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1806-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1806start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1806-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1807>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1807 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1807> ,
+		ns4:Q6909 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1807start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1807end> ;
+	ns1:inXSDDate	"1807-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1807end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1807-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1807start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1807-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1808>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1808 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1808> ,
+		ns4:Q6914 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1808start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1808end> ;
+	ns1:inXSDDate	"1808-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1808end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1808-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1808start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1808-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1809>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1809 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1809> ,
+		ns4:Q6919 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1809start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1809end> ;
+	ns1:inXSDDate	"1809-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1809end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1809-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1809start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1809-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1810>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1810 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1810> ,
+		ns4:Q6922 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1810start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1810end> ;
+	ns1:inXSDDate	"1810-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1810end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1810-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1810start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1810-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1811>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1811 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1811> ,
+		ns4:Q6928 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1811start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1811end> ;
+	ns1:inXSDDate	"1811-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1811end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1811-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1811start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1811-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1812>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1812 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1812> ,
+		ns4:Q6933 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1812start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1812end> ;
+	ns1:inXSDDate	"1812-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1812end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1812-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1812start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1812-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1813>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1813 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1813> ,
+		ns4:Q6937 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1813start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1813end> ;
+	ns1:inXSDDate	"1813-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1813end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1813-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1813start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1813-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1814>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1814 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1814> ,
+		ns4:Q6943 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1814start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1814end> ;
+	ns1:inXSDDate	"1814-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1814end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1814-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1814start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1814-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1815>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1815 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1815> ,
+		ns4:Q6948 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1815start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1815end> ;
+	ns1:inXSDDate	"1815-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1815end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1815-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1815start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1815-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1816>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1816 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1816> ,
+		ns4:Q6953 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1816start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1816end> ;
+	ns1:inXSDDate	"1816-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1816end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1816-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1816start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1816-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1817>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1817 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1817> ,
+		ns4:Q6958 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1817start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1817end> ;
+	ns1:inXSDDate	"1817-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1817end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1817-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1817start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1817-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1818>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1818 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1818> ,
+		ns4:Q6964 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1818start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1818end> ;
+	ns1:inXSDDate	"1818-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1818end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1818-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1818start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1818-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1819>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1819 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1819> ,
+		ns4:Q6967 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1819start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1819end> ;
+	ns1:inXSDDate	"1819-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1819end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1819-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1819start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1819-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1820>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1820 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1820> ,
+		ns4:Q6973 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1820start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1820end> ;
+	ns1:inXSDDate	"1820-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1820end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1820-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1820start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1820-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1821>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1821 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1821> ,
+		ns4:Q6976 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1821start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1821end> ;
+	ns1:inXSDDate	"1821-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1821end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1821-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1821start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1821-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1822>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1822 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1822> ,
+		ns4:Q6983 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1822start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1822end> ;
+	ns1:inXSDDate	"1822-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1822end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1822-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1822start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1822-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1823>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1823 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1823> ,
+		ns4:Q6988 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1823start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1823end> ;
+	ns1:inXSDDate	"1823-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1823end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1823-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1823start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1823-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1824>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1824 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1824> ,
+		ns4:Q6994 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1824start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1824end> ;
+	ns1:inXSDDate	"1824-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1824end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1824-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1824start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1824-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1825>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1825 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1825> ,
+		ns4:Q6997 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1825start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1825end> ;
+	ns1:inXSDDate	"1825-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1825end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1825-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1825start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1825-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1826>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1826 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1826> ,
+		ns4:Q7004 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1826start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1826end> ;
+	ns1:inXSDDate	"1826-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1826end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1826-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1826start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1826-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1827>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1827 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1827> ,
+		ns4:Q7008 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1827start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1827end> ;
+	ns1:inXSDDate	"1827-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1827end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1827-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1827start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1827-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1828>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1828 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1828> ,
+		ns4:Q7570 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1828start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1828end> ;
+	ns1:inXSDDate	"1828-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1828end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1828-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1828start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1828-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1829>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1829 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1829> ,
+		ns4:Q7572 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1829start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1829end> ;
+	ns1:inXSDDate	"1829-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1829end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1829-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1829start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1829-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1830>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1830 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1830> ,
+		ns4:Q7576 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1830start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1830end> ;
+	ns1:inXSDDate	"1830-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1830end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1830-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1830start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1830-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1831>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1831 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1831> ,
+		ns4:Q7579 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1831start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1831end> ;
+	ns1:inXSDDate	"1831-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1831end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1831-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1831start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1831-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1832>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1832 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1832> ,
+		ns4:Q7584 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1832start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1832end> ;
+	ns1:inXSDDate	"1832-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1832end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1832-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1832start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1832-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1833>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1833 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1833> ,
+		ns4:Q7587 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1833start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1833end> ;
+	ns1:inXSDDate	"1833-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1833end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1833-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1833start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1833-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1834>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1834 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1834> ,
+		ns4:Q7591 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1834start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1834end> ;
+	ns1:inXSDDate	"1834-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1834end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1834-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1834start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1834-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1835>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1835 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1835> ,
+		ns4:Q7597 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1835start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1835end> ;
+	ns1:inXSDDate	"1835-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1835end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1835-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1835start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1835-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1836>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1836 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1836> ,
+		ns4:Q7601 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1836start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1836end> ;
+	ns1:inXSDDate	"1836-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1836end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1836-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1836start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1836-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1837>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1837 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1837> ,
+		ns4:Q7608 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1837start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1837end> ;
+	ns1:inXSDDate	"1837-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1837end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1837-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1837start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1837-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1838>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1838 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1838> ,
+		ns4:Q7612 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1838start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1838end> ;
+	ns1:inXSDDate	"1838-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1838end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1838-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1838start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1838-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1839>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1839 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1839> ,
+		ns4:Q7616 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1839start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1839end> ;
+	ns1:inXSDDate	"1839-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1839end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1839-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1839start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1839-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1840>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1840 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1840> ,
+		ns4:Q7619 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1840start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1840end> ;
+	ns1:inXSDDate	"1840-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1840end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1840-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1840start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1840-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1841>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1841 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1841> ,
+		ns4:Q7622 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1841start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1841end> ;
+	ns1:inXSDDate	"1841-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1841end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1841-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1841start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1841-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1842>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1842 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1842> ,
+		ns4:Q7625 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1842start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1842end> ;
+	ns1:inXSDDate	"1842-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1842end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1842-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1842start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1842-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1843>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1843 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1843> ,
+		ns4:Q7629 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1843start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1843end> ;
+	ns1:inXSDDate	"1843-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1843end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1843-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1843start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1843-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1844>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1844 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1844> ,
+		ns4:Q7633 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1844start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1844end> ;
+	ns1:inXSDDate	"1844-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1844end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1844-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1844start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1844-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1845>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1845 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1845> ,
+		ns4:Q7636 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1845start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1845end> ;
+	ns1:inXSDDate	"1845-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1845_1899>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	"1845-1899" ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1845start> ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1899end> .
+<http://rdf.bonsai.uno/time#1845end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1845-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1845start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1845-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1846>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1846 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1846> ,
+		ns4:Q7640 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1846start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1846end> ;
+	ns1:inXSDDate	"1846-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1846end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1846-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1846start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1846-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1847>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1847 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1847> ,
+		ns4:Q7644 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1847start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1847end> ;
+	ns1:inXSDDate	"1847-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1847end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1847-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1847start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1847-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1848>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1848 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1848> ,
+		ns4:Q7647 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1848start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1848end> ;
+	ns1:inXSDDate	"1848-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1848end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1848-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1848start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1848-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1849>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1849 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1849> ,
+		ns4:Q7650 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1849start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1849end> ;
+	ns1:inXSDDate	"1849-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1849end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1849-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1849start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1849-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1850>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1850 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1850> ,
+		ns4:Q7653 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1850start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1850end> ;
+	ns1:inXSDDate	"1850-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1850end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1850-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1850start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1850-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1851>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1851 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1851> ,
+		ns4:Q7656 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1851start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1851end> ;
+	ns1:inXSDDate	"1851-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1851end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1851-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1851start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1851-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1852>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1852 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1852> ,
+		ns4:Q7661 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1852start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1852end> ;
+	ns1:inXSDDate	"1852-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1852end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1852-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1852start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1852-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1853>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1853 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1853> ,
+		ns4:Q7666 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1853start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1853end> ;
+	ns1:inXSDDate	"1853-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1853end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1853-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1853start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1853-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1854>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1854 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1854> ,
+		ns4:Q7670 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1854start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1854end> ;
+	ns1:inXSDDate	"1854-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1854end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1854-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1854start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1854-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1855>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1855 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1855> ,
+		ns4:Q7673 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1855start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1855end> ;
+	ns1:inXSDDate	"1855-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1855end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1855-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1855start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1855-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1856>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1856 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1856> ,
+		ns4:Q7676 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1856start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1856end> ;
+	ns1:inXSDDate	"1856-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1856end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1856-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1856start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1856-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1857>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1857 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1857> ,
+		ns4:Q7680 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1857start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1857end> ;
+	ns1:inXSDDate	"1857-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1857end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1857-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1857start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1857-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1858>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1858 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1858> ,
+		ns4:Q7684 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1858start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1858end> ;
+	ns1:inXSDDate	"1858-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1858end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1858-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1858start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1858-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1859>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1859 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1859> ,
+		ns4:Q7687 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1859start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1859end> ;
+	ns1:inXSDDate	"1859-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1859end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1859-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1859start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1859-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1860>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1860 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1860> ,
+		ns4:Q7691 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1860start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1860end> ;
+	ns1:inXSDDate	"1860-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1860end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1860-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1860start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1860-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1861>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1861 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1861> ,
+		ns4:Q7693 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1861start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1861end> ;
+	ns1:inXSDDate	"1861-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1861end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1861-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1861start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1861-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1862>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1862 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1862> ,
+		ns4:Q7698 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1862start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1862end> ;
+	ns1:inXSDDate	"1862-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1862end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1862-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1862start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1862-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1863>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1863 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1863> ,
+		ns4:Q7701 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1863start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1863end> ;
+	ns1:inXSDDate	"1863-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1863end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1863-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1863start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1863-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1864>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1864 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1864> ,
+		ns4:Q7704 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1864start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1864end> ;
+	ns1:inXSDDate	"1864-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1864end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1864-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1864start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1864-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1865>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1865 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1865> ,
+		ns4:Q7708 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1865start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1865end> ;
+	ns1:inXSDDate	"1865-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1865end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1865-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1865start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1865-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1866>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1866 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1866> ,
+		ns4:Q7712 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1866start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1866end> ;
+	ns1:inXSDDate	"1866-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1866end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1866-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1866start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1866-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1867>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1867 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1867> ,
+		ns4:Q7715 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1867start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1867end> ;
+	ns1:inXSDDate	"1867-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1867end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1867-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1867start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1867-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1868>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1868 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1868> ,
+		ns4:Q7717 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1868start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1868end> ;
+	ns1:inXSDDate	"1868-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1868end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1868-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1868start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1868-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1869>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1869 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1869> ,
+		ns4:Q7720 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1869start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1869end> ;
+	ns1:inXSDDate	"1869-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1869end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1869-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1869start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1869-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1870>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1870 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1870> ,
+		ns4:Q7741 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1870start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1870end> ;
+	ns1:inXSDDate	"1870-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1870end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1870-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1870start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1870-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1871>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1871 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1871> ,
+		ns4:Q7746 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1871start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1871end> ;
+	ns1:inXSDDate	"1871-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1871end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1871-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1871start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1871-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1872>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1872 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1872> ,
+		ns4:Q7753 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1872start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1872end> ;
+	ns1:inXSDDate	"1872-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1872end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1872-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1872start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1872-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1873>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1873 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1873> ,
+		ns4:Q7757 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1873start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1873end> ;
+	ns1:inXSDDate	"1873-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1873end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1873-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1873start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1873-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1874>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1874 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1874> ,
+		ns4:Q7761 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1874start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1874end> ;
+	ns1:inXSDDate	"1874-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1874end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1874-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1874start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1874-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1875>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1875 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1875> ,
+		ns4:Q7764 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1875start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1875end> ;
+	ns1:inXSDDate	"1875-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1875end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1875-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1875start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1875-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1876>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1876 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1876> ,
+		ns4:Q7766 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1876start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1876end> ;
+	ns1:inXSDDate	"1876-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1876end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1876-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1876start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1876-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1877>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1877 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1877> ,
+		ns4:Q7773 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1877start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1877end> ;
+	ns1:inXSDDate	"1877-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1877end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1877-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1877start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1877-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1878>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1878 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1878> ,
+		ns4:Q7776 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1878start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1878end> ;
+	ns1:inXSDDate	"1878-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1878end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1878-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1878start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1878-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1879>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1879 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1879> ,
+		ns4:Q7783 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1879start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1879end> ;
+	ns1:inXSDDate	"1879-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1879end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1879-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1879start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1879-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1880>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1880 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1880> ,
+		ns4:Q7806 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1880start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1880end> ;
+	ns1:inXSDDate	"1880-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1880end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1880-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1880start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1880-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1881>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1881 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1881> ,
+		ns4:Q7808 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1881start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1881end> ;
+	ns1:inXSDDate	"1881-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1881end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1881-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1881start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1881-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1882>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1882 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1882> ,
+		ns4:Q7812 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1882start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1882end> ;
+	ns1:inXSDDate	"1882-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1882end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1882-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1882start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1882-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1883>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1883 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1883> ,
+		ns4:Q7816 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1883start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1883end> ;
+	ns1:inXSDDate	"1883-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1883end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1883-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1883start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1883-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1884>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1884 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1884> ,
+		ns4:Q7819 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1884start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1884end> ;
+	ns1:inXSDDate	"1884-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1884end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1884-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1884start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1884-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1885>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1885 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1885> ,
+		ns4:Q7821 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1885start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1885end> ;
+	ns1:inXSDDate	"1885-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1885end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1885-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1885start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1885-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1886>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1886 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1886> ,
+		ns4:Q7822 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1886start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1886end> ;
+	ns1:inXSDDate	"1886-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1886end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1886-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1886start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1886-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1887>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1887 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1887> ,
+		ns4:Q7826 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1887start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1887end> ;
+	ns1:inXSDDate	"1887-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1887end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1887-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1887start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1887-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1888>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1888 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1888> ,
+		ns4:Q7829 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1888start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1888end> ;
+	ns1:inXSDDate	"1888-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1888end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1888-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1888start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1888-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1889>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1889 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1889> ,
+		ns4:Q7831 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1889start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1889end> ;
+	ns1:inXSDDate	"1889-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1889end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1889-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1889start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1889-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1890>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1890 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1890> ,
+		ns4:Q7832 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1890start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1890end> ;
+	ns1:inXSDDate	"1890-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1890end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1890-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1890start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1890-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1891>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1891 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1891> ,
+		ns4:Q7837 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1891start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1891end> ;
+	ns1:inXSDDate	"1891-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1891end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1891-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1891start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1891-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1892>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1892 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1892> ,
+		ns4:Q7839 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1892start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1892end> ;
+	ns1:inXSDDate	"1892-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1892end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1892-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1892start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1892-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1893>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1893 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1893> ,
+		ns4:Q7840 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1893start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1893end> ;
+	ns1:inXSDDate	"1893-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1893end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1893-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1893start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1893-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1894>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1894 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1894> ,
+		ns4:Q7843 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1894start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1894end> ;
+	ns1:inXSDDate	"1894-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1894end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1894-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1894start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1894-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1895>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1895 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1895> ,
+		ns4:Q7844 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1895start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1895end> ;
+	ns1:inXSDDate	"1895-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1895end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1895-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1895start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1895-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1896>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1896 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1896> ,
+		ns4:Q7846 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1896start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1896end> ;
+	ns1:inXSDDate	"1896-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1896end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1896-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1896start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1896-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1897>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1897 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1897> ,
+		ns4:Q7847 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1897start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1897end> ;
+	ns1:inXSDDate	"1897-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1897end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1897-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1897start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1897-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1898>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1898 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1898> ,
+		ns4:Q7848 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1898start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1898end> ;
+	ns1:inXSDDate	"1898-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1898end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1898-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1898start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1898-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1899>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1899 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1899> ,
+		ns4:Q7851 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1899start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1899end> ;
+	ns1:inXSDDate	"1899-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1899end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1899-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1899start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1899-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1900>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1900 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1900> ,
+		ns4:Q2034 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1900start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1900end> ;
+	ns1:inXSDDate	"1900-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1900_1909>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	"1900-1909" ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1900start> ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1909end> .
+<http://rdf.bonsai.uno/time#1900end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1900-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1900start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1900-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1901>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1901 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1901> ,
+		ns4:Q2035 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1901start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1901end> ;
+	ns1:inXSDDate	"1901-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1901end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1901-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1901start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1901-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1902>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1902 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1902> ,
+		ns4:Q2043 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1902start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1902end> ;
+	ns1:inXSDDate	"1902-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1902end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1902-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1902start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1902-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1903>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1903 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1903> ,
+		ns4:Q2045 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1903start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1903end> ;
+	ns1:inXSDDate	"1903-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1903end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1903-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1903start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1903-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1904>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1904 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1904> ,
+		ns4:Q2046 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1904start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1904end> ;
+	ns1:inXSDDate	"1904-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1904end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1904-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1904start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1904-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1905>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1905 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1905> ,
+		ns4:Q2047 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1905start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1905end> ;
+	ns1:inXSDDate	"1905-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1905end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1905-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1905start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1905-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1906>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1906 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1906> ,
+		ns4:Q2049 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1906start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1906end> ;
+	ns1:inXSDDate	"1906-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1906end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1906-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1906start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1906-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1907>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1907 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1907> ,
+		ns4:Q2048 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1907start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1907end> ;
+	ns1:inXSDDate	"1907-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1907end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1907-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1907start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1907-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1908>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1908 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1908> ,
+		ns4:Q2056 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1908start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1908end> ;
+	ns1:inXSDDate	"1908-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1908end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1908-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1908start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1908-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1909>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1909 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1909> ,
+		ns4:Q2057 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1909start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1909end> ;
+	ns1:inXSDDate	"1909-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1909end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1909-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1909start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1909-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1910>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1910 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1910> ,
+		ns4:Q2075 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1910start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1910end> ;
+	ns1:inXSDDate	"1910-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1910_1919>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	"1910-1919" ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1910start> ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1919end> .
+<http://rdf.bonsai.uno/time#1910end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1910-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1910start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1910-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1911>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1911 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1911> ,
+		ns4:Q2076 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1911start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1911end> ;
+	ns1:inXSDDate	"1911-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1911end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1911-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1911start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1911-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1912>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1912 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1912> ,
+		ns4:Q2077 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1912start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1912end> ;
+	ns1:inXSDDate	"1912-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1912end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1912-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1912start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1912-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1913>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1913 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1913> ,
+		ns4:Q2080 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1913start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1913end> ;
+	ns1:inXSDDate	"1913-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1913end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1913-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1913start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1913-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1914>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1914 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1914> ,
+		ns4:Q2083 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1914start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1914end> ;
+	ns1:inXSDDate	"1914-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1914end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1914-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1914start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1914-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1915>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1915 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1915> ,
+		ns4:Q2084 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1915start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1915end> ;
+	ns1:inXSDDate	"1915-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1915end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1915-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1915start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1915-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1916>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1916 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1916> ,
+		ns4:Q2087 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1916start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1916end> ;
+	ns1:inXSDDate	"1916-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1916end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1916-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1916start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1916-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1917>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1917 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1917> ,
+		ns4:Q2092 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1917start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1917end> ;
+	ns1:inXSDDate	"1917-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1917end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1917-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1917start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1917-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1918>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1918 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1918> ,
+		ns4:Q2094 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1918start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1918end> ;
+	ns1:inXSDDate	"1918-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1918end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1918-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1918start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1918-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1919>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1919 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1919> ,
+		ns4:Q2157 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1919start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1919end> ;
+	ns1:inXSDDate	"1919-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1919end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1919-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1919start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1919-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1920>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1920 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1920> ,
+		ns4:Q2155 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1920start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1920end> ;
+	ns1:inXSDDate	"1920-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1920_1929>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	"1920-1929" ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1920start> ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1929end> .
+<http://rdf.bonsai.uno/time#1920end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1920-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1920start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1920-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1921>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1921 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1921> ,
+		ns4:Q2162 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1921start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1921end> ;
+	ns1:inXSDDate	"1921-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1921end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1921-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1921start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1921-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1922>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1922 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1922> ,
+		ns4:Q2165 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1922start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1922end> ;
+	ns1:inXSDDate	"1922-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1922end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1922-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1922start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1922-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1923>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1923 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1923> ,
+		ns4:Q2169 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1923start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1923end> ;
+	ns1:inXSDDate	"1923-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1923end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1923-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1923start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1923-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1924>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1924 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1924> ,
+		ns4:Q2173 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1924start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1924end> ;
+	ns1:inXSDDate	"1924-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1924end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1924-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1924start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1924-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1925>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1925 ;
+	owl:sameAs	ns4:Q18107 ,
+		<http://reference.data.gov.uk/doc/year/1925> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1925start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1925end> ;
+	ns1:inXSDDate	"1925-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1925end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1925-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1925start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1925-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1926>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1926 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1926> ,
+		ns4:Q5259 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1926start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1926end> ;
+	ns1:inXSDDate	"1926-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1926end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1926-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1926start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1926-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1927>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1927 ;
+	owl:sameAs	ns4:Q18110 ,
+		<http://reference.data.gov.uk/doc/year/1927> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1927start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1927end> ;
+	ns1:inXSDDate	"1927-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1927end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1927-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1927start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1927-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1928>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1928 ;
+	owl:sameAs	ns4:Q19715 ,
+		<http://reference.data.gov.uk/doc/year/1928> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1928start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1928end> ;
+	ns1:inXSDDate	"1928-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1928end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1928-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1928start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1928-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1929>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1929 ;
+	owl:sameAs	ns4:Q18792 ,
+		<http://reference.data.gov.uk/doc/year/1929> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1929start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1929end> ;
+	ns1:inXSDDate	"1929-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1929end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1929-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1929start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1929-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1930>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1930 ;
+	owl:sameAs	ns4:Q18787 ,
+		<http://reference.data.gov.uk/doc/year/1930> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1930start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1930end> ;
+	ns1:inXSDDate	"1930-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1930_1939>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	"1930-1939" ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1930start> ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1939end> .
+<http://rdf.bonsai.uno/time#1930end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1930-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1930start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1930-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1931>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1931 ;
+	owl:sameAs	ns4:Q18782 ,
+		<http://reference.data.gov.uk/doc/year/1931> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1931start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1931end> ;
+	ns1:inXSDDate	"1931-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1931end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1931-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1931start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1931-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1932>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1932 ;
+	owl:sameAs	ns4:Q18743 ,
+		<http://reference.data.gov.uk/doc/year/1932> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1932start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1932end> ;
+	ns1:inXSDDate	"1932-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1932end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1932-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1932start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1932-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1933>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1933 ;
+	owl:sameAs	ns4:Q18726 ,
+		<http://reference.data.gov.uk/doc/year/1933> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1933start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1933end> ;
+	ns1:inXSDDate	"1933-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1933end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1933-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1933start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1933-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1934>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1934 ;
+	owl:sameAs	ns4:Q18714 ,
+		<http://reference.data.gov.uk/doc/year/1934> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1934start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1934end> ;
+	ns1:inXSDDate	"1934-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1934end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1934-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1934start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1934-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1935>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1935 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1935> ,
+		ns4:Q18658 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1935start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1935end> ;
+	ns1:inXSDDate	"1935-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1935end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1935-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1935start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1935-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1936>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1936 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1936> ,
+		ns4:Q18649 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1936start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1936end> ;
+	ns1:inXSDDate	"1936-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1936end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1936-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1936start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1936-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1937>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1937 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1937> ,
+		ns4:Q18647 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1937start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1937end> ;
+	ns1:inXSDDate	"1937-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1937end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1937-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1937start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1937-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1938>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1938 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1938> ,
+		ns4:Q18645 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1938start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1938end> ;
+	ns1:inXSDDate	"1938-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1938end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1938-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1938start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1938-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1939>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1939 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1939> ,
+		ns4:Q18639 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1939start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1939end> ;
+	ns1:inXSDDate	"1939-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1939end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1939-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1939start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1939-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1940>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1940 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1940> ,
+		ns4:Q18633 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1940start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1940end> ;
+	ns1:inXSDDate	"1940-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1940_1949>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	"1940-1949" ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1940start> ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1949end> .
+<http://rdf.bonsai.uno/time#1940end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1940-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1940start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1940-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1941>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1941 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1941> ,
+		ns4:Q5231 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1941start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1941end> ;
+	ns1:inXSDDate	"1941-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1941end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1941-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1941start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1941-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1942>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1942 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1942> ,
+		ns4:Q18625 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1942start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1942end> ;
+	ns1:inXSDDate	"1942-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1942end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1942-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1942start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1942-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1943>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1943 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1943> ,
+		ns4:Q18623 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1943start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1943end> ;
+	ns1:inXSDDate	"1943-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1943end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1943-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1943start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1943-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1944>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1944 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1944> ,
+		ns4:Q5268 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1944start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1944end> ;
+	ns1:inXSDDate	"1944-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1944end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1944-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1944start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1944-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1945>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1945 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1945> ,
+		ns4:Q5240 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1945start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1945end> ;
+	ns1:inXSDDate	"1945-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1945end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1945-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1945start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1945-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1946>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1946 ;
+	owl:sameAs	ns4:Q18610 ,
+		<http://reference.data.gov.uk/doc/year/1946> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1946start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1946end> ;
+	ns1:inXSDDate	"1946-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1946end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1946-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1946start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1946-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1947>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1947 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1947> ,
+		ns4:Q5263 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1947start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1947end> ;
+	ns1:inXSDDate	"1947-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1947end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1947-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1947start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1947-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1948>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1948 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1948> ,
+		ns4:Q5165 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1948start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1948end> ;
+	ns1:inXSDDate	"1948-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1948end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1948-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1948start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1948-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1949>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1949 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1949> ,
+		ns4:Q5188 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1949start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1949end> ;
+	ns1:inXSDDate	"1949-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1949end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1949-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1949start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1949-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1950>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1950 ;
+	owl:sameAs	ns4:Q18597 ,
+		<http://reference.data.gov.uk/doc/year/1950> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1950start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1950end> ;
+	ns1:inXSDDate	"1950-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1950_1959>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	"1950-1959" ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1950start> ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1959end> .
+<http://rdf.bonsai.uno/time#1950end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1950-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1950start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1950-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1951>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1951 ;
+	owl:sameAs	ns4:Q18591 ,
+		<http://reference.data.gov.uk/doc/year/1951> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1951start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1951end> ;
+	ns1:inXSDDate	"1951-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1951end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1951-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1951start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1951-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1952>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1952 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1952> ,
+		ns4:Q5272 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1952start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1952end> ;
+	ns1:inXSDDate	"1952-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1952end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1952-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1952start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1952-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1953>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1953 ;
+	owl:sameAs	ns4:Q18585 ,
+		<http://reference.data.gov.uk/doc/year/1953> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1953start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1953end> ;
+	ns1:inXSDDate	"1953-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1953end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1953-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1953start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1953-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1954>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1954 ;
+	owl:sameAs	ns4:Q18581 ,
+		<http://reference.data.gov.uk/doc/year/1954> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1954start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1954end> ;
+	ns1:inXSDDate	"1954-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1954end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1954-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1954start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1954-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1955>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1955 ;
+	owl:sameAs	ns4:Q18577 ,
+		<http://reference.data.gov.uk/doc/year/1955> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1955start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1955end> ;
+	ns1:inXSDDate	"1955-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1955end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1955-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1955start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1955-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1956>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1956 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1956> ,
+		ns4:Q5221 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1956start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1956end> ;
+	ns1:inXSDDate	"1956-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1956end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1956-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1956start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1956-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1957>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1957 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1957> ,
+		ns4:Q5311 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1957start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1957end> ;
+	ns1:inXSDDate	"1957-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1957end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1957-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1957start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1957-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1958>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1958 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1958> ,
+		ns4:Q5253 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1958start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1958end> ;
+	ns1:inXSDDate	"1958-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1958end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1958-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1958start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1958-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1959>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1959 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1959> ,
+		ns4:Q5302 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1959start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1959end> ;
+	ns1:inXSDDate	"1959-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1959end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1959-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1959start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1959-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1960>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1960 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1960> ,
+		ns4:Q3754 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1960start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1960end> ;
+	ns1:inXSDDate	"1960-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1960_1969>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	"1960-1969" ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1960start> ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1969end> .
+<http://rdf.bonsai.uno/time#1960end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1960-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1960start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1960-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1961>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1961 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1961> ,
+		ns4:Q3696 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1961start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1961end> ;
+	ns1:inXSDDate	"1961-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1961end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1961-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1961start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1961-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1962>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1962 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1962> ,
+		ns4:Q2764 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1962start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1962end> ;
+	ns1:inXSDDate	"1962-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1962end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1962-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1962start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1962-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1963>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1963 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1963> ,
+		ns4:Q2755 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1963start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1963end> ;
+	ns1:inXSDDate	"1963-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1963end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1963-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1963start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1963-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1964>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1964 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1964> ,
+		ns4:Q2652 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1964start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1964end> ;
+	ns1:inXSDDate	"1964-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1964end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1964-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1964start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1964-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1965>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1965 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1965> ,
+		ns4:Q2650 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1965start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1965end> ;
+	ns1:inXSDDate	"1965-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1965end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1965-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1965start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1965-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1966>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1966 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1966> ,
+		ns4:Q2649 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1966start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1966end> ;
+	ns1:inXSDDate	"1966-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1966end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1966-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1966start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1966-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1967>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1967 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1967> ,
+		ns4:Q2648 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1967start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1967end> ;
+	ns1:inXSDDate	"1967-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1967end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1967-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1967start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1967-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1968>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1968 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1968> ,
+		ns4:Q2644 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1968start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1968end> ;
+	ns1:inXSDDate	"1968-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1968end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1968-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1968start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1968-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1969>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1969 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1969> ,
+		ns4:Q2485 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1969start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1969end> ;
+	ns1:inXSDDate	"1969-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1969end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1969-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1969start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1969-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1970>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1970 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1970> ,
+		ns4:Q2474 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1970start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1970end> ;
+	ns1:inXSDDate	"1970-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1970_1979>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	"1970-1979" ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1970start> ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1979end> .
+<http://rdf.bonsai.uno/time#1970end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1970-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1970start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1970-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1971>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1971 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1971> ,
+		ns4:Q2475 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1971start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1971end> ;
+	ns1:inXSDDate	"1971-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1971end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1971-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1971start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1971-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1972>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1972 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1972> ,
+		ns4:Q2476 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1972start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1972end> ;
+	ns1:inXSDDate	"1972-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1972end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1972-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1972start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1972-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1973>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1973 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1973> ,
+		ns4:Q2477 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1973start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1973end> ;
+	ns1:inXSDDate	"1973-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1973end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1973-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1973start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1973-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1974>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1974 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1974> ,
+		ns4:Q2478 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1974start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1974end> ;
+	ns1:inXSDDate	"1974-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1974end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1974-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1974start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1974-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1975>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1975 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1975> ,
+		ns4:Q2479 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1975start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1975end> ;
+	ns1:inXSDDate	"1975-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1975end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1975-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1975start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1975-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1976>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1976 ;
+	owl:sameAs	ns4:Q2480 ,
+		<http://reference.data.gov.uk/doc/year/1976> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1976start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1976end> ;
+	ns1:inXSDDate	"1976-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1976end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1976-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1976start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1976-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1977>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1977 ;
+	owl:sameAs	ns4:Q2481 ,
+		<http://reference.data.gov.uk/doc/year/1977> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1977start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1977end> ;
+	ns1:inXSDDate	"1977-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1977end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1977-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1977start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1977-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1978>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1978 ;
+	owl:sameAs	ns4:Q2483 ,
+		<http://reference.data.gov.uk/doc/year/1978> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1978start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1978end> ;
+	ns1:inXSDDate	"1978-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1978end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1978-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1978start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1978-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1979>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1979 ;
+	owl:sameAs	ns4:Q2484 ,
+		<http://reference.data.gov.uk/doc/year/1979> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1979start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1979end> ;
+	ns1:inXSDDate	"1979-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1979end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1979-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1979start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1979-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1980>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1980 ;
+	owl:sameAs	ns4:Q2439 ,
+		<http://reference.data.gov.uk/doc/year/1980> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1980start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1980end> ;
+	ns1:inXSDDate	"1980-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1980_1989>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	"1980-1989" ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1980start> ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1989end> .
+<http://rdf.bonsai.uno/time#1980end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1980-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1980start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1980-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1981>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1981 ;
+	owl:sameAs	ns4:Q2437 ,
+		<http://reference.data.gov.uk/doc/year/1981> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1981start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1981end> ;
+	ns1:inXSDDate	"1981-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1981end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1981-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1981start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1981-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1982>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1982 ;
+	owl:sameAs	ns4:Q2436 ,
+		<http://reference.data.gov.uk/doc/year/1982> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1982start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1982end> ;
+	ns1:inXSDDate	"1982-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1982end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1982-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1982start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1982-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1983>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1983 ;
+	owl:sameAs	ns4:Q2434 ,
+		<http://reference.data.gov.uk/doc/year/1983> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1983start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1983end> ;
+	ns1:inXSDDate	"1983-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1983end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1983-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1983start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1983-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1984>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1984 ;
+	owl:sameAs	ns4:Q2432 ,
+		<http://reference.data.gov.uk/doc/year/1984> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1984start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1984end> ;
+	ns1:inXSDDate	"1984-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1984end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1984-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1984start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1984-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1985>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1985 ;
+	owl:sameAs	ns4:Q2431 ,
+		<http://reference.data.gov.uk/doc/year/1985> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1985start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1985end> ;
+	ns1:inXSDDate	"1985-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1985end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1985-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1985start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1985-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1986>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1986 ;
+	owl:sameAs	ns4:Q2430 ,
+		<http://reference.data.gov.uk/doc/year/1986> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1986start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1986end> ;
+	ns1:inXSDDate	"1986-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1986end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1986-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1986start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1986-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1987>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1987 ;
+	owl:sameAs	ns4:Q2429 ,
+		<http://reference.data.gov.uk/doc/year/1987> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1987start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1987end> ;
+	ns1:inXSDDate	"1987-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1987end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1987-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1987start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1987-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1988>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1988 ;
+	owl:sameAs	ns4:Q2426 ,
+		<http://reference.data.gov.uk/doc/year/1988> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1988start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1988end> ;
+	ns1:inXSDDate	"1988-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1988end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1988-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1988start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1988-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1989>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1989 ;
+	owl:sameAs	ns4:Q2425 ,
+		<http://reference.data.gov.uk/doc/year/1989> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1989start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1989end> ;
+	ns1:inXSDDate	"1989-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1989end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1989-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1989start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1989-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1990>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1990 ;
+	owl:sameAs	ns4:Q2064 ,
+		<http://reference.data.gov.uk/doc/year/1990> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1990start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1990end> ;
+	ns1:inXSDDate	"1990-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1990_1999>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	"1990-1999" ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1990start> ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1999end> .
+<http://rdf.bonsai.uno/time#1990end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1990-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1990start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1990-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1991>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1991 ;
+	owl:sameAs	ns4:Q2062 ,
+		<http://reference.data.gov.uk/doc/year/1991> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1991start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1991end> ;
+	ns1:inXSDDate	"1991-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1991end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1991-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1991start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1991-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1992>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1992 ;
+	owl:sameAs	ns4:Q2060 ,
+		<http://reference.data.gov.uk/doc/year/1992> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1992start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1992end> ;
+	ns1:inXSDDate	"1992-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1992end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1992-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1992start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1992-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1993>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1993 ;
+	owl:sameAs	ns4:Q2065 ,
+		<http://reference.data.gov.uk/doc/year/1993> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1993start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1993end> ;
+	ns1:inXSDDate	"1993-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1993end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1993-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1993start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1993-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1994>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1994 ;
+	owl:sameAs	ns4:Q2067 ,
+		<http://reference.data.gov.uk/doc/year/1994> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1994start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1994end> ;
+	ns1:inXSDDate	"1994-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1994end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1994-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1994start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1994-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1995>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1995 ;
+	owl:sameAs	ns4:Q2068 ,
+		<http://reference.data.gov.uk/doc/year/1995> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1995start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1995end> ;
+	ns1:inXSDDate	"1995-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1995_2007>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	"1995-2007" ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1995start> ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2007end> .
+<http://rdf.bonsai.uno/time#1995end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1995-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1995start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1995-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1996>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1996 ;
+	owl:sameAs	ns4:Q2070 ,
+		<http://reference.data.gov.uk/doc/year/1996> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1996start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1996end> ;
+	ns1:inXSDDate	"1996-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1996end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1996-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1996start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1996-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1997>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1997 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1997> ,
+		ns4:Q2088 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1997start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1997end> ;
+	ns1:inXSDDate	"1997-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1997end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1997-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1997start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1997-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1998>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1998 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1998> ,
+		ns4:Q2089 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1998start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1998end> ;
+	ns1:inXSDDate	"1998-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1998end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1998-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1998start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1998-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1999>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	1999 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/1999> ,
+		ns4:Q2091 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#1999start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#1999end> ;
+	ns1:inXSDDate	"1999-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#1999end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1999-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#1999start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"1999-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2000>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2000 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2000> ,
+		ns4:Q1985 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2000start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2000end> ;
+	ns1:inXSDDate	"2000-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2000_2005>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	"2000-2005" ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2000start> ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2005end> .
+<http://rdf.bonsai.uno/time#2000_2012>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	"2000-2012" ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2000start> ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2012end> .
+<http://rdf.bonsai.uno/time#2000end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2000-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2000start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2000-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2001>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2001 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2001> ,
+		ns4:Q1988 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2001start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2001end> ;
+	ns1:inXSDDate	"2001-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2001end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2001-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2001start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2001-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2002>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2002 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2002> ,
+		ns4:Q1987 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2002start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2002end> ;
+	ns1:inXSDDate	"2002-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2002end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2002-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2002start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2002-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2003>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2003 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2003> ,
+		ns4:Q1986 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2003start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2003end> ;
+	ns1:inXSDDate	"2003-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2003end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2003-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2003start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2003-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2004>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2004 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2004> ,
+		ns4:Q2014 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2004start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2004end> ;
+	ns1:inXSDDate	"2004-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2004end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2004-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2004start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2004-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2005>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2005 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2005> ,
+		ns4:Q2019 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2005start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2005end> ;
+	ns1:inXSDDate	"2005-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2005end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2005-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2005start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2005-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2006>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2006 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2006> ,
+		ns4:Q2021 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2006start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2006end> ;
+	ns1:inXSDDate	"2006-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2006end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2006-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2006start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2006-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2007>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2007 ;
+	owl:sameAs	ns4:Q2024 ,
+		<http://reference.data.gov.uk/doc/year/2007> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2007start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2007end> ;
+	ns1:inXSDDate	"2007-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2007end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2007-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2007start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2007-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2008>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2008 ;
+	owl:sameAs	ns4:Q2004 ,
+		<http://reference.data.gov.uk/doc/year/2008> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2008start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2008end> ;
+	ns1:inXSDDate	"2008-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2008end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2008-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2008start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2008-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2009>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2009 ;
+	owl:sameAs	ns4:Q1996 ,
+		<http://reference.data.gov.uk/doc/year/2009> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2009start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2009end> ;
+	ns1:inXSDDate	"2009-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2009end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2009-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2009start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2009-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2010>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2010 ;
+	owl:sameAs	ns4:Q1995 ,
+		<http://reference.data.gov.uk/doc/year/2010> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2010start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2010end> ;
+	ns1:inXSDDate	"2010-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2010end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2010-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2010start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2010-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2011end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2011-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2011start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2011-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2012>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2012 ;
+	owl:sameAs	ns4:Q1990 ,
+		<http://reference.data.gov.uk/doc/year/2012> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2012start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2012end> ;
+	ns1:inXSDDate	"2012-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2012end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2012-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2012start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2012-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2013>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2013 ;
+	owl:sameAs	ns4:Q1998 ,
+		<http://reference.data.gov.uk/doc/year/2013> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2013start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2013end> ;
+	ns1:inXSDDate	"2013-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2013end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2013-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2013start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2013-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2014>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2014 ;
+	owl:sameAs	ns4:Q1999 ,
+		<http://reference.data.gov.uk/doc/year/2014> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2014start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2014end> ;
+	ns1:inXSDDate	"2014-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2014end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2014-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2014start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2014-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2015>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2015 ;
+	owl:sameAs	ns4:Q2002 ,
+		<http://reference.data.gov.uk/doc/year/2015> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2015start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2015end> ;
+	ns1:inXSDDate	"2015-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2015end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2015-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2015start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2015-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2016>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2016 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2016> ,
+		ns4:Q25245 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2016start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2016end> ;
+	ns1:inXSDDate	"2016-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2016end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2016-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2016start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2016-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2017>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2017 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2017> ,
+		ns4:Q25290 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2017start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2017end> ;
+	ns1:inXSDDate	"2017-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2017end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2017-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2017start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2017-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2018>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2018 ;
+	owl:sameAs	ns4:Q25291 ,
+		<http://reference.data.gov.uk/doc/year/2018> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2018start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2018end> ;
+	ns1:inXSDDate	"2018-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2018end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2018-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2018start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2018-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2019>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2019 ;
+	owl:sameAs	ns4:Q25274 ,
+		<http://reference.data.gov.uk/doc/year/2019> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2019start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2019end> ;
+	ns1:inXSDDate	"2019-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2019end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2019-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2019start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2019-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2020>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2020 ;
+	owl:sameAs	ns4:Q25337 ,
+		<http://reference.data.gov.uk/doc/year/2020> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2020start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2020end> ;
+	ns1:inXSDDate	"2020-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2020end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2020-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2020start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2020-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2021>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2021 ;
+	owl:sameAs	ns4:Q49628 ,
+		<http://reference.data.gov.uk/doc/year/2021> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2021start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2021end> ;
+	ns1:inXSDDate	"2021-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2021end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2021-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2021start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2021-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2022>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2022 ;
+	owl:sameAs	ns4:Q49625 ,
+		<http://reference.data.gov.uk/doc/year/2022> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2022start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2022end> ;
+	ns1:inXSDDate	"2022-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2022end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2022-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2022start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2022-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2023>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2023 ;
+	owl:sameAs	ns4:Q49622 ,
+		<http://reference.data.gov.uk/doc/year/2023> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2023start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2023end> ;
+	ns1:inXSDDate	"2023-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2023end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2023-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2023start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2023-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2024>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2024 ;
+	owl:sameAs	ns4:Q49619 ,
+		<http://reference.data.gov.uk/doc/year/2024> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2024start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2024end> ;
+	ns1:inXSDDate	"2024-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2024end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2024-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2024start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2024-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2025>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2025 ;
+	owl:sameAs	ns4:Q49616 ,
+		<http://reference.data.gov.uk/doc/year/2025> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2025start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2025end> ;
+	ns1:inXSDDate	"2025-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2025end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2025-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2025start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2025-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2026>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2026 ;
+	owl:sameAs	ns4:Q49613 ,
+		<http://reference.data.gov.uk/doc/year/2026> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2026start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2026end> ;
+	ns1:inXSDDate	"2026-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2026end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2026-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2026start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2026-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2027>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2027 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2027> ,
+		ns4:Q12814 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2027start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2027end> ;
+	ns1:inXSDDate	"2027-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2027end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2027-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2027start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2027-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2028>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2028 ;
+	owl:sameAs	ns4:Q12809 ,
+		<http://reference.data.gov.uk/doc/year/2028> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2028start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2028end> ;
+	ns1:inXSDDate	"2028-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2028end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2028-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2028start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2028-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2029>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2029 ;
+	owl:sameAs	ns4:Q12803 ,
+		<http://reference.data.gov.uk/doc/year/2029> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2029start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2029end> ;
+	ns1:inXSDDate	"2029-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2029end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2029-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2029start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2029-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2030>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2030 ;
+	owl:sameAs	ns4:Q12799 ,
+		<http://reference.data.gov.uk/doc/year/2030> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2030start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2030end> ;
+	ns1:inXSDDate	"2030-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2030end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2030-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2030start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2030-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2031>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2031 ;
+	owl:sameAs	ns4:Q12794 ,
+		<http://reference.data.gov.uk/doc/year/2031> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2031start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2031end> ;
+	ns1:inXSDDate	"2031-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2031end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2031-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2031start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2031-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2032>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2032 ;
+	owl:sameAs	ns4:Q12790 ,
+		<http://reference.data.gov.uk/doc/year/2032> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2032start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2032end> ;
+	ns1:inXSDDate	"2032-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2032end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2032-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2032start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2032-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2033>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2033 ;
+	owl:sameAs	ns4:Q12786 ,
+		<http://reference.data.gov.uk/doc/year/2033> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2033start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2033end> ;
+	ns1:inXSDDate	"2033-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2033end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2033-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2033start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2033-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2034>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2034 ;
+	owl:sameAs	ns4:Q12775 ,
+		<http://reference.data.gov.uk/doc/year/2034> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2034start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2034end> ;
+	ns1:inXSDDate	"2034-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2034end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2034-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2034start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2034-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2035>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2035 ;
+	owl:sameAs	ns4:Q12127 ,
+		<http://reference.data.gov.uk/doc/year/2035> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2035start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2035end> ;
+	ns1:inXSDDate	"2035-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2035end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2035-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2035start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2035-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2036>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2036 ;
+	owl:sameAs	ns4:Q12123 ,
+		<http://reference.data.gov.uk/doc/year/2036> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2036start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2036end> ;
+	ns1:inXSDDate	"2036-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2036end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2036-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2036start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2036-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2037>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2037 ;
+	owl:sameAs	ns4:Q12120 ,
+		<http://reference.data.gov.uk/doc/year/2037> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2037start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2037end> ;
+	ns1:inXSDDate	"2037-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2037end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2037-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2037start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2037-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2038>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2038 ;
+	owl:sameAs	ns4:Q12118 ,
+		<http://reference.data.gov.uk/doc/year/2038> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2038start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2038end> ;
+	ns1:inXSDDate	"2038-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2038end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2038-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2038start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2038-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2039>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2039 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2039> ,
+		ns4:Q12112 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2039start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2039end> ;
+	ns1:inXSDDate	"2039-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2039end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2039-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2039start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2039-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2040>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2040 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2040> ,
+		ns4:Q12108 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2040start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2040end> ;
+	ns1:inXSDDate	"2040-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2040end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2040-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2040start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2040-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2041>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2041 ;
+	owl:sameAs	ns4:Q49914 ,
+		<http://reference.data.gov.uk/doc/year/2041> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2041start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2041end> ;
+	ns1:inXSDDate	"2041-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2041end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2041-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2041start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2041-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2042>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2042 ;
+	owl:sameAs	ns4:Q49915 ,
+		<http://reference.data.gov.uk/doc/year/2042> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2042start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2042end> ;
+	ns1:inXSDDate	"2042-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2042end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2042-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2042start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2042-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2043>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2043 ;
+	owl:sameAs	ns4:Q49917 ,
+		<http://reference.data.gov.uk/doc/year/2043> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2043start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2043end> ;
+	ns1:inXSDDate	"2043-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2043end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2043-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2043start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2043-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2044>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2044 ;
+	owl:sameAs	ns4:Q49919 ,
+		<http://reference.data.gov.uk/doc/year/2044> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2044start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2044end> ;
+	ns1:inXSDDate	"2044-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2044end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2044-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2044start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2044-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2045>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2045 ;
+	owl:sameAs	ns4:Q49920 ,
+		<http://reference.data.gov.uk/doc/year/2045> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2045start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2045end> ;
+	ns1:inXSDDate	"2045-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2045end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2045-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2045start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2045-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2046>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2046 ;
+	owl:sameAs	ns4:Q49921 ,
+		<http://reference.data.gov.uk/doc/year/2046> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2046start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2046end> ;
+	ns1:inXSDDate	"2046-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2046end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2046-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2046start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2046-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2047>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2047 ;
+	owl:sameAs	ns4:Q49922 ,
+		<http://reference.data.gov.uk/doc/year/2047> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2047start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2047end> ;
+	ns1:inXSDDate	"2047-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2047end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2047-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2047start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2047-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2048>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2048 ;
+	owl:sameAs	ns4:Q49923 ,
+		<http://reference.data.gov.uk/doc/year/2048> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2048start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2048end> ;
+	ns1:inXSDDate	"2048-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2048end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2048-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2048start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2048-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2049>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2049 ;
+	owl:sameAs	ns4:Q49924 ,
+		<http://reference.data.gov.uk/doc/year/2049> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2049start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2049end> ;
+	ns1:inXSDDate	"2049-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2049end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2049-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2049start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2049-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2050>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2050 ;
+	owl:sameAs	ns4:Q49925 ,
+		<http://reference.data.gov.uk/doc/year/2050> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2050start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2050end> ;
+	ns1:inXSDDate	"2050-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2050end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2050-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2050start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2050-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2051>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2051 ;
+	owl:sameAs	ns4:Q49926 ,
+		<http://reference.data.gov.uk/doc/year/2051> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2051start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2051end> ;
+	ns1:inXSDDate	"2051-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2051end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2051-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2051start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2051-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2052>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2052 ;
+	owl:sameAs	ns4:Q49927 ,
+		<http://reference.data.gov.uk/doc/year/2052> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2052start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2052end> ;
+	ns1:inXSDDate	"2052-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2052end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2052-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2052start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2052-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2053>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2053 ;
+	owl:sameAs	ns4:Q49928 ,
+		<http://reference.data.gov.uk/doc/year/2053> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2053start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2053end> ;
+	ns1:inXSDDate	"2053-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2053end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2053-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2053start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2053-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2054>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2054 ;
+	owl:sameAs	ns4:Q49929 ,
+		<http://reference.data.gov.uk/doc/year/2054> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2054start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2054end> ;
+	ns1:inXSDDate	"2054-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2054end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2054-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2054start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2054-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2055>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2055 ;
+	owl:sameAs	ns4:Q49930 ,
+		<http://reference.data.gov.uk/doc/year/2055> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2055start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2055end> ;
+	ns1:inXSDDate	"2055-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2055end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2055-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2055start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2055-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2056>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2056 ;
+	owl:sameAs	ns4:Q49931 ,
+		<http://reference.data.gov.uk/doc/year/2056> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2056start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2056end> ;
+	ns1:inXSDDate	"2056-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2056end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2056-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2056start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2056-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2057>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2057 ;
+	owl:sameAs	ns4:Q49932 ,
+		<http://reference.data.gov.uk/doc/year/2057> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2057start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2057end> ;
+	ns1:inXSDDate	"2057-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2057end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2057-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2057start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2057-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2058>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2058 ;
+	owl:sameAs	ns4:Q49933 ,
+		<http://reference.data.gov.uk/doc/year/2058> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2058start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2058end> ;
+	ns1:inXSDDate	"2058-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2058end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2058-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2058start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2058-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2059>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2059 ;
+	owl:sameAs	ns4:Q49935 ,
+		<http://reference.data.gov.uk/doc/year/2059> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2059start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2059end> ;
+	ns1:inXSDDate	"2059-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2059end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2059-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2059start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2059-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2060>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2060 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2060> ,
+		ns4:Q592410 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2060start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2060end> ;
+	ns1:inXSDDate	"2060-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2060end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2060-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2060start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2060-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2061>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2061 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2061> ,
+		ns4:Q844737 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2061start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2061end> ;
+	ns1:inXSDDate	"2061-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2061end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2061-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2061start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2061-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2062>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2062 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2062> ,
+		ns4:Q1046496 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2062start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2062end> ;
+	ns1:inXSDDate	"2062-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2062end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2062-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2062start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2062-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2063>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2063 ;
+	owl:sameAs	ns4:Q1044976 ,
+		<http://reference.data.gov.uk/doc/year/2063> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2063start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2063end> ;
+	ns1:inXSDDate	"2063-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2063end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2063-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2063start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2063-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2064>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2064 ;
+	owl:sameAs	ns4:Q1044959 ,
+		<http://reference.data.gov.uk/doc/year/2064> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2064start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2064end> ;
+	ns1:inXSDDate	"2064-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2064end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2064-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2064start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2064-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2065>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2065 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2065> ,
+		ns4:Q890604 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2065start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2065end> ;
+	ns1:inXSDDate	"2065-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2065end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2065-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2065start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2065-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2066>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2066 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2066> ,
+		ns4:Q890609 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2066start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2066end> ;
+	ns1:inXSDDate	"2066-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2066end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2066-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2066start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2066-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2067>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2067 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2067> ,
+		ns4:Q890597 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2067start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2067end> ;
+	ns1:inXSDDate	"2067-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2067end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2067-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2067start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2067-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2068>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2068 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2068> ,
+		ns4:Q890596 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2068start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2068end> ;
+	ns1:inXSDDate	"2068-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2068end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2068-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2068start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2068-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2069>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2069 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2069> ,
+		ns4:Q890591 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2069start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2069end> ;
+	ns1:inXSDDate	"2069-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2069end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2069-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2069start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2069-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2070>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2070 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2070> ,
+		ns4:Q890619 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2070start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2070end> ;
+	ns1:inXSDDate	"2070-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2070end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2070-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2070start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2070-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2071>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2071 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2071> ,
+		ns4:Q890598 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2071start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2071end> ;
+	ns1:inXSDDate	"2071-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2071end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2071-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2071start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2071-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2072>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2072 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2072> ,
+		ns4:Q890576 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2072start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2072end> ;
+	ns1:inXSDDate	"2072-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2072end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2072-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2072start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2072-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2073>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2073 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2073> ,
+		ns4:Q668404 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2073start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2073end> ;
+	ns1:inXSDDate	"2073-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2073end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2073-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2073start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2073-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2074>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2074 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2074> ,
+		ns4:Q890581 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2074start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2074end> ;
+	ns1:inXSDDate	"2074-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2074end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2074-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2074start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2074-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2075>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2075 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2075> ,
+		ns4:Q890559 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2075start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2075end> ;
+	ns1:inXSDDate	"2075-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2075end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2075-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2075start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2075-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2076>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2076 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2076> ,
+		ns4:Q890563 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2076start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2076end> ;
+	ns1:inXSDDate	"2076-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2076end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2076-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2076start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2076-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2077>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2077 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2077> ,
+		ns4:Q890569 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2077start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2077end> ;
+	ns1:inXSDDate	"2077-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2077end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2077-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2077start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2077-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2078>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2078 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2078> ,
+		ns4:Q890571 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2078start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2078end> ;
+	ns1:inXSDDate	"2078-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2078end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2078-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2078start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2078-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2079>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2079 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2079> ,
+		ns4:Q890584 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2079start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2079end> ;
+	ns1:inXSDDate	"2079-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2079end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2079-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2079start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2079-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2080>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2080 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2080> ,
+		ns4:Q972030 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2080start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2080end> ;
+	ns1:inXSDDate	"2080-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2080end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2080-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2080start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2080-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2081>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2081 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2081> ,
+		ns4:Q972085 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2081start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2081end> ;
+	ns1:inXSDDate	"2081-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2081end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2081-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2081start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2081-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2082>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2082 ;
+	owl:sameAs	ns4:Q972651 ,
+		<http://reference.data.gov.uk/doc/year/2082> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2082start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2082end> ;
+	ns1:inXSDDate	"2082-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2082end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2082-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2082start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2082-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2083>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2083 ;
+	owl:sameAs	ns4:Q972505 ,
+		<http://reference.data.gov.uk/doc/year/2083> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2083start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2083end> ;
+	ns1:inXSDDate	"2083-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2083end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2083-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2083start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2083-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2084>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2084 ;
+	owl:sameAs	ns4:Q972519 ,
+		<http://reference.data.gov.uk/doc/year/2084> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2084start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2084end> ;
+	ns1:inXSDDate	"2084-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2084end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2084-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2084start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2084-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2085>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2085 ;
+	owl:sameAs	ns4:Q972493 ,
+		<http://reference.data.gov.uk/doc/year/2085> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2085start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2085end> ;
+	ns1:inXSDDate	"2085-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2085end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2085-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2085start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2085-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2086>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2086 ;
+	owl:sameAs	ns4:Q971970 ,
+		<http://reference.data.gov.uk/doc/year/2086> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2086start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2086end> ;
+	ns1:inXSDDate	"2086-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2086end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2086-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2086start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2086-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2087>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2087 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2087> ,
+		ns4:Q971996 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2087start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2087end> ;
+	ns1:inXSDDate	"2087-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2087end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2087-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2087start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2087-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2088>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2088 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2088> ,
+		ns4:Q972009 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2088start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2088end> ;
+	ns1:inXSDDate	"2088-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2088end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2088-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2088start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2088-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2089>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2089 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2089> ,
+		ns4:Q971983 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2089start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2089end> ;
+	ns1:inXSDDate	"2089-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2089end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2089-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2089start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2089-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2090>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2090 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2090> ,
+		ns4:Q972326 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2090start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2090end> ;
+	ns1:inXSDDate	"2090-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2090end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2090-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2090start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2090-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2091>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2091 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2091> ,
+		ns4:Q972454 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2091start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2091end> ;
+	ns1:inXSDDate	"2091-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2091end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2091-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2091start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2091-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2092>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2092 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2092> ,
+		ns4:Q972071 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2092start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2092end> ;
+	ns1:inXSDDate	"2092-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2092end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2092-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2092start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2092-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2093>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2093 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2093> ,
+		ns4:Q972053 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2093start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2093end> ;
+	ns1:inXSDDate	"2093-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2093end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2093-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2093start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2093-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2094>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2094 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2094> ,
+		ns4:Q972633 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2094start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2094end> ;
+	ns1:inXSDDate	"2094-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2094end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2094-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2094start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2094-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2095>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2095 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2095> ,
+		ns4:Q972426 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2095start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2095end> ;
+	ns1:inXSDDate	"2095-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2095end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2095-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2095start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2095-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2096>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2096 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2096> ,
+		ns4:Q972412 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2096start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2096end> ;
+	ns1:inXSDDate	"2096-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2096end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2096-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2096start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2096-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2097>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2097 ;
+	owl:sameAs	ns4:Q692765 ,
+		<http://reference.data.gov.uk/doc/year/2097> ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2097start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2097end> ;
+	ns1:inXSDDate	"2097-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2097end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2097-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2097start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2097-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2098>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2098 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2098> ,
+		ns4:Q972019 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2098start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2098end> ;
+	ns1:inXSDDate	"2098-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2098end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2098-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2098start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2098-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2099>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2099 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2099> ,
+		ns4:Q972339 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2099start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2099end> ;
+	ns1:inXSDDate	"2099-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2099end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2099-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2099start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2099-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2100>	rdf:type	ns1:ProperInterval ;
+	rdfs:label	2100 ;
+	owl:sameAs	<http://reference.data.gov.uk/doc/year/2100> ,
+		ns4:Q11183 ;
+	ns1:hasBeginning	<http://rdf.bonsai.uno/time#2100start> ;
+	ns1:hasDurationDescription	ns5:oneyearlong ;
+	ns1:hasEnd	<http://rdf.bonsai.uno/time#2100end> ;
+	ns1:inXSDDate	"2100-01-01"^^xsd:date .
+<http://rdf.bonsai.uno/time#2100end>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2100-12-31"^^xsd:date .
+<http://rdf.bonsai.uno/time#2100start>	rdf:type	ns1:Instant ;
+	ns1:inXSDDate	"2100-01-01"^^xsd:date .
+ns5:oneyearlong	rdf:type	ns1:DurationDescription ;
+	ns1:years	1 .

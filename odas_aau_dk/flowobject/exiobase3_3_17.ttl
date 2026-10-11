@@ -1,0 +1,629 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#> .
+@prefix ns2:	<http://ontology.bonsai.uno/core#> .
+ns1:C_ADDC	rdf:type	ns2:FlowObject .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+ns1:C_ADDC	rdfs:label	"Additives/Blending Components" .
+ns1:C_AGSL	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Aviation Gasoline" .
+ns1:C_BIOF	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Food waste for treatment: biogasification and land application" .
+ns1:C_BIOG	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Biogasoline" .
+ns1:C_BOTW	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Bottles for treatment; Recycling of bottles by direct reuse" .
+ns1:C_COMW	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Paper and wood waste for treatment: composting and land application" .
+ns1:C_COPW	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Secondary copper for treatment; Re-processing of secondary copper into new copper" .
+ns1:C_COTA	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Coal Tar" .
+ns1:C_ETHA	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Ethane" .
+ns1:C_FIBR	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Plant-based fibers" .
+ns1:C_GCOK	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Gas Coke" .
+ns1:C_GJET	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Gasoline Type Jet Fuel" .
+ns1:C_KERO	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Kerosene" .
+ns1:C_LUBR	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Lubricants" .
+ns1:C_MILK	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Raw milk" .
+ns1:C_OFOD	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Food products nec" .
+ns1:C_OGPL	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Other Hydrocarbons" .
+ns1:C_PIGS	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Pigs" .
+ns1:C_POWE	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Electricity by solar thermal" .
+ns1:C_POWN	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Electricity by nuclear" .
+ns1:C_POWO	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Electricity by tide; wave; ocean" .
+ns1:C_POWZ	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Electricity nec" .
+ns1:C_PREO	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Precious metal ores and concentrates" .
+ns1:C_PREW	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Secondary preciuos metals for treatment; Re-processing of secondary preciuos metals into new preciuos metals" .
+ns1:C_RGAS	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Refinery Gas" .
+ns1:C_WHSP	rdf:type	ns2:FlowObject ;
+	rdfs:label	"White Spirit & SBP" .
+ns1:C_NFER	rdf:type	ns2:FlowObject ;
+	rdfs:label	"N-fertiliser" .
+ns1:C_ALUM	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Aluminium and aluminium products" .
+ns1:C_ALUO	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Aluminium ores and concentrates" .
+ns1:C_ALUW	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Secondary aluminium for treatment; Re-processing of secondary aluminium into new aluminium" .
+ns1:C_ANTH	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Anthracite" .
+ns1:C_ASHW	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Ash for treatment; Re-processing of ash into clinker" .
+ns1:C_BEVR	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Beverages" .
+ns1:C_BIOD	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Biodiesels" .
+ns1:C_BIOP	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Paper waste for treatment: biogasification and land application" .
+ns1:C_BIOS	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Sewage sludge for treatment: biogasification and land application" .
+ns1:C_BITU	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Bitumen" .
+ns1:C_BRIK	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Bricks; tiles and construction products; in baked clay" .
+ns1:C_CATL	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Cattle" .
+ns1:C_CHAR	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Charcoal" .
+ns1:C_CHEM	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Chemicals nec" .
+ns1:C_CHMF	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Chemical and fertilizer minerals; salt and other mining and quarrying products n.e.c." .
+ns1:C_CMNT	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Cement; lime and plaster" .
+ns1:C_COIL	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Crude petroleum and services related to crude oil extraction; excluding surveying" .
+ns1:C_COKC	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Coking Coal" .
+ns1:C_COKE	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Coke Oven Coke" .
+ns1:C_COMF	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Food waste for treatment: composting and land application" .
+ns1:C_COMP	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Computer and related services (72)" .
+ns1:C_CONS	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Construction work (45)" .
+ns1:C_CONW	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Secondary construction material for treatment; Re-processing of secondary construction material into aggregates" .
+ns1:C_COOG	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Coke oven gas" .
+ns1:C_COPO	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Copper ores and concentrates" .
+ns1:C_COPP	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Copper products" .
+ns1:C_CRMC	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Ceramic goods" .
+ns1:C_DAIR	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Dairy products" .
+ns1:C_DOIL	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Gas/Diesel Oil" .
+ns1:C_EDUC	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Education services (80)" .
+ns1:C_ELMA	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Electrical machinery and apparatus n.e.c. (31)" .
+ns1:C_FABM	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Fabricated metal products; except machinery and equipment (28)" .
+ns1:C_FAUX	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Services auxiliary to financial intermediation (67)" .
+ns1:C_FINS	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Insurance and pension funding services; except compulsory social security services (66)" .
+ns1:C_FINT	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Financial intermediation services; except insurance and pension funding services (65)" .
+ns1:C_FISH	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Fish and other fishing products; services incidental of fishing (05)" .
+ns1:C_FOIL	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Heavy Fuel Oil" .
+ns1:C_FORE	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Products of forestry; logging and related services (02)" .
+ns1:C_FSHP	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Fish products" .
+ns1:C_FURN	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Furniture; other manufactured goods n.e.c. (36)" .
+ns1:C_FVEG	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Vegetables; fruit; nuts" .
+ns1:C_GARM	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Wearing apparel; furs (18)" .
+ns1:C_GASD	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Distribution services of gaseous fuels through mains" .
+ns1:C_GASE	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Natural gas and services related to natural gas extraction; excluding surveying" .
+ns1:C_GASL	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Natural Gas Liquids" .
+ns1:C_GLAS	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Glass and glass products" .
+ns1:C_GLAW	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Secondary glass for treatment; Re-processing of secondary glass into new glass" .
+ns1:C_HEAL	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Health and social work services (85)" .
+ns1:C_HORE	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Hotel and restaurant services (55)" .
+ns1:C_HWAT	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Steam and hot water supply services" .
+ns1:C_INCF	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Food waste for treatment: incineration" .
+ns1:C_INCL	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Plastic waste for treatment: incineration" .
+ns1:C_INCM	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Intert/metal waste for treatment: incineration" .
+ns1:C_INCO	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Oil/hazardous waste for treatment: incineration" .
+ns1:C_INCP	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Paper waste for treatment: incineration" .
+ns1:C_INCT	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Textiles waste for treatment: incineration" .
+ns1:C_INCW	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Wood waste for treatment: incineration" .
+ns1:C_IRON	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Iron ores" .
+ns1:C_KJET	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Kerosene Type Jet Fuel" .
+ns1:C_LANF	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Food waste for treatment: landfill" .
+ns1:C_LANI	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Inert/metal/hazardous waste for treatment: landfill" .
+ns1:C_LANL	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Plastic waste for treatment: landfill" .
+ns1:C_LANP	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Paper for treatment: landfill" .
+ns1:C_LANT	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Textiles waste for treatment: landfill" .
+ns1:C_LANW	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Wood waste for treatment: landfill" .
+ns1:C_LETH	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Leather and leather products (19)" .
+ns1:C_LIBC	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Lignite/Brown Coal" .
+ns1:C_LPGA	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Liquefied Petroleum Gases (LPG)" .
+ns1:C_LZTO	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Lead; zinc and tin ores and concentrates" .
+ns1:C_LZTP	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Lead; zinc and tin and products thereof" .
+ns1:C_LZTW	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Secondary lead for treatment; Re-processing of secondary lead into new lead" .
+ns1:C_MACH	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Machinery and equipment n.e.c. (29)" .
+ns1:C_MANC	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Manure (conventional treatment)" .
+ns1:C_MARE	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Renting services of machinery and equipment without operator and of personal and household goods (71)" .
+ns1:C_MBFG	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Blast Furnace Gas" .
+ns1:C_MBIO	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Biogas" .
+ns1:C_MDIA	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Printed matter and recorded media (22)" .
+ns1:C_MEIN	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Medical; precision and optical instruments; watches and clocks (33)" .
+ns1:C_METC	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Foundry work services" .
+ns1:C_MGSL	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Motor Gasoline" .
+ns1:C_MGWG	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Gas Works Gas" .
+ns1:C_MOSG	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Oxygen Steel Furnace Gas" .
+ns1:C_MOTO	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Motor vehicles; trailers and semi-trailers (34)" .
+ns1:C_NAPT	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Naphtha" .
+ns1:C_NIKO	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Nickel ores and concentrates" .
+ns1:C_NSPP	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Non-specified Petroleum Products" .
+ns1:C_NUCF	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Nuclear fuel" .
+ns1:C_OANP	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Animal products nec" .
+ns1:C_OBIO	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Other Liquid Biofuels" .
+ns1:C_OBUS	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Other business services (74)" .
+ns1:C_OCER	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Cereal grains nec" .
+ns1:C_OFMA	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Office machinery and computers (30)" .
+ns1:C_OILS	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Oil seeds" .
+ns1:C_OMEA	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Meat animals nec" .
+ns1:C_ONFM	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Other non-ferrous metal products" .
+ns1:C_ONFO	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Other non-ferrous metal ores and concentrates" .
+ns1:C_ONFW	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Secondary other non-ferrous metals for treatment; Re-processing of secondary other non-ferrous metals into new other non-ferrous metals" .
+ns1:C_ONMM	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Other non-metallic mineral products" .
+ns1:C_ORAN	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Uranium and thorium ores (12)" .
+ns1:C_ORGA	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Membership organisation services n.e.c. (91)" .
+ns1:C_OSER	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Other services (93)" .
+ns1:C_OTBC	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Other Bituminous Coal" .
+ns1:C_OTCR	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Crops nec" .
+ns1:C_OTRE	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Other transport equipment (35)" .
+ns1:C_PADF	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Public administration and defence services; compulsory social security services (75)" .
+ns1:C_PAPE	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Paper and paper products" .
+ns1:C_PAPR	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Secondary paper for treatment; Re-processing of secondary paper into new pulp" .
+ns1:C_PARI	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Paddy rice" .
+ns1:C_PARW	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Paraffin Waxes" .
+ns1:C_PCAT	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Products of meat cattle" .
+ns1:C_PEAT	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Peat" .
+ns1:C_PETC	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Petroleum Coke" .
+ns1:C_PFER	rdf:type	ns2:FlowObject ;
+	rdfs:label	"P- and other fertiliser" .
+ns1:C_PLAS	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Plastics; basic" .
+ns1:C_PLAW	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Secondary plastic for treatment; Re-processing of secondary plastic into new plastic" .
+ns1:C_PLTR	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Poultry" .
+ns1:C_POME	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Meat products nec" .
+ns1:C_POWB	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Electricity by biomass and waste" .
+ns1:C_POWC	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Electricity by coal" .
+ns1:C_POWD	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Distribution and trade services of electricity" .
+ns1:C_POWG	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Electricity by gas" .
+ns1:C_POWH	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Electricity by hydro" .
+ns1:C_POWM	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Electricity by Geothermal" .
+ns1:C_POWP	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Electricity by petroleum and other oil derivatives" .
+ns1:C_POWS	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Electricity by solar photovoltaic" .
+ns1:C_POWT	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Transmission services of electricity" .
+ns1:C_POWW	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Electricity by wind" .
+ns1:C_PPIG	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Products of meat pigs" .
+ns1:C_PPLT	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Products of meat poultry" .
+ns1:C_PREM	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Precious metals" .
+ns1:C_PRHH	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Private households with employed persons (95)" .
+ns1:C_PTEL	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Post and telecommunication services (64)" .
+ns1:C_PULP	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Pulp" .
+ns1:C_RATV	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Radio; television and communication equipment and apparatus (32)" .
+ns1:C_REAL	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Real estate services (70)" .
+ns1:C_RECR	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Recreational; cultural and sporting services (92)" .
+ns1:C_REFF	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Refinery Feedstocks" .
+ns1:C_RESD	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Research and development services (73)" .
+ns1:C_RICE	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Processed rice" .
+ns1:C_RUBP	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Rubber and plastic products (25)" .
+ns1:C_RYMS	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Secondary raw materials" .
+ns1:C_SDCL	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Sand and clay" .
+ns1:C_STEL	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Basic iron and steel and of ferro-alloys and first products thereof" .
+ns1:C_STEW	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Secondary steel for treatment; Re-processing of secondary steel into new steel" .
+ns1:C_STON	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Stone" .
+ns1:C_SUBC	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Sub-Bituminous Coal" .
+ns1:C_SUGB	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Sugar cane; sugar beet" .
+ns1:C_SUGR	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Sugar" .
+ns1:C_TAIR	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Air transport services (62)" .
+ns1:C_TAUX	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Supporting and auxiliary transport services; travel agency services (63)" .
+ns1:C_TDFU	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Retail trade services of motor fuel" .
+ns1:C_TDMO	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Sale; maintenance; repair of motor vehicles; motor vehicles parts; motorcycles; motor cycles parts and accessoiries" .
+ns1:C_TDRT	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Retail  trade services; except of motor vehicles and motorcycles; repair services of personal and household goods (52)" .
+ns1:C_TDWH	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Wholesale trade and commission trade services; except of motor vehicles and motorcycles (51)" .
+ns1:C_TEXT	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Textiles (17)" .
+ns1:C_TLND	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Other land transportation services" .
+ns1:C_TOBC	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Tobacco products (16)" .
+ns1:C_TPIP	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Transportation services via pipelines" .
+ns1:C_TRAI	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Railway transportation services" .
+ns1:C_TWAI	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Inland water transportation services" .
+ns1:C_TWAS	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Sea and coastal water transportation services" .
+ns1:C_VOIL	rdf:type	ns2:FlowObject ;
+	rdfs:label	"products of Vegetable oils and fats" .
+ns1:C_WASF	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Food waste for treatment: waste water treatment" .
+ns1:C_WASO	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Other waste for treatment: waste water treatment" .
+ns1:C_WATR	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Collected and purified water; distribution services of water (41)" .
+ns1:C_WHEA	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Wheat" .
+ns1:C_WOOD	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Wood and products of wood and cork (except furniture); articles of straw and plaiting materials (20)" .
+ns1:C_WOOL	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Wool; silk-worm cocoons" .
+ns1:C_WOOW	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Wood material for treatment; Re-processing of secondary wood material into new wood material" .
+@prefix ns4:	<http://rdf.bonsai.uno/flowobject/> .
+@prefix ns5:	<http://purl.org/dc/dcmitype/> .
+ns4:exiobase3_3_17	rdf:type	ns5:Dataset .
+@prefix ns6:	<http://www.w3.org/ns/prov#> .
+ns4:exiobase3_3_17	rdf:type	ns6:Collection .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+ns4:exiobase3_3_17	owl:versionInfo	"0.5" .
+@prefix ns8:	<http://creativecommons.org/ns#> .
+ns4:exiobase3_3_17	ns8:license	<http://creativecommons.org/licenses/by/3.0/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+ns4:exiobase3_3_17	foaf:homepage	<http://rdf.bonsai.uno/flowobject/exiobase3_3_17documentation.html> .
+@prefix dc:	<http://purl.org/dc/elements/1.1/> .
+@prefix ns11:	<http://rdf.bonsai.uno/foaf#> .
+ns4:exiobase3_3_17	dc:creator	ns11:bonsai ;
+	dc:description	"FlowObject instances needed for BONSAI modelling of EXIOBASE version 3.3.17" .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ns4:exiobase3_3_17	dc:modified	"2020-06-17"^^xsd:date ;
+	dc:title	"EXIOBASE 3.3.17 flow objects" .
+@prefix ns13:	<http://purl.org/vocab/vann/> .
+ns4:exiobase3_3_17	ns13:preferredNamespaceUri	ns1: ;
+	ns6:wasAttributedTo	ns11:bonsai .
+@prefix ns14:	<http://rdf.bonsai.uno/prov#> .
+ns4:exiobase3_3_17	ns6:wasGeneratedBy	ns14:dataExtractionActivity_0_5 ;
+	ns6:hadMember	ns1:C_COKE ,
+		ns1:C_COMF ,
+		ns1:C_COIL ,
+		ns1:C_COKC ,
+		ns1:C_CONW ,
+		ns1:C_COOG ,
+		ns1:C_COMP ,
+		ns1:C_CONS ,
+		ns1:C_CHAR ,
+		ns1:C_BRIK ,
+		ns1:C_CATL ,
+		ns1:C_CMNT ,
+		ns1:C_CHEM ,
+		ns1:C_CHMF ,
+		ns1:C_BEVR ,
+		ns1:C_ANTH ,
+		ns1:C_ASHW ,
+		ns1:C_BIOS ,
+		ns1:C_BITU ,
+		ns1:C_BIOD ,
+		ns1:C_BIOP ,
+		ns1:C_ALUO ,
+		ns1:C_ALUW ,
+		ns1:C_ALUM ,
+		ns1:C_HORE ,
+		ns1:C_HWAT ,
+		ns1:C_GLAW ,
+		ns1:C_HEAL ,
+		ns1:C_INCM ,
+		ns1:C_INCO ,
+		ns1:C_INCF ,
+		ns1:C_INCL ,
+		ns1:C_GARM ,
+		ns1:C_GASD ,
+		ns1:C_FURN ,
+		ns1:C_FVEG ,
+		ns1:C_GLAS ,
+		ns1:C_GASE ,
+		ns1:C_GASL ,
+		ns1:C_FINS ,
+		ns1:C_FINT ,
+		ns1:C_FABM ,
+		ns1:C_FAUX ,
+		ns1:C_FORE ,
+		ns1:C_FSHP ,
+		ns1:C_FISH ,
+		ns1:C_FOIL ,
+		ns1:C_CRMC ,
+		ns1:C_COPO ,
+		ns1:C_COPP ,
+		ns1:C_EDUC ,
+		ns1:C_ELMA ,
+		ns1:C_DAIR ,
+		ns1:C_DOIL ,
+		ns1:C_MGWG ,
+		ns1:C_MOSG ,
+		ns1:C_METC ,
+		ns1:C_MGSL ,
+		ns1:C_NIKO ,
+		ns1:C_NSPP ,
+		ns1:C_MOTO ,
+		ns1:C_NAPT ,
+		ns1:C_MANC ,
+		ns1:C_MARE ,
+		ns1:C_LZTW ,
+		ns1:C_MACH ,
+		ns1:C_MDIA ,
+		ns1:C_MEIN ,
+		ns1:C_COTA ,
+		ns1:C_MBFG ,
+		ns1:C_ETHA ,
+		ns1:C_MBIO ,
+		ns1:C_COMW ,
+		ns1:C_COPW ,
+		ns1:C_LANW ,
+		ns1:C_GJET ,
+		ns1:C_LETH ,
+		ns1:C_LANP ,
+		ns1:C_KERO ,
+		ns1:C_LANT ,
+		ns1:C_FIBR ,
+		ns1:C_LZTO ,
+		ns1:C_GCOK ,
+		ns1:C_LZTP ,
+		ns1:C_LIBC ,
+		ns1:C_ADDC ,
+		ns1:C_LPGA ,
+		ns1:C_INCW ,
+		ns1:C_IRON ,
+		ns1:C_BIOG ,
+		ns1:C_INCP ,
+		ns1:C_BOTW ,
+		ns1:C_INCT ,
+		ns1:C_AGSL ,
+		ns1:C_BIOF ,
+		ns1:C_LANI ,
+		ns1:C_LANL ,
+		ns1:C_KJET ,
+		ns1:C_LANF ,
+		ns1:C_PFER ,
+		ns1:C_PLAS ,
+		ns1:C_PEAT ,
+		ns1:C_PETC ,
+		ns1:C_POME ,
+		ns1:C_POWB ,
+		ns1:C_PLAW ,
+		ns1:C_PLTR ,
+		ns1:C_PADF ,
+		ns1:C_PAPE ,
+		ns1:C_OTCR ,
+		ns1:C_OTRE ,
+		ns1:C_PARW ,
+		ns1:C_PCAT ,
+		ns1:C_PAPR ,
+		ns1:C_PARI ,
+		ns1:C_ONFW ,
+		ns1:C_ONMM ,
+		ns1:C_ONFM ,
+		ns1:C_ONFO ,
+		ns1:C_OSER ,
+		ns1:C_OTBC ,
+		ns1:C_ORAN ,
+		ns1:C_ORGA ,
+		ns1:C_OBIO ,
+		ns1:C_OBUS ,
+		ns1:C_NUCF ,
+		ns1:C_OANP ,
+		ns1:C_OILS ,
+		ns1:C_PREW ,
+		ns1:C_OMEA ,
+		ns1:C_OCER ,
+		ns1:C_RGAS ,
+		ns1:C_OFMA ,
+		ns1:C_POWZ ,
+		ns1:C_PREO ,
+		ns1:C_STEW ,
+		ns1:C_STON ,
+		ns1:C_SDCL ,
+		ns1:C_STEL ,
+		ns1:C_WHSP ,
+		ns1:C_SUGR ,
+		ns1:C_TAIR ,
+		ns1:C_OFOD ,
+		ns1:C_SUBC ,
+		ns1:C_OGPL ,
+		ns1:C_LUBR ,
+		ns1:C_SUGB ,
+		ns1:C_REFF ,
+		ns1:C_MILK ,
+		ns1:C_POWN ,
+		ns1:C_REAL ,
+		ns1:C_POWO ,
+		ns1:C_PIGS ,
+		ns1:C_RECR ,
+		ns1:C_RUBP ,
+		ns1:C_POWE ,
+		ns1:C_RYMS ,
+		ns1:C_RESD ,
+		ns1:C_RICE ,
+		ns1:C_PPLT ,
+		ns1:C_PREM ,
+		ns1:C_POWW ,
+		ns1:C_PPIG ,
+		ns1:C_PULP ,
+		ns1:C_RATV ,
+		ns1:C_PRHH ,
+		ns1:C_PTEL ,
+		ns1:C_POWG ,
+		ns1:C_POWH ,
+		ns1:C_POWC ,
+		ns1:C_POWD ,
+		ns1:C_POWS ,
+		ns1:C_POWT ,
+		ns1:C_POWM ,
+		ns1:C_POWP ,
+		ns1:C_WOOL ,
+		ns1:C_WOOW ,
+		ns1:C_WHEA ,
+		ns1:C_WOOD ,
+		ns1:C_TWAI ,
+		ns1:C_TWAS ,
+		ns1:C_TPIP ,
+		ns1:C_TRAI ,
+		ns1:C_WASO ,
+		ns1:C_WATR ,
+		ns1:C_VOIL ,
+		ns1:C_WASF ,
+		ns1:C_TDMO ,
+		ns1:C_TDRT ,
+		ns1:C_TAUX ,
+		ns1:C_TDFU ,
+		ns1:C_TLND ,
+		ns1:C_TOBC ,
+		ns1:C_TDWH ,
+		ns1:C_TEXT ,
+		ns1:C_MANB ,
+		ns1:C_PATF ,
+		ns1:C_BKBP ,
+		ns1:C_EXTO ,
+		ns1:C_NFER ;
+	dc:publisher	ns11:bonsai ;
+	ns6:generatedAtTime	"2020-06-17"^^xsd:date .
+ns1:C_BKBP	rdf:type	ns2:FlowObject ;
+	rdfs:label	"BKB/Peat Briquettes" .
+ns1:C_EXTO	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Extra-territorial organizations and bodies" .
+ns1:C_MANB	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Manure (biogas treatment)" .
+ns1:C_PATF	rdf:type	ns2:FlowObject ;
+	rdfs:label	"Patent Fuel" .

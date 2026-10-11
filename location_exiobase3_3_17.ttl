@@ -1,0 +1,226 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://rdf.bonsai.uno/location/exiobase3_3_17#> .
+@prefix ns2:	<http://schema.org/> .
+ns1:RO	rdf:type	ns2:Place .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+ns1:RO	rdfs:label	"RO" .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+ns1:RO	owl:sameAs	<http://sws.geonames.org/798549> .
+ns1:AT	rdf:type	ns2:Place ;
+	rdfs:label	"AT" ;
+	owl:sameAs	<http://sws.geonames.org/2782113> .
+ns1:AU	rdf:type	ns2:Place ;
+	rdfs:label	"AU" ;
+	owl:sameAs	<http://sws.geonames.org/2077456> .
+ns1:BE	rdf:type	ns2:Place ;
+	rdfs:label	"BE" ;
+	owl:sameAs	<http://sws.geonames.org/2802361> .
+ns1:BG	rdf:type	ns2:Place ;
+	rdfs:label	"BG" ;
+	owl:sameAs	<http://sws.geonames.org/732800> .
+ns1:BR	rdf:type	ns2:Place ;
+	rdfs:label	"BR" ;
+	owl:sameAs	<http://sws.geonames.org/3469034> .
+ns1:CA	rdf:type	ns2:Place ;
+	rdfs:label	"CA" ;
+	owl:sameAs	<http://sws.geonames.org/6251999> .
+ns1:CH	rdf:type	ns2:Place ;
+	rdfs:label	"CH" ;
+	owl:sameAs	<http://sws.geonames.org/2658434> .
+ns1:CN	rdf:type	ns2:Place ;
+	rdfs:label	"CN" ;
+	owl:sameAs	<http://sws.geonames.org/1814991> .
+ns1:CY	rdf:type	ns2:Place ;
+	rdfs:label	"CY" ;
+	owl:sameAs	<http://sws.geonames.org/146669> .
+ns1:CZ	rdf:type	ns2:Place ;
+	rdfs:label	"CZ" ;
+	owl:sameAs	<http://sws.geonames.org/3077311> .
+ns1:DE	rdf:type	ns2:Place ;
+	rdfs:label	"DE" ;
+	owl:sameAs	<http://sws.geonames.org/2921044> .
+ns1:DK	rdf:type	ns2:Place ;
+	rdfs:label	"DK" ;
+	owl:sameAs	<http://sws.geonames.org/2623032> .
+ns1:EE	rdf:type	ns2:Place ;
+	rdfs:label	"EE" ;
+	owl:sameAs	<http://sws.geonames.org/453733> .
+ns1:ES	rdf:type	ns2:Place ;
+	rdfs:label	"ES" ;
+	owl:sameAs	<http://sws.geonames.org/2510769> .
+ns1:FI	rdf:type	ns2:Place ;
+	rdfs:label	"FI" ;
+	owl:sameAs	<http://sws.geonames.org/660013> .
+ns1:FR	rdf:type	ns2:Place ;
+	rdfs:label	"FR" ;
+	owl:sameAs	<http://sws.geonames.org/3017382> .
+ns1:GB	rdf:type	ns2:Place ;
+	rdfs:label	"GB" ;
+	owl:sameAs	<http://sws.geonames.org/2635167> .
+ns1:GR	rdf:type	ns2:Place ;
+	rdfs:label	"GR" ;
+	owl:sameAs	<http://sws.geonames.org/390903> .
+ns1:HR	rdf:type	ns2:Place ;
+	rdfs:label	"HR" ;
+	owl:sameAs	<http://sws.geonames.org/3202326> .
+ns1:HU	rdf:type	ns2:Place ;
+	rdfs:label	"HU" ;
+	owl:sameAs	<http://sws.geonames.org/719819> .
+ns1:ID	rdf:type	ns2:Place ;
+	rdfs:label	"ID" ;
+	owl:sameAs	<http://sws.geonames.org/1643084> .
+ns1:IE	rdf:type	ns2:Place ;
+	rdfs:label	"IE" ;
+	owl:sameAs	<http://sws.geonames.org/2963597> .
+ns1:IN	rdf:type	ns2:Place ;
+	rdfs:label	"IN" ;
+	owl:sameAs	<http://sws.geonames.org/1269750> .
+ns1:IT	rdf:type	ns2:Place ;
+	rdfs:label	"IT" ;
+	owl:sameAs	<http://sws.geonames.org/3175395> .
+ns1:JP	rdf:type	ns2:Place ;
+	rdfs:label	"JP" ;
+	owl:sameAs	<http://sws.geonames.org/1861060> .
+ns1:KR	rdf:type	ns2:Place ;
+	rdfs:label	"KR" ;
+	owl:sameAs	<http://sws.geonames.org/1835841> .
+ns1:LT	rdf:type	ns2:Place ;
+	rdfs:label	"LT" ;
+	owl:sameAs	<http://sws.geonames.org/597427> .
+ns1:LU	rdf:type	ns2:Place ;
+	rdfs:label	"LU" ;
+	owl:sameAs	<http://sws.geonames.org/2960313> .
+ns1:LV	rdf:type	ns2:Place ;
+	rdfs:label	"LV" ;
+	owl:sameAs	<http://sws.geonames.org/458258> .
+ns1:MT	rdf:type	ns2:Place ;
+	rdfs:label	"MT" ;
+	owl:sameAs	<http://sws.geonames.org/2562770> .
+ns1:MX	rdf:type	ns2:Place ;
+	rdfs:label	"MX" ;
+	owl:sameAs	<http://sws.geonames.org/3996063> .
+ns1:NL	rdf:type	ns2:Place ;
+	rdfs:label	"NL" ;
+	owl:sameAs	<http://sws.geonames.org/2750405> .
+ns1:NO	rdf:type	ns2:Place ;
+	rdfs:label	"NO" ;
+	owl:sameAs	<http://sws.geonames.org/3144096> .
+ns1:PL	rdf:type	ns2:Place ;
+	rdfs:label	"PL" ;
+	owl:sameAs	<http://sws.geonames.org/798544> .
+ns1:PT	rdf:type	ns2:Place ;
+	rdfs:label	"PT" ;
+	owl:sameAs	<http://sws.geonames.org/2264397> .
+ns1:RU	rdf:type	ns2:Place ;
+	rdfs:label	"RU" ;
+	owl:sameAs	<http://sws.geonames.org/2017370> .
+ns1:SE	rdf:type	ns2:Place ;
+	rdfs:label	"SE" ;
+	owl:sameAs	<http://sws.geonames.org/2661886> .
+ns1:SI	rdf:type	ns2:Place ;
+	rdfs:label	"SI" ;
+	owl:sameAs	<http://sws.geonames.org/3190538> .
+ns1:SK	rdf:type	ns2:Place ;
+	rdfs:label	"SK" ;
+	owl:sameAs	<http://sws.geonames.org/3057568> .
+ns1:TR	rdf:type	ns2:Place ;
+	rdfs:label	"TR" ;
+	owl:sameAs	<http://sws.geonames.org/298795> .
+ns1:US	rdf:type	ns2:Place ;
+	rdfs:label	"US" ;
+	owl:sameAs	<http://sws.geonames.org/6252001> .
+ns1:WA	rdf:type	ns2:Place ;
+	rdfs:label	"EXIOBASE region RoW Asia and Pacific" .
+@prefix ns5:	<http://rdf.bonsai.uno/location/exiobase3_3_17/> .
+ns1:WA	owl:sameAs	ns5:WA .
+ns1:WE	rdf:type	ns2:Place ;
+	rdfs:label	"EXIOBASE region RoW Europe" ;
+	owl:sameAs	ns5:WE .
+ns1:WF	rdf:type	ns2:Place ;
+	rdfs:label	"EXIOBASE region RoW Africa" ;
+	owl:sameAs	ns5:WF .
+ns1:WL	rdf:type	ns2:Place ;
+	rdfs:label	"EXIOBASE region RoW America" ;
+	owl:sameAs	ns5:WL .
+ns1:WM	rdf:type	ns2:Place ;
+	rdfs:label	"EXIOBASE region RoW Middle East" ;
+	owl:sameAs	ns5:WM .
+ns1:ZA	rdf:type	ns2:Place ;
+	rdfs:label	"ZA" ;
+	owl:sameAs	<http://sws.geonames.org/953987> .
+@prefix ns6:	<http://rdf.bonsai.uno/location/> .
+@prefix ns7:	<http://purl.org/dc/dcmitype/> .
+ns6:exiobase3_3_17	rdf:type	ns7:Dataset .
+@prefix ns8:	<http://www.w3.org/ns/prov#> .
+ns6:exiobase3_3_17	rdf:type	ns8:Collection ;
+	owl:versionInfo	"0.5" .
+@prefix ns9:	<http://creativecommons.org/ns#> .
+ns6:exiobase3_3_17	ns9:license	<http://creativecommons.org/licenses/by/3.0/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+ns6:exiobase3_3_17	foaf:homepage	<http://rdf.bonsai.uno/location/exiobase3_3_17documentation.html> .
+@prefix dc:	<http://purl.org/dc/elements/1.1/> .
+@prefix ns12:	<http://rdf.bonsai.uno/foaf#> .
+ns6:exiobase3_3_17	dc:creator	ns12:bonsai ;
+	dc:description	"Country groupings used EXIOBASE 3.3.17" .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ns6:exiobase3_3_17	dc:modified	"2020-06-17"^^xsd:date ;
+	dc:title	"Custom locations for EXIOBASE 3.3" .
+@prefix ns14:	<http://purl.org/vocab/vann/> .
+ns6:exiobase3_3_17	ns14:preferredNamespaceUri	ns1: ;
+	ns8:wasAttributedTo	ns12:bonsai .
+@prefix ns15:	<http://rdf.bonsai.uno/prov#> .
+ns6:exiobase3_3_17	ns8:wasGeneratedBy	ns15:dataExtractionActivity_0_5 ;
+	dc:publisher	ns12:bonsai ;
+	ns8:generatedAtTime	"2020-06-17"^^xsd:date .
+ns1:	ns8:hadMember	ns1:MX ,
+		ns1:NL ,
+		ns1:LV ,
+		ns1:MT ,
+		ns1:LT ,
+		ns1:LU ,
+		ns1:JP ,
+		ns1:KR ,
+		ns1:IN ,
+		ns1:IT ,
+		ns1:RO ,
+		ns1:ID ,
+		ns1:IE ,
+		ns1:HR ,
+		ns1:HU ,
+		ns1:GB ,
+		ns1:GR ,
+		ns1:FI ,
+		ns1:FR ,
+		ns1:EE ,
+		ns1:ES ,
+		ns1:DE ,
+		ns1:DK ,
+		ns1:CY ,
+		ns1:CZ ,
+		ns1:CH ,
+		ns1:CN ,
+		ns1:BR ,
+		ns1:CA ,
+		ns1:BE ,
+		ns1:BG ,
+		ns1:AT ,
+		ns1:AU ,
+		ns1:ZA ,
+		ns1:WL ,
+		ns1:WM ,
+		ns1:TW ,
+		ns1:WE ,
+		ns1:WF ,
+		ns1:US ,
+		ns1:WA ,
+		ns1:SK ,
+		ns1:TR ,
+		ns1:SE ,
+		ns1:SI ,
+		ns1:PT ,
+		ns1:RU ,
+		ns1:NO ,
+		ns1:PL .
+ns1:TW	rdf:type	ns2:Place ;
+	rdfs:label	"TW" ;
+	owl:sameAs	<http://sws.geonames.org/1668284> .

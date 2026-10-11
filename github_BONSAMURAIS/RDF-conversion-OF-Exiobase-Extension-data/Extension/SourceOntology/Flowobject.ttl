@@ -1,0 +1,16 @@
+<http://exiobase/source/Flowobject>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://exiobase/source/Name>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://exiobase/source/Flowobject> ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://exiobase/source/Code>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://exiobase/source/Flowobject> ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://www.w3.org/2001/XMLSchema#string> .

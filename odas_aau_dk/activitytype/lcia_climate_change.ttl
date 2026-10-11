@@ -1,0 +1,35 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://rdf.bonsai.uno/activitytype/lcia/> .
+@prefix ns2:	<http://www.w3.org/ns/prov#> .
+ns1:climate_change	rdf:type	ns2:Collection .
+@prefix ns3:	<http://purl.org/dc/dcmitype/> .
+ns1:climate_change	rdf:type	ns3:Dataset .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+ns1:climate_change	owl:versionInfo	"0.4" .
+@prefix ns5:	<http://creativecommons.org/ns#> .
+ns1:climate_change	ns5:license	<http://creativecommons.org/licenses/by/3.0/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+ns1:climate_change	foaf:homepage	<http://rdf.bonsai.uno/activitytype/lcia/climate_changedocumentation.html> .
+@prefix dc:	<http://purl.org/dc/elements/1.1/> .
+@prefix ns8:	<http://rdf.bonsai.uno/foaf#> .
+ns1:climate_change	dc:creator	ns8:bonsai ;
+	dc:description	"ActivityType instances needed for BONSAI climate change modelling" .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ns1:climate_change	dc:modified	"2019-12-20"^^xsd:date ;
+	dc:title	"Climate change activity types" .
+@prefix ns10:	<http://purl.org/vocab/vann/> .
+ns1:climate_change	ns10:preferredNamespaceUri	<http://rdf.bonsai.uno/activitytype/lcia/climate_change#> ;
+	ns2:wasAttributedTo	ns8:bonsai .
+@prefix ns11:	<http://rdf.bonsai.uno/prov#> .
+ns1:climate_change	ns2:wasGeneratedBy	ns11:dataExtractionActivity_0_4 .
+@prefix ns12:	<http://rdf.bonsai.uno/activitytype/lcia/climate_change#> .
+ns1:climate_change	ns2:hadMember	ns12:atmospheric_energy_balance ,
+		ns12:temperature_increase ;
+	dc:publisher	ns8:bonsai ;
+	ns2:generatedAtTime	"2019-12-20"^^xsd:date .
+@prefix ns13:	<http://ontology.bonsai.uno/core#> .
+ns12:atmospheric_energy_balance	rdf:type	ns13:ActivityType .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+ns12:atmospheric_energy_balance	rdfs:label	"Atmospheric energy balance" .
+ns12:temperature_increase	rdf:type	ns13:ActivityType ;
+	rdfs:label	"Temperature increase" .

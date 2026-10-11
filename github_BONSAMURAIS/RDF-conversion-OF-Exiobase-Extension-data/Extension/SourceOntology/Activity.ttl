@@ -1,0 +1,30 @@
+<http://exiobase/source/activityId>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://exiobase/source/Activity> ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://exiobase/source/Activity>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://exiobase/source/hasTemporalExtent>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://exiobase/source/Activity> ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://exiobase/source/hasLocation>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://exiobase/source/Activity> ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://exiobase/source/hasActivityType>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://exiobase/source/Activity> ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://www.w3.org/2001/XMLSchema#string> .

@@ -1,0 +1,1289 @@
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#PW_MNUR>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Manure(Packing)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#SW_NFMT>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "non-ferrous metals(Stock)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#PW_UWST>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Unused waste(Packing)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_61>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cr(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_40>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Formaldehyd(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#W_PAPR>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Paper" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_19>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cu(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_59>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Pb(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_38>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Benzene(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_17>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "As(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#SW_WOOD>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Wood(Stock)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_LIBC>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lignite/brown coal" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#W_LEAD>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lead" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#MW_FOOD>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Food(Machinary)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#MW_GLAS>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Glass(Machinary)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#W_ALMN>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Aluminium" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#W_TXTL>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Textile" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#PW_PLST>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Plastics(Packing)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_48>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "HCB(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_6>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "SF6(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_27>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Endrin(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_PGMO>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "PGM ores" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#MW_MINE>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mining waste(Machinary)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#W_ASHS>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ashes" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_46>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Benzo-[k]-fluoranthene(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_CRUD>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Crude oil" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_25>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Chlordecone(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_GASE>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Natural gas" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_6>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "SF6(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_56>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cd(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_35>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "dioxin(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_WIBL>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Water Withdrawal Blue" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_14>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Pb(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_54>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "N(Soil_Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#PW_OILH>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Oils and hazardous materials(Packing)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_33>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "DDT(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#PW_ALMN>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Aluminium(Packing)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_12>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "CFCs(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#PW_TXTL>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Textile(Packing)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#B_OTHR>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "other non market feed" , "use of other non-N nutrients from N-fertilisers" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#B_GRAS>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "grass" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#PW_ASHS>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ashes(Packing)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_MINE>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Other minerals" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_64>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "other emissions(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#W_NFMT>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "non-ferrous metals" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_43>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Benzo-[a]-pyrene(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_1>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Carbon dioxide, fossil(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#L_OTHW>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Land use, other land for woodfuel" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_22>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Zn(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_62>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ni(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_COPO>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Copper ores" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_41>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "PM2.5(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_CHMF>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Chemical and fertilizer minerals" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_20>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ni(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#W_FOOD>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Food" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#W_GLAS>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Glass" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_CODI>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Carbon dioxide, in air" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_1>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Carbon dioxide, fossil(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_51>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "N(Water_Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_NICK>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Nickel ores" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_30>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mirex(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#SW_MNUR>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Manure(Stock)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_9>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "NH3(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#W_STEL>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Steel" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#W_PMTL>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Precious metals" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_49>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "PCDD/F (dioxins and furans)(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#SW_UWST>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Unused waste(Stock)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_28>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Heptachlor(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_OTBC>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Other bituminous coal" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_PEAT>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Peat" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_9>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "NH3(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_59>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Pb(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_38>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Benzene(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_17>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "As(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#B_CRPR>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "supply of crop residues" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_57>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cu(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#PW_FOOD>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Food(Packing)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_36>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "PM10(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#PW_GLAS>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Glass(Packing)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_15>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cd(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#PW_MINE>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mining waste(Packing)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#PW_STEL>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Steel(Packing)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_46>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Benzo-[k]-fluoranthene(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_4>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "HFCs(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_25>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Chlordecone(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_WCGR>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Water Consumption Green" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_65>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Carbon dioxide, biogenic(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#SW_PAPR>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Paper(Stock)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_44>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "PBDEs(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_23>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Aldrin(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_SUBC>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sub-bituminous coal" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_ZINC>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Zinc ores" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#MW_UWST>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Unused waste(Machinary)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_4>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "HFCs(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_54>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "N(Soil_Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#SW_ALMN>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Aluminium(Stock)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#SW_TXTL>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Textile(Stock)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_33>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "DDT(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_12>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "CFCs(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_52>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "P(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#W_MNUR>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Manure" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_31>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Toxaphene(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#SW_ASHS>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ashes(Stock)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_10>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "NMVOC(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#W_COPR>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Copper" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_SILV>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Silver ores" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_MFIS>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Marine fish catch" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_62>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ni(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_41>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "PM2.5(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_20>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ni(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_ANTH>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Anthracite" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_60>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Hg(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_39>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "1,3 Butadiene(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_OXYG>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Oxygen" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_18>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cr(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#MW_PAPR>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Paper(Machinary)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#W_PLST>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Plastics" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_49>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "PCDD/F (dioxins and furans)(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#PW_COPR>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Copper(Packing)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_7>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "NOX (Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_28>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Heptachlor(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_SALT>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Salt" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_47>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Indeno-[1,2,3-cd]-pyrene(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#MW_LEAD>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lead(Machinary)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_26>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Dieldrin(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#MW_ALMN>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Aluminium(Machinary)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#MW_TXTL>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Textile(Machinary)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_57>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cu(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#MW_ASHS>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ashes(Machinary)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#SW_FOOD>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Food(Stock)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_7>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "NOX (Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#SW_GLAS>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Glass(Stock)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_36>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "PM10(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#W_OILH>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Oils and hazardous materials" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_15>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cd(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#SW_PMTL>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Precious metals(Stock)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_55>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "P(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#SW_MINE>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mining waste(Stock)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#SW_STEL>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Steel(Stock)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_34>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "PCB(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_13>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "HCFCs(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#W_SEWG>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sewage" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#W_CNST>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Construction materials and mining waste (excl. unused mining material)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_65>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Carbon dioxide, biogenic(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_44>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "PBDEs(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_LEAD>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lead ores" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_2>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "N2O(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_23>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Aldrin(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_63>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "C(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_42>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Furans(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_GOLO>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Gold ores" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_21>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Se(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_COKC>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Coking coal" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#MW_NFMT>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "non-ferrous metals(Machinary)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_NIHY>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Minerals nec. (incl nitrogen and hydrogen)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_ORAN>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Uranium and thorium ores" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_2>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "N2O(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_52>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "P(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_31>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Toxaphene(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_10>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "NMVOC(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#PW_SEWG>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sewage(Packing)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_50>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "TSP (total suspended particulate)(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#MW_WOOD>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Wood(Machinary)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_29>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Hexabr.-biph.(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#PW_CNST>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Construction materials and mining waste (excl. unused mining material)(Packing)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#MW_PMTL>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Precious metals(Machinary)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#MW_STEL>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Steel(Machinary)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_60>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Hg(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_39>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "1,3 Butadiene(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_18>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cr(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#PW_PAPR>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Paper(Packing)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_58>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Zn(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_37>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "PAH (total of 4 components, sum of EM_AIR.43, 45, 46, 47)(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_16>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Hg(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#W_MINE>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mining waste" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#SW_COPR>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Copper(Stock)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#PW_LEAD>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lead(Packing)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_47>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Indeno-[1,2,3-cd]-pyrene(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_5>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "PFCs(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_26>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Dieldrin(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_LIME>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Limestone, gypsum, chalk, dolomite" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_66>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Other emissions nec(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_45>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Benzo-[b]-fluoranthene(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_24>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Chlordane(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#L_GRAS>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Land use, grassland" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#B_STRW>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "use as straw of crop residues" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#SW_PLST>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Plastics(Stock)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_5>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "PFCs(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_55>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "P(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_34>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "PCB(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_13>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "HCFCs(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_CLKA>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Clays and kaolin" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#B_FEED>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "use as feed of crop residues" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_53>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "BOD(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#W_WOOD>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Wood" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_32>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "HCH(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_11>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "CO (Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_AQPL>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Aquatic plants" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_GASL>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Natural gas liquids" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_IFIS>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Inland waters fish catch" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_63>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "C(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#MW_MNUR>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Manure(Machinary)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_42>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Furans(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#MW_COPR>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Copper(Machinary)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_21>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Se(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#PW_NFMT>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "non-ferrous metals(Packing)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_61>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cr(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#SW_OILH>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Oils and hazardous materials(Stock)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_40>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Formaldehyd(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_OTHR>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Other (e.g. Aquatic mammals)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_19>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cu(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_SLAT>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Slate" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#SW_SEWG>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sewage(Stock)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#PW_WOOD>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Wood(Packing)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_50>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "TSP (total suspended particulate)(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_8>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "SOx(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#SW_CNST>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Construction materials and mining waste (excl. unused mining material)(Stock)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_29>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Hexabr.-biph.(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_48>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "HCB(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#PW_PMTL>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Precious metals(Packing)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#MW_PLST>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Plastics(Machinary)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_27>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Endrin(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#L_INST>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Land use, infrastructure land" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_8>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "SOx(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_58>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Zn(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_37>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "PAH (total of 4 components, sum of EM_AIR.43, 45, 46, 47)(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_16>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Hg(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_56>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Cd(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_35>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "dioxin(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#SW_LEAD>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lead(Stock)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_14>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Pb(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#MW_OILH>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Oils and hazardous materials(Machinary)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#B_ENRG>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "supply of energy crops" , "use of energy crops" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_ONFO>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Other non-ferrous metal ores" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_66>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Other emissions nec(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_45>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Benzo-[b]-fluoranthene(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_24>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Chlordane(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_3>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "CH4(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#W_UWST>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Unused waste" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_64>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "other emissions(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#MW_SEWG>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sewage(Machinary)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_GRSA>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Gravel and sand" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_43>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Benzo-[a]-pyrene(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_22>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Zn(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#L_ARBL>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Land use, arable land" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#MW_CNST>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Construction materials and mining waste (excl. unused mining material)(Machinary)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_IRON>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Iron ores" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_3>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "CH4(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_53>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "BOD(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_BUST>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Building stones" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_32>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "HCH(Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_BAAL>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bauxite and aluminium ores" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#UC_11>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "CO (Unregistered)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#L_FRST>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Land use, forest land" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_51>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "N(Water_Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_TINO>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Tin ores" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#AC_30>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Mirex(Avoided)" .
+
+<http://rdf.bonsai.uno/flowobject/exiobase3_3_17#R_WCBL>
+        a       <http://ontology.bonsai.uno/core#FlowObject> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Water Consumption Blue" .

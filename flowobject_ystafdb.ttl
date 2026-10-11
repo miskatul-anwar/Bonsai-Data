@@ -1,0 +1,1917 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://rdf.bonsai.uno/flowobject/> .
+@prefix ns2:	<http://purl.org/dc/dcmitype/> .
+ns1:ystafdb	rdf:type	ns2:Dataset .
+@prefix ns3:	<http://www.w3.org/ns/prov#> .
+ns1:ystafdb	rdf:type	ns3:Collection .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix ns5:	<http://purl.org/dc/terms/> .
+ns1:ystafdb	ns5:modified	"2022-07-26"^^xsd:date .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+ns1:ystafdb	owl:versionInfo	"0.6.1" .
+@prefix ns7:	<http://creativecommons.org/ns#> .
+ns1:ystafdb	ns7:license	<http://creativecommons.org/licenses/by/3.0/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+ns1:ystafdb	foaf:homepage	<http://rdf.bonsai.uno/flowobject/ystafdbdocumentation.html> .
+@prefix dc:	<http://purl.org/dc/elements/1.1/> .
+@prefix ns10:	<http://rdf.bonsai.uno/foaf/ystafdb#> .
+ns1:ystafdb	dc:creator	ns10:bonsai ;
+	dc:description	"FlowObject instances needed for BONSAI modelling of YSTAFDB version 1.0" ;
+	dc:title	"Yale Stocks and Flows Database Flow Objects" .
+@prefix ns11:	<http://purl.org/vocab/vann/> .
+ns1:ystafdb	ns11:preferredNamespaceUri	<http://rdf.bonsai.uno/flowobject/ystafdb#> ;
+	ns3:wasAttributedTo	ns10:bonsai .
+@prefix ns12:	<http://rdf.bonsai.uno/prov/ystafdb#> .
+ns1:ystafdb	ns3:wasGeneratedBy	ns12:dataExtractionActivity_0 .
+@prefix ns13:	<http://rdf.bonsai.uno/flowobject/ystafdb#> .
+ns1:ystafdb	ns3:hadMember	ns13:C_122 ,
+		ns13:C_123 ,
+		ns13:C_120 ,
+		ns13:C_121 ,
+		ns13:C_119 ,
+		ns13:C_12 ,
+		ns13:C_117 ,
+		ns13:C_118 ,
+		ns13:C_115 ,
+		ns13:C_116 ,
+		ns13:C_113 ,
+		ns13:C_114 ,
+		ns13:C_111 ,
+		ns13:C_112 ,
+		ns13:C_11 ,
+		ns13:C_110 ,
+		ns13:C_137 ,
+		ns13:C_138 ,
+		ns13:C_135 ,
+		ns13:C_136 ,
+		ns13:C_133 ,
+		ns13:C_134 ,
+		ns13:C_131 ,
+		ns13:C_132 ,
+		ns13:C_13 ,
+		ns13:C_130 ,
+		ns13:C_128 ,
+		ns13:C_129 ,
+		ns13:C_126 ,
+		ns13:C_127 ,
+		ns13:C_124 ,
+		ns13:C_125 ,
+		ns13:C_108 ,
+		ns13:C_109 ,
+		ns13:C_106 ,
+		ns13:C_107 ,
+		ns13:C_104 ,
+		ns13:C_105 ,
+		ns13:C_102 ,
+		ns13:C_103 ,
+		ns13:C_100 ,
+		ns13:C_101 ,
+		ns13:C_1 ,
+		ns13:C_10 ,
+		ns13:C_0 ,
+		ns13:C_327 ,
+		ns13:C_180 ,
+		ns13:C_181 ,
+		ns13:C_179 ,
+		ns13:C_18 ,
+		ns13:C_177 ,
+		ns13:C_178 ,
+		ns13:C_175 ,
+		ns13:C_176 ,
+		ns13:C_173 ,
+		ns13:C_174 ,
+		ns13:C_171 ,
+		ns13:C_172 ,
+		ns13:C_17 ,
+		ns13:C_170 ,
+		ns13:C_168 ,
+		ns13:C_169 ,
+		ns13:C_195 ,
+		ns13:C_196 ,
+		ns13:C_193 ,
+		ns13:C_194 ,
+		ns13:C_191 ,
+		ns13:C_192 ,
+		ns13:C_19 ,
+		ns13:C_190 ,
+		ns13:C_188 ,
+		ns13:C_189 ,
+		ns13:C_186 ,
+		ns13:C_187 ,
+		ns13:C_184 ,
+		ns13:C_185 ,
+		ns13:C_182 ,
+		ns13:C_183 ,
+		ns13:C_151 ,
+		ns13:C_152 ,
+		ns13:C_15 ,
+		ns13:C_150 ,
+		ns13:C_148 ,
+		ns13:C_149 ,
+		ns13:C_146 ,
+		ns13:C_147 ,
+		ns13:C_144 ,
+		ns13:C_145 ,
+		ns13:C_142 ,
+		ns13:C_143 ,
+		ns13:C_140 ,
+		ns13:C_141 ,
+		ns13:C_139 ,
+		ns13:C_14 ,
+		ns13:C_166 ,
+		ns13:C_167 ,
+		ns13:C_164 ,
+		ns13:C_165 ,
+		ns13:C_162 ,
+		ns13:C_163 ,
+		ns13:C_160 ,
+		ns13:C_161 ,
+		ns13:C_159 ,
+		ns13:C_16 ,
+		ns13:C_157 ,
+		ns13:C_158 ,
+		ns13:C_155 ,
+		ns13:C_156 ,
+		ns13:C_153 ,
+		ns13:C_154 ,
+		ns13:C_238 ,
+		ns13:C_239 ,
+		ns13:C_236 ,
+		ns13:C_237 ,
+		ns13:C_234 ,
+		ns13:C_235 ,
+		ns13:C_232 ,
+		ns13:C_233 ,
+		ns13:C_230 ,
+		ns13:C_231 ,
+		ns13:C_229 ,
+		ns13:C_23 ,
+		ns13:C_227 ,
+		ns13:C_228 ,
+		ns13:C_225 ,
+		ns13:C_226 ,
+		ns13:C_252 ,
+		ns13:C_253 ,
+		ns13:C_250 ,
+		ns13:C_251 ,
+		ns13:C_249 ,
+		ns13:C_25 ,
+		ns13:C_247 ,
+		ns13:C_248 ,
+		ns13:C_245 ,
+		ns13:C_246 ,
+		ns13:C_243 ,
+		ns13:C_244 ,
+		ns13:C_241 ,
+		ns13:C_242 ,
+		ns13:C_24 ,
+		ns13:C_240 ,
+		ns13:C_209 ,
+		ns13:C_21 ,
+		ns13:C_207 ,
+		ns13:C_208 ,
+		ns13:C_205 ,
+		ns13:C_206 ,
+		ns13:C_203 ,
+		ns13:C_204 ,
+		ns13:C_201 ,
+		ns13:C_202 ,
+		ns13:C_20 ,
+		ns13:C_200 ,
+		ns13:C_199 ,
+		ns13:C_2 ,
+		ns13:C_197 ,
+		ns13:C_198 ,
+		ns13:C_223 ,
+		ns13:C_224 ,
+		ns13:C_221 ,
+		ns13:C_222 ,
+		ns13:C_22 ,
+		ns13:C_220 ,
+		ns13:C_218 ,
+		ns13:C_219 ,
+		ns13:C_216 ,
+		ns13:C_217 ,
+		ns13:C_214 ,
+		ns13:C_215 ,
+		ns13:C_212 ,
+		ns13:C_213 ,
+		ns13:C_210 ,
+		ns13:C_211 ,
+		ns13:C_296 ,
+		ns13:C_297 ,
+		ns13:C_294 ,
+		ns13:C_295 ,
+		ns13:C_292 ,
+		ns13:C_293 ,
+		ns13:C_290 ,
+		ns13:C_291 ,
+		ns13:C_289 ,
+		ns13:C_29 ,
+		ns13:C_287 ,
+		ns13:C_288 ,
+		ns13:C_285 ,
+		ns13:C_286 ,
+		ns13:C_283 ,
+		ns13:C_284 ,
+		ns13:C_31 ,
+		ns13:C_310 ,
+		ns13:C_308 ,
+		ns13:C_309 ,
+		ns13:C_306 ,
+		ns13:C_307 ,
+		ns13:C_304 ,
+		ns13:C_305 ,
+		ns13:C_302 ,
+		ns13:C_303 ,
+		ns13:C_300 ,
+		ns13:C_301 ,
+		ns13:C_3 ,
+		ns13:C_30 ,
+		ns13:C_298 ,
+		ns13:C_299 ,
+		ns13:C_267 ,
+		ns13:C_268 ,
+		ns13:C_265 ,
+		ns13:C_266 ,
+		ns13:C_263 ,
+		ns13:C_264 ,
+		ns13:C_261 ,
+		ns13:C_262 ,
+		ns13:C_26 ,
+		ns13:C_260 ,
+		ns13:C_258 ,
+		ns13:C_259 ,
+		ns13:C_256 ,
+		ns13:C_257 ,
+		ns13:C_254 ,
+		ns13:C_255 ,
+		ns13:C_281 ,
+		ns13:C_282 ,
+		ns13:C_28 ,
+		ns13:C_280 ,
+		ns13:C_278 ,
+		ns13:C_279 ,
+		ns13:C_276 ,
+		ns13:C_277 ,
+		ns13:C_274 ,
+		ns13:C_275 ,
+		ns13:C_272 ,
+		ns13:C_273 ,
+		ns13:C_270 ,
+		ns13:C_271 ,
+		ns13:C_269 ,
+		ns13:C_27 ,
+		ns13:C_354 ,
+		ns13:C_355 ,
+		ns13:C_352 ,
+		ns13:C_353 ,
+		ns13:C_350 ,
+		ns13:C_351 ,
+		ns13:C_349 ,
+		ns13:C_35 ,
+		ns13:C_347 ,
+		ns13:C_348 ,
+		ns13:C_345 ,
+		ns13:C_346 ,
+		ns13:C_343 ,
+		ns13:C_344 ,
+		ns13:C_341 ,
+		ns13:C_342 ,
+		ns13:C_369 ,
+		ns13:C_37 ,
+		ns13:C_367 ,
+		ns13:C_368 ,
+		ns13:C_365 ,
+		ns13:C_366 ,
+		ns13:C_363 ,
+		ns13:C_364 ,
+		ns13:C_361 ,
+		ns13:C_362 ,
+		ns13:C_36 ,
+		ns13:C_360 ,
+		ns13:C_358 ,
+		ns13:C_359 ,
+		ns13:C_356 ,
+		ns13:C_357 ,
+		ns13:C_324 ,
+		ns13:C_325 ,
+		ns13:C_322 ,
+		ns13:C_323 ,
+		ns13:C_320 ,
+		ns13:C_321 ,
+		ns13:C_319 ,
+		ns13:C_32 ,
+		ns13:C_317 ,
+		ns13:C_318 ,
+		ns13:C_315 ,
+		ns13:C_316 ,
+		ns13:C_313 ,
+		ns13:C_314 ,
+		ns13:C_311 ,
+		ns13:C_312 ,
+		ns13:C_34 ,
+		ns13:C_340 ,
+		ns13:C_338 ,
+		ns13:C_339 ,
+		ns13:C_336 ,
+		ns13:C_337 ,
+		ns13:C_334 ,
+		ns13:C_335 ,
+		ns13:C_332 ,
+		ns13:C_333 ,
+		ns13:C_330 ,
+		ns13:C_331 ,
+		ns13:C_329 ,
+		ns13:C_33 ,
+		ns13:C_326 ,
+		ns13:C_328 ,
+		ns13:C_411 ,
+		ns13:C_412 ,
+		ns13:C_41 ,
+		ns13:C_410 ,
+		ns13:C_408 ,
+		ns13:C_409 ,
+		ns13:C_406 ,
+		ns13:C_407 ,
+		ns13:C_404 ,
+		ns13:C_405 ,
+		ns13:C_402 ,
+		ns13:C_403 ,
+		ns13:C_400 ,
+		ns13:C_401 ,
+		ns13:C_4 ,
+		ns13:C_40 ,
+		ns13:C_426 ,
+		ns13:C_427 ,
+		ns13:C_424 ,
+		ns13:C_425 ,
+		ns13:C_422 ,
+		ns13:C_423 ,
+		ns13:C_420 ,
+		ns13:C_421 ,
+		ns13:C_419 ,
+		ns13:C_42 ,
+		ns13:C_417 ,
+		ns13:C_418 ,
+		ns13:C_415 ,
+		ns13:C_416 ,
+		ns13:C_413 ,
+		ns13:C_414 ,
+		ns13:C_383 ,
+		ns13:C_384 ,
+		ns13:C_381 ,
+		ns13:C_382 ,
+		ns13:C_38 ,
+		ns13:C_380 ,
+		ns13:C_378 ,
+		ns13:C_379 ,
+		ns13:C_376 ,
+		ns13:C_377 ,
+		ns13:C_374 ,
+		ns13:C_375 ,
+		ns13:C_372 ,
+		ns13:C_373 ,
+		ns13:C_370 ,
+		ns13:C_371 ,
+		ns13:C_398 ,
+		ns13:C_399 ,
+		ns13:C_396 ,
+		ns13:C_397 ,
+		ns13:C_394 ,
+		ns13:C_395 ,
+		ns13:C_392 ,
+		ns13:C_393 ,
+		ns13:C_390 ,
+		ns13:C_391 ,
+		ns13:C_389 ,
+		ns13:C_39 ,
+		ns13:C_387 ,
+		ns13:C_388 ,
+		ns13:C_385 ,
+		ns13:C_386 ,
+		ns13:C_47 ,
+		ns13:C_470 ,
+		ns13:C_468 ,
+		ns13:C_469 ,
+		ns13:C_466 ,
+		ns13:C_467 ,
+		ns13:C_464 ,
+		ns13:C_465 ,
+		ns13:C_462 ,
+		ns13:C_463 ,
+		ns13:C_460 ,
+		ns13:C_461 ,
+		ns13:C_459 ,
+		ns13:C_46 ,
+		ns13:C_457 ,
+		ns13:C_458 ,
+		ns13:C_484 ,
+		ns13:C_485 ,
+		ns13:C_482 ,
+		ns13:C_483 ,
+		ns13:C_480 ,
+		ns13:C_481 ,
+		ns13:C_479 ,
+		ns13:C_48 ,
+		ns13:C_477 ,
+		ns13:C_478 ,
+		ns13:C_475 ,
+		ns13:C_476 ,
+		ns13:C_473 ,
+		ns13:C_474 ,
+		ns13:C_471 ,
+		ns13:C_472 ,
+		ns13:C_440 ,
+		ns13:C_441 ,
+		ns13:C_439 ,
+		ns13:C_44 ,
+		ns13:C_437 ,
+		ns13:C_438 ,
+		ns13:C_435 ,
+		ns13:C_436 ,
+		ns13:C_433 ,
+		ns13:C_434 ,
+		ns13:C_431 ,
+		ns13:C_432 ,
+		ns13:C_43 ,
+		ns13:C_430 ,
+		ns13:C_428 ,
+		ns13:C_429 ,
+		ns13:C_455 ,
+		ns13:C_456 ,
+		ns13:C_453 ,
+		ns13:C_454 ,
+		ns13:C_451 ,
+		ns13:C_452 ,
+		ns13:C_45 ,
+		ns13:C_450 ,
+		ns13:C_448 ,
+		ns13:C_449 ,
+		ns13:C_446 ,
+		ns13:C_447 ,
+		ns13:C_444 ,
+		ns13:C_445 ,
+		ns13:C_442 ,
+		ns13:C_443 ,
+		ns13:C_527 ,
+		ns13:C_528 ,
+		ns13:C_525 ,
+		ns13:C_526 ,
+		ns13:C_523 ,
+		ns13:C_524 ,
+		ns13:C_521 ,
+		ns13:C_522 ,
+		ns13:C_52 ,
+		ns13:C_520 ,
+		ns13:C_518 ,
+		ns13:C_519 ,
+		ns13:C_516 ,
+		ns13:C_517 ,
+		ns13:C_514 ,
+		ns13:C_515 ,
+		ns13:C_541 ,
+		ns13:C_542 ,
+		ns13:C_54 ,
+		ns13:C_540 ,
+		ns13:C_538 ,
+		ns13:C_539 ,
+		ns13:C_536 ,
+		ns13:C_537 ,
+		ns13:C_534 ,
+		ns13:C_535 ,
+		ns13:C_532 ,
+		ns13:C_533 ,
+		ns13:C_530 ,
+		ns13:C_531 ,
+		ns13:C_529 ,
+		ns13:C_53 ,
+		ns13:C_499 ,
+		ns13:C_5 ,
+		ns13:C_497 ,
+		ns13:C_498 ,
+		ns13:C_495 ,
+		ns13:C_496 ,
+		ns13:C_493 ,
+		ns13:C_494 ,
+		ns13:C_491 ,
+		ns13:C_492 ,
+		ns13:C_49 ,
+		ns13:C_490 ,
+		ns13:C_488 ,
+		ns13:C_489 ,
+		ns13:C_486 ,
+		ns13:C_487 ,
+		ns13:C_512 ,
+		ns13:C_513 ,
+		ns13:C_510 ,
+		ns13:C_511 ,
+		ns13:C_509 ,
+		ns13:C_51 ,
+		ns13:C_507 ,
+		ns13:C_508 ,
+		ns13:C_505 ,
+		ns13:C_506 ,
+		ns13:C_503 ,
+		ns13:C_504 ,
+		ns13:C_501 ,
+		ns13:C_502 ,
+		ns13:C_50 ,
+		ns13:C_500 ,
+		ns13:C_585 ,
+		ns13:C_586 ,
+		ns13:C_583 ,
+		ns13:C_584 ,
+		ns13:C_581 ,
+		ns13:C_582 ,
+		ns13:C_58 ,
+		ns13:C_580 ,
+		ns13:C_578 ,
+		ns13:C_579 ,
+		ns13:C_576 ,
+		ns13:C_577 ,
+		ns13:C_574 ,
+		ns13:C_575 ,
+		ns13:C_572 ,
+		ns13:C_573 ,
+		ns13:C_6 ,
+		ns13:C_60 ,
+		ns13:C_598 ,
+		ns13:C_599 ,
+		ns13:C_596 ,
+		ns13:C_597 ,
+		ns13:C_594 ,
+		ns13:C_595 ,
+		ns13:C_592 ,
+		ns13:C_593 ,
+		ns13:C_590 ,
+		ns13:C_591 ,
+		ns13:C_589 ,
+		ns13:C_59 ,
+		ns13:C_587 ,
+		ns13:C_588 ,
+		ns13:C_556 ,
+		ns13:C_557 ,
+		ns13:C_554 ,
+		ns13:C_555 ,
+		ns13:C_552 ,
+		ns13:C_553 ,
+		ns13:C_550 ,
+		ns13:C_551 ,
+		ns13:C_549 ,
+		ns13:C_55 ,
+		ns13:C_547 ,
+		ns13:C_548 ,
+		ns13:C_545 ,
+		ns13:C_546 ,
+		ns13:C_543 ,
+		ns13:C_544 ,
+		ns13:C_570 ,
+		ns13:C_571 ,
+		ns13:C_569 ,
+		ns13:C_57 ,
+		ns13:C_567 ,
+		ns13:C_568 ,
+		ns13:C_565 ,
+		ns13:C_566 ,
+		ns13:C_563 ,
+		ns13:C_564 ,
+		ns13:C_561 ,
+		ns13:C_562 ,
+		ns13:C_56 ,
+		ns13:C_560 ,
+		ns13:C_558 ,
+		ns13:C_559 ,
+		ns13:C_77 ,
+		ns13:C_78 ,
+		ns13:C_75 ,
+		ns13:C_76 ,
+		ns13:C_73 ,
+		ns13:C_74 ,
+		ns13:C_71 ,
+		ns13:C_72 ,
+		ns13:C_7 ,
+		ns13:C_70 ,
+		ns13:C_68 ,
+		ns13:C_69 ,
+		ns13:C_66 ,
+		ns13:C_67 ,
+		ns13:C_64 ,
+		ns13:C_65 ,
+		ns13:C_91 ,
+		ns13:C_92 ,
+		ns13:C_9 ,
+		ns13:C_90 ,
+		ns13:C_88 ,
+		ns13:C_89 ,
+		ns13:C_86 ,
+		ns13:C_87 ,
+		ns13:C_84 ,
+		ns13:C_85 ,
+		ns13:C_82 ,
+		ns13:C_83 ,
+		ns13:C_80 ,
+		ns13:C_81 ,
+		ns13:C_79 ,
+		ns13:C_8 ,
+		ns13:C_613 ,
+		ns13:C_614 ,
+		ns13:C_611 ,
+		ns13:C_612 ,
+		ns13:C_61 ,
+		ns13:C_610 ,
+		ns13:C_608 ,
+		ns13:C_609 ,
+		ns13:C_606 ,
+		ns13:C_607 ,
+		ns13:C_604 ,
+		ns13:C_605 ,
+		ns13:C_602 ,
+		ns13:C_603 ,
+		ns13:C_600 ,
+		ns13:C_601 ,
+		ns13:C_628 ,
+		ns13:C_63 ,
+		ns13:C_626 ,
+		ns13:C_627 ,
+		ns13:C_624 ,
+		ns13:C_625 ,
+		ns13:C_622 ,
+		ns13:C_623 ,
+		ns13:C_620 ,
+		ns13:C_621 ,
+		ns13:C_619 ,
+		ns13:C_62 ,
+		ns13:C_617 ,
+		ns13:C_618 ,
+		ns13:C_615 ,
+		ns13:C_616 ,
+		ns13:C_99 ,
+		ns13:C_97 ,
+		ns13:C_98 ,
+		ns13:C_95 ,
+		ns13:C_96 ,
+		ns13:C_93 ,
+		ns13:C_94 ;
+	dc:publisher	ns10:bonsai ;
+	ns3:generatedAtTime	"2022-07-26"^^xsd:date .
+@prefix ns14:	<http://ontology.bonsai.uno/core#> .
+ns13:C_327	rdf:type	ns14:FlowObject .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+ns13:C_327	rdfs:label	"transportation product output;Fe" .
+ns13:C_0	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lithosphere economic resources output;La" .
+ns13:C_1	rdf:type	ns14:FlowObject ;
+	rdfs:label	"tailings output;La" .
+ns13:C_10	rdf:type	ns14:FlowObject ;
+	rdfs:label	"tailings output;Ce" .
+ns13:C_100	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lithosphere economic resources output;Ho" .
+ns13:C_101	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fabrication and manufacturing output;Er" .
+ns13:C_102	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lithosphere economic resources output;Er" .
+ns13:C_103	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fabrication and manufacturing output;Tm" .
+ns13:C_104	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lithosphere economic resources output;Tm" .
+ns13:C_105	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fabrication and manufacturing output;Yb" .
+ns13:C_106	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lithosphere economic resources output;Yb" .
+ns13:C_107	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fabrication and manufacturing output;Lu" .
+ns13:C_108	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lithosphere economic resources output;Lu" .
+ns13:C_109	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fabrication and manufacturing output;Y" .
+ns13:C_11	rdf:type	ns14:FlowObject ;
+	rdfs:label	"concentrate output;Ce" .
+ns13:C_110	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lithosphere economic resources output;Se" .
+ns13:C_111	rdf:type	ns14:FlowObject ;
+	rdfs:label	"tailings output;Se" .
+ns13:C_112	rdf:type	ns14:FlowObject ;
+	rdfs:label	"product output;Se" .
+ns13:C_113	rdf:type	ns14:FlowObject ;
+	rdfs:label	"slag & other residues output;Se" .
+ns13:C_114	rdf:type	ns14:FlowObject ;
+	rdfs:label	"residues output;Se" .
+ns13:C_115	rdf:type	ns14:FlowObject ;
+	rdfs:label	"scrap output;Se" .
+ns13:C_116	rdf:type	ns14:FlowObject ;
+	rdfs:label	"dissipative output;Se" .
+ns13:C_117	rdf:type	ns14:FlowObject ;
+	rdfs:label	"non-dissipative output;Se" .
+ns13:C_118	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste output;Se" .
+ns13:C_119	rdf:type	ns14:FlowObject ;
+	rdfs:label	"recycled scrap output;Se" .
+ns13:C_12	rdf:type	ns14:FlowObject ;
+	rdfs:label	"slag output;Ce" .
+ns13:C_120	rdf:type	ns14:FlowObject ;
+	rdfs:label	"production of engineering materials output;Se" .
+ns13:C_121	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lithosphere economic resources output;Te" .
+ns13:C_122	rdf:type	ns14:FlowObject ;
+	rdfs:label	"tailings output;Te" .
+ns13:C_123	rdf:type	ns14:FlowObject ;
+	rdfs:label	"product output;Te" .
+ns13:C_124	rdf:type	ns14:FlowObject ;
+	rdfs:label	"slag & other residues output;Te" .
+ns13:C_125	rdf:type	ns14:FlowObject ;
+	rdfs:label	"residues output;Te" .
+ns13:C_126	rdf:type	ns14:FlowObject ;
+	rdfs:label	"scrap output;Te" .
+ns13:C_127	rdf:type	ns14:FlowObject ;
+	rdfs:label	"dissipative output;Te" .
+ns13:C_128	rdf:type	ns14:FlowObject ;
+	rdfs:label	"non-dissipative output;Te" .
+ns13:C_129	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste output;Te" .
+ns13:C_13	rdf:type	ns14:FlowObject ;
+	rdfs:label	"compounds output;Ce" .
+ns13:C_130	rdf:type	ns14:FlowObject ;
+	rdfs:label	"recycled scrap output;Te" .
+ns13:C_131	rdf:type	ns14:FlowObject ;
+	rdfs:label	"production of engineering materials output;Te" .
+ns13:C_132	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste output;Pt" .
+ns13:C_133	rdf:type	ns14:FlowObject ;
+	rdfs:label	"dissipative output;Pt" .
+ns13:C_134	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste output;Pd" .
+ns13:C_135	rdf:type	ns14:FlowObject ;
+	rdfs:label	"dissipative output;Pd" .
+ns13:C_136	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste output;Rh" .
+ns13:C_137	rdf:type	ns14:FlowObject ;
+	rdfs:label	"dissipative output;Rh" .
+ns13:C_138	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste output;Ru" .
+ns13:C_139	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste output;Ir" .
+ns13:C_14	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste output;Ce" .
+ns13:C_140	rdf:type	ns14:FlowObject ;
+	rdfs:label	"other output;Pt" .
+ns13:C_141	rdf:type	ns14:FlowObject ;
+	rdfs:label	"industrial output;Pt" .
+ns13:C_142	rdf:type	ns14:FlowObject ;
+	rdfs:label	"autocatalysts output;Pt" .
+ns13:C_143	rdf:type	ns14:FlowObject ;
+	rdfs:label	"other output;Pd" .
+ns13:C_144	rdf:type	ns14:FlowObject ;
+	rdfs:label	"industrial output;Pd" .
+ns13:C_145	rdf:type	ns14:FlowObject ;
+	rdfs:label	"autocatalysts output;Pd" .
+ns13:C_146	rdf:type	ns14:FlowObject ;
+	rdfs:label	"industrial output;Rh" .
+ns13:C_147	rdf:type	ns14:FlowObject ;
+	rdfs:label	"autocatalysts output;Rh" .
+ns13:C_148	rdf:type	ns14:FlowObject ;
+	rdfs:label	"medical biomedical and dental output;Pt" .
+ns13:C_149	rdf:type	ns14:FlowObject ;
+	rdfs:label	"electrical and electronic output;Pt" .
+ns13:C_15	rdf:type	ns14:FlowObject ;
+	rdfs:label	"product output;Ce" .
+ns13:C_150	rdf:type	ns14:FlowObject ;
+	rdfs:label	"jewelry output;Pt" .
+ns13:C_151	rdf:type	ns14:FlowObject ;
+	rdfs:label	"electrical and electronic output;Pd" .
+ns13:C_152	rdf:type	ns14:FlowObject ;
+	rdfs:label	"jewelry output;Pd" .
+ns13:C_153	rdf:type	ns14:FlowObject ;
+	rdfs:label	"other output;Rh" .
+ns13:C_154	rdf:type	ns14:FlowObject ;
+	rdfs:label	"electrical and electronic output;Rh" .
+ns13:C_155	rdf:type	ns14:FlowObject ;
+	rdfs:label	"other output;Ru" .
+ns13:C_156	rdf:type	ns14:FlowObject ;
+	rdfs:label	"industrial output;Ru" .
+ns13:C_157	rdf:type	ns14:FlowObject ;
+	rdfs:label	"electrical and electronic output;Ru" .
+ns13:C_158	rdf:type	ns14:FlowObject ;
+	rdfs:label	"other output;Ir" .
+ns13:C_159	rdf:type	ns14:FlowObject ;
+	rdfs:label	"industrial output;Ir" .
+ns13:C_16	rdf:type	ns14:FlowObject ;
+	rdfs:label	"scrap output;Ce" .
+ns13:C_160	rdf:type	ns14:FlowObject ;
+	rdfs:label	"electrical and electronic output;Ir" .
+ns13:C_161	rdf:type	ns14:FlowObject ;
+	rdfs:label	"medical biomedical and dental output;Pd" .
+ns13:C_162	rdf:type	ns14:FlowObject ;
+	rdfs:label	"research reactors output;Cs" .
+ns13:C_163	rdf:type	ns14:FlowObject ;
+	rdfs:label	"nuclear powered vessels output;Cs" .
+ns13:C_164	rdf:type	ns14:FlowObject ;
+	rdfs:label	"power plants output;Cs" .
+ns13:C_165	rdf:type	ns14:FlowObject ;
+	rdfs:label	"unsealed and sealed sources output;Cs" .
+ns13:C_166	rdf:type	ns14:FlowObject ;
+	rdfs:label	"products output;Cs" .
+ns13:C_167	rdf:type	ns14:FlowObject ;
+	rdfs:label	"source and device fabricators output;Cs" .
+ns13:C_168	rdf:type	ns14:FlowObject ;
+	rdfs:label	"devices output;Cs" .
+ns13:C_169	rdf:type	ns14:FlowObject ;
+	rdfs:label	"unmanaged devices output;Cs" .
+ns13:C_17	rdf:type	ns14:FlowObject ;
+	rdfs:label	"use output;Ce" .
+ns13:C_170	rdf:type	ns14:FlowObject ;
+	rdfs:label	"recycled output;Cs" .
+ns13:C_171	rdf:type	ns14:FlowObject ;
+	rdfs:label	"not recycled output;Cs" .
+ns13:C_172	rdf:type	ns14:FlowObject ;
+	rdfs:label	"metal scrap output;Cs" .
+ns13:C_173	rdf:type	ns14:FlowObject ;
+	rdfs:label	"radioactive decay output;Cs" .
+ns13:C_174	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lithosphere economic resources output;Fe" .
+ns13:C_175	rdf:type	ns14:FlowObject ;
+	rdfs:label	"tailings output;Fe" .
+ns13:C_176	rdf:type	ns14:FlowObject ;
+	rdfs:label	"slag output;Fe" .
+ns13:C_177	rdf:type	ns14:FlowObject ;
+	rdfs:label	"home scrap output;Fe" .
+ns13:C_178	rdf:type	ns14:FlowObject ;
+	rdfs:label	"castings output;Fe" .
+ns13:C_179	rdf:type	ns14:FlowObject ;
+	rdfs:label	"raw steel output;Fe" .
+ns13:C_18	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lithosphere economic resources output;Pr" .
+ns13:C_180	rdf:type	ns14:FlowObject ;
+	rdfs:label	"finished products output;Fe" .
+ns13:C_181	rdf:type	ns14:FlowObject ;
+	rdfs:label	"scrap output;Fe" .
+ns13:C_182	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fabrication and manufacturing output;Fe" .
+ns13:C_183	rdf:type	ns14:FlowObject ;
+	rdfs:label	"non-dissipative output;Fe" .
+ns13:C_184	rdf:type	ns14:FlowObject ;
+	rdfs:label	"dissipative output;Fe" .
+ns13:C_185	rdf:type	ns14:FlowObject ;
+	rdfs:label	"industrial waste output;Fe" .
+ns13:C_186	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste output;Fe" .
+ns13:C_187	rdf:type	ns14:FlowObject ;
+	rdfs:label	"on-site sand waste output;P" .
+ns13:C_188	rdf:type	ns14:FlowObject ;
+	rdfs:label	"mining phosphate mine slimes output;P" .
+ns13:C_189	rdf:type	ns14:FlowObject ;
+	rdfs:label	"phosphoric tailings output;P" .
+ns13:C_19	rdf:type	ns14:FlowObject ;
+	rdfs:label	"tailings output;Pr" .
+ns13:C_190	rdf:type	ns14:FlowObject ;
+	rdfs:label	"beneficiation phosphate mine slimes output;P" .
+ns13:C_191	rdf:type	ns14:FlowObject ;
+	rdfs:label	"phosphogypsum output;P" .
+ns13:C_192	rdf:type	ns14:FlowObject ;
+	rdfs:label	"ferrophosphorus output;P" .
+ns13:C_193	rdf:type	ns14:FlowObject ;
+	rdfs:label	"phosphorus slag output;P" .
+ns13:C_194	rdf:type	ns14:FlowObject ;
+	rdfs:label	"crop residues output;P" .
+ns13:C_195	rdf:type	ns14:FlowObject ;
+	rdfs:label	"animal waste output;P" .
+ns13:C_196	rdf:type	ns14:FlowObject ;
+	rdfs:label	"excreta output;P" .
+ns13:C_197	rdf:type	ns14:FlowObject ;
+	rdfs:label	"other human waste output;P" .
+ns13:C_198	rdf:type	ns14:FlowObject ;
+	rdfs:label	"food waste output;P" .
+ns13:C_199	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste output;P" .
+ns13:C_2	rdf:type	ns14:FlowObject ;
+	rdfs:label	"concentrate output;La" .
+ns13:C_20	rdf:type	ns14:FlowObject ;
+	rdfs:label	"concentrate output;Pr" .
+ns13:C_200	rdf:type	ns14:FlowObject ;
+	rdfs:label	"runoff output;P" .
+ns13:C_201	rdf:type	ns14:FlowObject ;
+	rdfs:label	"leaching output;P" .
+ns13:C_202	rdf:type	ns14:FlowObject ;
+	rdfs:label	"phosphate rock mining output;P" .
+ns13:C_203	rdf:type	ns14:FlowObject ;
+	rdfs:label	"industrial production output;P" .
+ns13:C_204	rdf:type	ns14:FlowObject ;
+	rdfs:label	"agricultural production output;P" .
+ns13:C_205	rdf:type	ns14:FlowObject ;
+	rdfs:label	"societal consumption output;P" .
+ns13:C_206	rdf:type	ns14:FlowObject ;
+	rdfs:label	"mining output;P" .
+ns13:C_207	rdf:type	ns14:FlowObject ;
+	rdfs:label	"phosphate rock output;P" .
+ns13:C_208	rdf:type	ns14:FlowObject ;
+	rdfs:label	"marketable phosphate rock concentrate output;P" .
+ns13:C_209	rdf:type	ns14:FlowObject ;
+	rdfs:label	"food processing output;P" .
+ns13:C_21	rdf:type	ns14:FlowObject ;
+	rdfs:label	"slag output;Pr" .
+ns13:C_210	rdf:type	ns14:FlowObject ;
+	rdfs:label	"food product output;P" .
+ns13:C_211	rdf:type	ns14:FlowObject ;
+	rdfs:label	"phosphoric acid output;P" .
+ns13:C_212	rdf:type	ns14:FlowObject ;
+	rdfs:label	"maketable phosphate rock concentrate output;P" .
+ns13:C_213	rdf:type	ns14:FlowObject ;
+	rdfs:label	"chemical fertilizer output;P" .
+ns13:C_214	rdf:type	ns14:FlowObject ;
+	rdfs:label	"other P products output;P" .
+ns13:C_215	rdf:type	ns14:FlowObject ;
+	rdfs:label	"detergents output;P" .
+ns13:C_216	rdf:type	ns14:FlowObject ;
+	rdfs:label	"industrial uses output;P" .
+ns13:C_217	rdf:type	ns14:FlowObject ;
+	rdfs:label	"food and feed additives output;P" .
+ns13:C_218	rdf:type	ns14:FlowObject ;
+	rdfs:label	"other uses output;P" .
+ns13:C_219	rdf:type	ns14:FlowObject ;
+	rdfs:label	"atmosphere output;P" .
+ns13:C_22	rdf:type	ns14:FlowObject ;
+	rdfs:label	"compounds output;Pr" .
+ns13:C_220	rdf:type	ns14:FlowObject ;
+	rdfs:label	"harvesting crops output;P" .
+ns13:C_221	rdf:type	ns14:FlowObject ;
+	rdfs:label	"grass output;P" .
+ns13:C_222	rdf:type	ns14:FlowObject ;
+	rdfs:label	"agricultural soil output;P" .
+ns13:C_223	rdf:type	ns14:FlowObject ;
+	rdfs:label	"animal food output;P" .
+ns13:C_224	rdf:type	ns14:FlowObject ;
+	rdfs:label	"feed processing output;P" .
+ns13:C_225	rdf:type	ns14:FlowObject ;
+	rdfs:label	"feed additives output;P" .
+ns13:C_226	rdf:type	ns14:FlowObject ;
+	rdfs:label	"food crops product output;P" .
+ns13:C_227	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lithosphere economic resources output;Zn" .
+ns13:C_228	rdf:type	ns14:FlowObject ;
+	rdfs:label	"recycled scrap output;Zn" .
+ns13:C_229	rdf:type	ns14:FlowObject ;
+	rdfs:label	"production of engineering materials refined Zn output;Zn" .
+ns13:C_23	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste output;Pr" .
+ns13:C_230	rdf:type	ns14:FlowObject ;
+	rdfs:label	"tailings output;Zn" .
+ns13:C_231	rdf:type	ns14:FlowObject ;
+	rdfs:label	"slag output;Zn" .
+ns13:C_232	rdf:type	ns14:FlowObject ;
+	rdfs:label	"refined Zn output;Zn" .
+ns13:C_233	rdf:type	ns14:FlowObject ;
+	rdfs:label	"finished products output;Zn" .
+ns13:C_234	rdf:type	ns14:FlowObject ;
+	rdfs:label	"discards output;Zn" .
+ns13:C_235	rdf:type	ns14:FlowObject ;
+	rdfs:label	"non-dissipative output;Zn" .
+ns13:C_236	rdf:type	ns14:FlowObject ;
+	rdfs:label	"not recycled output;Zn" .
+ns13:C_237	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lithosphere economic resources output;Cu" .
+ns13:C_238	rdf:type	ns14:FlowObject ;
+	rdfs:label	"tailings output;Cu" .
+ns13:C_239	rdf:type	ns14:FlowObject ;
+	rdfs:label	"new scrap output;Cu" .
+ns13:C_24	rdf:type	ns14:FlowObject ;
+	rdfs:label	"product output;Pr" .
+ns13:C_240	rdf:type	ns14:FlowObject ;
+	rdfs:label	"old scrap output;Cu" .
+ns13:C_241	rdf:type	ns14:FlowObject ;
+	rdfs:label	"Cu metal output;Cu" .
+ns13:C_242	rdf:type	ns14:FlowObject ;
+	rdfs:label	"Cu alloy output;Cu" .
+ns13:C_243	rdf:type	ns14:FlowObject ;
+	rdfs:label	"slag output;Cu" .
+ns13:C_244	rdf:type	ns14:FlowObject ;
+	rdfs:label	"finished products output;Cu" .
+ns13:C_245	rdf:type	ns14:FlowObject ;
+	rdfs:label	"scrap output;Cu" .
+ns13:C_246	rdf:type	ns14:FlowObject ;
+	rdfs:label	"non-dissipative output;Cu" .
+ns13:C_247	rdf:type	ns14:FlowObject ;
+	rdfs:label	"not recycled output;Cu" .
+ns13:C_248	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lithosphere economic resources output;Pb" .
+ns13:C_249	rdf:type	ns14:FlowObject ;
+	rdfs:label	"scrap output;Pb" .
+ns13:C_25	rdf:type	ns14:FlowObject ;
+	rdfs:label	"scrap output;Pr" .
+ns13:C_250	rdf:type	ns14:FlowObject ;
+	rdfs:label	"refined Pb output;Pb" .
+ns13:C_251	rdf:type	ns14:FlowObject ;
+	rdfs:label	"tailings output;Pb" .
+ns13:C_252	rdf:type	ns14:FlowObject ;
+	rdfs:label	"slag output;Pb" .
+ns13:C_253	rdf:type	ns14:FlowObject ;
+	rdfs:label	"finished products output;Pb" .
+ns13:C_254	rdf:type	ns14:FlowObject ;
+	rdfs:label	"discards output;Pb" .
+ns13:C_255	rdf:type	ns14:FlowObject ;
+	rdfs:label	"dissipative output;Pb" .
+ns13:C_256	rdf:type	ns14:FlowObject ;
+	rdfs:label	"non-dissipative output;Pb" .
+ns13:C_257	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste output;Pb" .
+ns13:C_258	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lithosphere economic resources output;Cr" .
+ns13:C_259	rdf:type	ns14:FlowObject ;
+	rdfs:label	"tailings output;Cr" .
+ns13:C_26	rdf:type	ns14:FlowObject ;
+	rdfs:label	"use output;Pr" .
+ns13:C_260	rdf:type	ns14:FlowObject ;
+	rdfs:label	"slag output;Cr" .
+ns13:C_261	rdf:type	ns14:FlowObject ;
+	rdfs:label	"FeCr alloys output;Cr" .
+ns13:C_262	rdf:type	ns14:FlowObject ;
+	rdfs:label	"old scrap output;Cr" .
+ns13:C_263	rdf:type	ns14:FlowObject ;
+	rdfs:label	"downgraded scrap output;Cr" .
+ns13:C_264	rdf:type	ns14:FlowObject ;
+	rdfs:label	"industrial waste and scrap output;Cr" .
+ns13:C_265	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fabrication and manufacturing output;Cr" .
+ns13:C_266	rdf:type	ns14:FlowObject ;
+	rdfs:label	"non-dissipative output;Cr" .
+ns13:C_267	rdf:type	ns14:FlowObject ;
+	rdfs:label	"industrial waste output;Cr" .
+ns13:C_268	rdf:type	ns14:FlowObject ;
+	rdfs:label	"not recycled output;Cr" .
+ns13:C_269	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lithosphere economic resources output;Ag" .
+ns13:C_27	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lithosphere economic resources output;Nd" .
+ns13:C_270	rdf:type	ns14:FlowObject ;
+	rdfs:label	"recycled scrap output;Ag" .
+ns13:C_271	rdf:type	ns14:FlowObject ;
+	rdfs:label	"refined metal output;Ag" .
+ns13:C_272	rdf:type	ns14:FlowObject ;
+	rdfs:label	"slag and leachate output;Ag" .
+ns13:C_273	rdf:type	ns14:FlowObject ;
+	rdfs:label	"new scrap output;Ag" .
+ns13:C_274	rdf:type	ns14:FlowObject ;
+	rdfs:label	"finished products output;Ag" .
+ns13:C_275	rdf:type	ns14:FlowObject ;
+	rdfs:label	"discards output;Ag" .
+ns13:C_276	rdf:type	ns14:FlowObject ;
+	rdfs:label	"non-dissipative output;Ag" .
+ns13:C_277	rdf:type	ns14:FlowObject ;
+	rdfs:label	"recycled old scrap output;Ag" .
+ns13:C_278	rdf:type	ns14:FlowObject ;
+	rdfs:label	"recycled new scrap output;Ag" .
+ns13:C_279	rdf:type	ns14:FlowObject ;
+	rdfs:label	"not recycled output;Ag" .
+ns13:C_28	rdf:type	ns14:FlowObject ;
+	rdfs:label	"tailings output;Nd" .
+ns13:C_280	rdf:type	ns14:FlowObject ;
+	rdfs:label	"tailings output;Ag" .
+ns13:C_281	rdf:type	ns14:FlowObject ;
+	rdfs:label	"slag output;Ag" .
+ns13:C_282	rdf:type	ns14:FlowObject ;
+	rdfs:label	"leachate output;Ag" .
+ns13:C_283	rdf:type	ns14:FlowObject ;
+	rdfs:label	"dissipated output;Ag" .
+ns13:C_284	rdf:type	ns14:FlowObject ;
+	rdfs:label	"cement output;Ag" .
+ns13:C_285	rdf:type	ns14:FlowObject ;
+	rdfs:label	"coal output;Ag" .
+ns13:C_286	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste electronic and electrical equipment output;Ag" .
+ns13:C_287	rdf:type	ns14:FlowObject ;
+	rdfs:label	"AgO batteries output;Ag" .
+ns13:C_288	rdf:type	ns14:FlowObject ;
+	rdfs:label	"amalgam;Ag" .
+ns13:C_289	rdf:type	ns14:FlowObject ;
+	rdfs:label	"hazardous industrial waste;Ag" .
+ns13:C_29	rdf:type	ns14:FlowObject ;
+	rdfs:label	"concentrate output;Nd" .
+ns13:C_290	rdf:type	ns14:FlowObject ;
+	rdfs:label	"non-hazardous industrial waste and hazardous industrial waste output;Ag" .
+ns13:C_291	rdf:type	ns14:FlowObject ;
+	rdfs:label	"municipal solid waste output;Ag" .
+ns13:C_292	rdf:type	ns14:FlowObject ;
+	rdfs:label	"sewage output;Ag" .
+ns13:C_293	rdf:type	ns14:FlowObject ;
+	rdfs:label	"sewage sludge output;Ag" .
+ns13:C_294	rdf:type	ns14:FlowObject ;
+	rdfs:label	"photography output;Ag" .
+ns13:C_295	rdf:type	ns14:FlowObject ;
+	rdfs:label	"end of life output;Ag" .
+ns13:C_296	rdf:type	ns14:FlowObject ;
+	rdfs:label	"hibernating output;Ag" .
+ns13:C_297	rdf:type	ns14:FlowObject ;
+	rdfs:label	"downcycled carbon steel scrap output;Stainless steel" .
+ns13:C_298	rdf:type	ns14:FlowObject ;
+	rdfs:label	"primary metals output;Stainless steel" .
+ns13:C_299	rdf:type	ns14:FlowObject ;
+	rdfs:label	"slag output;Stainless steel" .
+ns13:C_3	rdf:type	ns14:FlowObject ;
+	rdfs:label	"slag output;La" .
+ns13:C_30	rdf:type	ns14:FlowObject ;
+	rdfs:label	"slag output;Nd" .
+ns13:C_300	rdf:type	ns14:FlowObject ;
+	rdfs:label	"product output;Stainless steel" .
+ns13:C_301	rdf:type	ns14:FlowObject ;
+	rdfs:label	"scrap output;Stainless steel" .
+ns13:C_302	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste output;Stainless steel" .
+ns13:C_303	rdf:type	ns14:FlowObject ;
+	rdfs:label	"non-dissipative output;Stainless steel" .
+ns13:C_304	rdf:type	ns14:FlowObject ;
+	rdfs:label	"hot rolling output;Stainless steel" .
+ns13:C_305	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lithosphere economic resources output;Ni" .
+ns13:C_306	rdf:type	ns14:FlowObject ;
+	rdfs:label	"concentrate output;Ni" .
+ns13:C_307	rdf:type	ns14:FlowObject ;
+	rdfs:label	"tailings output;Ni" .
+ns13:C_308	rdf:type	ns14:FlowObject ;
+	rdfs:label	"scrap output;Ni" .
+ns13:C_309	rdf:type	ns14:FlowObject ;
+	rdfs:label	"slag output;Ni" .
+ns13:C_31	rdf:type	ns14:FlowObject ;
+	rdfs:label	"compounds output;Nd" .
+ns13:C_310	rdf:type	ns14:FlowObject ;
+	rdfs:label	"Ni matte output;Ni" .
+ns13:C_311	rdf:type	ns14:FlowObject ;
+	rdfs:label	"refined Ni output;Ni" .
+ns13:C_312	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste output;Ni" .
+ns13:C_313	rdf:type	ns14:FlowObject ;
+	rdfs:label	"product output;Ni" .
+ns13:C_314	rdf:type	ns14:FlowObject ;
+	rdfs:label	"non-dissipative output;Ni" .
+ns13:C_315	rdf:type	ns14:FlowObject ;
+	rdfs:label	"downcycled other scrap markets output;Ni" .
+ns13:C_316	rdf:type	ns14:FlowObject ;
+	rdfs:label	"iron ore output;Fe" .
+ns13:C_317	rdf:type	ns14:FlowObject ;
+	rdfs:label	"pig iron output;Fe" .
+ns13:C_318	rdf:type	ns14:FlowObject ;
+	rdfs:label	"open hearth output;Fe" .
+ns13:C_319	rdf:type	ns14:FlowObject ;
+	rdfs:label	"bessemer output;Fe" .
+ns13:C_32	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste output;Nd" .
+ns13:C_320	rdf:type	ns14:FlowObject ;
+	rdfs:label	"crucible output;Fe" .
+ns13:C_321	rdf:type	ns14:FlowObject ;
+	rdfs:label	"basic oxygen furnace output;Fe" .
+ns13:C_322	rdf:type	ns14:FlowObject ;
+	rdfs:label	"electric arc furnace output;Fe" .
+ns13:C_323	rdf:type	ns14:FlowObject ;
+	rdfs:label	"finished steel output;Fe" .
+ns13:C_324	rdf:type	ns14:FlowObject ;
+	rdfs:label	"product output;Fe" .
+ns13:C_325	rdf:type	ns14:FlowObject ;
+	rdfs:label	"scrap and waste output;Fe" .
+ns13:C_326	rdf:type	ns14:FlowObject ;
+	rdfs:label	"construction product output;Fe" .
+ns13:C_328	rdf:type	ns14:FlowObject ;
+	rdfs:label	"machinery and appliances product output;Fe" .
+ns13:C_329	rdf:type	ns14:FlowObject ;
+	rdfs:label	"others product output;Fe" .
+ns13:C_33	rdf:type	ns14:FlowObject ;
+	rdfs:label	"product output;Nd" .
+ns13:C_330	rdf:type	ns14:FlowObject ;
+	rdfs:label	"other;Fe" .
+ns13:C_331	rdf:type	ns14:FlowObject ;
+	rdfs:label	"recycled output;Fe" .
+ns13:C_332	rdf:type	ns14:FlowObject ;
+	rdfs:label	"not recycled output;Fe" .
+ns13:C_333	rdf:type	ns14:FlowObject ;
+	rdfs:label	"mining and beneficiation product output;Zn" .
+ns13:C_334	rdf:type	ns14:FlowObject ;
+	rdfs:label	"mining and beneficiation waste output;Zn" .
+ns13:C_335	rdf:type	ns14:FlowObject ;
+	rdfs:label	"primary production product output;Zn" .
+ns13:C_336	rdf:type	ns14:FlowObject ;
+	rdfs:label	"secondary production product output;Zn" .
+ns13:C_337	rdf:type	ns14:FlowObject ;
+	rdfs:label	"primary refining waste;Zn" .
+ns13:C_338	rdf:type	ns14:FlowObject ;
+	rdfs:label	"recycle scrap output;Zn" .
+ns13:C_339	rdf:type	ns14:FlowObject ;
+	rdfs:label	"product output;Zn" .
+ns13:C_34	rdf:type	ns14:FlowObject ;
+	rdfs:label	"scrap output;Nd" .
+ns13:C_340	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste output;Zn" .
+ns13:C_341	rdf:type	ns14:FlowObject ;
+	rdfs:label	"scrap output;Zn" .
+ns13:C_342	rdf:type	ns14:FlowObject ;
+	rdfs:label	"construction product output;Zn" .
+ns13:C_343	rdf:type	ns14:FlowObject ;
+	rdfs:label	"transport product output;Zn" .
+ns13:C_344	rdf:type	ns14:FlowObject ;
+	rdfs:label	"industrial machinery product output;Zn" .
+ns13:C_345	rdf:type	ns14:FlowObject ;
+	rdfs:label	"electrical and electronics product output;Zn" .
+ns13:C_346	rdf:type	ns14:FlowObject ;
+	rdfs:label	"agriculture product output;Zn" .
+ns13:C_347	rdf:type	ns14:FlowObject ;
+	rdfs:label	"miscellaneous product output;Zn" .
+ns13:C_348	rdf:type	ns14:FlowObject ;
+	rdfs:label	"construction output;Zn" .
+ns13:C_349	rdf:type	ns14:FlowObject ;
+	rdfs:label	"transport output;Zn" .
+ns13:C_35	rdf:type	ns14:FlowObject ;
+	rdfs:label	"use output;Nd" .
+ns13:C_350	rdf:type	ns14:FlowObject ;
+	rdfs:label	"industrial machinery output;Zn" .
+ns13:C_351	rdf:type	ns14:FlowObject ;
+	rdfs:label	"electrical and electronics output;Zn" .
+ns13:C_352	rdf:type	ns14:FlowObject ;
+	rdfs:label	"agriculture output;Zn" .
+ns13:C_353	rdf:type	ns14:FlowObject ;
+	rdfs:label	"miscellaneous output;Zn" .
+ns13:C_354	rdf:type	ns14:FlowObject ;
+	rdfs:label	"recycled old scrap output;Zn" .
+ns13:C_355	rdf:type	ns14:FlowObject ;
+	rdfs:label	"recycled new scrap output;Zn" .
+ns13:C_356	rdf:type	ns14:FlowObject ;
+	rdfs:label	"landfill output;Zn" .
+ns13:C_357	rdf:type	ns14:FlowObject ;
+	rdfs:label	"products output;Ag" .
+ns13:C_358	rdf:type	ns14:FlowObject ;
+	rdfs:label	"Cu metal and alloys;Cu" .
+ns13:C_359	rdf:type	ns14:FlowObject ;
+	rdfs:label	"manufacturing output;Cu" .
+ns13:C_36	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lithosphere economic resources output;Sm" .
+ns13:C_360	rdf:type	ns14:FlowObject ;
+	rdfs:label	"recycled old scrap output;Cu" .
+ns13:C_361	rdf:type	ns14:FlowObject ;
+	rdfs:label	"recycled new scrap output;Cu" .
+ns13:C_362	rdf:type	ns14:FlowObject ;
+	rdfs:label	"production of engineering materials output;Pb" .
+ns13:C_363	rdf:type	ns14:FlowObject ;
+	rdfs:label	"not recycled output;Pb" .
+ns13:C_364	rdf:type	ns14:FlowObject ;
+	rdfs:label	"old scrap output;Pb" .
+ns13:C_365	rdf:type	ns14:FlowObject ;
+	rdfs:label	"new scrap output;Pb" .
+ns13:C_366	rdf:type	ns14:FlowObject ;
+	rdfs:label	"recycled output;Pb" .
+ns13:C_367	rdf:type	ns14:FlowObject ;
+	rdfs:label	"production of engineering materials output;Cr" .
+ns13:C_368	rdf:type	ns14:FlowObject ;
+	rdfs:label	"finished products output;Cr" .
+ns13:C_369	rdf:type	ns14:FlowObject ;
+	rdfs:label	"new scrap output;Cr" .
+ns13:C_37	rdf:type	ns14:FlowObject ;
+	rdfs:label	"tailings output;Sm" .
+ns13:C_370	rdf:type	ns14:FlowObject ;
+	rdfs:label	"recycled output;Cr" .
+ns13:C_371	rdf:type	ns14:FlowObject ;
+	rdfs:label	"production of engineering materials output;Fe" .
+ns13:C_372	rdf:type	ns14:FlowObject ;
+	rdfs:label	"old scrap output;Fe" .
+ns13:C_373	rdf:type	ns14:FlowObject ;
+	rdfs:label	"new scrap output;Fe" .
+ns13:C_374	rdf:type	ns14:FlowObject ;
+	rdfs:label	"production of engineering materials output;Ni" .
+ns13:C_375	rdf:type	ns14:FlowObject ;
+	rdfs:label	"finished products output;Ni" .
+ns13:C_376	rdf:type	ns14:FlowObject ;
+	rdfs:label	"not recycled output;Ni" .
+ns13:C_377	rdf:type	ns14:FlowObject ;
+	rdfs:label	"old scrap output;Ni" .
+ns13:C_378	rdf:type	ns14:FlowObject ;
+	rdfs:label	"new scrap output;Ni" .
+ns13:C_379	rdf:type	ns14:FlowObject ;
+	rdfs:label	"recycled output;Ni" .
+ns13:C_38	rdf:type	ns14:FlowObject ;
+	rdfs:label	"concentrate output;Sm" .
+ns13:C_380	rdf:type	ns14:FlowObject ;
+	rdfs:label	"mining output;Ag" .
+ns13:C_381	rdf:type	ns14:FlowObject ;
+	rdfs:label	"jewelry and silverware output;Ag" .
+ns13:C_382	rdf:type	ns14:FlowObject ;
+	rdfs:label	"electronics output;Ag" .
+ns13:C_383	rdf:type	ns14:FlowObject ;
+	rdfs:label	"brazing alloys and solder output;Ag" .
+ns13:C_384	rdf:type	ns14:FlowObject ;
+	rdfs:label	"coins and medals output;Ag" .
+ns13:C_385	rdf:type	ns14:FlowObject ;
+	rdfs:label	"other output;Ag" .
+ns13:C_386	rdf:type	ns14:FlowObject ;
+	rdfs:label	"manufacturing output;Ag" .
+ns13:C_387	rdf:type	ns14:FlowObject ;
+	rdfs:label	"sewage and sewage sludge output;Ag" .
+ns13:C_388	rdf:type	ns14:FlowObject ;
+	rdfs:label	"non-hazardous industrial waste output;Ag" .
+ns13:C_389	rdf:type	ns14:FlowObject ;
+	rdfs:label	"hazardous industrial waste output;Ag" .
+ns13:C_39	rdf:type	ns14:FlowObject ;
+	rdfs:label	"slag output;Sm" .
+ns13:C_390	rdf:type	ns14:FlowObject ;
+	rdfs:label	"separation treatment output;Ag" .
+ns13:C_391	rdf:type	ns14:FlowObject ;
+	rdfs:label	"incineration output;Ag" .
+ns13:C_392	rdf:type	ns14:FlowObject ;
+	rdfs:label	"production of engineering materials output;Zn" .
+ns13:C_393	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fabrication and manufacturing output;Zn" .
+ns13:C_394	rdf:type	ns14:FlowObject ;
+	rdfs:label	"use output;Zn" .
+ns13:C_395	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste management output;Zn" .
+ns13:C_396	rdf:type	ns14:FlowObject ;
+	rdfs:label	"earth orbit output;Zn" .
+ns13:C_397	rdf:type	ns14:FlowObject ;
+	rdfs:label	"atmosphere output;Zn" .
+ns13:C_398	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fossil fuel resources output;Zn" .
+ns13:C_399	rdf:type	ns14:FlowObject ;
+	rdfs:label	"agricultural biomass output;Zn" .
+ns13:C_4	rdf:type	ns14:FlowObject ;
+	rdfs:label	"compounds output;La" .
+ns13:C_40	rdf:type	ns14:FlowObject ;
+	rdfs:label	"compounds output;Sm" .
+ns13:C_400	rdf:type	ns14:FlowObject ;
+	rdfs:label	"terrestrial biomass output;Zn" .
+ns13:C_401	rdf:type	ns14:FlowObject ;
+	rdfs:label	"soil output;Zn" .
+ns13:C_402	rdf:type	ns14:FlowObject ;
+	rdfs:label	"freshwater output;Zn" .
+ns13:C_403	rdf:type	ns14:FlowObject ;
+	rdfs:label	"oceans output;Zn" .
+ns13:C_404	rdf:type	ns14:FlowObject ;
+	rdfs:label	"ocean biomass output;Zn" .
+ns13:C_405	rdf:type	ns14:FlowObject ;
+	rdfs:label	"seafloor regolith output;Zn" .
+ns13:C_406	rdf:type	ns14:FlowObject ;
+	rdfs:label	"upper continental crust output;Zn" .
+ns13:C_407	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lower continental crust output;Zn" .
+ns13:C_408	rdf:type	ns14:FlowObject ;
+	rdfs:label	"mantle output;Zn" .
+ns13:C_409	rdf:type	ns14:FlowObject ;
+	rdfs:label	"production of engineering materials output;Ag" .
+ns13:C_41	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste output;Sm" .
+ns13:C_410	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fabrication and manufacturing output;Ag" .
+ns13:C_411	rdf:type	ns14:FlowObject ;
+	rdfs:label	"use output;Ag" .
+ns13:C_412	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste management output;Ag" .
+ns13:C_413	rdf:type	ns14:FlowObject ;
+	rdfs:label	"earth orbit output;Ag" .
+ns13:C_414	rdf:type	ns14:FlowObject ;
+	rdfs:label	"atmosphere output;Ag" .
+ns13:C_415	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fossil fuel resources output;Ag" .
+ns13:C_416	rdf:type	ns14:FlowObject ;
+	rdfs:label	"agricultural biomass output;Ag" .
+ns13:C_417	rdf:type	ns14:FlowObject ;
+	rdfs:label	"terrestrial biomass output;Ag" .
+ns13:C_418	rdf:type	ns14:FlowObject ;
+	rdfs:label	"soil output;Ag" .
+ns13:C_419	rdf:type	ns14:FlowObject ;
+	rdfs:label	"freshwater output;Ag" .
+ns13:C_42	rdf:type	ns14:FlowObject ;
+	rdfs:label	"product output;Sm" .
+ns13:C_420	rdf:type	ns14:FlowObject ;
+	rdfs:label	"oceans output;Ag" .
+ns13:C_421	rdf:type	ns14:FlowObject ;
+	rdfs:label	"ocean biomass output;Ag" .
+ns13:C_422	rdf:type	ns14:FlowObject ;
+	rdfs:label	"seafloor regolith output;Ag" .
+ns13:C_423	rdf:type	ns14:FlowObject ;
+	rdfs:label	"upper continental crust output;Ag" .
+ns13:C_424	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lower continental crust output;Ag" .
+ns13:C_425	rdf:type	ns14:FlowObject ;
+	rdfs:label	"mantle output;Ag" .
+ns13:C_426	rdf:type	ns14:FlowObject ;
+	rdfs:label	"production of engineering materials output;Cu" .
+ns13:C_427	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fabrication and manufacturing output;Cu" .
+ns13:C_428	rdf:type	ns14:FlowObject ;
+	rdfs:label	"use output;Cu" .
+ns13:C_429	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste management output;Cu" .
+ns13:C_43	rdf:type	ns14:FlowObject ;
+	rdfs:label	"scrap output;Sm" .
+ns13:C_430	rdf:type	ns14:FlowObject ;
+	rdfs:label	"universe non earth planetary bodies output;Cu" .
+ns13:C_431	rdf:type	ns14:FlowObject ;
+	rdfs:label	"earth orbit output;Cu" .
+ns13:C_432	rdf:type	ns14:FlowObject ;
+	rdfs:label	"atmosphere output;Cu" .
+ns13:C_433	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fossil fuel resources output;Cu" .
+ns13:C_434	rdf:type	ns14:FlowObject ;
+	rdfs:label	"agricultural biomass output;Cu" .
+ns13:C_435	rdf:type	ns14:FlowObject ;
+	rdfs:label	"terrestrial biomass output;Cu" .
+ns13:C_436	rdf:type	ns14:FlowObject ;
+	rdfs:label	"soil output;Cu" .
+ns13:C_437	rdf:type	ns14:FlowObject ;
+	rdfs:label	"freshwater output;Cu" .
+ns13:C_438	rdf:type	ns14:FlowObject ;
+	rdfs:label	"oceans output;Cu" .
+ns13:C_439	rdf:type	ns14:FlowObject ;
+	rdfs:label	"ocean biomass output;Cu" .
+ns13:C_44	rdf:type	ns14:FlowObject ;
+	rdfs:label	"use output;Sm" .
+ns13:C_440	rdf:type	ns14:FlowObject ;
+	rdfs:label	"seafloor regolith output;Cu" .
+ns13:C_441	rdf:type	ns14:FlowObject ;
+	rdfs:label	"upper continental crust output;Cu" .
+ns13:C_442	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lower continental crust output;Cu" .
+ns13:C_443	rdf:type	ns14:FlowObject ;
+	rdfs:label	"mantle output;Cu" .
+ns13:C_444	rdf:type	ns14:FlowObject ;
+	rdfs:label	"production of engineering materials output;Al" .
+ns13:C_445	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fabrication and manufacturing output;Al" .
+ns13:C_446	rdf:type	ns14:FlowObject ;
+	rdfs:label	"use output;Al" .
+ns13:C_447	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste management output;Al" .
+ns13:C_448	rdf:type	ns14:FlowObject ;
+	rdfs:label	"earth orbit output;Al" .
+ns13:C_449	rdf:type	ns14:FlowObject ;
+	rdfs:label	"atmosphere output;Al" .
+ns13:C_45	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lithosphere economic resources output;Eu" .
+ns13:C_450	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fossil fuel resources output;Al" .
+ns13:C_451	rdf:type	ns14:FlowObject ;
+	rdfs:label	"agricultural biomass output;Al" .
+ns13:C_452	rdf:type	ns14:FlowObject ;
+	rdfs:label	"terrestrial biomass output;Al" .
+ns13:C_453	rdf:type	ns14:FlowObject ;
+	rdfs:label	"soil output;Al" .
+ns13:C_454	rdf:type	ns14:FlowObject ;
+	rdfs:label	"freshwater output;Al" .
+ns13:C_455	rdf:type	ns14:FlowObject ;
+	rdfs:label	"oceans output;Al" .
+ns13:C_456	rdf:type	ns14:FlowObject ;
+	rdfs:label	"ocean biomass output;Al" .
+ns13:C_457	rdf:type	ns14:FlowObject ;
+	rdfs:label	"seafloor regolith output;Al" .
+ns13:C_458	rdf:type	ns14:FlowObject ;
+	rdfs:label	"upper continental crust output;Al" .
+ns13:C_459	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lower continental crust output;Al" .
+ns13:C_46	rdf:type	ns14:FlowObject ;
+	rdfs:label	"tailings output;Eu" .
+ns13:C_460	rdf:type	ns14:FlowObject ;
+	rdfs:label	"mantle output;Al" .
+ns13:C_461	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fabrication and manufacturing output;Pb" .
+ns13:C_462	rdf:type	ns14:FlowObject ;
+	rdfs:label	"use output;Pb" .
+ns13:C_463	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste management output;Pb" .
+ns13:C_464	rdf:type	ns14:FlowObject ;
+	rdfs:label	"earth orbit output;Pb" .
+ns13:C_465	rdf:type	ns14:FlowObject ;
+	rdfs:label	"atmosphere output;Pb" .
+ns13:C_466	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fossil fuel resources output;Pb" .
+ns13:C_467	rdf:type	ns14:FlowObject ;
+	rdfs:label	"agricultural biomass output;Pb" .
+ns13:C_468	rdf:type	ns14:FlowObject ;
+	rdfs:label	"terrestrial biomass output;Pb" .
+ns13:C_469	rdf:type	ns14:FlowObject ;
+	rdfs:label	"soil output;Pb" .
+ns13:C_47	rdf:type	ns14:FlowObject ;
+	rdfs:label	"concentrate output;Eu" .
+ns13:C_470	rdf:type	ns14:FlowObject ;
+	rdfs:label	"freshwater output;Pb" .
+ns13:C_471	rdf:type	ns14:FlowObject ;
+	rdfs:label	"oceans output;Pb" .
+ns13:C_472	rdf:type	ns14:FlowObject ;
+	rdfs:label	"ocean biomass output;Pb" .
+ns13:C_473	rdf:type	ns14:FlowObject ;
+	rdfs:label	"seafloor regolith output;Pb" .
+ns13:C_474	rdf:type	ns14:FlowObject ;
+	rdfs:label	"upper continental crust output;Pb" .
+ns13:C_475	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lower continental crust output;Pb" .
+ns13:C_476	rdf:type	ns14:FlowObject ;
+	rdfs:label	"mantle output;Pb" .
+ns13:C_477	rdf:type	ns14:FlowObject ;
+	rdfs:label	"use output;Cr" .
+ns13:C_478	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste management output;Cr" .
+ns13:C_479	rdf:type	ns14:FlowObject ;
+	rdfs:label	"universe non earth planetary bodies output;Cr" .
+ns13:C_48	rdf:type	ns14:FlowObject ;
+	rdfs:label	"slag output;Eu" .
+ns13:C_480	rdf:type	ns14:FlowObject ;
+	rdfs:label	"earth orbit output;Cr" .
+ns13:C_481	rdf:type	ns14:FlowObject ;
+	rdfs:label	"atmosphere output;Cr" .
+ns13:C_482	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fossil fuel resources output;Cr" .
+ns13:C_483	rdf:type	ns14:FlowObject ;
+	rdfs:label	"agricultural biomass output;Cr" .
+ns13:C_484	rdf:type	ns14:FlowObject ;
+	rdfs:label	"terrestrial biomass output;Cr" .
+ns13:C_485	rdf:type	ns14:FlowObject ;
+	rdfs:label	"soil output;Cr" .
+ns13:C_486	rdf:type	ns14:FlowObject ;
+	rdfs:label	"freshwater output;Cr" .
+ns13:C_487	rdf:type	ns14:FlowObject ;
+	rdfs:label	"oceans output;Cr" .
+ns13:C_488	rdf:type	ns14:FlowObject ;
+	rdfs:label	"ocean biomass output;Cr" .
+ns13:C_489	rdf:type	ns14:FlowObject ;
+	rdfs:label	"seafloor regolith output;Cr" .
+ns13:C_49	rdf:type	ns14:FlowObject ;
+	rdfs:label	"compounds output;Eu" .
+ns13:C_490	rdf:type	ns14:FlowObject ;
+	rdfs:label	"upper continental crust output;Cr" .
+ns13:C_491	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lower continental crust output;Cr" .
+ns13:C_492	rdf:type	ns14:FlowObject ;
+	rdfs:label	"mantle output;Cr" .
+ns13:C_493	rdf:type	ns14:FlowObject ;
+	rdfs:label	"use output;Fe" .
+ns13:C_494	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste management output;Fe" .
+ns13:C_495	rdf:type	ns14:FlowObject ;
+	rdfs:label	"universe non earth planetary bodies output;Fe" .
+ns13:C_496	rdf:type	ns14:FlowObject ;
+	rdfs:label	"earth orbit output;Fe" .
+ns13:C_497	rdf:type	ns14:FlowObject ;
+	rdfs:label	"atmosphere output;Fe" .
+ns13:C_498	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fossil fuel resources output;Fe" .
+ns13:C_499	rdf:type	ns14:FlowObject ;
+	rdfs:label	"agricultural biomass output;Fe" .
+ns13:C_5	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste output;La" .
+ns13:C_50	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste output;Eu" .
+ns13:C_500	rdf:type	ns14:FlowObject ;
+	rdfs:label	"terrestrial biomass output;Fe" .
+ns13:C_501	rdf:type	ns14:FlowObject ;
+	rdfs:label	"soil output;Fe" .
+ns13:C_502	rdf:type	ns14:FlowObject ;
+	rdfs:label	"freshwater output;Fe" .
+ns13:C_503	rdf:type	ns14:FlowObject ;
+	rdfs:label	"oceans output;Fe" .
+ns13:C_504	rdf:type	ns14:FlowObject ;
+	rdfs:label	"ocean biomass output;Fe" .
+ns13:C_505	rdf:type	ns14:FlowObject ;
+	rdfs:label	"seafloor regolith output;Fe" .
+ns13:C_506	rdf:type	ns14:FlowObject ;
+	rdfs:label	"upper continental crust output;Fe" .
+ns13:C_507	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lower continental crust output;Fe" .
+ns13:C_508	rdf:type	ns14:FlowObject ;
+	rdfs:label	"mantle output;Fe" .
+ns13:C_509	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fabrication and manufacturing output;Ni" .
+ns13:C_51	rdf:type	ns14:FlowObject ;
+	rdfs:label	"product output;Eu" .
+ns13:C_510	rdf:type	ns14:FlowObject ;
+	rdfs:label	"use output;Ni" .
+ns13:C_511	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste management output;Ni" .
+ns13:C_512	rdf:type	ns14:FlowObject ;
+	rdfs:label	"universe non earth planetary bodies output;Ni" .
+ns13:C_513	rdf:type	ns14:FlowObject ;
+	rdfs:label	"earth orbit output;Ni" .
+ns13:C_514	rdf:type	ns14:FlowObject ;
+	rdfs:label	"atmosphere output;Ni" .
+ns13:C_515	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fossil fuel resources output;Ni" .
+ns13:C_516	rdf:type	ns14:FlowObject ;
+	rdfs:label	"agricultural biomass output;Ni" .
+ns13:C_517	rdf:type	ns14:FlowObject ;
+	rdfs:label	"terrestrial biomass output;Ni" .
+ns13:C_518	rdf:type	ns14:FlowObject ;
+	rdfs:label	"soil output;Ni" .
+ns13:C_519	rdf:type	ns14:FlowObject ;
+	rdfs:label	"freshwater output;Ni" .
+ns13:C_52	rdf:type	ns14:FlowObject ;
+	rdfs:label	"scrap output;Eu" .
+ns13:C_520	rdf:type	ns14:FlowObject ;
+	rdfs:label	"oceans output;Ni" .
+ns13:C_521	rdf:type	ns14:FlowObject ;
+	rdfs:label	"ocean biomass output;Ni" .
+ns13:C_522	rdf:type	ns14:FlowObject ;
+	rdfs:label	"seafloor regolith output;Ni" .
+ns13:C_523	rdf:type	ns14:FlowObject ;
+	rdfs:label	"upper continental crust output;Ni" .
+ns13:C_524	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lower continental crust output;Ni" .
+ns13:C_525	rdf:type	ns14:FlowObject ;
+	rdfs:label	"mantle output;Ni" .
+ns13:C_526	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lithosphere economic resources output;Co" .
+ns13:C_527	rdf:type	ns14:FlowObject ;
+	rdfs:label	"product output;Co" .
+ns13:C_528	rdf:type	ns14:FlowObject ;
+	rdfs:label	"tailings output;Co" .
+ns13:C_529	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste output;Co" .
+ns13:C_53	rdf:type	ns14:FlowObject ;
+	rdfs:label	"use output;Eu" .
+ns13:C_530	rdf:type	ns14:FlowObject ;
+	rdfs:label	"production of engineering materials output;Co" .
+ns13:C_531	rdf:type	ns14:FlowObject ;
+	rdfs:label	"non-dissipative output;Co" .
+ns13:C_532	rdf:type	ns14:FlowObject ;
+	rdfs:label	"downcycle output;Co" .
+ns13:C_533	rdf:type	ns14:FlowObject ;
+	rdfs:label	"recycle output;Co" .
+ns13:C_534	rdf:type	ns14:FlowObject ;
+	rdfs:label	"batteries output;Co" .
+ns13:C_535	rdf:type	ns14:FlowObject ;
+	rdfs:label	"municipal solid waste output;Cu" .
+ns13:C_536	rdf:type	ns14:FlowObject ;
+	rdfs:label	"construction and demolition waste output;Cu" .
+ns13:C_537	rdf:type	ns14:FlowObject ;
+	rdfs:label	"sewage and sewage sludge output;Cu" .
+ns13:C_538	rdf:type	ns14:FlowObject ;
+	rdfs:label	"industrial waste output;Cu" .
+ns13:C_539	rdf:type	ns14:FlowObject ;
+	rdfs:label	"hazardous waste output;Cu" .
+ns13:C_54	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lithosphere economic resources output;Gd" .
+ns13:C_540	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste electronic and electrical equipment output;Cu" .
+ns13:C_541	rdf:type	ns14:FlowObject ;
+	rdfs:label	"end of life vehicles;Cu" .
+ns13:C_542	rdf:type	ns14:FlowObject ;
+	rdfs:label	"cathode Cu output;Cu" .
+ns13:C_543	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste output;Cu" .
+ns13:C_544	rdf:type	ns14:FlowObject ;
+	rdfs:label	"Cu metal products output;Cu" .
+ns13:C_545	rdf:type	ns14:FlowObject ;
+	rdfs:label	"Cu alloy products output;Cu" .
+ns13:C_546	rdf:type	ns14:FlowObject ;
+	rdfs:label	"continental regolith output;Cu" .
+ns13:C_547	rdf:type	ns14:FlowObject ;
+	rdfs:label	"oceanic regolith output;Cu" .
+ns13:C_548	rdf:type	ns14:FlowObject ;
+	rdfs:label	"consolidated crust output;Cu" .
+ns13:C_549	rdf:type	ns14:FlowObject ;
+	rdfs:label	"wiring output;Cu" .
+ns13:C_55	rdf:type	ns14:FlowObject ;
+	rdfs:label	"tailings output;Gd" .
+ns13:C_550	rdf:type	ns14:FlowObject ;
+	rdfs:label	"plumbing output;Cu" .
+ns13:C_551	rdf:type	ns14:FlowObject ;
+	rdfs:label	"other hardware output;Cu" .
+ns13:C_552	rdf:type	ns14:FlowObject ;
+	rdfs:label	"hvac and air conditioning and refrigeration output;Cu" .
+ns13:C_553	rdf:type	ns14:FlowObject ;
+	rdfs:label	"elevators escalators dumbwaiters output;Cu" .
+ns13:C_554	rdf:type	ns14:FlowObject ;
+	rdfs:label	"architectural roofing gutters etc output;Cu" .
+ns13:C_555	rdf:type	ns14:FlowObject ;
+	rdfs:label	"other built-in appliances output;Cu" .
+ns13:C_556	rdf:type	ns14:FlowObject ;
+	rdfs:label	"chromated copper arsenate lumber output;Cu" .
+ns13:C_557	rdf:type	ns14:FlowObject ;
+	rdfs:label	"electrical output;Cu" .
+ns13:C_558	rdf:type	ns14:FlowObject ;
+	rdfs:label	"electronic output;Cu" .
+ns13:C_559	rdf:type	ns14:FlowObject ;
+	rdfs:label	"industrial machinery and equipment output;Cu" .
+ns13:C_56	rdf:type	ns14:FlowObject ;
+	rdfs:label	"concentrate output;Gd" .
+ns13:C_560	rdf:type	ns14:FlowObject ;
+	rdfs:label	"auto vehicles output;Cu" .
+ns13:C_561	rdf:type	ns14:FlowObject ;
+	rdfs:label	"air output;Cu" .
+ns13:C_562	rdf:type	ns14:FlowObject ;
+	rdfs:label	"marine output;Cu" .
+ns13:C_563	rdf:type	ns14:FlowObject ;
+	rdfs:label	"electrical power cable output;Cu" .
+ns13:C_564	rdf:type	ns14:FlowObject ;
+	rdfs:label	"transformers output;Cu" .
+ns13:C_565	rdf:type	ns14:FlowObject ;
+	rdfs:label	"railway overhead contact system wire;Cu" .
+ns13:C_566	rdf:type	ns14:FlowObject ;
+	rdfs:label	"power stations output;Cu" .
+ns13:C_567	rdf:type	ns14:FlowObject ;
+	rdfs:label	"telecommunications output;Cu" .
+ns13:C_568	rdf:type	ns14:FlowObject ;
+	rdfs:label	"water distribution output;Cu" .
+ns13:C_569	rdf:type	ns14:FlowObject ;
+	rdfs:label	"gas distribution output;Cu" .
+ns13:C_57	rdf:type	ns14:FlowObject ;
+	rdfs:label	"slag output;Gd" .
+ns13:C_570	rdf:type	ns14:FlowObject ;
+	rdfs:label	"streetscape electrical wire output;Cu" .
+ns13:C_571	rdf:type	ns14:FlowObject ;
+	rdfs:label	"building wire output;Cu" .
+ns13:C_572	rdf:type	ns14:FlowObject ;
+	rdfs:label	"tube output;Cu" .
+ns13:C_573	rdf:type	ns14:FlowObject ;
+	rdfs:label	"motor vehicle wire output;Cu" .
+ns13:C_574	rdf:type	ns14:FlowObject ;
+	rdfs:label	"magnet wire output;Cu" .
+ns13:C_575	rdf:type	ns14:FlowObject ;
+	rdfs:label	"telecommunications wire output;Cu" .
+ns13:C_576	rdf:type	ns14:FlowObject ;
+	rdfs:label	"power cable output;Cu" .
+ns13:C_577	rdf:type	ns14:FlowObject ;
+	rdfs:label	"sheet strip output;Cu" .
+ns13:C_578	rdf:type	ns14:FlowObject ;
+	rdfs:label	"other output;Cu" .
+ns13:C_579	rdf:type	ns14:FlowObject ;
+	rdfs:label	"casting alloy output;Cu" .
+ns13:C_58	rdf:type	ns14:FlowObject ;
+	rdfs:label	"compounds output;Gd" .
+ns13:C_580	rdf:type	ns14:FlowObject ;
+	rdfs:label	"rod output;Cu" .
+ns13:C_581	rdf:type	ns14:FlowObject ;
+	rdfs:label	"other alloy output;Cu" .
+ns13:C_582	rdf:type	ns14:FlowObject ;
+	rdfs:label	"industrial and hazardous waste output;Cu" .
+ns13:C_583	rdf:type	ns14:FlowObject ;
+	rdfs:label	"single family houses output;Cu" .
+ns13:C_584	rdf:type	ns14:FlowObject ;
+	rdfs:label	"units in shared living complexes output;Cu" .
+ns13:C_585	rdf:type	ns14:FlowObject ;
+	rdfs:label	"commercial output;Cu" .
+ns13:C_586	rdf:type	ns14:FlowObject ;
+	rdfs:label	"industrial output;Cu" .
+ns13:C_587	rdf:type	ns14:FlowObject ;
+	rdfs:label	"building and construction output;Cu" .
+ns13:C_588	rdf:type	ns14:FlowObject ;
+	rdfs:label	"electricity transmission and distribution output;Cu" .
+ns13:C_589	rdf:type	ns14:FlowObject ;
+	rdfs:label	"rail output;Cu" .
+ns13:C_59	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste output;Gd" .
+ns13:C_590	rdf:type	ns14:FlowObject ;
+	rdfs:label	"consumer durables output;Cu" .
+ns13:C_591	rdf:type	ns14:FlowObject ;
+	rdfs:label	"commercial durables output;Cu" .
+ns13:C_592	rdf:type	ns14:FlowObject ;
+	rdfs:label	"other dwellings output;Cu" .
+ns13:C_593	rdf:type	ns14:FlowObject ;
+	rdfs:label	"industrial;Cu" .
+ns13:C_594	rdf:type	ns14:FlowObject ;
+	rdfs:label	"power stations;Cu" .
+ns13:C_595	rdf:type	ns14:FlowObject ;
+	rdfs:label	"telecommunications;Cu" .
+ns13:C_596	rdf:type	ns14:FlowObject ;
+	rdfs:label	"auto vehicles;Cu" .
+ns13:C_597	rdf:type	ns14:FlowObject ;
+	rdfs:label	"municipal solid waste and construction demolition waste output;Cu" .
+ns13:C_598	rdf:type	ns14:FlowObject ;
+	rdfs:label	"end of life vehicles output;Cu" .
+ns13:C_599	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lithosphere economic resources output;Al" .
+ns13:C_6	rdf:type	ns14:FlowObject ;
+	rdfs:label	"product output;La" .
+ns13:C_60	rdf:type	ns14:FlowObject ;
+	rdfs:label	"product output;Gd" .
+ns13:C_600	rdf:type	ns14:FlowObject ;
+	rdfs:label	"bauxite mining metal product output;Al" .
+ns13:C_601	rdf:type	ns14:FlowObject ;
+	rdfs:label	"bauxite mining waste output;Al" .
+ns13:C_602	rdf:type	ns14:FlowObject ;
+	rdfs:label	"bauxite mining output;non-metal" .
+ns13:C_603	rdf:type	ns14:FlowObject ;
+	rdfs:label	"alumina refining metal product output;Al" .
+ns13:C_604	rdf:type	ns14:FlowObject ;
+	rdfs:label	"alumina refining waste output;Al" .
+ns13:C_605	rdf:type	ns14:FlowObject ;
+	rdfs:label	"primary aluminum smelting metal product output;Al" .
+ns13:C_606	rdf:type	ns14:FlowObject ;
+	rdfs:label	"primary aluminum smelting waste output;Al" .
+ns13:C_607	rdf:type	ns14:FlowObject ;
+	rdfs:label	"ingot casting product output;Al" .
+ns13:C_608	rdf:type	ns14:FlowObject ;
+	rdfs:label	"ingot casting waste output;Al" .
+ns13:C_609	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fabrication scrap output;Al" .
+ns13:C_61	rdf:type	ns14:FlowObject ;
+	rdfs:label	"scrap output;Gd" .
+ns13:C_610	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fabrication output;Al" .
+ns13:C_611	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fabrication waste output;Al" .
+ns13:C_612	rdf:type	ns14:FlowObject ;
+	rdfs:label	"foundry casting scrap output;Al" .
+ns13:C_613	rdf:type	ns14:FlowObject ;
+	rdfs:label	"foundry casting product output;Al" .
+ns13:C_614	rdf:type	ns14:FlowObject ;
+	rdfs:label	"foundry casting waste output;Al" .
+ns13:C_615	rdf:type	ns14:FlowObject ;
+	rdfs:label	"rolling scrap output;Al" .
+ns13:C_616	rdf:type	ns14:FlowObject ;
+	rdfs:label	"rolling output;Al" .
+ns13:C_617	rdf:type	ns14:FlowObject ;
+	rdfs:label	"rolling waste output;Al" .
+ns13:C_618	rdf:type	ns14:FlowObject ;
+	rdfs:label	"extrusion drawing scrap output;Al" .
+ns13:C_619	rdf:type	ns14:FlowObject ;
+	rdfs:label	"extrusion drawing output;Al" .
+ns13:C_62	rdf:type	ns14:FlowObject ;
+	rdfs:label	"use output;Gd" .
+ns13:C_620	rdf:type	ns14:FlowObject ;
+	rdfs:label	"extrusion drawing waste output;Al" .
+ns13:C_621	rdf:type	ns14:FlowObject ;
+	rdfs:label	"other scrap output;Al" .
+ns13:C_622	rdf:type	ns14:FlowObject ;
+	rdfs:label	"other product output;Al" .
+ns13:C_623	rdf:type	ns14:FlowObject ;
+	rdfs:label	"other waste output;Al" .
+ns13:C_624	rdf:type	ns14:FlowObject ;
+	rdfs:label	"sand castings scrap output;Al" .
+ns13:C_625	rdf:type	ns14:FlowObject ;
+	rdfs:label	"sand castings output;Al" .
+ns13:C_626	rdf:type	ns14:FlowObject ;
+	rdfs:label	"sand castings waste output;Al" .
+ns13:C_627	rdf:type	ns14:FlowObject ;
+	rdfs:label	"mold castings scrap output;Al" .
+ns13:C_628	rdf:type	ns14:FlowObject ;
+	rdfs:label	"mold castings output;Al" .
+ns13:C_63	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lithosphere economic resources output;Tb" .
+ns13:C_64	rdf:type	ns14:FlowObject ;
+	rdfs:label	"tailings output;Tb" .
+ns13:C_65	rdf:type	ns14:FlowObject ;
+	rdfs:label	"concentrate output;Tb" .
+ns13:C_66	rdf:type	ns14:FlowObject ;
+	rdfs:label	"slag output;Tb" .
+ns13:C_67	rdf:type	ns14:FlowObject ;
+	rdfs:label	"compounds output;Tb" .
+ns13:C_68	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste output;Tb" .
+ns13:C_69	rdf:type	ns14:FlowObject ;
+	rdfs:label	"product output;Tb" .
+ns13:C_7	rdf:type	ns14:FlowObject ;
+	rdfs:label	"scrap output;La" .
+ns13:C_70	rdf:type	ns14:FlowObject ;
+	rdfs:label	"scrap output;Tb" .
+ns13:C_71	rdf:type	ns14:FlowObject ;
+	rdfs:label	"use output;Tb" .
+ns13:C_72	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lithosphere economic resources output;Dy" .
+ns13:C_73	rdf:type	ns14:FlowObject ;
+	rdfs:label	"tailings output;Dy" .
+ns13:C_74	rdf:type	ns14:FlowObject ;
+	rdfs:label	"concentrate output;Dy" .
+ns13:C_75	rdf:type	ns14:FlowObject ;
+	rdfs:label	"slag output;Dy" .
+ns13:C_76	rdf:type	ns14:FlowObject ;
+	rdfs:label	"compounds output;Dy" .
+ns13:C_77	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste output;Dy" .
+ns13:C_78	rdf:type	ns14:FlowObject ;
+	rdfs:label	"product output;Dy" .
+ns13:C_79	rdf:type	ns14:FlowObject ;
+	rdfs:label	"scrap output;Dy" .
+ns13:C_8	rdf:type	ns14:FlowObject ;
+	rdfs:label	"use output;La" .
+ns13:C_80	rdf:type	ns14:FlowObject ;
+	rdfs:label	"use output;Dy" .
+ns13:C_81	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lithosphere economic resources output;Y" .
+ns13:C_82	rdf:type	ns14:FlowObject ;
+	rdfs:label	"tailings output;Y" .
+ns13:C_83	rdf:type	ns14:FlowObject ;
+	rdfs:label	"concentrate output;Y" .
+ns13:C_84	rdf:type	ns14:FlowObject ;
+	rdfs:label	"slag output;Y" .
+ns13:C_85	rdf:type	ns14:FlowObject ;
+	rdfs:label	"compounds output;Y" .
+ns13:C_86	rdf:type	ns14:FlowObject ;
+	rdfs:label	"waste output;Y" .
+ns13:C_87	rdf:type	ns14:FlowObject ;
+	rdfs:label	"product output;Y" .
+ns13:C_88	rdf:type	ns14:FlowObject ;
+	rdfs:label	"scrap output;Y" .
+ns13:C_89	rdf:type	ns14:FlowObject ;
+	rdfs:label	"use output;Y" .
+ns13:C_9	rdf:type	ns14:FlowObject ;
+	rdfs:label	"lithosphere economic resources output;Ce" .
+ns13:C_90	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fabrication and manufacturing output;La" .
+ns13:C_91	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fabrication and manufacturing output;Ce" .
+ns13:C_92	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fabrication and manufacturing output;Pr" .
+ns13:C_93	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fabrication and manufacturing output;Nd" .
+ns13:C_94	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fabrication and manufacturing output;Sm" .
+ns13:C_95	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fabrication and manufacturing output;Eu" .
+ns13:C_96	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fabrication and manufacturing output;Gd" .
+ns13:C_97	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fabrication and manufacturing output;Tb" .
+ns13:C_98	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fabrication and manufacturing output;Dy" .
+ns13:C_99	rdf:type	ns14:FlowObject ;
+	rdfs:label	"fabrication and manufacturing output;Ho" .

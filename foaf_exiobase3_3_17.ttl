@@ -1,0 +1,34 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://rdf.bonsai.uno/> .
+@prefix ns2:	<http://purl.org/dc/dcmitype/> .
+ns1:foaf	rdf:type	ns2:Dataset .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+ns1:foaf	owl:versionInfo	"0.5" .
+@prefix dc:	<http://purl.org/dc/elements/1.1/> .
+@prefix ns5:	<http://rdf.bonsai.uno/foaf#> .
+ns1:foaf	dc:creator	ns5:bonsai ;
+	dc:description	"Instances of Organizations" .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ns1:foaf	dc:modified	"2020-06-17"^^xsd:date ;
+	dc:title	"Organizations" .
+@prefix ns7:	<http://purl.org/vocab/vann/> .
+ns1:foaf	ns7:preferredNamespaceUri	ns5: ;
+	dc:publisher	"bonsai.uno" ;
+	dc:contributor	"BONSAI team" ;
+	dc:license	<https://creativecommons.org/licenses/by/3.0/> .
+@prefix ns8:	<http://www.w3.org/ns/prov#> .
+ns5:bonsai	rdf:type	ns8:Agent .
+@prefix ns9:	<https://www.w3.org/TR/vocab-org/> .
+ns5:bonsai	rdf:type	ns9:Organization .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+ns5:bonsai	foaf:homepage	<https://bonsai.uno> .
+@prefix ns11:	<https://www.wikidata.org/wiki/> .
+ns5:bonsai	foaf:interest	ns11:Q2323664 ,
+		ns11:Q131201 ,
+		ns11:Q18692990 .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+ns5:bonsai	skos:prefLabel	"BONSAI \u2013 Big Open Network for Sustainability Assessment Information" .
+ns5:exiobase_consortium	rdf:type	ns9:Organization ,
+		ns8:Agent ;
+	foaf:homepage	<https://www.exiobase.eu/> ;
+	dc:description	"The EXIOBASE consortium consists of NTNU, TNO, SERI, Universiteit Leiden, WU, and 2.-0 LCA Consultant" .

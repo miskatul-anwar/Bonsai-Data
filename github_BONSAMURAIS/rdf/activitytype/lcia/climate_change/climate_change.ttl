@@ -1,0 +1,41 @@
+@prefix bfoaf: <http://rdf.bonsai.uno/foaf#> .
+@prefix bont: <http://ontology.bonsai.uno/core#> .
+@prefix bprov: <http://rdf.bonsai.uno/prov#> .
+@prefix brdfat: <http://rdf.bonsai.uno/activitytype/lcia/climate_change#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dtype: <http://purl.org/dc/dcmitype/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://creativecommons.org/ns#> .
+@prefix ns2: <http://purl.org/vocab/vann/> .
+@prefix ot: <https://www.w3.org/TR/owl-time/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://rdf.bonsai.uno/activitytype/lcia/climate_change> a dtype:Dataset,
+        prov:Collection ;
+    ns1:license <http://creativecommons.org/licenses/by/3.0/> ;
+    dc:creator bfoaf:bonsai ;
+    dc:description "ActivityType instances needed for BONSAI climate change modelling" ;
+    dc:modified "2019-12-20"^^xsd:date ;
+    dc:publisher bfoaf:bonsai ;
+    dc:title "Climate change activity types" ;
+    ns2:preferredNamespaceUri brdfat: ;
+    owl:versionInfo "0.4" ;
+    prov:generatedAtTime "2019-12-20"^^xsd:date ;
+    prov:hadMember brdfat:atmospheric_energy_balance,
+        brdfat:temperature_increase ;
+    prov:wasAttributedTo bfoaf:bonsai ;
+    prov:wasGeneratedBy bprov:dataExtractionActivity_0_4 ;
+    foaf:homepage <http://rdf.bonsai.uno/activitytype/lcia/climate_changedocumentation.html> .
+
+brdfat:atmospheric_energy_balance a bont:ActivityType ;
+    rdfs:label "Atmospheric energy balance" .
+
+brdfat:temperature_increase a bont:ActivityType ;
+    rdfs:label "Temperature increase" .
+

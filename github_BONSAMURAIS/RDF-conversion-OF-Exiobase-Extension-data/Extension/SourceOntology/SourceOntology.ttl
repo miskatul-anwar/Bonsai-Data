@@ -1,0 +1,114 @@
+@prefix exio: <http://exiobase/source/> .
+
+<http://exiobase/source/activityId>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://exiobase/source/Activity> ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://exiobase/source/Activity>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://exiobase/source/hasTemporalExtent>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://exiobase/source/Activity> ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://exiobase/source/hasLocation>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://exiobase/source/Activity> ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://exiobase/source/hasActivityType>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://exiobase/source/Activity> ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://www.w3.org/2001/XMLSchema#string> .
+
+
+<http://exiobase/source/Flowobject>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://exiobase/source/Name>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://exiobase/source/Flowobject> ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://exiobase/source/Code>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://exiobase/source/Flowobject> ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://www.w3.org/2001/XMLSchema#string> .
+
+
+<http://exiobase/source/hasUnit>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://exiobase/source/Inputflow> ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://exiobase/source/Inputflow>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://exiobase/source/isInputOf>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://exiobase/source/Inputflow> ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://exiobase/source/hasNumericalValue>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://exiobase/source/Inputflow> ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://exiobase/source/hasObjectType>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://exiobase/source/Inputflow> ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://www.w3.org/2001/XMLSchema#string> .
+
+
+<http://exiobase/source/isOutputOf>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://exiobase/source/Outputflow> ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://exiobase/source/hasUnit>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://exiobase/source/Outputflow> ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://exiobase/source/Outputflow>
+        a       <http://www.w3.org/2002/07/owl#Class> .
+
+<http://exiobase/source/hasNumericalValue>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://exiobase/source/Outputflow> ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://exiobase/source/hasObjectType>
+        a       <http://www.w3.org/2002/07/owl#DatatypeProperty> ;
+        <http://www.w3.org/2000/01/rdf-schema#domain>
+                <http://exiobase/source/Outputflow> ;
+        <http://www.w3.org/2000/01/rdf-schema#range>
+                <http://www.w3.org/2001/XMLSchema#string> .

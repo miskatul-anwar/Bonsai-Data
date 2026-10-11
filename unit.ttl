@@ -1,0 +1,61 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+ns1:tonne	rdf:type	ns1:SingularUnit .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+ns1:tonne	rdfs:label	"tonne" .
+@prefix ns3:	<http://rdf.bonsai.uno/> .
+@prefix ns4:	<http://www.w3.org/ns/prov#> .
+ns3:unit	rdf:type	ns4:Collection .
+@prefix ns5:	<http://purl.org/dc/dcmitype/> .
+ns3:unit	rdf:type	ns5:Dataset .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+ns3:unit	owl:versionInfo	"0.5" .
+@prefix ns7:	<http://creativecommons.org/ns#> .
+ns3:unit	ns7:license	<http://creativecommons.org/licenses/by/3.0/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+ns3:unit	foaf:homepage	<http://rdf.bonsai.uno/unitdocumentation.html> .
+@prefix dc:	<http://purl.org/dc/elements/1.1/> .
+@prefix ns10:	<http://rdf.bonsai.uno/foaf#> .
+ns3:unit	dc:creator	ns10:bonsai ;
+	dc:description	"Units from ontology-of-units-of-measure used in BONSAI" .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ns3:unit	dc:modified	"2020-06-17"^^xsd:date ;
+	dc:title	"Unit definitions used in BONSAI" .
+@prefix ns12:	<http://purl.org/vocab/vann/> .
+ns3:unit	ns12:preferredNamespaceUri	<http://rdf.bonsai.uno/unit#> ;
+	ns4:wasAttributedTo	ns10:bonsai .
+@prefix ns13:	<http://rdf.bonsai.uno/prov#> .
+ns3:unit	ns4:wasGeneratedBy	ns13:dataExtractionActivity_0_5 ;
+	ns4:hadMember	ns1:megajoule ,
+		ns1:teragram ,
+		ns1:tonne ,
+		ns1:kilogram ,
+		ns1:megagram ,
+		ns1:gigagram ,
+		ns1:hectare ,
+		ns1:euro ,
+		ns1:gigabecquerel ,
+		ns1:cubicMetre ,
+		ns1:cubicZettametre ;
+	dc:publisher	ns10:bonsai ;
+	ns4:generatedAtTime	"2020-06-17"^^xsd:date .
+ns1:cubicMetre	rdf:type	ns1:UnitExponentiation ;
+	rdfs:label	"cubic meters" .
+ns1:cubicZettametre	rdf:type	ns1:CubicPrefixedMetre ;
+	rdfs:label	"cubic zettameter" .
+ns1:euro	rdf:type	ns1:Unit ;
+	rdfs:label	"euro" .
+ns1:gigabecquerel	rdf:type	ns1:PrefixedUnit ;
+	rdfs:label	"gigabecquerel" .
+ns1:gigagram	rdf:type	ns1:PrefixedUnit ;
+	rdfs:label	"gigagram" .
+ns1:hectare	rdf:type	ns1:PrefixedUnit ;
+	rdfs:label	"hectare" .
+ns1:kilogram	rdf:type	ns1:PrefixedUnit ;
+	rdfs:label	"kilogram" .
+ns1:megagram	rdf:type	ns1:PrefixedUnit ;
+	rdfs:label	"megagram" .
+ns1:megajoule	rdf:type	ns1:PrefixedUnit ;
+	rdfs:label	"megajoule" .
+ns1:teragram	rdf:type	ns1:PrefixedUnit ;
+	rdfs:label	"teragram" .
