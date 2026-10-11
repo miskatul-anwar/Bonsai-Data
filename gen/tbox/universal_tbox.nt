@@ -1,0 +1,272 @@
+<http://ontology.bonsai.uno/core#ReferenceUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Reference Unit"@en .
+<http://ontology.bonsai.uno/core#hasBalanceableProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the  Measure of a Flow when this Measure is a BalanceableProperty, i.e. when it follows a conservation law."@en .
+<http://ontology.bonsai.uno/core#objectType> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.bonsai.uno/core#FlowObject> .
+<http://ontology.bonsai.uno/core#referenceFlowObject> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.bonsai.uno/core#ReferenceUnit> .
+<http://ontology.bonsai.uno/core> <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/3.0/> .
+<http://exiobase/source/isInputOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontology.bonsai.uno/core#temporalExtent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/time#ProperInterval> .
+<http://ontology.bonsai.uno/core#determiningFlow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.bonsai.uno/core#proportionalTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.bonsai.uno/core#isInputOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.bonsai.uno/core#Activity> .
+_:n5845431baef64365bfcec491305c6761b1 <http://www.w3.org/2002/07/owl#unionOf> _:n5845431baef64365bfcec491305c6761b2 .
+<http://ontology.bonsai.uno/core#Flow> <http://www.w3.org/2000/01/rdf-schema#comment> " An input or output of an entity to or from an instance of an Activity or a directional exchange of an entity between two instances of Activity. This class contains the quantity of the entity (Flow Object) that is consumed as input or produced as output of an Activity."@en .
+<http://ontology.bonsai.uno/core> <http://xmlns.com/foaf/0.1/homepage> <http://ontology.bonsai.uno/core/documentation.html> .
+<http://ontology.bonsai.uno/core#Flow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.bonsai.uno/core#BalanceableProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "A balanceable property is a Quantity for which the sum for all input flows must equal the sum for all output flows e.g. dry mass, water mass, energy, elemental mass, person-time, monetary value (when measured in the same valuation)."@en .
+<http://ontology.bonsai.uno/core#Flow> <http://www.w3.org/2000/01/rdf-schema#comment> "An observation representing a quantity of Flow Object that is consumed as input or produced as output of an Activity."@en .
+<http://exiobase/source/Code> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontology.bonsai.uno/core#ActivityType> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of an activity, e.g, stock accumulation, steel production, etc. This class includes the labels of activities. Includes both human activities and environmental mechanisms."@en .
+<http://ontology.bonsai.uno/core> <http://purl.org/dc/terms/publisher> "bonsai.uno" .
+<http://ontology.bonsai.uno/core#ActivityType> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of an activity, e.g, stock accumulation, steel production, etc."@en .
+<http://exiobase/source/hasTemporalExtent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontology.bonsai.uno/core#ActivityType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://exiobase/source/Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.bonsai.uno/core#hasReferenceFlowObject> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the flow object referenced by the reference unit."@en .
+<http://exiobase/source/hasNumericalValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://exiobase/source/Inputflow> .
+<http://ontology.bonsai.uno/core#Agent> <http://www.w3.org/2000/01/rdf-schema#comment> "An entity that performs an activity, usually it has a specific location."@en .
+<http://exiobase/source/isOutputOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontology.bonsai.uno/core#performs> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the Agent who performs an activity."@en .
+<http://ontology.bonsai.uno/core#hasLocation> <http://www.w3.org/2000/01/rdf-schema#domain> _:nb0cbdc6011504d0c8d4e666c95405087b1 .
+_:ncd2bf12cfacd4fa3b42fe3fc511fdaf5b1 <http://www.w3.org/2002/07/owl#unionOf> _:ncd2bf12cfacd4fa3b42fe3fc511fdaf5b2 .
+<http://ontology.bonsai.uno/core> <http://purl.org/dc/terms/modified> "2022-03-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://ontology.bonsai.uno/core#isOutputOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the Activity that a Flow is an output of."@en .
+<http://ontology.bonsai.uno/core> <http://purl.org/vocab/vann/preferredNamespacePrefix> "bont" .
+<http://ontology.bonsai.uno/core#hasBalanceableProperty> <http://www.w3.org/2000/01/rdf-schema#label> "has balanceable property"@en .
+<http://ontology.bonsai.uno/core#hasPropertyType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.bonsai.uno/core#BalanceableProperty> .
+<http://ontology.bonsai.uno/core#isProportionalTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://ontology.bonsai.uno/core#FlowObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.bonsai.uno/core#hasReferenceFlowObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.bonsai.uno/core> <http://purl.org/dc/terms/contributor> "Matteo Lissandrini" .
+<http://ontology.bonsai.uno/core#Activity> <http://www.w3.org/2000/01/rdf-schema#comment> "Activity is the act of making or doing something which is defined both spatially and temporally. Includes both human activities and environmental mechanisms."@en .
+<http://exiobase/source/activityId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontology.bonsai.uno/core#hasLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.bonsai.uno/core> <http://purl.org/dc/terms/title> "The BONSAI ontology"@en .
+<http://ontology.bonsai.uno/core#hasLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/location> .
+<http://ontology.bonsai.uno/core#Flow> <http://www.w3.org/2000/01/rdf-schema#label> "Flow"@en .
+<http://exiobase/source/hasTemporalExtent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://exiobase/source/Activity> .
+<http://ontology.bonsai.uno/core#isOutputOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.bonsai.uno/core#inputOf> <http://www.w3.org/2000/01/rdf-schema#label> "input of"@en .
+<http://exiobase/source/hasUnit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://exiobase/source/Inputflow> .
+<http://ontology.bonsai.uno/core> <http://purl.org/dc/terms/description> "The BONSAI ontologies provides elements of description for product footprint concepts defined in the bonsai.uno data base"@en .
+<http://ontology.bonsai.uno/core#isProportionalTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.bonsai.uno/core#ReferenceUnit> .
+<http://ontology.bonsai.uno/core#Agent> <http://www.w3.org/2000/01/rdf-schema#comment> "An entity (person or thing) that performs an activity, usually it has a specific location."@en .
+<http://ontology.bonsai.uno/core#proportionalTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.bonsai.uno/core#Flow> .
+<http://ontology.bonsai.uno/core#hasDeterminingFlow> <http://www.w3.org/2000/01/rdf-schema#label> "determining flow"@en .
+<http://ontology.bonsai.uno/core#hasTemporalExtent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/time#ProperInterval> .
+<http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontology.bonsai.uno/core#hasReferenceFlowObject> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.bonsai.uno/core#FlowObject> .
+<http://ontology.bonsai.uno/core#referenceFlowObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.bonsai.uno/core#hasReferenceFlowObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://ontology.bonsai.uno/core> <http://www.w3.org/2000/01/rdf-schema#comment> "First ever version 0.1 :\n                  Will change!\n               "@en .
+<http://ontology.bonsai.uno/core> <http://www.w3.org/2000/01/rdf-schema#comment> "Bonsai ontology version 0.2 :\n                based on changes discussed on Jan2020!\n               "@en .
+<http://ontology.bonsai.uno/core#temporalExtent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.bonsai.uno/core#hasLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://ontology.bonsai.uno/core#ActivityType> <http://www.w3.org/2000/01/rdf-schema#label> "Activity Type"@en .
+<http://ontology.bonsai.uno/core#activityType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.bonsai.uno/core#location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "Unit to measure flowobjects."@en .
+<http://exiobase/source/activityId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontology.bonsai.uno/core#location> <http://www.w3.org/2000/01/rdf-schema#comment> "The location in which an activity took place or agent is located."@en .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.bonsai.uno/core#FlowObject> .
+<http://exiobase/source/isInputOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.bonsai.uno/core#ActivityType> .
+<http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.bonsai.uno/core#temporalExtent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://ontology.bonsai.uno/core#BalanceableProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontology.bonsai.uno/core#hasTemporalExtent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.bonsai.uno/core#isOutputOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.bonsai.uno/core#Activity> .
+<http://exiobase/source/hasActivityType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://exiobase/source/Activity> .
+<http://ontology.bonsai.uno/core#temporalExtent> <http://www.w3.org/2000/01/rdf-schema#comment> "Temporal extent for an activity."@en .
+<http://ontology.bonsai.uno/core#hasPropertyType> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies types of quantities that are classified as BalanceableProperty"@en .
+<http://exiobase/source/hasActivityType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontology.bonsai.uno/core> <http://purl.org/dc/terms/modified> "2020-04-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.bonsai.uno/core#Flow> .
+<http://ontology.bonsai.uno/core#hasTemporalExtent> <http://www.w3.org/2000/01/rdf-schema#label> "temporal extent"@en .
+<http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://ontology.bonsai.uno/core#BalanceableProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "A quantity for which the sum for all input flows must equal the sum for all output flows. A quantity that follows a conservation law. Balanceable properties are particularly relevant for validating the completeness and consistency of an Activity description or a database of such activities. "@en .
+<http://ontology.bonsai.uno/core#hasActivityType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.bonsai.uno/core#isProportionalTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.bonsai.uno/core#BalanceableProperty> .
+<http://exiobase/source/hasActivityType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontology.bonsai.uno/core#hasLocation> <http://www.w3.org/2000/01/rdf-schema#domain> _:ncd2bf12cfacd4fa3b42fe3fc511fdaf5b1 .
+<http://ontology.bonsai.uno/core#hasTemporalExtent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://ontology.bonsai.uno/core#Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.bonsai.uno/core#Flow> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontology-of-units-of-measure.org/resource/om-2/Measure> .
+<http://exiobase/source/hasUnit> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontology.bonsai.uno/core#hasBalanceableProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://exiobase/source/isInputOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://exiobase/source/Inputflow> .
+<http://ontology.bonsai.uno/core#hasDeterminingFlow> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.bonsai.uno/core#Flow> .
+<http://ontology.bonsai.uno/core#Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.bonsai.uno/core> <http://www.w3.org/2002/07/owl#versionInfo> "Version 0.2 - 2022-03-15"@en .
+<http://ontology.bonsai.uno/core#hasObjectType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+<http://ontology.bonsai.uno/core#Activity> <http://www.w3.org/2000/01/rdf-schema#comment> "Activity is the act of making or doing something which is defined both spatially and temporally. This is one of the identifying dimensions of a datapoint. This class defines multiple properties on the type and direction of flows. ‘Process’ is a commonly used synonym in other LCA databases."@en .
+<http://exiobase/source/activityId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://exiobase/source/Activity> .
+<http://ontology.bonsai.uno/core#location> <http://www.w3.org/2000/01/rdf-schema#domain> _:n5845431baef64365bfcec491305c6761b1 .
+<http://ontology.bonsai.uno/core#Activity> <http://www.w3.org/2000/01/rdf-schema#label> "Activity"@en .
+<http://ontology.bonsai.uno/core#performs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.bonsai.uno/core#Agent> .
+<http://exiobase/source/Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://exiobase/source/Flowobject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.bonsai.uno/core#proportionalTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.bonsai.uno/core#ReferenceUnit> .
+<http://ontology.bonsai.uno/core> <http://purl.org/dc/terms/contributor> "Bo Weidemma" .
+<http://ontology.bonsai.uno/core#Activity> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.bonsai.uno/core#Activity> .
+<http://ontology.bonsai.uno/core#activityType> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.bonsai.uno/core#ActivityType> .
+<http://exiobase/source/Name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://exiobase/source/Flowobject> .
+<http://ontology.bonsai.uno/core#referenceFlowObject> <http://www.w3.org/2000/01/rdf-schema#comment> "The flow object referenced by the reference unit."@en .
+<http://exiobase/source/Name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontology.bonsai.uno/core#isInputOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.bonsai.uno/core#ReferenceUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.bonsai.uno/core#determiningFlow> <http://www.w3.org/2000/01/rdf-schema#comment> "Specific flow object produced or consumed by an activity for which a change in demand or supply will affect the activity level (such as its production volume or extent)."@en .
+<http://exiobase/source/hasLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontology.bonsai.uno/core#hasBalanceableProperty> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies that the quantity used to measure flows that follows a conservation law."@en .
+<http://ontology.bonsai.uno/core#BalanceablePropertyType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.bonsai.uno/core#determiningFlow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://ontology.bonsai.uno/core#proportionalTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://ontology.bonsai.uno/core#hasLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.bonsai.uno/core#Activity> .
+<http://ontology.bonsai.uno/core#hasObjectType> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.bonsai.uno/core#FlowObject> .
+<http://ontology.bonsai.uno/core> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://exiobase/source/hasLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontology.bonsai.uno/core#hasLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the location of an Activity or Agent"@en .
+<http://ontology.bonsai.uno/core#isInputOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://ontology.bonsai.uno/core#objectType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.bonsai.uno/core#ActivityType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://ontology.bonsai.uno/core#objectType> <http://www.w3.org/2000/01/rdf-schema#label> "object type"@en .
+<http://ontology.bonsai.uno/core#outputOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.bonsai.uno/core#Activity> .
+<http://ontology.bonsai.uno/core#Agent> <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@en .
+<http://ontology.bonsai.uno/core#inputOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.bonsai.uno/core#BalanceablePropertyType> <http://www.w3.org/2000/01/rdf-schema#label> "Balanceable Property Type"@en .
+<http://ontology.bonsai.uno/core#outputOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.bonsai.uno/core#isProportionalTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the reference unit to which the quantity of the Flow is proportional."@en .
+<http://ontology.bonsai.uno/core> <http://purl.org/dc/terms/contributor> "Massimo Pizzol" .
+<http://ontology.bonsai.uno/core> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.bonsai.uno/core/ontology_v0.2.rdf> .
+<http://ontology.bonsai.uno/core#activityType> <http://www.w3.org/2000/01/rdf-schema#label> "activity type"@en .
+<http://ontology.bonsai.uno/core#isProportionalTo> <http://www.w3.org/2000/01/rdf-schema#label> "proportional to"@en .
+<http://ontology.bonsai.uno/core#objectType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontology.bonsai.uno/core#hasDeterminingFlow> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.bonsai.uno/core#Activity> .
+<http://ontology.bonsai.uno/core#hasReferenceFlowObject> <http://www.w3.org/2000/01/rdf-schema#label> "references flow object"@en .
+<http://ontology.bonsai.uno/core#isInputOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the Activity that a Flow is an input to."@en .
+<http://exiobase/source/hasNumericalValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.bonsai.uno/core#Flow> .
+<http://ontology.bonsai.uno/core> <http://www.w3.org/2002/07/owl#versionInfo> "Version 0.2 - 2020-04-23"@en .
+<http://ontology.bonsai.uno/core#BalanceablePropertyType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontology-of-units-of-measure.org/resource/om-2/Quantity> .
+<http://ontology.bonsai.uno/core#hasActivityType> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the label of an Activity."@en .
+<http://ontology.bonsai.uno/core#FlowObject> <http://www.w3.org/2000/01/rdf-schema#label> "Flow Object"@en .
+<http://ontology.bonsai.uno/core#performs> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.bonsai.uno/core#Activity> .
+<http://ontology.bonsai.uno/core#hasObjectType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.bonsai.uno/core#Flow> .
+<http://ontology.bonsai.uno/core#isInputOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.bonsai.uno/core#Flow> .
+<http://ontology.bonsai.uno/core#performs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.bonsai.uno/core#hasDeterminingFlow> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies a specific flow object produced or consumed by an activity for which a change in demand or supply will affect the activity level (such as its production volume or extent)."@en .
+<http://ontology.bonsai.uno/core#hasReferenceFlowObject> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies a FlowObject that functions as the ReferenceUnit for a BalanceableProperty measure."@en .
+<http://ontology.bonsai.uno/core#hasBalanceableProperty> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.bonsai.uno/core#BalanceableProperty> .
+<http://ontology.bonsai.uno/core#BalanceablePropertyType> <http://www.w3.org/2000/01/rdf-schema#comment> "Contains the labels of BalanceableProperty such as dry mass, wet mass, elemental mass, person-time, monetary value."@en .
+<http://ontology.bonsai.uno/core#inputOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.bonsai.uno/core#Activity> .
+<http://ontology.bonsai.uno/core#isOutputOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://ontology.bonsai.uno/core#hasObjectType> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the Flow object consumed or produced."@en .
+<http://ontology.bonsai.uno/core> <http://purl.org/dc/terms/creator> <http://bonsai.uno/foaf/bonsai.rdf#bonsai> .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontology.bonsai.uno/core> <http://www.w3.org/2002/07/owl#versionInfo> "Version 0.1 - 2019-03-25"@en .
+<http://ontology.bonsai.uno/core#FlowObject> <http://www.w3.org/2000/01/rdf-schema#comment> "This class includes the labels of entities that are produced or consumed by an activity or added to or removed from a stock accumulation."@en .
+<http://ontology.bonsai.uno/core#performs> <http://www.w3.org/2000/01/rdf-schema#comment> "The activity performed by the agent."@en .
+<http://exiobase/source/hasNumericalValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontology.bonsai.uno/core#referenceFlowObject> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.bonsai.uno/core#FlowObject> .
+<http://ontology.bonsai.uno/core#referenceFlowObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://ontology.bonsai.uno/core#hasPropertyType> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.bonsai.uno/core#BalanceablePropertyType> .
+<http://ontology.bonsai.uno/core#hasBalanceableProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.bonsai.uno/core#Flow> .
+<http://ontology.bonsai.uno/core#hasPropertyType> <http://www.w3.org/2000/01/rdf-schema#label> "property type"@en .
+<http://exiobase/source/hasObjectType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://exiobase/source/Outputflow> .
+<http://ontology.bonsai.uno/core#temporalExtent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.bonsai.uno/core#Activity> .
+<http://ontology.bonsai.uno/core#proportionalTo> <http://www.w3.org/2000/01/rdf-schema#comment> "The reference unit to which the quantity of the Flow is proportional."@en .
+<http://ontology.bonsai.uno/core#hasObjectType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/type> .
+<http://ontology.bonsai.uno/core#outputOf> <http://www.w3.org/2000/01/rdf-schema#label> "output of"@en .
+<http://exiobase/source/Code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontology.bonsai.uno/core#activityType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.bonsai.uno/core#Activity> .
+<http://ontology.bonsai.uno/core#outputOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.bonsai.uno/core#Flow> .
+<http://ontology.bonsai.uno/core#hasActivityType> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the ActivityType that is an instance of the Activity."@en .
+<http://ontology.bonsai.uno/core#determiningFlow> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.bonsai.uno/core#Activity> .
+<http://ontology.bonsai.uno/core#hasLocation> <http://www.w3.org/2000/01/rdf-schema#domain> _:n6e31fbe95a1e41f2a1b0777c9793d7a4b1 .
+<http://ontology.bonsai.uno/core#hasPropertyType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.bonsai.uno/core#hasTemporalExtent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.bonsai.uno/core#Activity> .
+<http://exiobase/source/hasObjectType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://ontology.bonsai.uno/core#isProportionalTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the reference unit that the amount of a BalanceableProperty of a Flow is proportional to."@en .
+<http://ontology.bonsai.uno/core#determiningFlow> <http://www.w3.org/2000/01/rdf-schema#label> "determining flow"@en .
+<http://ontology.bonsai.uno/core#ReferenceUnit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontology-of-units-of-measure.org/resource/om-2/Measure> .
+<http://ontology.bonsai.uno/core#BalanceableProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://exiobase/source/Inputflow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.bonsai.uno/core#isInputOf> <http://www.w3.org/2000/01/rdf-schema#label> "input of"@en .
+<http://ontology.bonsai.uno/core#objectType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/type> .
+<http://ontology.bonsai.uno/core#isProportionalTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.bonsai.uno/core#activityType> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of the Activity that is performed."@en .
+_:n6e31fbe95a1e41f2a1b0777c9793d7a4b1 <http://www.w3.org/2002/07/owl#unionOf> _:n6e31fbe95a1e41f2a1b0777c9793d7a4b2 .
+<http://ontology.bonsai.uno/core#referenceFlowObject> <http://www.w3.org/2000/01/rdf-schema#label> "references flow object"@en .
+<http://ontology.bonsai.uno/core#hasActivityType> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.bonsai.uno/core#ActivityType> .
+<http://ontology.bonsai.uno/core#Flow> <http://www.w3.org/2000/01/rdf-schema#label> "Type of the people"@en .
+<http://ontology.bonsai.uno/core#outputOf> <http://www.w3.org/2000/01/rdf-schema#comment> "A flow that is output of an activity."@en .
+<http://ontology.bonsai.uno/core#hasPropertyType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://ontology.bonsai.uno/core#ReferenceUnit> <http://www.w3.org/2000/01/rdf-schema#comment> " The measure to which the numeric value representing the measure of a Flow is expressed 'in proportion to'. In LCA, the term ‘Functional Unit’ is defined as a common ReferenceUnit for all activities in an LCA study."@en .
+<http://www.w3.org/2001/XMLSchema#float> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://ontology.bonsai.uno/core> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.bonsai.uno/core/ontology_v0.1.rdf> .
+<http://ontology.bonsai.uno/core#objectType> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of the Flow Object that is consumed or produced."@en .
+<http://ontology.bonsai.uno/core#hasBalanceableProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://ontology.bonsai.uno/core#objectType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.bonsai.uno/core#Flow> .
+<http://exiobase/source/hasObjectType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontology.bonsai.uno/core#hasActivityType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/type> .
+<http://ontology.bonsai.uno/core#BalanceableProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontology-of-units-of-measure.org/resource/om-2/Measure> .
+<http://ontology.bonsai.uno/core> <http://purl.org/dc/terms/contributor> "Agneta Ghose" .
+<http://exiobase/source/hasLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://exiobase/source/Activity> .
+<http://ontology.bonsai.uno/core#FlowObject> <http://www.w3.org/2000/01/rdf-schema#comment> "An entity that is produced or consumed by an activity or stored by a (stock accumulation) activity."@en .
+<http://ontology.bonsai.uno/core#Flow> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.bonsai.uno/core#Flow> .
+<http://ontology.bonsai.uno/core#isOutputOf> <http://www.w3.org/2000/01/rdf-schema#label> "output of"@en .
+<http://ontology.bonsai.uno/core#inputOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.bonsai.uno/core#Flow> .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.bonsai.uno/core#Activity> .
+<http://ontology.bonsai.uno/core#location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.bonsai.uno/core#hasReferenceFlowObject> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.bonsai.uno/core#ReferenceUnit> .
+<http://ontology.bonsai.uno/core#Flow> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://exiobase/source/hasTemporalExtent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://ontology.bonsai.uno/core#location> <http://www.w3.org/2000/01/rdf-schema#range> <http://schema.org/location> .
+<http://ontology.bonsai.uno/core#hasTemporalExtent> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the temporal extent for an activity."@en .
+<http://ontology.bonsai.uno/core#performs> <http://www.w3.org/2000/01/rdf-schema#label> "performs"@en .
+<http://ontology.bonsai.uno/core#Activity> <http://www.w3.org/2000/01/rdf-schema#label> "Type of the people"@en .
+<http://exiobase/source/Code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://exiobase/source/Flowobject> .
+<http://ontology.bonsai.uno/core#ReferenceUnit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://ontology.bonsai.uno/core#BalanceableProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontology-of-units-of-measure.org/resource/om-2/Quantity> .
+<http://exiobase/source/Outputflow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.bonsai.uno/core#BalanceableProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Balanceable Property"@en .
+<http://ontology.bonsai.uno/core#proportionalTo> <http://www.w3.org/2000/01/rdf-schema#label> "proportional to"@en .
+<http://ontology.bonsai.uno/core#FlowObject> <http://www.w3.org/2000/01/rdf-schema#label> "Type of the people"@en .
+<http://exiobase/source/hasNumericalValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://exiobase/source/Outputflow> .
+<http://ontology.bonsai.uno/core#FlowObject> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.bonsai.uno/core#FlowObject> .
+<http://ontology.bonsai.uno/core#hasTemporalExtent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+<http://ontology.bonsai.uno/core#hasPropertyType> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the dimension (Quantity) of a Measure that is classified as a BalanceableProperty."@en .
+<http://ontology.bonsai.uno/core#determiningFlow> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontology.bonsai.uno/core#Flow> .
+<http://ontology.bonsai.uno/core#Agent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://ontology.bonsai.uno/core#temporalExtent> <http://www.w3.org/2000/01/rdf-schema#label> "temporal extent"@en .
+<http://ontology.bonsai.uno/core#hasDeterminingFlow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.bonsai.uno/core#hasLocation> <http://www.w3.org/2000/01/rdf-schema#label> "located at"@en .
+<http://exiobase/source/hasObjectType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://exiobase/source/Inputflow> .
+<http://ontology.bonsai.uno/core#inputOf> <http://www.w3.org/2000/01/rdf-schema#comment> "A flow that is input of an activity."@en .
+<http://ontology.bonsai.uno/core#location> <http://www.w3.org/2000/01/rdf-schema#label> "located at"@en .
+<http://ontology.bonsai.uno/core#Activity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://www.ontology-of-units-of-measure.org/resource/om-2/hasUnit> <http://www.w3.org/2000/01/rdf-schema#label> "Unit of flow object"@en .
+<http://ontology.bonsai.uno/core#FlowObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://www.w3.org/2001/XMLSchema#integer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+_:nb0cbdc6011504d0c8d4e666c95405087b1 <http://www.w3.org/2002/07/owl#unionOf> _:nb0cbdc6011504d0c8d4e666c95405087b2 .
+<http://ontology.bonsai.uno/core#ReferenceUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "The quantity to which the quantity of a Flow should be seen proportional to. This could be, for instance, 1 Year, or per tonne of steel."@en .
+<http://ontology.bonsai.uno/core#inputOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://ontology.bonsai.uno/core#hasDeterminingFlow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://exiobase/source/hasUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://exiobase/source/hasUnit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://exiobase/source/Outputflow> .
+<http://ontology.bonsai.uno/core#outputOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://ontology.bonsai.uno/core#hasObjectType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.bonsai.uno/core> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://ontology.bonsai.uno/core#" .
+<http://ontology.bonsai.uno/core#activityType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/type> .
+<http://ontology.bonsai.uno/core#hasObjectType> <http://www.w3.org/2000/01/rdf-schema#label> "object type"@en .
+<http://ontology.bonsai.uno/core> <http://purl.org/dc/terms/modified> "2019-03-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://ontology.bonsai.uno/core#isOutputOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.bonsai.uno/core#Flow> .
+<http://www.ontology-of-units-of-measure.org/resource/om-2/hasNumericalValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.bonsai.uno/core#Flow> .
+<http://exiobase/source/isOutputOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://exiobase/source/Outputflow> .
+<http://ontology.bonsai.uno/core#hasActivityType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontology.bonsai.uno/core#Activity> .
+<http://ontology.bonsai.uno/core#BalanceablePropertyType> <http://www.w3.org/2000/01/rdf-schema#comment> "Contains the instances of BalanceableProperty such as dry mass, wet mass, elemental mass, person-time, monetary value."@en .
+<http://ontology.bonsai.uno/core#hasActivityType> <http://www.w3.org/2000/01/rdf-schema#label> "activity type"@en .
+<http://ontology.bonsai.uno/core#BalanceablePropertyType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://exiobase/source/isOutputOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
